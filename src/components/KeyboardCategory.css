@@ -1,0 +1,171 @@
+.grid {
+  display: grid;
+  grid-template-columns: 250px auto;
+  grid-template-rows: 56px minmax(160px, auto) auto;
+  grid-template-areas:
+    "header header"
+    "leftbar main"
+    "footer footer";
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+.page-leftbar {
+  grid-area: leftbar;
+}
+
+.page-main {
+  grid-area: main;
+}
+
+/* ตัวกรองด้านซ้าย */
+.content-filter-category {
+  color: #242424;
+  background-color: rgb(31, 31, 31);
+  font-weight: 600;
+  text-align: center;
+  box-sizing: border-box;
+  height: 100%;
+  padding: 10px;
+  border-radius: 15px;
+}
+.content-data-category {
+  color: #242424;
+  background-color: #f10707d7;
+  font-weight: 600;
+  text-align: center;
+  box-sizing: border-box;
+  height: 100%;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.filter-header {
+  color: white;
+  font-size: 28px;
+  margin-left: -140px;
+}
+
+.filter-header-category{
+    margin-top: 75px;
+    color: white;
+    font-size: 28px;
+    margin-left: -70px;
+
+}
+
+.linkcategory p{
+    margin-left: 20px;
+    text-align: left;
+    color: white;
+    font-size: 14px;
+}
+.linkcategory p:hover{
+    margin-left: 20px;
+    text-align: left;
+    color: rgb(87, 87, 87);
+    font-size: 14px;
+}
+
+.brand-tag-filter {
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 30px;
+}
+
+.price-tag-filter {
+  margin-top: 30px;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 15px;
+}
+
+.filter-checkbox {
+  color: white;
+  display: block;
+  position: relative;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 14px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.filter-checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 16px;
+  width: 16px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.filter-checkbox:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.filter-checkbox input:checked ~ .checkmark {
+  background-color: #ff9100;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.filter-checkbox input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.filter-checkbox .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 3px;
+  height: 8px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.main-content-category{
+max-width:2000px;
+  margin:auto;
+}
+  
+
+
+.to{
+    color: white;
+    font-size: 18px;
+}
+
+.filter-price input{
+        font-size: 13px;
+        width: 70%;
+        color: black;
+        border-radius: 5px;
+      
+}
