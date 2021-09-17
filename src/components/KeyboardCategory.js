@@ -4,8 +4,23 @@ import React from "react";
 
 function KeyboardCategory() {
   return (
+    
     <div class="main-content-category">
+      
+      <header class="page-header">
+    
+      <div class="dropdown">
+  <button class="dropbtn">TYPE</button>
+  <div class="dropdown-content">
+  <option value="low-high">Low - High</option>
+  <option value="high-low">High - LOW</option>
+  
+  </div>
+  </div>
+    
+  </header>
       <div class="grid">
+        {/* ส่วนของ FILTER ด้านซ้าย */}
         <aside class="page-leftbar">
           <div class="content-filter-category">
             <p class="filter-header">Filter</p>
@@ -78,13 +93,22 @@ function KeyboardCategory() {
             </div>
           </div>
         </aside>
-
+        {/* ส่วนของ Maincontent */}
         <main class="page-main">
-          <div class="content-data-category"></div>
+          <div class="content-data-category">
+          
+
+
+
+          </div>
         </main>
       </div>
     </div>
   );
 }
+
+
+
+
 
 export default KeyboardCategory;

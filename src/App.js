@@ -12,8 +12,8 @@ function App() {
   return (
     <div className="App">
       <AppBanner/>
-      <AppCategory/>
-      <ContentRecommend/> 
+      {/* <AppCategory/>
+      <ContentRecommend/>  */}
       <KeyboardCategory/>
 
 
