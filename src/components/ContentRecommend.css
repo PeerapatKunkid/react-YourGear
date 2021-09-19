@@ -36,10 +36,7 @@
     margin: 15px;
   }
   
-  .category-name{
-    font-size: 20px;
-    padding: 10px;
-  }
+  
   
   .category-img-rec{
     
@@ -59,13 +56,25 @@
 
 
 
-.td-price{
-  font-size: 24px;
-  text-align: center;
-  background-color: #e2e2e21e ;
-}
 
 .img-recommend{
-  margin-right: 30px;
+  margin-right: 0px;
   border-radius: 5px;
+}
+
+
+
+.td-price{
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.category-name{
+    
+  font-size: 21px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-top: 20px;
+  background-color: #ffffff;
+  border-radius: 15px;
 }

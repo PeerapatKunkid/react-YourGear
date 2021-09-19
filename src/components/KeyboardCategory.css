@@ -20,6 +20,7 @@
 
 .page-leftbar {
   grid-area: leftbar;
+  
 }
 
 .page-main {
@@ -39,12 +40,14 @@
 }
 .content-data-category {
   color: #242424;
-  background-color: #f10707d7;
+  background-color: #ffffffd7;
   font-weight: 600;
   text-align: center;
   box-sizing: border-box;
   height: 100%;
-  padding: 10px;
+  padding-top: 50px;
+  padding-left: 250px;
+  padding-right: 250px;
   border-radius: 15px;
 }
 
@@ -219,3 +222,59 @@ max-width:2000px;
   display: block;
 }
 
+.grid-category-filter {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: stretch;
+  align-items: stretch;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+.card-content{
+
+  color: #242424;
+  background-color: #00000004;
+  font-weight: 600;
+  text-align: center;
+  box-sizing: border-box;
+  height: 560px;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 30px;
+  padding: 30;
+  box-shadow: 2px 2px 8px 4px rgba(0, 0, 0, 0.045);
+  
+  border-radius: 15px;
+}
+
+.card-box{
+  
+  margin-left: 10px;
+  background-color: #ffffff00;
+  border-radius: 5px;
+  height: 150px;
+  width: 260px;
+  
+  
+}
+
+.card-img{
+  border-radius: 15px;
+padding: 0px
+}
+
+.card-box td{
+  font-size: 20px;
+  text-align: center;
+}
+
+.category-box{
+    
+  font-size: 21px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-top: 20px;
+  
+  border-radius: 15px;
+}

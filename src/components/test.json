@@ -1,0 +1,5764 @@
+[
+  {
+    "_id": "61464cc30f94c69443563a14",
+    "key": "f3020",
+    "name": "KEYBOARD AULA F3020 BLACK",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c6944356397a",
+        "model": "f3020",
+        "name": "KEYBOARD AULA F3020 BLACK",
+        "store": "Advice",
+        "brand": "Aula",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "KEYBOARD AULA F3020 BLACK",
+            "price": 410,
+            "href": "https://www.advice.co.th/product/gaming-keyboard/aula/keyboard-aula-f3020-black",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0138577/A0138577OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "Non-Mechanical",
+              "layout": "105 Keys",
+              "dimension": "(W x D x H) : 45.31 x 14.44 x 3.96 cm",
+              "support": "Windows XP/7/8/10"
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc30f94c69443563a15",
+    "key": "g413",
+    "name": "LOGITECH G413 CARBON GAMING",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c694435639a1",
+        "model": "g413",
+        "name": "LOGITECH G413 CARBON GAMING",
+        "store": "Advice",
+        "brand": "Logitech",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "KEYBOARD LOGITECH G413 CARBON GAMING",
+            "price": 2040,
+            "href": "https://www.advice.co.th/product/gaming-keyboard/logitech/keyboard-logitech-g413-carbon-gaming",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0101131/A0101131OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "ROMER-G Switch",
+              "layout": "104Key",
+              "dimension": "(W x D x H) : 44.50 x 13.20 x 3.40 cm",
+              "support": ""
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": [
+      {
+        "_id": "61464cc30f94c69443563a04",
+        "model": "g413",
+        "name": "LOGITECH G413 CARBON GAMING",
+        "store": "Mercular",
+        "brand": "Logitech",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": " LOGITECH G413 CARBON BACKLIT MECHANICAL KEYBOARD",
+            "price": 1990,
+            "href": "https://www.mercular.com/logitech-g413-carbon-gaming-keyboard",
+            "image": "https://mercular.s3.ap-southeast-1.amazonaws.com/upload/products/2018/05/%E0%B8%84%E0%B8%B5%E0%B8%A2%E0%B9%8C%E0%B8%9A%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%94-Logitech-G413-Carbon-Backlit-Mechanical-Keyboard.jpg",
+            "spec": {
+              "interface": "usb",
+              "switch": "Romer-G",
+              "layout": "Full-Size",
+              "dimension": "",
+              "support": ""
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "61464cc30f94c69443563a16",
+    "key": "g913tkl",
+    "name": "LOGITECH G913 GAMING TKL",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c694435639a4",
+        "model": "g913tkl",
+        "name": "LOGITECH G913 GAMING TKL",
+        "store": "Advice",
+        "brand": "Logitech",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "WIRELESS KEYBOARD LOGITECH G913 GAMING TKL CLICKY RGB (TH)",
+            "price": 6290,
+            "href": "https://www.advice.co.th/product/gaming-keyboard/logitech/wireless-keyboard-logitech-g913-gaming-tkl-clicky-rgb-th-",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0132021/A0132021OK_BIG_1.jpg",
+            "spec": {
+              "interface": "Wireless / USB",
+              "switch": "GL Clicky Switch",
+              "layout": "95 Keys",
+              "dimension": "(W x D x H) : 15.00 x 47.50 x 2.20 cm",
+              "support": "LIGHTSPEED\nพอร์ต USB และ Windows 7 หรือสูงกว่า\nmacOS  X 10.11 หรือสูงกว่า\nBluetooth\nอุปกรณ์ที่เปิดใช้งาน Bluetooth ที่มี \nWindows 8 หรือสูงกว่า\nmacOS X 10.11 หรือสูงกว่า"
+            }
+          },
+          {
+            "name": "WIRELESS KEYBOARD LOGITECH G913 GAMING TKL LINEAR RGB (TH)",
+            "price": 6290,
+            "href": "https://www.advice.co.th/product/gaming-keyboard/logitech/wireless-keyboard-logitech-g913-gaming-tkl-linear-rgb-th-",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0132022/A0132022OK_BIG_1.jpg",
+            "spec": {
+              "interface": "Wireless / USB",
+              "switch": "GL Linear Switch",
+              "layout": "95 Keys",
+              "dimension": "(W x D x H) : 15.00 x 47.50 x 2.20 cm",
+              "support": "LIGHTSPEED\nพอร์ต USB และ Windows 7 หรือสูงกว่า\nmacOS  X 10.11 หรือสูงกว่า\nBluetooth\nอุปกรณ์ที่เปิดใช้งาน Bluetooth ที่มี \nWindows 8 หรือสูงกว่า\nmacOS X 10.11 หรือสูงกว่า"
+            }
+          },
+          {
+            "name": "WIRELESS KEYBOARD LOGITECH G913 GAMING TKL TACTIL RGB (TH)",
+            "price": 6290,
+            "href": "https://www.advice.co.th/product/gaming-keyboard/logitech/wireless-keyboard-logitech-g913-gaming-tkl-tactil-rgb-th-",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0132023/A0132023OK_BIG_1.jpg",
+            "spec": {
+              "interface": "Wireless / USB",
+              "switch": "GL Tactile Switch",
+              "layout": "95 Keys",
+              "dimension": "(W x D x H) : 15.00 x 47.50 x 2.20 cm",
+              "support": "LIGHTSPEED\nพอร์ต USB และ Windows 7 หรือสูงกว่า\nmacOS  X 10.11 หรือสูงกว่า\nBluetooth\nอุปกรณ์ที่เปิดใช้งาน Bluetooth ที่มี \nWindows 8 หรือสูงกว่า\nmacOS X 10.11 หรือสูงกว่า"
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": [
+      {
+        "_id": "61464cc30f94c69443563a08",
+        "model": "g913tkl",
+        "name": "LOGITECH G913 GAMING TKL",
+        "store": "Mercular",
+        "brand": "Logitech",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "ไร้สาย LOGITECH G913 TKL LIGHTSPEED WIRELESS KEYBOARD",
+            "price": 5690,
+            "href": "https://www.mercular.com/logitech-g913-tkl-lightspeed-wireless-keyboard",
+            "image": "https://mercular.s3.ap-southeast-1.amazonaws.com/images/products/2020/08/g913tkl-1.jpg",
+            "spec": {
+              "interface": "wireless",
+              "switch": "Logitech GL",
+              "layout": "Tenkeyless (TKL)",
+              "dimension": "",
+              "support": ""
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "61464cc30f94c69443563a17",
+    "key": "g913",
+    "name": "LOGITECH G913 GAMING",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c694435639a3",
+        "model": "g913",
+        "name": "LOGITECH G913 GAMING",
+        "store": "Advice",
+        "brand": "Logitech",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "WIRELESS KEYBOARD LOGITECH G913 GAMING CLICKY RGB (TH)",
+            "price": 5500,
+            "href": "https://www.advice.co.th/product/gaming-keyboard/logitech/wireless-keyboard-logitech-g913-gaming-clicky-rgb-th-",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0128473/A0128473OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB Wireless",
+              "switch": "GL CLICKY",
+              "layout": "104Key",
+              "dimension": "",
+              "support": "Windows 7 or later\nmacOS 10.11 or later"
+            }
+          },
+          {
+            "name": "WIRELESS KEYBOARD LOGITECH G913 GAMING LINEAR RGB (TH)",
+            "price": 5500,
+            "href": "https://www.advice.co.th/product/gaming-keyboard/logitech/wireless-keyboard-logitech-g913-gaming-linear-rgb-th-",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0128472/A0128472OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB Wireless",
+              "switch": "GL Linear",
+              "layout": "104Key",
+              "dimension": "",
+              "support": "Windows 7 or later\nmacOS 10.11 or later"
+            }
+          },
+          {
+            "name": "WIRELESS KEYBOARD LOGITECH G913 GAMING TACTIL RGB (TH)",
+            "price": 5500,
+            "href": "https://www.advice.co.th/product/gaming-keyboard/logitech/wireless-keyboard-logitech-g913-gaming-tactil-rgb-th-",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0128470/A0128470OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB Wireless",
+              "switch": "GL Tactile",
+              "layout": "104Key",
+              "dimension": "",
+              "support": "Windows 7 or later\nmacOS 10.11 or later"
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [
+      {
+        "_id": "61464cc30f94c694435639e2",
+        "model": "g913",
+        "name": "LOGITECH G913 GAMING",
+        "store": "Banana",
+        "brand": "Logitech",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "LOGITECH GAMING KEYBOARD G913 LIGHTSPEED WIRELESS RGB MECHANICAL LINEAR",
+            "price": 5501,
+            "href": "https://www.bnn.in.th/th/p/gaming-gear/pc-gaming-accessories/gaming-keyboard/logitech-gaming-keyboard-g913-lightspeed-wireless-rgb-mechanical-linear-097855146113_dn97ez",
+            "image": "https://media-cdn.bnn.in.th/4831/Logitech-Gaming-Keyboard-G913-Lightspeed-Wireless-RGB-Mechanical-Linear-1-square_medium.jpg",
+            "spec": {
+              "interface": "USB / Wireless",
+              "switch": "LIGHTSPEED",
+              "layout": "",
+              "dimension": "47.5 x 15 x 2.2 cm.",
+              "support": "Windows 8, Windows 10, mac OS X 10.11"
+            }
+          }
+        ]
+      }
+    ],
+    "mercular": [
+      {
+        "_id": "61464cc30f94c69443563a09",
+        "model": "g913",
+        "name": "LOGITECH G913 GAMING",
+        "store": "Mercular",
+        "brand": "Logitech",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "ไร้สาย LOGITECH G913 WIRELESS LIGHT SPEED CARBON",
+            "price": 5550,
+            "href": "https://www.mercular.com/logitech-g913-wireless-light-speed-carbon",
+            "image": "https://mercular.s3.ap-southeast-1.amazonaws.com/images/products/2020/02/G913-1.jpg",
+            "spec": {
+              "interface": "usb,wireless",
+              "switch": "Logitech GL",
+              "layout": "Full-Size",
+              "dimension": "",
+              "support": ""
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "61464cc30f94c69443563a18",
+    "key": "gprox",
+    "name": "LOGITECH G PRO X",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c694435639a2",
+        "model": "gprox",
+        "name": "LOGITECH G PRO X",
+        "store": "Advice",
+        "brand": "Logitech",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "KEYBOARD LOGITECH G PRO X CLICKY RGB (US)",
+            "price": 3500,
+            "href": "https://www.advice.co.th/product/gaming-keyboard/logitech/wireless-keyboard-logitech-g-pro-x-clicky-rgb-us-",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0130447/A0130447OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "",
+              "layout": "89 Keys",
+              "dimension": "",
+              "support": "Windows 7 หรือสูงกว่า macOS 10.11 หรือสูงกว่า"
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [
+      {
+        "_id": "61464cc30f94c694435639df",
+        "model": "gprox",
+        "name": "LOGITECH G PRO X",
+        "store": "Banana",
+        "brand": "Logitech",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "LOGITECH GAMING KEYBOARD G PRO X BLACK",
+            "price": 3500,
+            "href": "https://www.bnn.in.th/th/p/gaming-gear/pc-gaming-accessories/gaming-keyboard/logitech-gaming-keyboard-g-pro-x-black-097855149787_r6224z",
+            "image": "https://media-cdn.bnn.in.th/4885/Logitech-Gaming-Keyboard-G-ProX-Black-6-square_medium.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "N/A",
+              "layout": "",
+              "dimension": "15.3 x 36.1 x 3.1 cm.",
+              "support": "Windows and MacOS"
+            }
+          }
+        ]
+      }
+    ],
+    "mercular": [
+      {
+        "_id": "61464cc30f94c69443563a07",
+        "model": "gprox",
+        "name": "LOGITECH G PRO X",
+        "store": "Mercular",
+        "brand": "Logitech",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": " LOGITECH G PRO X RGB GAMING KEYBOARD",
+            "price": 3499,
+            "href": "https://www.mercular.com/logitech-g-pro-x-rgb-gaming-keyboard",
+            "image": "https://mercular.s3.ap-southeast-1.amazonaws.com/images/products/2020/02/Pro-X-1.jpg",
+            "spec": {
+              "interface": "usb",
+              "switch": "Logitech GX",
+              "layout": "Tenkeyless (TKL)",
+              "dimension": "",
+              "support": ""
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "61464cc30f94c69443563a19",
+    "key": "g512",
+    "name": "LOGITECH G512 ",
+    "category": "keyboard",
+    "advice": [],
+    "banana": [
+      {
+        "_id": "61464cc30f94c694435639e1",
+        "model": "g512",
+        "name": "LOGITECH G512 ",
+        "store": "Banana",
+        "brand": "Logitech",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "LOGITECH GAMING KEYBOARD G512 RGB MECHANICAL GX RED LINEAR BLACK",
+            "price": 2590,
+            "href": "https://www.bnn.in.th/th/p/gaming-gear/pc-gaming-accessories/gaming-keyboard/logitech-gaming-keyboard-g512-rgb-mechanical-gx-red-linear-black-097855151780_ze009r",
+            "image": "https://media-cdn.bnn.in.th/105836/Logitech-Gaming-Keyboard-G512-RGB-Mechanical-GX-Red-Linear-Black-2-square_medium.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "GX-Red switch Machanical Keyboard",
+              "layout": "",
+              "dimension": "13.2 x 44.5 x 3.35 cm.",
+              "support": "Windows 7, Windows 8, Windows 10, macOS X10.11 หรือรุ่นใหม่กว่า Chrome"
+            }
+          }
+        ]
+      }
+    ],
+    "mercular": [
+      {
+        "_id": "61464cc30f94c69443563a0a",
+        "model": "g512",
+        "name": "LOGITECH G512 ",
+        "store": "Mercular",
+        "brand": "Logitech",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": " LOGITECH G512 RGB MECHANICAL KEYBOARD (TH)",
+            "price": 2590,
+            "href": "https://www.mercular.com/logitech-g512-rgb-mechanical-keyboard-th",
+            "image": "https://mercular.s3.ap-southeast-1.amazonaws.com/images/products/2019/07/G512-RGB-1.jpg",
+            "spec": {
+              "interface": "usb",
+              "switch": "Logitech GX",
+              "layout": "Full-Size",
+              "dimension": "",
+              "support": ""
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "61464cc30f94c69443563a1a",
+    "key": "apex5",
+    "name": "STEELSERIES APEX 5",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c694435639a7",
+        "model": "apex5",
+        "name": "STEELSERIES APEX 5",
+        "store": "Advice",
+        "brand": "Steelseries",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "KEYBOARD STEELSERIES APEX 5 (US)",
+            "price": 3990,
+            "href": "https://www.advice.co.th/product/gaming-keyboard/steelseries/keyboard-steelseries-apex-5-us-",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0131569/A0131569OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "SteelSeries Hybrid Mechanical RGB Switch",
+              "layout": "104 Keys",
+              "dimension": "(W x D x H) : 44.28 x 13.92 x 4.05 cm",
+              "support": "Windows and Mac OS X"
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc30f94c69443563a1b",
+    "key": "apex7",
+    "name": "STEELSERIES APEX 7",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c694435639a8",
+        "model": "apex7",
+        "name": "STEELSERIES APEX 7",
+        "store": "Advice",
+        "brand": "Steelseries",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "KEYBOARD STEELSERIES APEX 7 (RED-SWITCH) (TH)",
+            "price": 5290,
+            "href": "https://www.advice.co.th/product/gaming-keyboard/steelseries/keyboard-steelseries-apex-7-red-switch-th-",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0129406/A0129406OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "Red Switches",
+              "layout": "104 Keys",
+              "dimension": "",
+              "support": "Windows and Mac OS X. USB port required"
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc30f94c69443563a1c",
+    "key": "apex7tkl",
+    "name": "STEELSERIES APEX 5 TKL",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c694435639a9",
+        "model": "apex7tkl",
+        "name": "STEELSERIES APEX 5 TKL",
+        "store": "Advice",
+        "brand": "Steelseries",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "KEYBOARD STEELSERIES APEX 7 TKL (RED-SWITCH) (US)",
+            "price": 4990,
+            "href": "https://www.advice.co.th/product/gaming-keyboard/steelseries/keyboard-steelseries-apex-7-tkl-red-switch-us-",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0129408/A0129408OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "Red Switch",
+              "layout": "84 Keys",
+              "dimension": "",
+              "support": "Windows and Mac OS X. ( USB port required )"
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc30f94c69443563a1d",
+    "key": "apexprotkl",
+    "name": "STEELSERIES APEX PRO TKL",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c694435639aa",
+        "model": "apexprotkl",
+        "name": "STEELSERIES APEX PRO TKL",
+        "store": "Advice",
+        "brand": "Steelseries",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "KEYBOARD STEELSERIES APEX PRO TKL (US)",
+            "price": 7290,
+            "href": "https://www.advice.co.th/product/gaming-keyboard/steelseries/keyboard-steelseries-apex-pro-tkl-us-",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0129411/A0129411OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "OmniPoint switches",
+              "layout": "84 Keys",
+              "dimension": "(W x D x H) : 13.92 x 35.54 x 4.04 cm",
+              "support": "Windows and Mac OS X. (USB port required)"
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc30f94c69443563a1e",
+    "key": "blackwidowv3",
+    "name": "RAZER BLACKWIDOW V3",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c694435639a6",
+        "model": "blackwidowv3",
+        "name": "RAZER BLACKWIDOW V3",
+        "store": "Advice",
+        "brand": "Razer",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "KEYBOARD RAZER BLACKWIDOW V3 GREEN SWITCH (TH)",
+            "price": 3499,
+            "href": "https://www.advice.co.th/product/gaming-keyboard/razer/keyboard-razer-blackwidow-v3-green-switch-th-",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0135791/A0135791OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "Green Mechanical Switch",
+              "layout": "104 Keys",
+              "dimension": "(W x D x H) : 24.51 x 45.07 x 4.21 cm",
+              "support": "N/A"
+            }
+          },
+          {
+            "name": "KEYBOARD RAZER BLACKWIDOW V3 YELLOW SWITCH (TH)",
+            "price": 3499,
+            "href": "https://www.advice.co.th/product/gaming-keyboard/razer/keyboard-razer-blackwidow-v3-yellow-switch-th-",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0135792/A0135792OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "Yellow Mechanical Switch",
+              "layout": "104 Keys",
+              "dimension": "(W x D x H) : 24.51 x 45.07 x 4.21 cm",
+              "support": "N/A"
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": [
+      {
+        "_id": "61464cc30f94c694435639f9",
+        "model": "blackwidowv3",
+        "name": "RAZER BLACKWIDOW V3",
+        "store": "Mercular",
+        "brand": "Logitech",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": " RAZER BLACKWIDOW V3 GAMING KEYBOARD",
+            "price": 3490,
+            "href": "https://www.mercular.com/razer-blackwidow-v3-gaming-keyboard",
+            "image": "https://mercular.s3.ap-southeast-1.amazonaws.com/images/products/2021/07/Product/razer-blackwidow-v3-gaming-keyboard-quartz-green-switch-01.jpg",
+            "spec": {
+              "interface": "usb",
+              "switch": "Razer",
+              "layout": "Full-Size",
+              "dimension": "",
+              "support": ""
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "61464cc30f94c69443563a1f",
+    "key": "blackwidowv3pro",
+    "name": "RAZER BLACKWIDOW V3 PRO",
+    "category": "keyboard",
+    "advice": [],
+    "banana": [],
+    "mercular": [
+      {
+        "_id": "61464cc30f94c694435639f7",
+        "model": "blackwidowv3pro",
+        "name": "RAZER BLACKWIDOW V3 PRO",
+        "store": "Mercular",
+        "brand": "Logitech",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": " RAZER BLACKWIDOW V3 PRO GAMING KEYBOARD",
+            "price": 6999,
+            "href": "https://www.mercular.com/razer-blackwidow-v3pro-green-switch-gaming-keyboard",
+            "image": "https://mercular.s3.ap-southeast-1.amazonaws.com/images/products/2021/04/razer-blackwidow-v3pro-green-switch-gaming-keyboard-black-01.jpg",
+            "spec": {
+              "interface": "wireless",
+              "switch": "Razer",
+              "layout": "Full-Size",
+              "dimension": "",
+              "support": ""
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "61464cc30f94c69443563a20",
+    "key": "blackwidowv3tkl",
+    "name": "RAZER BLACKWIDOW V3 TKL",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c694435639a5",
+        "model": "blackwidowv3tkl",
+        "name": "RAZER BLACKWIDOW V3 TKL",
+        "store": "Advice",
+        "brand": "Razer",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "KEYBOARD RAZER BLACKWIDOW V3 TENKEYLESS GREEN SWITCH (TH)",
+            "price": 2990,
+            "href": "https://www.advice.co.th/product/gaming-keyboard/razer/keyboard-razer-blackwidow-v3-tenkeyless-green-switch-th-",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0135795/A0135795OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "Green Mechanical Switch",
+              "layout": "87 Keys",
+              "dimension": "(W x D x H) : 15.48 x 36.20 x 4.10 cm",
+              "support": "N/A"
+            }
+          },
+          {
+            "name": "KEYBOARD RAZER BLACKWIDOW V3 TENKEYLESS YELLOW SWITCH (TH)",
+            "price": 2990,
+            "href": "https://www.advice.co.th/product/gaming-keyboard/razer/keyboard-razer-blackwidow-v3-tenkeyless-yellow-switch-th-",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0135796/A0135796OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "YELLOW MECHANICAL SWITCHES",
+              "layout": "87 Keys",
+              "dimension": "(W x D x H) : 15.48 x 36.20 x 4.10 cm",
+              "support": "N/A"
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": [
+      {
+        "_id": "61464cc30f94c694435639f8",
+        "model": "blackwidowv3tkl",
+        "name": "RAZER BLACKWIDOW V3 TKL",
+        "store": "Mercular",
+        "brand": "Logitech",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": " RAZER BLACKWIDOW V3 TKL KEYBOARDS",
+            "price": 3099,
+            "href": "https://www.mercular.com/razer-blackwidow-v3-tkl-keyboards?sku=1516157000001",
+            "image": "https://mercular.s3.ap-southeast-1.amazonaws.com/images/products/2021/04/razer-blackwidow-v3-tkl-keyboards-black-01.jpg",
+            "spec": {
+              "interface": "usb",
+              "switch": "Razer",
+              "layout": "Tenkeyless (TKL)",
+              "dimension": "",
+              "support": ""
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "61464cc30f94c69443563a21",
+    "key": "blackwidowv3mini",
+    "name": "RAZER BLACKWIDOW V3 MINI",
+    "category": "keyboard",
+    "advice": [],
+    "banana": [],
+    "mercular": [
+      {
+        "_id": "61464cc30f94c694435639fa",
+        "model": "blackwidowv3mini",
+        "name": "RAZER BLACKWIDOW V3 MINI",
+        "store": "Mercular",
+        "brand": "Logitech",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": " RAZER BLACKWIDOW V3 MINI HYPERSPEED US LAYOUT WIRELESS MECHANICAL GAMING KEYBOARD (EN)",
+            "price": 7090,
+            "href": "https://www.mercular.com/razer-blackwidow-v3-mini-hyperspeed-wireless-mechanical-keyboard",
+            "image": "https://mercular.s3.ap-southeast-1.amazonaws.com/images/products/2021/08/Product/razer-blackwidow-v3-mini-hyperspeed-us-wireless-mechanical-gaming-keyboard-phantom-yellow-switch-01.jpg",
+            "spec": {
+              "interface": "usb,wireless",
+              "switch": "Razer",
+              "layout": "65%",
+              "dimension": "",
+              "support": ""
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "61464cc30f94c69443563a22",
+    "key": "alloyorigins",
+    "name": "HYPERX ALLOY ORIGIN MECHANICAL",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c694435639a0",
+        "model": "alloyorigins",
+        "name": "HYPERX ALLOY ORIGIN MECHANICAL",
+        "store": "Advice",
+        "brand": "Hyper-x",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "KEYBOARD HYPERX ALLOY ORIGINS (BLUE-SWITCH)",
+            "price": 2890,
+            "href": "https://www.advice.co.th/product/gaming-keyboard/hyperx/keyboard-hyperx-alloy-origins-blue-switch-",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0134037/A0134037OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB Type-C to USB Type-A",
+              "switch": "BLUE-SWITCH",
+              "layout": "104 Keys",
+              "dimension": "(W x D x H) : 44.25 x 13.25 x 3.63 cm",
+              "support": "Windows 10, 8.1, 8, 7"
+            }
+          },
+          {
+            "name": "KEYBOARD HYPERX ALLOY ORIGINS (RED-SWITCH)",
+            "price": 2890,
+            "href": "https://www.advice.co.th/product/gaming-keyboard/hyperx/keyboard-hyperx-alloy-origins-red-switch-",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0129960/A0129960OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB Type-C to USB Type-A",
+              "switch": "RED-SWITCH",
+              "layout": "104 Keys",
+              "dimension": "(W x D x H) : 22.25 x 13.25 x 36.39 cm",
+              "support": "Windows 10, 8.1, 8, 7"
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [
+      {
+        "_id": "61464cc30f94c694435639dc",
+        "model": "alloyorigins",
+        "name": "HYPERX ALLOY ORIGIN MECHANICAL",
+        "store": "Banana",
+        "brand": "Hyper x",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "HYPER X GAMING KEYBOARD ALLOY ORIGINS (TH)",
+            "price": 2890,
+            "href": "https://www.bnn.in.th/th/p/gaming-gear/pc-gaming-accessories/gaming-keyboard/hyper-x-gaming-keyboard-alloy-origins-th-740617297423_dl0wnd",
+            "image": "https://media-cdn.bnn.in.th/54248/Hyper-X-Alloy-Origins-TH-4-square_medium.jpg",
+            "spec": {
+              "interface": "USB Port",
+              "switch": "HyperX Switch",
+              "layout": "",
+              "dimension": "39.6 x 44.2 x 13.2 cm.",
+              "support": "Windows 10, 8.1, 8, 7"
+            }
+          },
+          {
+            "name": "HYPER X GAMING KEYBOARD ALLOY ORIGINS BLUE SW (TH)",
+            "price": 2890,
+            "href": "https://www.bnn.in.th/th/p/gaming-gear/pc-gaming-accessories/gaming-keyboard/hyper-x-gaming-keyboard-alloy-origins-blue-sw-th-740617301748_d4moed",
+            "image": "https://media-cdn.bnn.in.th/54339/Hyper-X-Gaming-Keyboard-Alloy-Origins-Blue-SW-(TH)-4-square_medium.jpg",
+            "spec": {
+              "interface": "USB Port",
+              "switch": "Marco",
+              "layout": "",
+              "dimension": "39.6 x 44.2 x 13.2 cm.",
+              "support": "Window, Mac"
+            }
+          }
+        ]
+      }
+    ],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc30f94c69443563a23",
+    "key": "alloyoriginscore",
+    "name": "HYPERX ALLOY ORIGINS CORE",
+    "category": "keyboard",
+    "advice": [],
+    "banana": [
+      {
+        "_id": "61464cc30f94c694435639de",
+        "model": "alloyoriginscore",
+        "name": "HYPERX ALLOY ORIGINS CORE",
+        "store": "Banana",
+        "brand": "Hyper x",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "HYPER X GAMING KEYBOARD ALLOY ORIGINS CORE BLUE SW (TH)",
+            "price": 2590,
+            "href": "https://www.bnn.in.th/th/p/gaming-gear/pc-gaming-accessories/hyper-x-gaming-keyboard-alloy-origins-core-blue-sw-th-740617301700_dm0v01",
+            "image": "https://media-cdn.bnn.in.th/132657/Hyper-X-Gaming--04-square_medium.jpg",
+            "spec": {
+              "interface": "USB Port",
+              "switch": "Marco",
+              "layout": "",
+              "dimension": "39.6 x 17.3 x 44 cm.",
+              "support": "Window , Mac"
+            }
+          }
+        ]
+      }
+    ],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc30f94c69443563a24",
+    "key": "alloyorigins60",
+    "name": "HYPERX ALLOY ORIGIN 60",
+    "category": "keyboard",
+    "advice": [],
+    "banana": [
+      {
+        "_id": "61464cc30f94c694435639dd",
+        "model": "alloyorigins60",
+        "name": "HYPERX ALLOY ORIGIN 60",
+        "store": "Banana",
+        "brand": "Hyper x",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "HYPER X GAMING KEYBOARD ALLOY ORIGINS 60 RED/LINEAR SW (US)",
+            "price": 3290,
+            "href": "https://www.bnn.in.th/th/p/gaming-gear/pc-gaming-accessories/hyper-x-gaming-keyboard-alloy-origins-60-redlinear-sw-us-740617313208_dn9k4g",
+            "image": "https://media-cdn.bnn.in.th/114703/Hyper-X-Gaming-Keyboard-Alloy-Origins-60-Red-Linear-SW-US-4-square_medium.jpg",
+            "spec": {
+              "interface": "USB Port Type C to Type A",
+              "switch": "Marco",
+              "layout": "",
+              "dimension": "29.6 x 36.9 x 10.55 cm.",
+              "support": "PC / PS4 / Xbox one"
+            }
+          }
+        ]
+      }
+    ],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc30f94c69443563a25",
+    "key": "f2028",
+    "name": "AULA F2028",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c6944356397b",
+        "model": "f2028",
+        "name": "AULA F2028",
+        "store": "Advice",
+        "brand": "Aula",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "KEYBOARD AULA F2028 BLACK",
+            "price": 435,
+            "href": "https://www.advice.co.th/product/gaming-keyboard/aula/keyboard-aula-f2028-black",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0138576/A0138576OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "Non-Mechanical",
+              "layout": "108 Keys",
+              "dimension": "(W x D x H) : 44.00 x 13.50 x 3.51 cm",
+              "support": ""
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc30f94c69443563a26",
+    "key": "s2022",
+    "name": "AULA S2022",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c6944356397c",
+        "model": "s2022",
+        "name": "AULA S2022",
+        "store": "Advice",
+        "brand": "Aula",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "KEYBOARD AULA S2022 BLACK (BLUE-SWITCH)",
+            "price": 625,
+            "href": "https://www.advice.co.th/product/gaming-keyboard/aula/keyboard-aula-s2022-black-blue-switch-",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0138578/A0138578OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "Blue Switch",
+              "layout": "104 Keys",
+              "dimension": "(W x D x H) : 43.50 x 12.50 x 3.80 cm",
+              "support": "• Anti-ghosting: 26 keys\n• FN MultiMedia key"
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc30f94c69443563a27",
+    "key": "f2066ii",
+    "name": "AULA F2066-II",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c6944356397d",
+        "model": "f2066ii",
+        "name": "AULA F2066-II",
+        "store": "Advice",
+        "brand": "Aula",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "KEYBOARD AULA F2066-II BLACK (BLUE-SWITCH)",
+            "price": 715,
+            "href": "https://www.advice.co.th/product/gaming-keyboard/aula/keyboard-aula-f2066-ii-black-blue-switch-",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0138579/A0138579OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "Blue Switch",
+              "layout": "104 Keys",
+              "dimension": "(W x D x H) : 44.40 x 13.20 x 3.50 cm",
+              "support": "Win XP/7/8/10/Vista & Mac"
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc30f94c69443563a28",
+    "key": "f3030",
+    "name": "AULA F3030",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c6944356397e",
+        "model": "f3030",
+        "name": "AULA F3030",
+        "store": "Advice",
+        "brand": "Aula",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "KEYBOARD AULA F3030 BLACK (BLUE-SWITCH)",
+            "price": 815,
+            "href": "https://www.advice.co.th/product/gaming-keyboard/aula/keyboard-aula-f3030-black-blue-switch-",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0138580/A0138580OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "Blue-Switch",
+              "layout": "109 Keys",
+              "dimension": "(W x D x H) : 45.30 x 14.40 x 3.90 cm",
+              "support": "Win XP/7/8/10"
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc30f94c69443563a29",
+    "key": "f2058",
+    "name": "AULA F2058",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c6944356397f",
+        "model": "f2058",
+        "name": "AULA F2058",
+        "store": "Advice",
+        "brand": "Aula",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "KEYBOARD AULA F2058 BLACK (BLUE-SWITCH)",
+            "price": 900,
+            "href": "https://www.advice.co.th/product/gaming-keyboard/aula/keyboard-aula-f2058-black-blue-switch-",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0138581/A0138581OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "Blue-Switch",
+              "layout": "109 Keys",
+              "dimension": "(W x D x H) : 43.50 x 19.40 x 3.60 cm",
+              "support": "Win XP/7/8/10/Vista & Mac"
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc30f94c69443563a2a",
+    "key": "k511",
+    "name": "FANTECH K511",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c69443563980",
+        "model": "k511",
+        "name": "FANTECH K511",
+        "store": "Advice",
+        "brand": "Fantech",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "KEYBOARD FANTECH K511",
+            "price": 330,
+            "href": "https://www.advice.co.th/product/gaming-keyboard/fantech/keyboard-fantech-k511",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0113267/A0113267OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "",
+              "layout": "104 Keys",
+              "dimension": "(W x D x H) : 18.70 x 45.80 x 3.40 cm",
+              "support": "Windows Vista, Win7/8/10, Mac OS X 10.5 or later, Linux, Chrome OS"
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [
+      {
+        "_id": "61464cc30f94c694435639d9",
+        "model": "k511",
+        "name": "FANTECH K511",
+        "store": "Banana",
+        "brand": "Fantech",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "FANTECH GAMING KEYBOARD K511 THAI",
+            "price": 390,
+            "href": "https://www.bnn.in.th/th/p/gaming-gear/pc-gaming-accessories/gaming-keyboard/fantech-gaming-keyboard-k511-thai-6945678911925_dkpe2r",
+            "image": "https://media-cdn.bnn.in.th/102402/6945678911925-1-square_medium.jpg",
+            "spec": {
+              "interface": "USB Compatible",
+              "switch": "19 Keys Anti-Ghosting",
+              "layout": "",
+              "dimension": "45.80 x 18.70 x 3.40 cm.",
+              "support": "N/A"
+            }
+          }
+        ]
+      }
+    ],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc30f94c69443563a2b",
+    "key": "esportterrablade",
+    "name": "NEOLUTION E-SPORT TERRABLADE ",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c69443563981",
+        "model": "esportterrablade",
+        "name": "NEOLUTION E-SPORT TERRABLADE ",
+        "store": "Advice",
+        "brand": "Neolution",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "KEYBOARD NEOLUTION E-SPORT TERRABLADE (BLUE-SWITCH)",
+            "price": 1460,
+            "href": "https://www.advice.co.th/product/gaming-keyboard/neolution-esport/keyboard-neolution-e-sport-terrablade-blue-switch-",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0137293/A0137293OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "Blue Switch",
+              "layout": "104 Keys",
+              "dimension": "(W x D x H) : 13.70 x 44.60 x 3.40 cm",
+              "support": "Windows 10"
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc30f94c69443563a2c",
+    "key": "x100",
+    "name": "OKER X-100",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c69443563982",
+        "model": "x100",
+        "name": "OKER X-100",
+        "store": "Advice",
+        "brand": "Oker ",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "KEYBOARD OKER X-100",
+            "price": 765,
+            "href": "https://www.advice.co.th/product/gaming-keyboard/oker/keyboard-oker-x-100",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0131199/A0131199OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "Blue Switch",
+              "layout": "107",
+              "dimension": "(W x D x H) : 14.30 x 44.30 x 3.70 cm",
+              "support": ""
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc30f94c69443563a2d",
+    "key": "x200",
+    "name": "OKER X-200",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c69443563983",
+        "model": "x200",
+        "name": "OKER X-200",
+        "store": "Advice",
+        "brand": "Oker",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "KEYBOARD OKER X-200",
+            "price": 815,
+            "href": "https://www.advice.co.th/product/gaming-keyboard/oker/keyboard-oker-x-200",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0134040/A0134040OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "Blue Switch",
+              "layout": "105 Keys",
+              "dimension": "(W x D x H) : 45.00 x 14.00 x 3.50 cm",
+              "support": "Window XP, Vista, Win7, 8, 10"
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc30f94c69443563a2e",
+    "key": "kb98a",
+    "name": "OKER KB-98A GAMING RGB",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c69443563984",
+        "model": "kb98a",
+        "name": "OKER KB-98A GAMING RGB",
+        "store": "Advice",
+        "brand": "Oker",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "KEYBOARD OKER KB-98A GAMING RGB",
+            "price": 835,
+            "href": "https://www.advice.co.th/product/gaming-keyboard/oker/keyboard-oker-kb-98a-gaming-rgb",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0137409/A0137409OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "Mechanical",
+              "layout": "104 Keys",
+              "dimension": "",
+              "support": ""
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc30f94c69443563a2f",
+    "key": "kb99b",
+    "name": "OKER KB-99B GAMING RGB",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c69443563985",
+        "model": "kb99b",
+        "name": "OKER KB-99B GAMING RGB",
+        "store": "Advice",
+        "brand": "Oker",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "KEYBOARD OKER KB-99B GAMING RGB",
+            "price": 835,
+            "href": "https://www.advice.co.th/product/gaming-keyboard/oker/keyboard-oker-kb-99b-gaming-rgb",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0137410/A0137410OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "Mechanical",
+              "layout": "104 Keys",
+              "dimension": "(W x D x H) : 13.60 x 44.30 x 3.50 cm",
+              "support": ""
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc30f94c69443563a30",
+    "key": "k420",
+    "name": "OKER K-420 GAMING RGB",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c69443563986",
+        "model": "k420",
+        "name": "OKER K-420 GAMING RGB",
+        "store": "Advice",
+        "brand": "Oker",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "KEYBOARD OKER K-420 GAMING RGB",
+            "price": 995,
+            "href": "https://www.advice.co.th/product/gaming-keyboard/oker/keyboard-oker-k-420-gaming-rgb",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0135508/A0135508OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "Blue switch",
+              "layout": "104 Keys",
+              "dimension": "",
+              "support": ""
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc30f94c69443563a31",
+    "key": "k430",
+    "name": "OKER K-430 GAMING RGB",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c69443563987",
+        "model": "k430",
+        "name": "OKER K-430 GAMING RGB",
+        "store": "Advice",
+        "brand": "Oker",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "KEYBOARD OKER K-430 GAMING RGB",
+            "price": 995,
+            "href": "https://www.advice.co.th/product/gaming-keyboard/oker/keyboard-oker-k-430-gaming-rgb",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0135509/A0135509OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "Blue switch",
+              "layout": "104 Keys",
+              "dimension": "(W x D x H) : 4.30 x 44.30 x 3.70 cm",
+              "support": "Windows XP, Vista, win7, win8, win10"
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc30f94c69443563a32",
+    "key": "kb82",
+    "name": "OKER KB-82 GAMING RGB",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c69443563988",
+        "model": "kb82",
+        "name": "OKER KB-82 GAMING RGB",
+        "store": "Advice",
+        "brand": "Oker",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "KEYBOARD OKER KB-82 GAMING RGB (BLUE-SWITCH)",
+            "price": 1330,
+            "href": "https://www.advice.co.th/product/gaming-keyboard/oker/keyboard-oker-kb-82-gaming-rgb-blue-switch-",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0137407/A0137407OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "Mechanical",
+              "layout": "87 Keys",
+              "dimension": "(W x D x H) : 13.40 x 35.00 x 3.70 cm",
+              "support": "• IBM compatibliity system\n• Windows XP / VISTA / 7 / 8 / 10"
+            }
+          },
+          {
+            "name": "KEYBOARD OKER KB-82 GAMING RGB (RED-SWITCH)",
+            "price": 1330,
+            "href": "https://www.advice.co.th/product/gaming-keyboard/oker/keyboard-oker-kb-82-gaming-rgb-red-switch-",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0137408/A0137408OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "Mechanical",
+              "layout": "87 Keys",
+              "dimension": "(W x D x H) : 13.40 x 35.00 x 3.70 cm",
+              "support": "• IBM compatibliity system\n• Windows XP / VISTA / 7 / 8 / 10"
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc30f94c69443563a33",
+    "key": "kb84",
+    "name": "OKER KB-84 GAMING RGB",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c69443563989",
+        "model": "kb84",
+        "name": "OKER KB-84 GAMING RGB",
+        "store": "Advice",
+        "brand": "Oker",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "KEYBOARD OKER KB-84 GAMING RGB (BLUE-SWITCH)",
+            "price": 1300,
+            "href": "https://www.advice.co.th/product/gaming-keyboard/oker/keyboard-oker-kb-84-gaming-rgb-blue-switch-",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0137406/A0137406OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "Mechanical",
+              "layout": "104 Keys",
+              "dimension": "(W x D x H) : 12.80 x 43.70 x 3.60 cm",
+              "support": "• IBM compatibliity system\n• Windows XP / VISTA / 7 / 8 / 10"
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc30f94c69443563a34",
+    "key": "kb712",
+    "name": "SIGNO KB-712 ILLUMINATED",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c6944356398a",
+        "model": "kb712",
+        "name": "SIGNO KB-712 ILLUMINATED",
+        "store": "Advice",
+        "brand": "Signo",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "KEYBOARD SIGNO KB-712 ILLUMINATED",
+            "price": 220,
+            "href": "https://www.advice.co.th/product/gaming-keyboard/signo/keyboard-signo-kb-712-illuminated",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0124954/A0124954OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "RUBBER DOME",
+              "layout": "104 Keys",
+              "dimension": "",
+              "support": ""
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc30f94c69443563a35",
+    "key": "kb718",
+    "name": "SIGNO KB-718 INDIGO",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c6944356398b",
+        "model": "kb718",
+        "name": "SIGNO KB-718 INDIGO",
+        "store": "Advice",
+        "brand": "Signo",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "KEYBOARD SIGNO KB-718 INDIGO (RED-SWITCH)",
+            "price": 910,
+            "href": "https://www.advice.co.th/product/gaming-keyboard/signo/keyboard-signo-kb-718-indigo-red-switch-",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0133568/A0133568OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "Red-Switch",
+              "layout": "87 Keys",
+              "dimension": "(W x D x H) : 35.60 x 13.80 x 3.90 cm",
+              "support": "Windows"
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc30f94c69443563a36",
+    "key": "kb728",
+    "name": "SIGNO KB-728 INVEGO",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c6944356398c",
+        "model": "kb728",
+        "name": "SIGNO KB-728 INVEGO",
+        "store": "Advice",
+        "brand": "Signo",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "KEYBOARD SIGNO KB-728 INVEGO (BLUE-SWITCH)",
+            "price": 1010,
+            "href": "https://www.advice.co.th/product/gaming-keyboard/signo/keyboard-signo-kb-728-invego-blue-switch-",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0126337/A0126337OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "SIGNO Optical Switch (Blue sw)",
+              "layout": "104 Keys",
+              "dimension": "",
+              "support": ""
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc30f94c69443563a37",
+    "key": "kb738",
+    "name": "SIGNO KB-738 INFESTA",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c6944356398d",
+        "model": "kb738",
+        "name": "SIGNO KB-738 INFESTA",
+        "store": "Advice",
+        "brand": "Signo",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "KEYBOARD SIGNO KB-738 INFESTA (RED-SWITCH)",
+            "price": 1090,
+            "href": "https://www.advice.co.th/product/gaming-keyboard/signo/keyboard-signo-kb-738-infesta-red-switch-",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0127468/A0127468OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB 2.0",
+              "switch": "Red Optical Switches",
+              "layout": "104 Keys",
+              "dimension": "",
+              "support": "All Windows Versions and Mac"
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc30f94c69443563a38",
+    "key": "kb770",
+    "name": "SIGNO E-SPORT KB-770 EMPERRO",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c6944356398e",
+        "model": "kb770",
+        "name": "SIGNO E-SPORT KB-770 EMPERRO",
+        "store": "Advice",
+        "brand": "Signo",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "KEYBOARD SIGNO E-SPORT KB-770 EMPERRO (BLUE-SWITCH)",
+            "price": 1385,
+            "href": "https://www.advice.co.th/product/gaming-keyboard/signo/keyboard-signo-e-sport-kb-770-emperro-blue-switch-",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0129880/A0129880OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "Blue Switch",
+              "layout": "104 Keys",
+              "dimension": "(W x D x H) : 48.80 x 15.00 x 4.30 cm",
+              "support": "All Windows Versions"
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc30f94c69443563a39",
+    "key": "kb771",
+    "name": "SIGNO E-SPORT KB-771 TROOPER",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c6944356398f",
+        "model": "kb771",
+        "name": "SIGNO E-SPORT KB-771 TROOPER",
+        "store": "Advice",
+        "brand": "Signo",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "KEYBOARD SIGNO E-SPORT KB-771 TROOPER (BLUE-SWITCH)",
+            "price": 1250,
+            "href": "https://www.advice.co.th/product/gaming-keyboard/signo/keyboard-signo-e-sport-kb-771-trooper-blue-switch-",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0129881/A0129881OK_BIG_1.jpg",
+            "spec": {
+              "interface": "Gold-plated USB 2.0",
+              "switch": "Blue Optical Switches",
+              "layout": "104 Keys",
+              "dimension": "",
+              "support": "All Windows Versions"
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc30f94c69443563a3a",
+    "key": "rogstrixfalchion",
+    "name": "ASUS ROG STRIX FALCHION",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c69443563990",
+        "model": "rogstrixfalchion",
+        "name": "ASUS ROG STRIX FALCHION",
+        "store": "Advice",
+        "brand": "Asus",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "KEYBOARD ASUS ROG STRIX FALCHION (BLUE-SWITCH)",
+            "price": 3890,
+            "href": "https://www.advice.co.th/product/gaming-keyboard/asus/keyboard-asus-rog-strix-falchion-blue-switch-",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0135784/A0135784OK_BIG_1.jpg",
+            "spec": {
+              "interface": "Wired (USB) / RF 2.4 GHz (Wireless)",
+              "switch": "Blue-Switch",
+              "layout": "68 Keys",
+              "dimension": "(W x D x H) : 10.10 x 30.50 x 3.85 cm",
+              "support": "Windows 10"
+            }
+          },
+          {
+            "name": "KEYBOARD ASUS ROG STRIX FALCHION (RED-SWITCH)",
+            "price": 3890,
+            "href": "https://www.advice.co.th/product/gaming-keyboard/asus/keyboard-asus-rog-strix-falchion-red-switch-",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0135786/A0135786OK_BIG_1.jpg",
+            "spec": {
+              "interface": "Wired (USB) / RF 2.4 GHz (Wireless)",
+              "switch": "Red-Switch",
+              "layout": "68 Keys",
+              "dimension": "(W x D x H) : 10.10 x 30.50 x 3.85 cm",
+              "support": "Windows 10"
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc30f94c69443563a3b",
+    "key": "mk110",
+    "name": "COOLER MASTER MK110 RGB",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c69443563991",
+        "model": "mk110",
+        "name": "COOLER MASTER MK110 RGB",
+        "store": "Advice",
+        "brand": "Cooler master",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "KEYBOARD COOLER MASTER MK110 RGB",
+            "price": 990,
+            "href": "https://www.advice.co.th/product/gaming-keyboard/cooler-master/keyboard-cooler-master-mk110-rgb",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0137704/A0137704OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "Mem-chanical Switch",
+              "layout": "104 Keys",
+              "dimension": "(W x D x H) : 44.00 x 13.40 x 4.03 cm",
+              "support": ""
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc30f94c69443563a3c",
+    "key": "ck350",
+    "name": "COOLER MASTER CK350 RGB",
+    "category": "keyboard",
+    "advice": [],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc30f94c69443563a3d",
+    "key": "ck351",
+    "name": "COOLER MASTER CK351 RGB",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c69443563992",
+        "model": "ck351",
+        "name": "COOLER MASTER CK351 RGB",
+        "store": "Advice",
+        "brand": "Cooler master",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "KEYBOARD COOLER MASTER CK351 RGB (BLUE-SWITCH) (TH)",
+            "price": 1990,
+            "href": "https://www.advice.co.th/product/gaming-keyboard/cooler-master/keyboard-cooler-master-ck351-rgb-blue-switch-th-",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0137265/A0137265OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "Blue Switch",
+              "layout": "104 Keys",
+              "dimension": "(W x D x H) : 14.00 x 44.00 x 4.50 cm",
+              "support": "ON-THE-FLY SYSTEM : Yes, via FN\nSMART CABLE MANAGER : Yes, 180 degree, 3 ways\nSOFTWARE : Yes, Cooler Master MasterPlus+ Support"
+            }
+          },
+          {
+            "name": "KEYBOARD COOLER MASTER CK351 RGB (RED-SWITCH) (TH)",
+            "price": 1890,
+            "href": "https://www.advice.co.th/product/gaming-keyboard/cooler-master/keyboard-cooler-master-ck351-rgb-red-switch-th-",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0137266/A0137266OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "Red Switch",
+              "layout": "104 Keys",
+              "dimension": "(W x D x H) : 14.00 x 44.00 x 4.50 cm",
+              "support": "ON-THE-FLY SYSTEM : Yes, via FN\nSMART CABLE MANAGER : Yes, 180 degree, 3 ways\nSOFTWARE : Yes, Cooler Master MasterPlus+ Support"
+            }
+          },
+          {
+            "name": "KEYBOARD COOLER MASTER CK351 RGB (BROWN-SWITCH) (TH)",
+            "price": 1990,
+            "href": "https://www.advice.co.th/product/gaming-keyboard/cooler-master/keyboard-cooler-master-ck351-rgb-brown-switch-th-",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0137267/A0137267OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "Brown Switch",
+              "layout": "104 Keys",
+              "dimension": "(W x D x H) : 14.00 x 44.00 x 4.50 cm",
+              "support": "ON-THE-FLY SYSTEM : Yes, via FN\nSMART CABLE MANAGER : Yes, 180 degree, 3 ways\nSOFTWARE : Yes, Cooler Master MasterPlus+ Support"
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc30f94c69443563a3e",
+    "key": "ck550",
+    "name": "COOLER MASTER CK550 V2 RGB",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c69443563993",
+        "model": "ck550",
+        "name": "COOLER MASTER CK550 V2 RGB",
+        "store": "Advice",
+        "brand": "Cooler master",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "KEYBOARD COOLER MASTER CK550 V2 RGB (BLUE-SWITCH) (TH)",
+            "price": 2590,
+            "href": "https://www.advice.co.th/product/gaming-keyboard/cooler-master/keyboard-cooler-master-ck550-v2-rgb-blue-switch-th-",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0138425/A0138425OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "TTC Mechanical Switch (Blue-Switch)",
+              "layout": "104 Keys",
+              "dimension": "(W x D x H) : 46.00 x 13.50 x 4.10 cm",
+              "support": "• Keyboard On-Board Memory - 512 KB\n• On-The-Fly System - Yes, for Multi-media, Macro Recording and Lighting Control\n• Multimedia Keys - Through FN\n• Wrist Rest\n• Cooler Master MasterPlus+"
+            }
+          },
+          {
+            "name": "KEYBOARD COOLER MASTER CK550 V2 RGB (RED-SWITCH) (TH)",
+            "price": 2590,
+            "href": "https://www.advice.co.th/product/gaming-keyboard/cooler-master/keyboard-cooler-master-ck550-v2-rgb-red-switch-th-",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0138427/A0138427OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "TTC Mechanical Switch (Red-Switch)",
+              "layout": "104 Keys",
+              "dimension": "(W x D x H) : 46.00 x 13.50 x 4.10 cm",
+              "support": "• Keyboard On-Board Memory - 512 KB\n• On-The-Fly System - Yes, for Multi-media, Macro Recording and Lighting Control\n• Multimedia Keys - Through FN\n• Wrist Rest\n• Cooler Master MasterPlus+"
+            }
+          },
+          {
+            "name": "KEYBOARD COOLER MASTER CK550 V2 RGB (BROWN-SWITCH) (TH)",
+            "price": 2590,
+            "href": "https://www.advice.co.th/product/gaming-keyboard/cooler-master/keyboard-cooler-master-ck550-v2-rgb-brown-switch-th-",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0138426/A0138426OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "TTC Mechanical Switch (Brown-Switch)",
+              "layout": "104 Keys",
+              "dimension": "(W x D x H) : 46.00 x 13.50 x 4.10 cm",
+              "support": "• Keyboard On-Board Memory - 512 KB\n• On-The-Fly System - Yes, for Multi-media, Macro Recording and Lighting Control\n• Multimedia Keys - Through FN\n• Wrist Rest\n• Cooler Master MasterPlus+"
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc30f94c69443563a3f",
+    "key": "ck721",
+    "name": "COOLER MASTER CK721 RGB",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c69443563994",
+        "model": "ck721",
+        "name": "COOLER MASTER CK721 RGB",
+        "store": "Advice",
+        "brand": "Cooler master",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "KEYBOARD COOLER MASTER CK721 RGB BLACK (BLUE-SWITCH)",
+            "price": 2990,
+            "href": "https://www.advice.co.th/product/gaming-keyboard/cooler-master/keyboard-cooler-master-ck721-rgb-black-blue-switch-",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0138428/A0138428OK_BIG_1.jpg",
+            "spec": {
+              "interface": "Wireless USB",
+              "switch": "TTC Mechanical Switch (Blue-Switch)",
+              "layout": "67 Keys",
+              "dimension": "(W x D x H) : 33.40 x 11.80 x 3.70 cm",
+              "support": "• Windows 8+ / Mac OS X 10.10+ / Android / iOS\n• Software Support - Cooler Master MasterPlus+"
+            }
+          },
+          {
+            "name": "KEYBOARD COOLER MASTER CK721 RGB BLACK (BROWN-SWITCH)",
+            "price": 2990,
+            "href": "https://www.advice.co.th/product/gaming-keyboard/cooler-master/keyboard-cooler-master-ck721-rgb-black-brown-switch-",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0138429/A0138429OK_BIG_1.jpg",
+            "spec": {
+              "interface": "Wireless USB",
+              "switch": "TTC Mechanical Switch (Brown-Switch)",
+              "layout": "67 Keys",
+              "dimension": "(W x D x H) : 33.40 x 11.80 x 3.70 cm",
+              "support": "• Windows 8+ / Mac OS X 10.10+ / Android / iOS\n• Software Support - Cooler Master MasterPlus+"
+            }
+          },
+          {
+            "name": "KEYBOARD COOLER MASTER CK721 RGB WHITE (RED-SWITCH)",
+            "price": 2990,
+            "href": "https://www.advice.co.th/product/gaming-keyboard/cooler-master/keyboard-cooler-master-ck721-rgb-white-red-switch-",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0138430/A0138430OK_BIG_1.jpg",
+            "spec": {
+              "interface": "Wireless USB",
+              "switch": "TTC Mechanical Switch (Red-Switch)",
+              "layout": "67 Keys",
+              "dimension": "(W x D x H) : 33.40 x 11.80 x 3.70 cm",
+              "support": "• Windows 8+ / Mac OS X 10.10+ / Android / iOS\n• Software Support - Cooler Master MasterPlus+"
+            }
+          },
+          {
+            "name": "KEYBOARD COOLER MASTER CK721 RGB WHITE (BROWN-SWITCH)",
+            "price": 2990,
+            "href": "https://www.advice.co.th/product/gaming-keyboard/cooler-master/keyboard-cooler-master-ck721-rgb-white-brown-switch-",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0138431/A0138431OK_BIG_1.jpg",
+            "spec": {
+              "interface": "Wireless USB",
+              "switch": "TTC Mechanical Switch (Brown-Switch)",
+              "layout": "67 Keys",
+              "dimension": "(W x D x H) : 33.40 x 11.80 x 3.70 cm",
+              "support": "• Windows 8+ / Mac OS X 10.10+ / Android / iOS\n• Software Support - Cooler Master MasterPlus+"
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc30f94c69443563a40",
+    "key": "sk630",
+    "name": "COOLER MASTER SK630 RGB",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c69443563995",
+        "model": "sk630",
+        "name": "COOLER MASTER SK630 RGB",
+        "store": "Advice",
+        "brand": "Cooler master",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "KEYBOARD COOLER MASTER SK630 RGB (RED-SWITCH) (US)",
+            "price": 3070,
+            "href": "https://www.advice.co.th/product/gaming-keyboard/cooler-master/keyboard-cooler-master-sk630-rgb-red-switch-us-",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0126604/A0126604OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB Type-C (Keyboard Side), USB 2.0 Type A (Computer Side)",
+              "switch": "",
+              "layout": "87 Keys",
+              "dimension": "",
+              "support": ""
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc30f94c69443563a41",
+    "key": "mk750",
+    "name": "COOLER MASTER MK750 RGB",
+    "category": "keyboard",
+    "advice": [],
+    "banana": [
+      {
+        "_id": "61464cc30f94c694435639d6",
+        "model": "mk750",
+        "name": "COOLER MASTER MK750 RGB",
+        "store": "Banana",
+        "brand": "Cooler master",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "COOLER MASTER GAMING KEYBOARD MK750 RGB BLUE SWITCH TH BLACK",
+            "price": 2440,
+            "href": "https://www.bnn.in.th/th/p/gaming-gear/pc-gaming-accessories/gaming-keyboard/cooler-master-gaming-keyboard-mk750-rgb-blue-switch-th-black-4719512062517_zpgkpz",
+            "image": "https://media-cdn.bnn.in.th/31541/CoolerMasterKeyboard-MK750-RGB-Black-4-square_medium.jpg",
+            "spec": {
+              "interface": "USB Port",
+              "switch": "Marco",
+              "layout": "",
+              "dimension": "13.22 x 43.77 x 4.2 cm.",
+              "support": "Windows , Mac OS"
+            }
+          }
+        ]
+      }
+    ],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc30f94c69443563a42",
+    "key": "mk850",
+    "name": "COOLER MASTER MK850 RGB",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c69443563996",
+        "model": "mk850",
+        "name": "COOLER MASTER MK850 RGB",
+        "store": "Advice",
+        "brand": "Cooler master",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "KEYBOARD COOLER MASTER MK850 RGB (RED-SWITCH) (US)",
+            "price": 5840,
+            "href": "https://www.advice.co.th/product/gaming-keyboard/cooler-master/keyboard-cooler-master-mk850-rgb-red-switch-us-",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0126611/A0126611OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB 3.0",
+              "switch": "",
+              "layout": "104 Keys",
+              "dimension": "",
+              "support": ""
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc30f94c69443563a43",
+    "key": "k60",
+    "name": "CORSAIR K60",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c69443563997",
+        "model": "k60",
+        "name": "CORSAIR K60",
+        "store": "Advice",
+        "brand": "Corsair",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "KEYBOARD CORSAIR K60 (TH)",
+            "price": 2290,
+            "href": "https://www.advice.co.th/product/gaming-keyboard/corsair/keyboard-corsair-k60-th-",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0135584/A0135584OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "CHERRY® VIOLA",
+              "layout": "105 Keys",
+              "dimension": "(W x D x H) : 13.50 x 44.00 x 3.00 cm",
+              "support": "• Windows 10\n• macOS 10.15+"
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc30f94c69443563a44",
+    "key": "k60pro",
+    "name": "CORSAIR K60 PRO",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c69443563998",
+        "model": "k60pro",
+        "name": "CORSAIR K60 PRO",
+        "store": "Advice",
+        "brand": "Corsair",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "KEYBOARD CORSAIR K60 PRO (TH)",
+            "price": 2990,
+            "href": "https://www.advice.co.th/product/gaming-keyboard/corsair/keyboard-corsair-k60-pro-th-",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0135585/A0135585OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "CHERRY® VIOLA",
+              "layout": "104 Keys",
+              "dimension": "(W x D x H) : 13.50 x 44.00 x 3.00 cm",
+              "support": "• Windows 10\n• macOS 10.15+"
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc30f94c69443563a45",
+    "key": "k95",
+    "name": "CORSAIR K95 PLATINUM",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c69443563999",
+        "model": "k95",
+        "name": "CORSAIR K95 PLATINUM",
+        "store": "Advice",
+        "brand": "Corsair",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "KEYBOARD CORSAIR K95 PLATINUM MX RAPIDFIRE RGB",
+            "price": 4990,
+            "href": "https://www.advice.co.th/product/gaming-keyboard/corsair/keyboard-corsair-k95-platinum-mx-rapidfire-rgb",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0099987/A0099987OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB 2.0",
+              "switch": "Cherry MX Speed",
+              "layout": "122 Key",
+              "dimension": "",
+              "support": ""
+            }
+          },
+          {
+            "name": "KEYBOARD CORSAIR K95 PLATINUM MX BLUE XT RGB",
+            "price": 6990,
+            "href": "https://www.advice.co.th/product/gaming-keyboard/corsair/keyboard-corsair-k95-platinum-mx-blue-xt-rgb",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0135587/A0135587OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "CHERRY® MX Blue",
+              "layout": "110 Keys",
+              "dimension": "",
+              "support": ""
+            }
+          },
+          {
+            "name": "KEYBOARD CORSAIR K95 PLATINUM MX SPEED XT RGB",
+            "price": 6990,
+            "href": "https://www.advice.co.th/product/gaming-keyboard/corsair/keyboard-corsair-k95-platinum-mx-speed-xt-rgb",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0135588/A0135588OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "CHERRY® MX SPEED",
+              "layout": "110 Keys",
+              "dimension": "",
+              "support": ""
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc30f94c69443563a46",
+    "key": "k100opx",
+    "name": "CORSAIR K100 OPX SWITCH RGB",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c6944356399a",
+        "model": "k100opx",
+        "name": "CORSAIR K100 OPX SWITCH RGB",
+        "store": "Advice",
+        "brand": "Corsair",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "KEYBOARD CORSAIR K100 OPX SWITCH RGB (US)",
+            "price": 8290,
+            "href": "https://www.advice.co.th/product/gaming-keyboard/corsair/keyboard-corsair-k100-opx-switch-rgb-us-",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0135583/A0135583OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "CORSAIR OPX Optical-Mechanical",
+              "layout": "110 Keys",
+              "dimension": "",
+              "support": "• USB Polling Rate : Up to 4,000Hz with AXON\n• Adjustable Height : Yes\n• Additional colored and textured keycaps : FPS / MOBA\n• Media Controls YN : Yes\n• Keyboard Rollover : Full Key (NKRO) with 100% Anti-Ghosting\n• Form Factor : Extended with macro keys\n• On-Board Memory : 8MB\n• Number Onboard profiles : Up to 200 depending on complexity\n• WIN Lock : Dedicated Hotkey\n• Media Control : Dedicated Hotkeys, Volume Roller, iCUE Control Wheel\n• Palm Rest : Magnetic detachable, cushioned leatherette\n• Keyboard CUE Software : Supported in iCUE\n• Cable Type : Fixed"
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc30f94c69443563a47",
+    "key": "k100",
+    "name": "HP GAMING K100",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c6944356399b",
+        "model": "k100",
+        "name": "HP GAMING K100",
+        "store": "Advice",
+        "brand": "Hp",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "KEYBOARD HP GAMING K100",
+            "price": 350,
+            "href": "https://www.advice.co.th/product/gaming-keyboard/hp/keyboard-hp-gaming-k100",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0137851/A0137851OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "",
+              "layout": "104 Keys",
+              "dimension": "(W x D x H) : 43.60 x 12.90 x 3.70 cm",
+              "support": "• Windows 7/8.1/10\n• Mac OS 10.3 or later"
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": [
+      {
+        "_id": "61464cc30f94c69443563a12",
+        "model": "k100",
+        "name": "HP Working K100",
+        "store": "Mercular",
+        "brand": "Logitech",
+        "category": "Keyboard",
+        "tag": "Working",
+        "data": [
+          {
+            "name": " LOGITECH K100 KEYBOARD",
+            "price": 299,
+            "href": "https://www.mercular.com/logitech-k100-keyboard",
+            "image": "https://mercular.s3.ap-southeast-1.amazonaws.com/upload/products/2019/06/85226/85579/20190610_1560142431_Logitech-K100-Keyboard-1.jpg",
+            "spec": {
+              "interface": "usb",
+              "switch": "",
+              "layout": "Full-Size",
+              "dimension": "",
+              "support": ""
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "61464cc30f94c69443563a48",
+    "key": "gk400f",
+    "name": "HP GAMING GK400F",
+    "category": "keyboard",
+    "advice": [],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc30f94c69443563a49",
+    "key": "gk100",
+    "name": "HP GAMING GK100",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c6944356399c",
+        "model": "gk100",
+        "name": "HP GAMING GK100",
+        "store": "Advice",
+        "brand": "Hp.",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "KEYBOARD HP GAMING GK100",
+            "price": 935,
+            "href": "https://www.advice.co.th/product/gaming-keyboard/hp/keyboard-hp-gaming-gk100",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0132199/A0132199OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "",
+              "layout": "104 Keys",
+              "dimension": "(W x D x H) : 43.60 x 12.90 x 3.70 cm",
+              "support": ""
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc30f94c69443563a4a",
+    "key": "gk320",
+    "name": "HP GAMING GK320",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c6944356399d",
+        "model": "gk320",
+        "name": "HP GAMING GK320",
+        "store": "Advice",
+        "brand": "Hp.",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "KEYBOARD HP GAMING GK320",
+            "price": 930,
+            "href": "https://www.advice.co.th/product/gaming-keyboard/hp/keyboard-hp-gaming-gk320",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0132202/A0132202OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "Blue Switch",
+              "layout": "104 Keys",
+              "dimension": "(W x D x H) : 43.87 x 13.11 x 3.78 cm",
+              "support": "Windows 2000, XP, Vista, 7, 8, 10\nMac OS"
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc30f94c69443563a4b",
+    "key": "gk400y",
+    "name": "HP GAMING GK400Y",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c6944356399e",
+        "model": "gk400y",
+        "name": "HP GAMING GK400Y",
+        "store": "Advice",
+        "brand": "Hp.",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "KEYBOARD HP GAMING GK400Y",
+            "price": 1060,
+            "href": "https://www.advice.co.th/product/gaming-keyboard/hp/keyboard-hp-gaming-gk400y",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0130137/A0130137OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB Wired",
+              "switch": "Blue Switches",
+              "layout": "104 ปุ่ม",
+              "dimension": "(W x D x H) : 12.50 x 43.50 x 3.50 cm",
+              "support": "Windows XP / 7 / 8 / 10/\nMAC OS"
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc30f94c69443563a4c",
+    "key": "gk600ys",
+    "name": "HP GAMING GK600YS",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c6944356399f",
+        "model": "gk600ys",
+        "name": "HP GAMING GK600YS",
+        "store": "Advice",
+        "brand": "Hp.",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "KEYBOARD HP GAMING GK600YS",
+            "price": 1215,
+            "href": "https://www.advice.co.th/product/gaming-keyboard/hp/keyboard-hp-gaming-gk600ys",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0130138/A0130138OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "Blue Switches",
+              "layout": "104 ปุ่ม",
+              "dimension": "(W x D x H) : 12.90 x 43.60 x 3.70 cm",
+              "support": "Windows XP / 7 / 8 / 10\nMAC OS"
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc30f94c69443563a4d",
+    "key": "g213",
+    "name": "LOGITECH G213 GAMING",
+    "category": "keyboard",
+    "advice": [],
+    "banana": [
+      {
+        "_id": "61464cc30f94c694435639e0",
+        "model": "g213",
+        "name": "LOGITECH G213 GAMING",
+        "store": "Banana",
+        "brand": "Logitech",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "LOGITECH GAMING KEYBOARD G213 PRODIGY RGB",
+            "price": 1290,
+            "href": "https://www.bnn.in.th/th/p/gaming-gear/pc-gaming-accessories/gaming-keyboard/logitech-gaming-keyboard-g213-prodigy-rgb-097855123060_gd4eez",
+            "image": "https://media-cdn.bnn.in.th/4505/097855123060-5-square_medium.jpg",
+            "spec": {
+              "interface": "USB Compatible",
+              "switch": "Machanical Keyboard",
+              "layout": "",
+              "dimension": "45.20 x 21.80 x 3.30 cm.",
+              "support": "Windows 10, 8.1, 8, 7"
+            }
+          }
+        ]
+      }
+    ],
+    "mercular": [
+      {
+        "_id": "61464cc30f94c69443563a0b",
+        "model": "g213",
+        "name": "LOGITECH G213 GAMING",
+        "store": "Mercular",
+        "brand": "Logitech",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": " LOGITECH G213 PRODIGY GAMING KEYBOARD TH",
+            "price": 1149,
+            "href": "https://www.mercular.com/logitech-g213-prodigy-gaming-keyboard",
+            "image": "https://mercular.s3.ap-southeast-1.amazonaws.com/upload/products/2018/05/%E0%B8%84%E0%B8%B5%E0%B8%A2%E0%B9%8C%E0%B8%9A%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%94-Logitech-G213-Prodigy-Gaming-Keyboard.jpg",
+            "spec": {
+              "interface": "usb",
+              "switch": "Rubber Dome",
+              "layout": "Full-Size",
+              "dimension": "",
+              "support": ""
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "61464cc30f94c69443563a4e",
+    "key": "k110",
+    "name": "HP GAMING K110",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c694435639ab",
+        "model": "k110",
+        "name": "HP GAMING K110",
+        "store": "Advice",
+        "brand": "Hp",
+        "category": "Keyboard",
+        "tag": "Working",
+        "data": [
+          {
+            "name": "USB KEYBOARD HP GAMING K110 BLACK",
+            "price": 365,
+            "href": "https://www.advice.co.th/product/keyboard/hp/usb-keyboard-hp-gaming-k110-black",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0131629/A0131629OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "",
+              "layout": "104 Keys",
+              "dimension": "(W x D x H) : 19.22 x 46.37 x 33.09 cm",
+              "support": "Windows 7 / 8.1 / 10\nMac OS 10.3 or later"
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc30f94c69443563a4f",
+    "key": "k500f",
+    "name": "HP GAMING K500F",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c694435639ac",
+        "model": "k500f",
+        "name": "HP GAMING K500F",
+        "store": "Advice",
+        "brand": "Hp",
+        "category": "Keyboard",
+        "tag": "Working",
+        "data": [
+          {
+            "name": "USB KEYBOARD HP GAMING K500F BLACK",
+            "price": 365,
+            "href": "https://www.advice.co.th/product/keyboard/hp/usb-keyboard-hp-gaming-k500f-black",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0130873/A0130873OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "",
+              "layout": "104 Keys",
+              "dimension": "(W x D x H) : 44.00 x 13.50 x 3.51 cm",
+              "support": "Microsoft Windows 7 / 8 / 10"
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc30f94c69443563a50",
+    "key": "k120",
+    "name": "HP GAMING K120",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c694435639ad",
+        "model": "k120",
+        "name": "HP GAMING K120",
+        "store": "Advice",
+        "brand": "Hp",
+        "category": "Keyboard",
+        "tag": "Working",
+        "data": [
+          {
+            "name": "USB KEYBOARD HP GAMING K120 BLACK",
+            "price": 405,
+            "href": "https://www.advice.co.th/product/keyboard/hp/usb-keyboard-hp-gaming-k120-black",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0138691/A0138691OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "",
+              "layout": "104 Keys",
+              "dimension": "(W x D x H) : 41.60 x 15.30 x 2.60 cm",
+              "support": ""
+            }
+          },
+          {
+            "name": "USB KEYBOARD LOGITECH (K120) BLACK",
+            "price": 270,
+            "href": "https://www.advice.co.th/product/keyboard/logitech/usb-keyboard-logitech-k120-black",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0035187/A0035187OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "",
+              "layout": "104 key",
+              "dimension": "",
+              "support": ""
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [
+      {
+        "_id": "61464cc30f94c694435639ec",
+        "model": "k120",
+        "name": "HP GAMING K120",
+        "store": "Banana",
+        "brand": "Logitech",
+        "category": "Keyboard",
+        "tag": "Working",
+        "data": [
+          {
+            "name": "LOGITECH WIRED KEYBOARD USB K120 (TH/EN)",
+            "price": 259,
+            "href": "https://www.bnn.in.th/th/p/it-accessories/mouse-and-keyboards/keyboard-and-numpad/logitech-wired-keyboard-usb-k120-then-097855067128_pdm1ld",
+            "image": "https://media-cdn.bnn.in.th/4402/9785506712-0001-square_medium.jpg",
+            "spec": {
+              "interface": "USB Compatible",
+              "switch": "",
+              "layout": "",
+              "dimension": "45 x 15.5 x 2.3 cm.",
+              "support": "Windows XP, Windows Vista or Windows 7, Linux kernel 2.6+"
+            }
+          }
+        ]
+      }
+    ],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc30f94c69443563a51",
+    "key": "k300",
+    "name": "HP GAMING K300",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c694435639ae",
+        "model": "k300",
+        "name": "HP GAMING K300",
+        "store": "Advice",
+        "brand": "Hp",
+        "category": "Keyboard",
+        "tag": "Working",
+        "data": [
+          {
+            "name": "USB KEYBOARD HP GAMING K300",
+            "price": 415,
+            "href": "https://www.advice.co.th/product/keyboard/hp/usb-keyboard-hp-gaming-k300",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0123531/A0123531OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "Non-Mechanical",
+              "layout": "104 Keys",
+              "dimension": "",
+              "support": ""
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc30f94c69443563a52",
+    "key": "kb216",
+    "name": "DELL KB216",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c694435639af",
+        "model": "kb216",
+        "name": "DELL KB216",
+        "store": "Advice",
+        "brand": "Dell",
+        "category": "Keyboard",
+        "tag": "Working",
+        "data": [
+          {
+            "name": "USB KEYBOARD DELL (KB216) BLACK",
+            "price": 195,
+            "href": "https://www.advice.co.th/product/keyboard/dell/usb-keyboard-dell-kb216-black",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0137743/A0137743OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "",
+              "layout": "104 Keys",
+              "dimension": "(W x D x H) : 12.70 x 44.19 x 2.54 cm",
+              "support": ""
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc30f94c69443563a53",
+    "key": "k375s",
+    "name": "USB WIRELESS/BLUETOOTH LOGITECH (K375S)",
+    "category": "keyboard",
+    "advice": [],
+    "banana": [
+      {
+        "_id": "61464cc30f94c694435639ed",
+        "model": "k375s",
+        "name": "USB WIRELESS/BLUETOOTH LOGITECH (K375S)",
+        "store": "Banana",
+        "brand": "Logitech",
+        "category": "Keyboard",
+        "tag": "Working",
+        "data": [
+          {
+            "name": "LOGITECH WIRELESS KEYBOARD + STAND MULTI-DEVICE K375S (TH/EN)",
+            "price": 790,
+            "href": "https://www.bnn.in.th/th/p/it-accessories/mouse-and-keyboards/keyboard-and-numpad/logitech-wireless-keyboard-stand-multi-device-k375s-then-097855125484_yzwxwr",
+            "image": "https://media-cdn.bnn.in.th/4648/097855125484-2-square_medium.jpg",
+            "spec": {
+              "interface": "Wireless",
+              "switch": "",
+              "layout": "",
+              "dimension": "2.05 x 43.5 x 13.75 cm.",
+              "support": "Windows 7, Windows 8, Windows 10 or laterAndroid 5.0Mac OS X 10.1"
+            }
+          }
+        ]
+      }
+    ],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc30f94c69443563a54",
+    "key": "lgk400",
+    "name": "USB WIRELESS TOUCH KEYBOARD LOGITECH LG-K400 PLUS",
+    "category": "keyboard",
+    "advice": [],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc30f94c69443563a55",
+    "key": "k480",
+    "name": "BLUETOOTH KEYBOARD MULTI-DEVICE LOGITECH K480 ",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c694435639b0",
+        "model": "k480",
+        "name": "BLUETOOTH KEYBOARD MULTI-DEVICE LOGITECH K480 ",
+        "store": "Advice",
+        "brand": "Logitech",
+        "category": "Keyboard",
+        "tag": "Working",
+        "data": [
+          {
+            "name": "BLUETOOTH KEYBOARD MULTI-DEVICE LOGITECH K480 BLACK",
+            "price": 1160,
+            "href": "https://www.advice.co.th/product/keyboard/logitech/bluetooth-keyboard-multi-device-logitech-k480-black",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0082709/A0082709OK_BIG_1.jpg",
+            "spec": {
+              "interface": "BLUETOOTH",
+              "switch": "",
+              "layout": "82 Keys (EN\\TH)",
+              "dimension": "",
+              "support": "Windows, Mac OS, Android และ iOS"
+            }
+          },
+          {
+            "name": "BLUETOOTH KEYBOARD MULTI-DEVICE LOGITECH K480 WHITE",
+            "price": 1160,
+            "href": "https://www.advice.co.th/product/keyboard/logitech/bluetooth-keyboard-multi-device-logitech-k480-white",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0083367/A0083367OK_BIG_1.jpg",
+            "spec": {
+              "interface": "BLUETOOTH",
+              "switch": "",
+              "layout": "82 Keys (EN\\TH)",
+              "dimension": "",
+              "support": "Windows, Mac OS, Android และ iOS"
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [
+      {
+        "_id": "61464cc30f94c694435639eb",
+        "model": "k480",
+        "name": "BLUETOOTH KEYBOARD MULTI-DEVICE LOGITECH K480 ",
+        "store": "Banana",
+        "brand": "Logitech",
+        "category": "Keyboard",
+        "tag": "Working",
+        "data": [
+          {
+            "name": "LOGITECH BLUETOOTH KEYBOARD MULTI-DEVICE K480 BLACK (TH/EN)",
+            "price": 1350,
+            "href": "https://www.bnn.in.th/th/p/it-accessories/mouse-and-keyboards/keyboard-and-numpad/logitech-bluetooth-keyboard-multi-device-k480-black-then-097855115423_ydl9nd",
+            "image": "https://media-cdn.bnn.in.th/4535/97855115423-0006-square_medium.jpg",
+            "spec": {
+              "interface": "Bluetooth",
+              "switch": "",
+              "layout": "",
+              "dimension": "29.9 x 2.0 x 19.5 cm.",
+              "support": "Windows 7, Windows 8, Windows 10, Mac OS X or later, Chrome OS"
+            }
+          },
+          {
+            "name": "LOGITECH BLUETOOTH KEYBOARD MULTI-DEVICE K480 WHITE (TH/EN)",
+            "price": 1350,
+            "href": "https://www.bnn.in.th/th/p/it-accessories/mouse-and-keyboards/keyboard-and-numpad/logitech-bluetooth-keyboard-multi-device-k480-white-then-097855115430_gz3k6d",
+            "image": "https://media-cdn.bnn.in.th/4541/97855115430-666-square_medium.jpg",
+            "spec": {
+              "interface": "Bluetooth wireless",
+              "switch": "",
+              "layout": "",
+              "dimension": "29.9 x 2.0 x 19.5 cm.",
+              "support": "Windows 7, Windows 8, Windows 10, Mac OS X or later, Chrome OS"
+            }
+          }
+        ]
+      }
+    ],
+    "mercular": [
+      {
+        "_id": "61464cc30f94c69443563a0e",
+        "model": "k480",
+        "name": "BLUETOOTH KEYBOARD MULTI-DEVICE LOGITECH K480 ",
+        "store": "Mercular",
+        "brand": "Logitech",
+        "category": "Keyboard",
+        "tag": "Working",
+        "data": [
+          {
+            "name": "ไร้สาย LOGITECH K480 MULTI-DEVICE KEYBOARD",
+            "price": 1190,
+            "href": "https://www.mercular.com/logitech-k480-multi-device-wireless-keyboard?sku=1532026000001",
+            "image": "https://mercular.s3.ap-southeast-1.amazonaws.com/upload/products/2018/05/%E0%B8%84%E0%B8%B5%E0%B8%A2%E0%B9%8C%E0%B8%9A%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%94%E0%B9%84%E0%B8%A3%E0%B9%89%E0%B8%AA%E0%B8%B2%E0%B8%A2-Logitech-K480-Multi-Device-Keyboard.jpg",
+            "spec": {
+              "interface": "wireless",
+              "switch": "Rubber Dome",
+              "layout": "Compact",
+              "dimension": "",
+              "support": ""
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "61464cc30f94c69443563a56",
+    "key": "n9z00027",
+    "name": "USB WIRELESS ALL-IN-ONE MEDIA MICROSOFT BLACK N9Z-00027",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c694435639b1",
+        "model": "n9z00027",
+        "name": "USB WIRELESS ALL-IN-ONE MEDIA MICROSOFT BLACK N9Z-00027",
+        "store": "Advice",
+        "brand": "Microsoft",
+        "category": "Keyboard",
+        "tag": "Working",
+        "data": [
+          {
+            "name": "USB WIRELESS ALL-IN-ONE MEDIA MICROSOFT BLACK 'N9Z-00027'",
+            "price": 1145,
+            "href": "https://www.advice.co.th/product/keyboard/microsoft/usb-wireless-all-in-one-media-microsoft-black-n9z-00027-",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0088241/A0088241OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "",
+              "layout": "",
+              "dimension": "",
+              "support": "Windows 10, Windows 8.1, Windows® 8, Windows RT 8.1,\nWindows RT 8, Windows 7"
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc30f94c69443563a57",
+    "key": "qsz00027",
+    "name": "BLUETOOTH KEYBOARD MICROSOFT BLACK QSZ-00027",
+    "category": "keyboard",
+    "advice": [],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc30f94c69443563a58",
+    "key": "nk1800",
+    "name": "USB KEYBOARD RAPOO (NK1800)",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c694435639b2",
+        "model": "nk1800",
+        "name": "USB KEYBOARD RAPOO (NK1800)",
+        "store": "Advice",
+        "brand": "Rapoo",
+        "category": "Keyboard",
+        "tag": "Working",
+        "data": [
+          {
+            "name": "USB KEYBOARD RAPOO (NK1800) BLACK",
+            "price": 240,
+            "href": "https://www.advice.co.th/product/keyboard/rapoo/usb-keyboard-rapoo-nk1800-black",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0130480/A0130480OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "",
+              "layout": "104 Keys",
+              "dimension": "",
+              "support": ""
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc30f94c69443563a59",
+    "key": "kbe1050-bk",
+    "name": "USB WIRELESS KEYBOARD RAPOO (KB-E1050-BK)",
+    "category": "keyboard",
+    "advice": [],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc30f94c69443563a5a",
+    "key": "kbk2800-bk",
+    "name": "USB WIRELESS KEYBOARD RAPOO (KB-K2800-BK)",
+    "category": "keyboard",
+    "advice": [],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc30f94c69443563a5b",
+    "key": "xk100bk",
+    "name": "BLUETOOTH KEYBOARD RAPOO (XK100-BK) BLACK",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c694435639b5",
+        "model": "xk100bk",
+        "name": "BLUETOOTH KEYBOARD RAPOO (XK100-BK) BLACK",
+        "store": "Advice",
+        "brand": "Rapoo",
+        "category": "Keyboard",
+        "tag": "Working",
+        "data": [
+          {
+            "name": "BLUETOOTH KEYBOARD RAPOO (XK100-BK) BLACK",
+            "price": 725,
+            "href": "https://www.advice.co.th/product/keyboard/rapoo/bluetooth-keyboard-rapoo-xk100-bk-black",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0135150/A0135150OK_BIG_1.jpg",
+            "spec": {
+              "interface": "Bluetooth",
+              "switch": "",
+              "layout": "78 Keys",
+              "dimension": "",
+              "support": ""
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc30f94c69443563a5c",
+    "key": "kb103",
+    "name": "USB KEYBOARD LECOO (KB103)",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c694435639b6",
+        "model": "kb103",
+        "name": "USB KEYBOARD LECOO (KB103)",
+        "store": "Advice",
+        "brand": "Lecoo",
+        "category": "Keyboard",
+        "tag": "Working",
+        "data": [
+          {
+            "name": "USB KEYBOARD LECOO (KB103) BLACK BY LENOVO",
+            "price": 200,
+            "href": "https://www.advice.co.th/product/keyboard/lecoo-by-lenovo/usb-keyboard-lecoo-kb103-black-by-lenovo",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0137831/A0137831OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "",
+              "layout": "103 Keys",
+              "dimension": "(W x D x H) : 15.60 x 43.00 x 2.50 cm",
+              "support": ""
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc30f94c69443563a5d",
+    "key": "kb210m",
+    "name": "USB KEYBOARD MINI MD-TECH (KB-210M)",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c694435639b7",
+        "model": "kb210m",
+        "name": "USB KEYBOARD MINI MD-TECH (KB-210M)",
+        "store": "Advice",
+        "brand": "Md-tech",
+        "category": "Keyboard",
+        "tag": "Working",
+        "data": [
+          {
+            "name": "USB KEYBOARD MINI MD-TECH (KB-210M) BLACK",
+            "price": 170,
+            "href": "https://www.advice.co.th/product/keyboard/md-tech/usb-keyboard-mini-md-tech-kb-210m-black",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0110649/A0110649OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "",
+              "layout": "83 Key",
+              "dimension": "",
+              "support": "Windows XP / 2000 / Vista /10 /MAC OS"
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc30f94c69443563a5e",
+    "key": "kb19",
+    "name": "USB KEYBOARD MD-TECH (KB-19) BLACK",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c694435639b8",
+        "model": "kb19",
+        "name": "USB KEYBOARD MD-TECH (KB-19) BLACK",
+        "store": "Advice",
+        "brand": "Md-tech",
+        "category": "Keyboard",
+        "tag": "Working",
+        "data": [
+          {
+            "name": "USB KEYBOARD MD-TECH (KB-19) BLACK",
+            "price": 125,
+            "href": "https://www.advice.co.th/product/keyboard/md-tech/usb-keyboard-md-tech-kb-19-black",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0137310/A0137310OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "",
+              "layout": "104 Keys",
+              "dimension": "",
+              "support": ""
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc30f94c69443563a5f",
+    "key": "kb674",
+    "name": "USB KEYBOARD MD-TECH (KB-674)",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c694435639b9",
+        "model": "kb674",
+        "name": "USB KEYBOARD MD-TECH (KB-674)",
+        "store": "Advice",
+        "brand": "Md-tech",
+        "category": "Keyboard",
+        "tag": "Working",
+        "data": [
+          {
+            "name": "USB KEYBOARD MD-TECH (KB-674) BLACK/RED",
+            "price": 130,
+            "href": "https://www.advice.co.th/product/keyboard/md-tech/usb-keyboard-md-tech-kb-674-black-red",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0128744/A0128744OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB 2.0",
+              "switch": "RUBBER",
+              "layout": "104 Key",
+              "dimension": "",
+              "support": "Windows XP/Vista/7/8/10/Mac/Linux"
+            }
+          },
+          {
+            "name": "USB KEYBOARD MD-TECH (KB-674) BLACK/BLUE",
+            "price": 130,
+            "href": "https://www.advice.co.th/product/keyboard/md-tech/usb-keyboard-md-tech-kb-674-black-blue",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0128745/A0128745OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB 2.0",
+              "switch": "RUBBER",
+              "layout": "104 Key",
+              "dimension": "",
+              "support": "Windows XP/Vista/7/8/10/Mac/Linux"
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc30f94c69443563a60",
+    "key": "kb667",
+    "name": "USB KEYBOARD MD-TECH (KB-667) ",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c694435639ba",
+        "model": "kb667",
+        "name": "USB KEYBOARD MD-TECH (KB-667) ",
+        "store": "Advice",
+        "brand": "Md-tech",
+        "category": "Keyboard",
+        "tag": "Working",
+        "data": [
+          {
+            "name": "USB KEYBOARD MD-TECH (KB-667) BLACK",
+            "price": 140,
+            "href": "https://www.advice.co.th/product/keyboard/md-tech/usb-keyboard-md-tech-kb-667-black",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0135149/A0135149OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "",
+              "layout": "104 Keys",
+              "dimension": "(W x D x H) : 45.50 x 14.00 x 2.00 cm",
+              "support": "Windows XP, Vista, 7, 8, 10"
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc40f94c69443563a61",
+    "key": "kb670",
+    "name": "USB KEYBOARD MD-TECH (KB-670)",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c694435639bb",
+        "model": "kb670",
+        "name": "USB KEYBOARD MD-TECH (KB-670)",
+        "store": "Advice",
+        "brand": "Md-tech",
+        "category": "Keyboard",
+        "tag": "Working",
+        "data": [
+          {
+            "name": "USB KEYBOARD MD-TECH (KB-670) BLACK",
+            "price": 140,
+            "href": "https://www.advice.co.th/product/keyboard/md-tech/usb-keyboard-md-tech-kb-670-black",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0083281/A0083281OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "",
+              "layout": "104 Keys",
+              "dimension": "",
+              "support": ""
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc40f94c69443563a62",
+    "key": "kb310m",
+    "name": "USB KEYBOARD MD-TECH (KB-310M)",
+    "category": "keyboard",
+    "advice": [],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc40f94c69443563a63",
+    "key": "kb666",
+    "name": "USB KEYBOARD MD-TECH (KB-666)",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c694435639bc",
+        "model": "kb666",
+        "name": "USB KEYBOARD MD-TECH (KB-666)",
+        "store": "Advice",
+        "brand": "Md-tech",
+        "category": "Keyboard",
+        "tag": "Working",
+        "data": [
+          {
+            "name": "USB KEYBOARD MD-TECH (KB-666) BLACK",
+            "price": 165,
+            "href": "https://www.advice.co.th/product/keyboard/md-tech/usb-keyboard-md-tech-kb-666-black",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0024196/A0024196OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "",
+              "layout": "107 Keys",
+              "dimension": "",
+              "support": ""
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc40f94c69443563a64",
+    "key": "kb111",
+    "name": "USB KEYBOARD MD-TECH (KB-111)",
+    "category": "keyboard",
+    "advice": [],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc40f94c69443563a65",
+    "key": "kb15",
+    "name": "USB KEYBOARD MD-TECH (KB-15)",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c694435639bd",
+        "model": "kb15",
+        "name": "USB KEYBOARD MD-TECH (KB-15)",
+        "store": "Advice",
+        "brand": "Md-tech",
+        "category": "Keyboard",
+        "tag": "Working",
+        "data": [
+          {
+            "name": "USB KEYBOARD MD-TECH (KB-15) BLACK/GREEN",
+            "price": 170,
+            "href": "https://www.advice.co.th/product/keyboard/md-tech/usb-keyboard-md-tech-kb-15-black-green",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0105612/A0105612OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB 2.0",
+              "switch": "",
+              "layout": "104 Key",
+              "dimension": "",
+              "support": "Windows 10, 98,Mac"
+            }
+          },
+          {
+            "name": "USB KEYBOARD MD-TECH (KB-15) BLACK/WHITE",
+            "price": 170,
+            "href": "https://www.advice.co.th/product/keyboard/md-tech/usb-keyboard-md-tech-kb-15-black-white",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0105613/A0105613OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB 2.0",
+              "switch": "",
+              "layout": "104 Key",
+              "dimension": "",
+              "support": "Windows 10, 98,Mac"
+            }
+          },
+          {
+            "name": "USB KEYBOARD MD-TECH (KB-15) BLACK/BLUE",
+            "price": 170,
+            "href": "https://www.advice.co.th/product/keyboard/md-tech/usb-keyboard-md-tech-kb-15-black-blue",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0105611/A0105611OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB 2.0",
+              "switch": "",
+              "layout": "104 Key",
+              "dimension": "",
+              "support": "Windows 10, 98,Mac"
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc40f94c69443563a66",
+    "key": "kb319m",
+    "name": "USB KEYBOARD MD-TECH (KB-319M )",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c694435639be",
+        "model": "kb319m",
+        "name": "USB KEYBOARD MD-TECH (KB-319M )",
+        "store": "Advice",
+        "brand": "Md-tech",
+        "category": "Keyboard",
+        "tag": "Working",
+        "data": [
+          {
+            "name": "USB KEYBOARD MD-TECH (KB-319M ) BLACK",
+            "price": 180,
+            "href": "https://www.advice.co.th/product/keyboard/md-tech/usb-keyboard-md-tech-kb-319m-black",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0132251/A0132251OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "",
+              "layout": "116 Keys",
+              "dimension": "(W x D x H) : 44.80 x 16.80 x 2.96 cm",
+              "support": "Windows 10 / 8 / 7 / Visto / XP\nChrome OS\nLinux Kernel 2.6+"
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc40f94c69443563a67",
+    "key": "kb222m",
+    "name": "USB KEYBOARD MD-TECH (KB-222M)",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c694435639bf",
+        "model": "kb222m",
+        "name": "USB KEYBOARD MD-TECH (KB-222M)",
+        "store": "Advice",
+        "brand": "Md-tech",
+        "category": "Keyboard",
+        "tag": "Working",
+        "data": [
+          {
+            "name": "USB KEYBOARD MD-TECH (KB-222M) BLACK/RED",
+            "price": 180,
+            "href": "https://www.advice.co.th/product/keyboard/md-tech/usb-keyboard-md-tech-kb-222m-black-red",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0104149/A0104149OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "",
+              "layout": "111 Keys",
+              "dimension": "",
+              "support": "Windows 10 /MAC OS"
+            }
+          },
+          {
+            "name": "USB KEYBOARD MD-TECH (KB-222M) BLACK/BLUE",
+            "price": 180,
+            "href": "https://www.advice.co.th/product/keyboard/md-tech/usb-keyboard-md-tech-kb-222m-black-blue",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0101324/A0101324OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "",
+              "layout": "111 Keys",
+              "dimension": "",
+              "support": "Windows 10 /MAC OS"
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc40f94c69443563a68",
+    "key": "k5",
+    "name": "USB KEYBOARD MD-TECH (K-5)",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c694435639c0",
+        "model": "k5",
+        "name": "USB KEYBOARD MD-TECH (K-5)",
+        "store": "Advice",
+        "brand": "Md-tech",
+        "category": "Keyboard",
+        "tag": "Working",
+        "data": [
+          {
+            "name": "USB KEYBOARD MD-TECH (K-5) BLACK",
+            "price": 220,
+            "href": "https://www.advice.co.th/product/keyboard/md-tech/usb-keyboard-md-tech-k-5-black",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0122446/A0122446OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "",
+              "layout": "104 Keys",
+              "dimension": "",
+              "support": "Windows 10/ 8 / 7 / Vista / XP/ Linux / Mac OS"
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [
+      {
+        "_id": "61464cc30f94c694435639e9",
+        "model": "k5",
+        "name": "USB KEYBOARD MD-TECH (K-5)",
+        "store": "Banana",
+        "brand": "Logitech",
+        "category": "Keyboard",
+        "tag": "Working",
+        "data": [
+          {
+            "name": "LOGITECH BLUETOOTH AND WIRELESS KEYBOARD MULTI-DEVICE K580 SLIM OFF WHITE (EN)",
+            "price": 1490,
+            "href": "https://www.bnn.in.th/th/p/it-accessories/mouse-and-keyboards/keyboard-and-numpad/logitech-bluetooth-and-wireless-keyboard-multi-device-k580-slim-off-white-en-097855152237_d5113r",
+            "image": "https://media-cdn.bnn.in.th/4916/Logitech-Bluetooth-6-square_medium.jpg",
+            "spec": {
+              "interface": "Blutooth and Wireless",
+              "switch": "",
+              "layout": "",
+              "dimension": "37.35 x 14.39 x 2.13 cm.",
+              "support": "Windows 7 and above, macOS 10.11 and above, Linux,1 Android 6 or late"
+            }
+          },
+          {
+            "name": "LOGITECH BLUETOOTH AND WIRELESS KEYBOARD MULTI-DEVICE K580 SLIM GRAPHITE (EN)",
+            "price": 1490,
+            "href": "https://www.bnn.in.th/th/p/it-accessories/mouse-and-keyboards/keyboard-and-numpad/logitech-bluetooth-and-wireless-keyboard-multi-device-k580-slim-graphite-en-097855152220_zjgg8z",
+            "image": "https://media-cdn.bnn.in.th/4910/Logitech-Bluetooth-4-square_medium.jpg",
+            "spec": {
+              "interface": "Blutooth and Wireless",
+              "switch": "",
+              "layout": "",
+              "dimension": "37.35 x 14.39 x 2.13 cm.",
+              "support": "Windows 7 and above, macOS 10.11 and above, Linux,1 Android 6 or late"
+            }
+          }
+        ]
+      }
+    ],
+    "mercular": [
+      {
+        "_id": "61464cc30f94c69443563a10",
+        "model": "k5",
+        "name": "USB KEYBOARD MD-TECH (K-5)",
+        "store": "Mercular",
+        "brand": "Logitech",
+        "category": "Keyboard",
+        "tag": "Working",
+        "data": [
+          {
+            "name": "ไร้สาย LOGITECH K580 MULTI DEVICE WIRELESS KEYBOARD",
+            "price": 1890,
+            "href": "https://www.mercular.com/logitech-k580-multi-device-wireless-keyboard",
+            "image": "https://mercular.s3.ap-southeast-1.amazonaws.com/images/products/2020/10/1/K580black-1.jpg",
+            "spec": {
+              "interface": "wireless",
+              "switch": "",
+              "layout": "Compact",
+              "dimension": "",
+              "support": ""
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "61464cc40f94c69443563a69",
+    "key": "nk35",
+    "name": "USB KEYBOARD MINI NUBWO (NK-35)",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c694435639c1",
+        "model": "nk35",
+        "name": "USB KEYBOARD MINI NUBWO (NK-35)",
+        "store": "Advice",
+        "brand": "Nubwo",
+        "category": "Keyboard",
+        "tag": "Working",
+        "data": [
+          {
+            "name": "USB KEYBOARD MINI NUBWO (NK-35) BLACK",
+            "price": 140,
+            "href": "https://www.advice.co.th/product/keyboard/nubwo/usb-keyboard-mini-nubwo-nk-35-black",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0135629/A0135629OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "",
+              "layout": "78 Keys",
+              "dimension": "(W x D x H) : 13.00 x 28.50 x 2.50 cm",
+              "support": ""
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc40f94c69443563a6a",
+    "key": "nk38",
+    "name": "USB KEYBOARD MINI NUBWO (NK-38)",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c694435639c2",
+        "model": "nk38",
+        "name": "USB KEYBOARD MINI NUBWO (NK-38)",
+        "store": "Advice",
+        "brand": "Nubwo",
+        "category": "Keyboard",
+        "tag": "Working",
+        "data": [
+          {
+            "name": "USB KEYBOARD MINI NUBWO (NK-38) 'WIZARDY' BLACK",
+            "price": 315,
+            "href": "https://www.advice.co.th/product/keyboard/nubwo/usb-keyboard-mini-nubwo-nk-38-wizardy-black",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0138783/A0138783OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "N/A",
+              "layout": "61 Key",
+              "dimension": "(W x D x H) : 30.00 x 11.00 x 3.30 cm",
+              "support": "Windows 7, 8, 10, etc"
+            }
+          },
+          {
+            "name": "USB KEYBOARD MINI NUBWO (NK-38) 'WIZARDY' WHITE",
+            "price": 345,
+            "href": "https://www.advice.co.th/product/keyboard/nubwo/usb-keyboard-mini-nubwo-nk-38-wizardy-white",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0138784/A0138784OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "N/A",
+              "layout": "61 Key",
+              "dimension": "(W x D x H) : 30.00 x 11.00 x 3.30 cm",
+              "support": "Windows 7, 8, 10, etc"
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc40f94c69443563a6b",
+    "key": "nk15",
+    "name": "USB KEYBOARD NUBWO (NK-15)",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c694435639c3",
+        "model": "nk15",
+        "name": "USB KEYBOARD NUBWO (NK-15)",
+        "store": "Advice",
+        "brand": "Nubwo",
+        "category": "Keyboard",
+        "tag": "Working",
+        "data": [
+          {
+            "name": "USB KEYBOARD NUBWO (NK-15 QUIET) BLACK/RED",
+            "price": 150,
+            "href": "https://www.advice.co.th/product/keyboard/nubwo/usb-keyboard-nubwo-nk-15-quiet-black-red",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0102943/A0102943OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "",
+              "layout": "104 key",
+              "dimension": "",
+              "support": "Windows / MACos"
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc40f94c69443563a6c",
+    "key": "nk25",
+    "name": "USB KEYBOARD NUBWO (NK-25) ",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c694435639c4",
+        "model": "nk25",
+        "name": "USB KEYBOARD NUBWO (NK-25) ",
+        "store": "Advice",
+        "brand": "Nubwo",
+        "category": "Keyboard",
+        "tag": "Working",
+        "data": [
+          {
+            "name": "USB KEYBOARD NUBWO (NK-25) 'AZALIA' BLACK",
+            "price": 155,
+            "href": "https://www.advice.co.th/product/keyboard/nubwo/usb-keyboard-nubwo-nk-25-azalia-black",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0137666/A0137666OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "Rubber Dome",
+              "layout": "104 Keys",
+              "dimension": "",
+              "support": ""
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc40f94c69443563a6d",
+    "key": "nk36",
+    "name": "USB KEYBOARD NUBWO (NK-36)",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c694435639c5",
+        "model": "nk36",
+        "name": "USB KEYBOARD NUBWO (NK-36)",
+        "store": "Advice",
+        "brand": "Nubwo",
+        "category": "Keyboard",
+        "tag": "Working",
+        "data": [
+          {
+            "name": "USB KEYBOARD NUBWO (NK-36) 'MARS' BLACK",
+            "price": 200,
+            "href": "https://www.advice.co.th/product/keyboard/nubwo/usb-keyboard-nubwo-nk-36-mars-black",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0136035/A0136035OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "Rubber Dome Switches",
+              "layout": "104 Keys",
+              "dimension": "",
+              "support": ""
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc40f94c69443563a6e",
+    "key": "nk032fortune",
+    "name": "USB KEYBOARD NUBWO (NK-032 FORTUNE)",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c694435639c6",
+        "model": "nk032fortune",
+        "name": "USB KEYBOARD NUBWO (NK-032 FORTUNE)",
+        "store": "Advice",
+        "brand": "Nubwo",
+        "category": "Keyboard",
+        "tag": "Working",
+        "data": [
+          {
+            "name": "USB KEYBOARD NUBWO (NK-032 FORTUNE) SILVER/BLACK",
+            "price": 340,
+            "href": "https://www.advice.co.th/product/keyboard/nubwo/usb-keyboard-nubwo-nk-032-fortune-silver-black",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0122608/A0122608OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "",
+              "layout": "104 Keys",
+              "dimension": "",
+              "support": "Windows 7/8/10/MAC ETC."
+            }
+          },
+          {
+            "name": "USB KEYBOARD NUBWO (NK-032 FORTUNE) SILVER/WHITE",
+            "price": 340,
+            "href": "https://www.advice.co.th/product/keyboard/nubwo/usb-keyboard-nubwo-nk-032-fortune-silver-white",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0122609/A0122609OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "",
+              "layout": "104 Keys",
+              "dimension": "",
+              "support": "Windows 7/8/10/MAC ETC."
+            }
+          },
+          {
+            "name": "USB KEYBOARD NUBWO (NK-032 FORTUNE) PINK/WHITE",
+            "price": 459,
+            "href": "https://www.advice.co.th/product/keyboard/nubwo/usb-keyboard-nubwo-nk-032-fortune-pink-white",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0132005/A0132005OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "",
+              "layout": "104 Keys",
+              "dimension": "",
+              "support": ""
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc40f94c69443563a6f",
+    "key": "nk34",
+    "name": "USB KEYBOARD NUBWO (NK-34)",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c694435639c7",
+        "model": "nk34",
+        "name": "USB KEYBOARD NUBWO (NK-34)",
+        "store": "Advice",
+        "brand": "Nubwo",
+        "category": "Keyboard",
+        "tag": "Working",
+        "data": [
+          {
+            "name": "USB KEYBOARD NUBWO (NK-34) 'FLICKER' BLACK",
+            "price": 729,
+            "href": "https://www.advice.co.th/product/keyboard/nubwo/usb-keyboard-nubwo-nk-34-flicker-black",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0136733/A0136733OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "Mechanical Switch",
+              "layout": "104 Keys",
+              "dimension": "",
+              "support": ""
+            }
+          },
+          {
+            "name": "USB KEYBOARD NUBWO (NK-34) 'FLICKER' ROSE GOLD",
+            "price": 729,
+            "href": "https://www.advice.co.th/product/keyboard/nubwo/usb-keyboard-nubwo-nk-34-flicker-rose-gold",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0136734/A0136734OK_BIG_1.jpg",
+            "spec": {
+              "interface": "",
+              "switch": "",
+              "layout": "",
+              "dimension": "",
+              "support": ""
+            }
+          },
+          {
+            "name": "USB KEYBOARD NUBWO (NK-34) 'FLICKER' SILVER/WHITE",
+            "price": 729,
+            "href": "https://www.advice.co.th/product/keyboard/nubwo/usb-keyboard-nubwo-nk-34-flicker-silver-white",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0136736/A0136736OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "Mechanical Switch",
+              "layout": "104 Keys",
+              "dimension": "",
+              "support": ""
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc40f94c69443563a70",
+    "key": "nkb100",
+    "name": "BLUETOOTH KEYBOARD NUBWO (NKB-100)",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c694435639c8",
+        "model": "nkb100",
+        "name": "BLUETOOTH KEYBOARD NUBWO (NKB-100)",
+        "store": "Advice",
+        "brand": "Nubwo",
+        "category": "Keyboard",
+        "tag": "Working",
+        "data": [
+          {
+            "name": "BLUETOOTH KEYBOARD NUBWO (NKB-100) BLACK",
+            "price": 230,
+            "href": "https://www.advice.co.th/product/keyboard/nubwo/bluetooth-keyboard-nubwo-nkb-100-black",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0123915/A0123915OK_BIG_1.jpg",
+            "spec": {
+              "interface": "Bluetooth",
+              "switch": "",
+              "layout": "78 Keys",
+              "dimension": "",
+              "support": "Android, IOS and Windows operating system."
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc40f94c69443563a71",
+    "key": "f6",
+    "name": "USB KEYBOARD MINI OKER (F6)",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c694435639c9",
+        "model": "f6",
+        "name": "USB KEYBOARD MINI OKER (F6)",
+        "store": "Advice",
+        "brand": "Oker",
+        "category": "Keyboard",
+        "tag": "Working",
+        "data": [
+          {
+            "name": "USB KEYBOARD MINI OKER (F6) WHITE",
+            "price": 150,
+            "href": "https://www.advice.co.th/product/keyboard/oker/usb-keyboard-mini-oker-f6-white",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0089114/A0089114OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB 2.0",
+              "switch": "",
+              "layout": "",
+              "dimension": "",
+              "support": "Win xp/2000/VISTA/7/8,MAC OS 10.3 and above version"
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc40f94c69443563a72",
+    "key": "f8",
+    "name": "USB KEYBOARD MINI OKER (F8)",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c694435639ca",
+        "model": "f8",
+        "name": "USB KEYBOARD MINI OKER (F8)",
+        "store": "Advice",
+        "brand": "Oker",
+        "category": "Keyboard",
+        "tag": "Working",
+        "data": [
+          {
+            "name": "USB KEYBOARD MINI OKER (F8) BLACK",
+            "price": 180,
+            "href": "https://www.advice.co.th/product/keyboard/oker/usb-keyboard-mini-oker-f8-black",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0071698/A0071698OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "",
+              "layout": "89 Keys",
+              "dimension": "",
+              "support": ""
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc40f94c69443563a73",
+    "key": "kb318",
+    "name": "USB KEYBOARD OKER (KB-318)",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c694435639cb",
+        "model": "kb318",
+        "name": "USB KEYBOARD OKER (KB-318)",
+        "store": "Advice",
+        "brand": "Oker",
+        "category": "Keyboard",
+        "tag": "Working",
+        "data": [
+          {
+            "name": "USB KEYBOARD OKER (KB-318) BLACK/BLUE",
+            "price": 125,
+            "href": "https://www.advice.co.th/product/keyboard/oker/usb-keyboard-oker-kb-318-black-blue",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0116844/A0116844OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "",
+              "layout": "104 Keys",
+              "dimension": "",
+              "support": "Windows XP / Windows 2000 / Windows Vista / Windows 7/8/10\nMac OS 10.3 และรุ่นที2สูงกว่า"
+            }
+          },
+          {
+            "name": "USB KEYBOARD OKER (KB-318) BLACK/ORANGE",
+            "price": 125,
+            "href": "https://www.advice.co.th/product/keyboard/oker/usb-keyboard-oker-kb-318-black-orange",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0116843/A0116843OK_BIG_1.jpg",
+            "spec": {
+              "interface": "",
+              "switch": "",
+              "layout": "",
+              "dimension": "",
+              "support": ""
+            }
+          },
+          {
+            "name": "USB KEYBOARD OKER (KB-318) BLACK/YELLOW",
+            "price": 125,
+            "href": "https://www.advice.co.th/product/keyboard/oker/usb-keyboard-oker-kb-318-black-yellow",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0116842/A0116842OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "",
+              "layout": "104 Keys",
+              "dimension": "",
+              "support": "Windows XP / Windows 2000 / Windows Vista / Windows 7/8/10\nMac OS 10.3 และรุ่นที2สูงกว่า"
+            }
+          },
+          {
+            "name": "USB KEYBOARD OKER (KB-318) BLACK",
+            "price": 125,
+            "href": "https://www.advice.co.th/product/keyboard/oker/usb-keyboard-oker-kb-318-black",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0116841/A0116841OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "",
+              "layout": "104 Keys",
+              "dimension": "",
+              "support": "Windows XP / Windows 2000 / Windows Vista / Windows 7/8/10\nMac OS 10.3 และรุ่นที2สูงกว่า"
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc40f94c69443563a74",
+    "key": "kb758",
+    "name": "USB KEYBOARD OKER (KB-758)",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c694435639cc",
+        "model": "kb758",
+        "name": "USB KEYBOARD OKER (KB-758)",
+        "store": "Advice",
+        "brand": "Oker",
+        "category": "Keyboard",
+        "tag": "Working",
+        "data": [
+          {
+            "name": "USB KEYBOARD OKER (KB-758) BLACK",
+            "price": 155,
+            "href": "https://www.advice.co.th/product/keyboard/oker/usb-keyboard-oker-kb-758-black",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0137542/A0137542OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "Standard",
+              "layout": "104 Keys",
+              "dimension": "",
+              "support": "Windows & Mac OS System"
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc40f94c69443563a75",
+    "key": "kb700",
+    "name": "USB KEYBOARD MD-TECH (KB-700)",
+    "category": "keyboard",
+    "advice": [],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc40f94c69443563a76",
+    "key": "kb399plus",
+    "name": "USB KEYBOARD OKER (KB-399 PLUS)",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c694435639cd",
+        "model": "kb399plus",
+        "name": "USB KEYBOARD OKER (KB-399 PLUS)",
+        "store": "Advice",
+        "brand": "Oker",
+        "category": "Keyboard",
+        "tag": "Working",
+        "data": [
+          {
+            "name": "USB KEYBOARD OKER (KB-399 PLUS) BLACK",
+            "price": 160,
+            "href": "https://www.advice.co.th/product/keyboard/oker/usb-keyboard-oker-kb-399-plus-black",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0134866/A0134866OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "N/A",
+              "layout": "104 Keys",
+              "dimension": "(W x D x H) : 45.00 x 15.50 x 2.20 cm",
+              "support": ""
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc40f94c69443563a77",
+    "key": "kb399",
+    "name": "USB KEYBOARD OKER (KB-399)",
+    "category": "keyboard",
+    "advice": [],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc40f94c69443563a78",
+    "key": "kb518",
+    "name": "USB KEYBOARD OKER (KB-518)",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c694435639ce",
+        "model": "kb518",
+        "name": "USB KEYBOARD OKER (KB-518)",
+        "store": "Advice",
+        "brand": "Oker",
+        "category": "Keyboard",
+        "tag": "Working",
+        "data": [
+          {
+            "name": "USB KEYBOARD OKER (KB-518) BLACK",
+            "price": 170,
+            "href": "https://www.advice.co.th/product/keyboard/oker/usb-keyboard-oker-kb-518-black",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0123532/A0123532OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "",
+              "layout": "104 Keys",
+              "dimension": "",
+              "support": ""
+            }
+          },
+          {
+            "name": "USB KEYBOARD OKER (KB-518) RED",
+            "price": 170,
+            "href": "https://www.advice.co.th/product/keyboard/oker/usb-keyboard-oker-kb-518-red",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0123534/A0123534OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "",
+              "layout": "104 Keys",
+              "dimension": "",
+              "support": ""
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc40f94c69443563a79",
+    "key": "kb789",
+    "name": "USB KEYBOARD OKER (KB-789)",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c694435639cf",
+        "model": "kb789",
+        "name": "USB KEYBOARD OKER (KB-789)",
+        "store": "Advice",
+        "brand": "Oker",
+        "category": "Keyboard",
+        "tag": "Working",
+        "data": [
+          {
+            "name": "USB KEYBOARD OKER (KB-789) PINK",
+            "price": 360,
+            "href": "https://www.advice.co.th/product/keyboard/oker/usb-keyboard-oker-kb-789-pink",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0134867/A0134867OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "N/A",
+              "layout": "104 Keys",
+              "dimension": "(W x D x H) : 45.10 x 14.50 x 3.80 cm",
+              "support": "Windows XP, VIsta, Win7, 8, 10"
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc40f94c69443563a7a",
+    "key": "kb911",
+    "name": "USB KEYBOARD OKER (KB-911)",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c694435639d0",
+        "model": "kb911",
+        "name": "USB KEYBOARD OKER (KB-911)",
+        "store": "Advice",
+        "brand": "Oker",
+        "category": "Keyboard",
+        "tag": "Working",
+        "data": [
+          {
+            "name": "USB KEYBOARD OKER (KB-911) PINK",
+            "price": 370,
+            "href": "https://www.advice.co.th/product/keyboard/oker/usb-keyboard-oker-kb-911-pink",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0137725/A0137725OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "",
+              "layout": "104 Keys",
+              "dimension": "(W x D x H) : 14.50 x 45.10 x 3.80 cm",
+              "support": "Windows XP, Vista, Win7, 8, 10"
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc40f94c69443563a7b",
+    "key": "kb912",
+    "name": "USB KEYBOARD OKER (KB-912)",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c694435639d1",
+        "model": "kb912",
+        "name": "USB KEYBOARD OKER (KB-912)",
+        "store": "Advice",
+        "brand": "Oker",
+        "category": "Keyboard",
+        "tag": "Working",
+        "data": [
+          {
+            "name": "USB KEYBOARD OKER (KB-912) PINK",
+            "price": 370,
+            "href": "https://www.advice.co.th/product/keyboard/oker/usb-keyboard-oker-kb-912-pink",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0137726/A0137726OK_BIG_1.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "",
+              "layout": "104 Keys",
+              "dimension": "(W x D x H) : 14.50 x 45.10 x 3.80 cm",
+              "support": "Windows XP, Vista, Win7, 8, 10"
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc40f94c69443563a7c",
+    "key": "k199",
+    "name": "USB WIRELESS KEYBOARD OKER (K-199)",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c694435639d2",
+        "model": "k199",
+        "name": "USB WIRELESS KEYBOARD OKER (K-199)",
+        "store": "Advice",
+        "brand": "Oker",
+        "category": "Keyboard",
+        "tag": "Working",
+        "data": [
+          {
+            "name": "USB WIRELESS KEYBOARD OKER (K-199) BLACK",
+            "price": 210,
+            "href": "https://www.advice.co.th/product/keyboard/oker/usb-wireless-keyboard-oker-k-199-black",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0138183/A0138183OK_BIG_1.jpg",
+            "spec": {
+              "interface": "",
+              "switch": "",
+              "layout": "",
+              "dimension": "",
+              "support": ""
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc40f94c69443563a7d",
+    "key": "k510",
+    "name": "BLUETOOTH KEYBOARD MULTI-DEVICE OKER (K-510)",
+    "category": "keyboard",
+    "advice": [
+      {
+        "_id": "61464cc30f94c694435639d3",
+        "model": "k510",
+        "name": "BLUETOOTH KEYBOARD MULTI-DEVICE OKER (K-510)",
+        "store": "Advice",
+        "brand": "Oker",
+        "category": "Keyboard",
+        "tag": "Working",
+        "data": [
+          {
+            "name": "BLUETOOTH KEYBOARD MULTI-DEVICE OKER (K-510) BLACK/WHITE",
+            "price": 890,
+            "href": "https://www.advice.co.th/product/keyboard/oker/bluetooth-keyboard-multi-device-oker-k-510-black-white",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0134693/A0134693OK_BIG_1.jpg",
+            "spec": {
+              "interface": "Bluetooth",
+              "switch": "N/A",
+              "layout": "Keys: 80 keys film shaft\nNumber of multimedia keys: 16 keys",
+              "dimension": "(W x D x H) : 35.88 x 18.70 x 3.18 cm",
+              "support": ""
+            }
+          },
+          {
+            "name": "BLUETOOTH KEYBOARD MULTI-DEVICE OKER (K-510) GREEN",
+            "price": 890,
+            "href": "https://www.advice.co.th/product/keyboard/oker/bluetooth-keyboard-multi-device-oker-k-510-green",
+            "image": "https://img.advice.co.th/images_nas/pic_product4/A0134695/A0134695OK_BIG_1.jpg",
+            "spec": {
+              "interface": "Bluetooth",
+              "switch": "N/A",
+              "layout": "Keys: 80 keys film shaft\nNumber of multimedia keys: 16 keys",
+              "dimension": "(W x D x H) : 35.88 x 18.70 x 3.18 cm",
+              "support": ""
+            }
+          }
+        ]
+      }
+    ],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc40f94c69443563a7e",
+    "key": "rogstrixscope",
+    "name": "ASUS GAMING KEYBOARD ROG STRIX SCOPE",
+    "category": "keyboard",
+    "advice": [],
+    "banana": [
+      {
+        "_id": "61464cc30f94c694435639d4",
+        "model": "rogstrixscope",
+        "name": "ASUS GAMING KEYBOARD ROG STRIX SCOPE",
+        "store": "Banana",
+        "brand": "Asus",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "ASUS GAMING KEYBOARD ROG STRIX SCOPE PBT/TH/BLUE SW",
+            "price": 3190,
+            "href": "https://www.bnn.in.th/th/p/gaming-gear/pc-gaming-accessories/gaming-keyboard/asus-gaming-keyboard-rog-strix-scope-pbtthblue-sw-4718017365741_dy6q2v",
+            "image": "https://media-cdn.bnn.in.th/116583/Asus-Gaming-Keyboard-ROG-Strix-Scope-PBT-Th-Blue-SW-3-square_medium.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "N/A",
+              "layout": "",
+              "dimension": "44.0x13.7x3.9 cm",
+              "support": "N/A"
+            }
+          },
+          {
+            "name": "ASUS GAMING KEYBOARD ROG STRIX SCOPE PBT/TH/RED SW",
+            "price": 3190,
+            "href": "https://www.bnn.in.th/th/p/gaming-gear/pc-gaming-accessories/gaming-keyboard/asus-gaming-keyboard-rog-strix-scope-pbtthred-sw-4718017365253_z32xjl",
+            "image": "https://media-cdn.bnn.in.th/116590/Asus-Gaming-Keyboard-ROG-Strix-Scope-PBT-Th-Red-SW-3-square_medium.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "N/A",
+              "layout": "",
+              "dimension": "44.0 x13.7 x 3.9 cm",
+              "support": "N/A"
+            }
+          },
+          {
+            "name": "ASUS GAMING KEYBOARD ROG STRIX SCOPE TKL ELECTRO PUNK",
+            "price": 3600,
+            "href": "https://www.bnn.in.th/th/p/gaming-gear/pc-gaming-accessories/gaming-keyboard/asus-gaming-keyboard-rog-strix-scope-tkl-electro-punk-4718017661430_dllm2x",
+            "image": "https://media-cdn.bnn.in.th/116602/Asus-Gaming-Keyboard-ROG-Strix-Scope-TKL-Electro-Punk-3-square_medium.jpg",
+            "spec": {
+              "interface": "USB 2.0",
+              "switch": "N/A",
+              "layout": "",
+              "dimension": "35.6 x 13.6.2 x 3.97 cm",
+              "support": "Windows 10"
+            }
+          }
+        ]
+      }
+    ],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc40f94c69443563a7f",
+    "key": "tufk1",
+    "name": "ASUS GAMING KEYBOARD TUF K1",
+    "category": "keyboard",
+    "advice": [],
+    "banana": [
+      {
+        "_id": "61464cc30f94c694435639d5",
+        "model": "tufk1",
+        "name": "ASUS GAMING KEYBOARD TUF K1",
+        "store": "Banana",
+        "brand": "Asus",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "ASUS GAMING KEYBOARD TUF K1/TH",
+            "price": 2390,
+            "href": "https://www.bnn.in.th/th/p/gaming-gear/pc-gaming-accessories/gaming-keyboard/asus-gaming-keyboard-tuf-k1th-4718017625432_ze0ox9",
+            "image": "https://media-cdn.bnn.in.th/116620/Asus-Gaming-Keyboard-TUF-K1-T-3-square_medium.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "N/A",
+              "layout": "",
+              "dimension": "15 x 30 x 3.5 cm",
+              "support": "N/A"
+            }
+          }
+        ]
+      }
+    ],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc40f94c69443563a80",
+    "key": "mtk9300",
+    "name": "CS@ MEETION GAMING KEYBOARD MT-K9300",
+    "category": "keyboard",
+    "advice": [],
+    "banana": [
+      {
+        "_id": "61464cc30f94c694435639d7",
+        "model": "mtk9300",
+        "name": "CS@ MEETION GAMING KEYBOARD MT-K9300",
+        "store": "Banana",
+        "brand": "Meetion",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "CS@ MEETION GAMING KEYBOARD MT-K9300",
+            "price": 350,
+            "href": "https://www.bnn.in.th/th/p/gaming-gear/pc-gaming-accessories/gaming-keyboard/cs-at-meetion-gaming-keyboard-mt-k9300-6970344731288_zwj7md",
+            "image": "https://media-cdn.bnn.in.th/104523/6970344731288-5-square_medium.jpg",
+            "spec": {
+              "interface": "USB Compatible",
+              "switch": "N/A",
+              "layout": "",
+              "dimension": "44.30 x 14 x 4.20 cm.",
+              "support": "Microsoft Windows 10, 8, 7, Vista, XP and Mac OS"
+            }
+          }
+        ]
+      }
+    ],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc40f94c69443563a81",
+    "key": "k613lfighterii",
+    "name": "FANTECH GAMING KEYBOARD K613L FIGHTER II",
+    "category": "keyboard",
+    "advice": [],
+    "banana": [
+      {
+        "_id": "61464cc30f94c694435639da",
+        "model": "k613lfighterii",
+        "name": "FANTECH GAMING KEYBOARD K613L FIGHTER II",
+        "store": "Banana",
+        "brand": "Fantech",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "FANTECH GAMING KEYBOARD K613L FIGHTER II",
+            "price": 590,
+            "href": "https://www.bnn.in.th/th/p/gaming-gear/pc-gaming-accessories/gaming-keyboard/fantech-gaming-keyboard-k613l-fighter-ii-6945678912208_z3w30d",
+            "image": "https://media-cdn.bnn.in.th/102404/6945678912208-01-square_medium.jpg",
+            "spec": {
+              "interface": "USB Compatible",
+              "switch": "N/A",
+              "layout": "",
+              "dimension": "43.30 x 13 x 4 cm.",
+              "support": "Microsoft Windows 10, 8, 7, Vista, XP and Mac OS"
+            }
+          }
+        ]
+      }
+    ],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc40f94c69443563a82",
+    "key": "mk852",
+    "name": "FANTECH GAMING KEYBOARD MECHANICAL MK852",
+    "category": "keyboard",
+    "advice": [],
+    "banana": [
+      {
+        "_id": "61464cc30f94c694435639db",
+        "model": "mk852",
+        "name": "FANTECH GAMING KEYBOARD MECHANICAL MK852",
+        "store": "Banana",
+        "brand": "Fantech",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "FANTECH GAMING KEYBOARD MECHANICAL MK852 (OUTEMU BLUE SWITCH) BLACK",
+            "price": 1090,
+            "href": "https://www.bnn.in.th/th/p/gaming-gear/pc-gaming-accessories/gaming-keyboard/fantech-gaming-keyboard-mechanical-mk852-outemu-blue-switch-black-6945678724114_zv1epz",
+            "image": "https://media-cdn.bnn.in.th/102400/Fantech-Gaming-Keyboard-Mechanical-Mk852-Outemu-Blue-Switch-Black-1-square_medium.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "Blue Switch",
+              "layout": "",
+              "dimension": "13 x 44.5 x 26 cm.",
+              "support": "Windows 10 / Mac"
+            }
+          }
+        ]
+      }
+    ],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc40f94c69443563a83",
+    "key": "terrablademechanical",
+    "name": "NEOLUTION GAMING KEYBOARD TERRABLADE MECHANICAL",
+    "category": "keyboard",
+    "advice": [],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc40f94c69443563a84",
+    "key": "mysticplus",
+    "name": "NEOLUTION GAMING MECHANICAL KEYBOARD MYSTIC PLUS",
+    "category": "keyboard",
+    "advice": [],
+    "banana": [
+      {
+        "_id": "61464cc30f94c694435639e3",
+        "model": "mysticplus",
+        "name": "NEOLUTION GAMING MECHANICAL KEYBOARD MYSTIC PLUS",
+        "store": "Banana",
+        "brand": "Neolution",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "NEOLUTION GAMING MECHANICAL KEYBOARD MYSTIC PLUS BLACK",
+            "price": 851,
+            "href": "https://www.bnn.in.th/th/p/gaming-gear/pc-gaming-accessories/gaming-keyboard/neolution-gaming-mechanical-keyboard-mystic-plus-black-8887210020675_zowpj7",
+            "image": "https://media-cdn.bnn.in.th/90519/Neolution-Gaming-Mechanical-Keyboard-Mystic-Plus-BlacK-4-square_medium.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "All Key Anti Ghosting",
+              "layout": "",
+              "dimension": "44.1 x 3.2 x 13.6 cm.",
+              "support": "Windows7/8/10 and Mac OS"
+            }
+          }
+        ]
+      }
+    ],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc40f94c69443563a85",
+    "key": "dullahan",
+    "name": "PENTAGONZ GAMING KEYBOARD DULLAHAN",
+    "category": "keyboard",
+    "advice": [],
+    "banana": [
+      {
+        "_id": "61464cc30f94c694435639e4",
+        "model": "dullahan",
+        "name": "PENTAGONZ GAMING KEYBOARD DULLAHAN",
+        "store": "Banana",
+        "brand": "Pentagonz",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "PENTAGONZ GAMING KEYBOARD DULLAHAN BLACK",
+            "price": 1120,
+            "href": "https://www.bnn.in.th/th/p/gaming-gear/pc-gaming-accessories/gaming-keyboard/pentagonz-gaming-keyboard-dullahan-black-8859221710296_z78qxy",
+            "image": "https://media-cdn.bnn.in.th/84608/Pentagonz-Dullahan-ct1-square_medium.jpg",
+            "spec": {
+              "interface": "USB Compatible",
+              "switch": "Blue Switch",
+              "layout": "",
+              "dimension": "43.8 x 13.5 x 4.2 cm.",
+              "support": "Window 10 / 8 / 7 / Mac OS"
+            }
+          }
+        ]
+      }
+    ],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc40f94c69443563a86",
+    "key": "spk8404",
+    "name": "PHILIPS GAMING KEYBOARD MECHANICAL",
+    "category": "keyboard",
+    "advice": [],
+    "banana": [
+      {
+        "_id": "61464cc30f94c694435639e5",
+        "model": "spk8404",
+        "name": "PHILIPS GAMING KEYBOARD MECHANICAL",
+        "store": "Banana",
+        "brand": "Philips",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "PHILIPS GAMING KEYBOARD MECHANICAL (SPK8404) GREY PUNK KEY",
+            "price": 851,
+            "href": "https://www.bnn.in.th/th/p/gaming-gear/pc-gaming-accessories/gaming-keyboard/philips-gaming-keyboard-mechanical-spk8404-grey-punk-key-8712581757268_z323n0",
+            "image": "https://media-cdn.bnn.in.th/68130/Philips-Gaming-6-square_medium.jpg",
+            "spec": {
+              "interface": "USB",
+              "switch": "Wired gaming mechanical keyboard",
+              "layout": "",
+              "dimension": "43.5 x 12.5 x 3.57 cm.",
+              "support": "Microsoft Windows - XP/ Windows-7/ Windows-8/ Windows-10/ MAC OS"
+            }
+          },
+          {
+            "name": "PHILIPS GAMING KEYBOARD MECHANICAL SPK8404 GREY",
+            "price": 890,
+            "href": "https://www.bnn.in.th/th/p/gaming-gear/pc-gaming-accessories/gaming-keyboard/philips-gaming-keyboard-mechanical-spk8404-grey-8712581757267_ze01gy",
+            "image": "https://media-cdn.bnn.in.th/68115/8712581757267-6-square_medium.jpg",
+            "spec": {
+              "interface": "USB Compatible",
+              "switch": "Mechanical Keyboard",
+              "layout": "",
+              "dimension": "43.50 x 12.50 x 3.55 cm.",
+              "support": "N/A"
+            }
+          }
+        ]
+      }
+    ],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc40f94c69443563a87",
+    "key": "mtk9420",
+    "name": "CS@ MEETION GAMING KEYBOARD MT-K9420",
+    "category": "keyboard",
+    "advice": [],
+    "banana": [
+      {
+        "_id": "61464cc30f94c694435639d8",
+        "model": "mtk9420",
+        "name": "CS@ MEETION GAMING KEYBOARD MT-K9420",
+        "store": "Banana",
+        "brand": "Meetion",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "CS@ MEETION GAMING KEYBOARD MT-K9420 BLACK",
+            "price": 940,
+            "href": "https://www.bnn.in.th/th/p/gaming-gear/pc-gaming-accessories/gaming-keyboard/cs-at-meetion-gaming-keyboard-mt-k9420-black-6970344731684_r632mr",
+            "image": "https://media-cdn.bnn.in.th/124180/MeeTion-Gaming-Keyboard-MT-K9420-Black-01-square_medium.jpg",
+            "spec": {
+              "interface": "USB Port",
+              "switch": "N/A",
+              "layout": "",
+              "dimension": "49.5x20.4x4.0 cm.",
+              "support": "Windows XP/Vista/7/8/10, MAC OS"
+            }
+          }
+        ]
+      }
+    ],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc40f94c69443563a88",
+    "key": "spk8614",
+    "name": "PHILIPS GAMING KEYBOARD MECHANICAL SPK8614",
+    "category": "keyboard",
+    "advice": [],
+    "banana": [
+      {
+        "_id": "61464cc30f94c694435639e6",
+        "model": "spk8614",
+        "name": "PHILIPS GAMING KEYBOARD MECHANICAL SPK8614",
+        "store": "Banana",
+        "brand": "Philips",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "PHILIPS GAMING KEYBOARD MECHANICAL SPK8614 GREY",
+            "price": 990,
+            "href": "https://www.bnn.in.th/th/p/gaming-gear/pc-gaming-accessories/gaming-keyboard/philips-gaming-keyboard-mechanical-spk8614-grey-8712581757168_z97xgg",
+            "image": "https://media-cdn.bnn.in.th/68057/8712581757168-05-square_medium.jpg",
+            "spec": {
+              "interface": "USB Compatible",
+              "switch": "Mechanical Keyboard",
+              "layout": "",
+              "dimension": "43.50 x 19.36 x 3.55 cm.",
+              "support": "N/A"
+            }
+          }
+        ]
+      }
+    ],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc40f94c69443563a89",
+    "key": "n181",
+    "name": "ANITECH KEYPAD RETRACTABLE WIRELESS N181",
+    "category": "keyboard",
+    "advice": [],
+    "banana": [
+      {
+        "_id": "61464cc30f94c694435639e7",
+        "model": "n181",
+        "name": "ANITECH KEYPAD RETRACTABLE WIRELESS N181",
+        "store": "Banana",
+        "brand": "Anitech",
+        "category": "Keyboard",
+        "tag": "Working",
+        "data": [
+          {
+            "name": "ANITECH KEYPAD RETRACTABLE WIRELESS N181 BLACK",
+            "price": 399,
+            "href": "https://www.bnn.in.th/th/p/it-accessories/mouse-and-keyboards/anitech-keypad-retractable-wireless-n181-black-8859221703854_d51993",
+            "image": "https://media-cdn.bnn.in.th/84120/8859221703854-1-square_medium.jpg",
+            "spec": {
+              "interface": "USB Wireless",
+              "switch": "",
+              "layout": "",
+              "dimension": "",
+              "support": ""
+            }
+          }
+        ]
+      }
+    ],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc40f94c69443563a8a",
+    "key": "p202",
+    "name": "ANITECH WIRED KEYBOARD",
+    "category": "keyboard",
+    "advice": [],
+    "banana": [
+      {
+        "_id": "61464cc30f94c694435639e8",
+        "model": "p202",
+        "name": "ANITECH WIRED KEYBOARD",
+        "store": "Banana",
+        "brand": "Anitech",
+        "category": "Keyboard",
+        "tag": "Working",
+        "data": [
+          {
+            "name": "ANITECH WIRED KEYBOARD P202 (TH/EN)",
+            "price": 169,
+            "href": "https://www.bnn.in.th/th/p/it-accessories/mouse-and-keyboards/keyboard-and-numpad/anitech-wired-keyboard-p202-then-8859221708507_dm0n4e",
+            "image": "https://media-cdn.bnn.in.th/84410/8859221708507-4-square_medium.jpg",
+            "spec": {
+              "interface": "USB Port",
+              "switch": "",
+              "layout": "",
+              "dimension": "14 x 44 x 2.3 cm.",
+              "support": "Windows : 7 / 8 / 10 and MAC OS X"
+            }
+          }
+        ]
+      }
+    ],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc40f94c69443563a8b",
+    "key": "bluetoothcompactkeyboarddesigner",
+    "name": "MICROSOFT BLUETOOTH COMPACT KEYBOARD DESIGNER",
+    "category": "keyboard",
+    "advice": [],
+    "banana": [
+      {
+        "_id": "61464cc30f94c694435639ee",
+        "model": "bluetoothcompactkeyboarddesigner",
+        "name": "MICROSOFT BLUETOOTH COMPACT KEYBOARD DESIGNER",
+        "store": "Banana",
+        "brand": "Microsoft",
+        "category": "Keyboard",
+        "tag": "Working",
+        "data": [
+          {
+            "name": "MICROSOFT BLUETOOTH COMPACT KEYBOARD DESIGNER BLACK (TH/EN)",
+            "price": 2150,
+            "href": "https://www.bnn.in.th/th/p/it-accessories/mouse-and-keyboards/keyboard-and-numpad/microsoft-bluetooth-compact-keyboard-designer-black-then-889842668469_zg8xv5",
+            "image": "https://media-cdn.bnn.in.th/107190/Microsoft-Bluetooth-Compact-Keyboard-Designer-Black-TH-EN-5-square_medium.jpg",
+            "spec": {
+              "interface": "Bluetooth",
+              "switch": "",
+              "layout": "",
+              "dimension": "284.07 x 110.77 x 9.05 mm",
+              "support": "Microsoft Windows 10 / 8.1"
+            }
+          },
+          {
+            "name": "MICROSOFT BLUETOOTH COMPACT KEYBOARD DESIGNER GLACIER (TH/EN)",
+            "price": 2150,
+            "href": "https://www.bnn.in.th/th/p/it-accessories/mouse-and-keyboards/keyboard-and-numpad/microsoft-bluetooth-compact-keyboard-designer-glacier-then-889842668742_z97wv9",
+            "image": "https://media-cdn.bnn.in.th/107195/Microsoft-Bluetooth-Compact-Keyboard-Designer-Glacier-THEN-5-square_medium.jpg",
+            "spec": {
+              "interface": "Bluetooth",
+              "switch": "",
+              "layout": "",
+              "dimension": "284.07 x 110.77 x 9.05 mm",
+              "support": "Microsoft Windows 10 / 8.1"
+            }
+          }
+        ]
+      }
+    ],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc40f94c69443563a8c",
+    "key": "microsoftbluetoothkeyboard",
+    "name": "MICROSOFT BLUETOOTH KEYBOARD",
+    "category": "keyboard",
+    "advice": [],
+    "banana": [
+      {
+        "_id": "61464cc30f94c694435639ef",
+        "model": "microsoftbluetoothkeyboard",
+        "name": "MICROSOFT BLUETOOTH KEYBOARD",
+        "store": "Banana",
+        "brand": "Microsoft",
+        "category": "Keyboard",
+        "tag": "Working",
+        "data": [
+          {
+            "name": "MICROSOFT BLUETOOTH KEYBOARD BLACK (TH/EN)",
+            "price": 1690,
+            "href": "https://www.bnn.in.th/th/p/it-accessories/mouse-and-keyboards/keyboard-and-numpad/microsoft-bluetooth-keyboard-black-then-889842525533_d223q3",
+            "image": "https://media-cdn.bnn.in.th/91742/Microsoft-Bluetooth-Keyboard-Black-5-square_medium.jpg",
+            "spec": {
+              "interface": "Bluetooth Low Energy compatible with BT 4.x / 5.0",
+              "switch": "",
+              "layout": "",
+              "dimension": "12.37 x 43.49 x 1.9 cm.",
+              "support": "Windows 10/8.1 Bluetooth 4.0 or higher"
+            }
+          }
+        ]
+      }
+    ],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc40f94c69443563a8d",
+    "key": "microsoftbluetoothnumpad",
+    "name": "MICROSOFT BLUETOOTH NUMPAD",
+    "category": "keyboard",
+    "advice": [],
+    "banana": [
+      {
+        "_id": "61464cc30f94c694435639f0",
+        "model": "microsoftbluetoothnumpad",
+        "name": "MICROSOFT BLUETOOTH NUMPAD",
+        "store": "Banana",
+        "brand": "Microsoft",
+        "category": "Keyboard",
+        "tag": "Working",
+        "data": [
+          {
+            "name": "MICROSOFT BLUETOOTH NUMPAD BLACK",
+            "price": 990,
+            "href": "https://www.bnn.in.th/th/p/it-accessories/mouse-and-keyboards/keyboard-and-numpad/microsoft-bluetooth-numpad-black-889842678949_r62xqg",
+            "image": "https://media-cdn.bnn.in.th/107210/Microsoft-Bluetooth-Numpad-Black-3-square_medium.jpg",
+            "spec": {
+              "interface": "Bluetooth",
+              "switch": "",
+              "layout": "",
+              "dimension": "81.8 x 110.77 X 9.05 mm",
+              "support": "Microsoft Windows 10 / 8.1"
+            }
+          },
+          {
+            "name": "MICROSOFT BLUETOOTH NUMPAD GLACIER",
+            "price": 990,
+            "href": "https://www.bnn.in.th/th/p/it-accessories/mouse-and-keyboards/keyboard-and-numpad/microsoft-bluetooth-numpad-glacier-889842679090_rq8o6v",
+            "image": "https://media-cdn.bnn.in.th/107211/Microsoft-Bluetooth-Numpad-Glacier-1-square_medium.jpg",
+            "spec": {
+              "interface": "Bluetooth",
+              "switch": "",
+              "layout": "",
+              "dimension": "8.18 x 11.077 X 9.5 cm.",
+              "support": "Microsoft Windows 10 / 8.1"
+            }
+          }
+        ]
+      }
+    ],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc40f94c69443563a8e",
+    "key": "surfacego",
+    "name": "MICROSOFT SURFACE GO TYPE COVER N SC BLACK REFRESH",
+    "category": "keyboard",
+    "advice": [],
+    "banana": [
+      {
+        "_id": "61464cc30f94c694435639f1",
+        "model": "surfacego",
+        "name": "MICROSOFT SURFACE GO TYPE COVER N SC BLACK REFRESH",
+        "store": "Banana",
+        "brand": "Microsoft",
+        "category": "Keyboard",
+        "tag": "Working",
+        "data": [
+          {
+            "name": "MICROSOFT SURFACE GO TYPE COVER N SC BLACK REFRESH",
+            "price": 3790,
+            "href": "https://www.bnn.in.th/th/p/tablet-and-accessories/tablet-accessories/surface-accesories-tablet-accessories/microsoft-surface-go-type-cover-n-sc-black-refresh-889842590807_zwl0vg",
+            "image": "https://media-cdn.bnn.in.th/91809/Microsoft-Surface-Go-Type-Cover-NSC-Black-Refresh-1-square_medium.jpg",
+            "spec": {
+              "interface": "N/A",
+              "switch": "",
+              "layout": "",
+              "dimension": "24.8 x 0.4 x 19 cm.",
+              "support": ""
+            }
+          },
+          {
+            "name": "MICROSOFT SURFACE GO TYPE COVER N SC CHARCOAL",
+            "price": 4890,
+            "href": "https://www.bnn.in.th/th/p/tablet-and-accessories/tablet-accessories/surface-accesories-tablet-accessories/microsoft-surface-go-type-cover-n-sc-charcoal-889842582147_d51ej2",
+            "image": "https://media-cdn.bnn.in.th/91807/Microsoft-Surface-Go-Type-Cover-NSC-Charcoal-1-square_medium.jpg",
+            "spec": {
+              "interface": "Charcoal",
+              "switch": "",
+              "layout": "",
+              "dimension": "0.245 kg.",
+              "support": ""
+            }
+          },
+          {
+            "name": "MICROSOFT SURFACE GO TYPE COVER N SC THAILAND HDWR ICE BLUE",
+            "price": 4890,
+            "href": "https://www.bnn.in.th/th/p/tablet-and-accessories/tablet-accessories/surface-accesories-tablet-accessories/microsoft-surface-go-type-cover-n-sc-thailand-hdwr-ice-blue-889842581959_zjg6q5",
+            "image": "https://media-cdn.bnn.in.th/91804/Microsoft-Surface-Go-Type-Cover-NSC-Thailand-Hdwr-Ice-Blue-1-square_medium.jpg",
+            "spec": {
+              "interface": "N/A",
+              "switch": "",
+              "layout": "",
+              "dimension": "24.8 x 0.4 x 19 cm.",
+              "support": ""
+            }
+          }
+        ]
+      }
+    ],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc40f94c69443563a8f",
+    "key": "tabletacc",
+    "name": "MICROSOFT TABLET ACC GO TYPE COVER COLORS N SC",
+    "category": "keyboard",
+    "advice": [],
+    "banana": [
+      {
+        "_id": "61464cc30f94c694435639f2",
+        "model": "tabletacc",
+        "name": "MICROSOFT TABLET ACC GO TYPE COVER COLORS N SC",
+        "store": "Banana",
+        "brand": "Microsoft",
+        "category": "Keyboard",
+        "tag": "Working",
+        "data": [
+          {
+            "name": "MICROSOFT TABLET ACC SIGNA TYPE COVER M1725 BLACK (FMM-00016)",
+            "price": 5390,
+            "href": "https://www.bnn.in.th/th/p/tablet-and-accessories/tablet-accessories/surface-accesories-tablet-accessories/microsoft-tablet-acc-signa-type-cover-m1725-black-fmm-00016-889842200836_d51epj",
+            "image": "https://media-cdn.bnn.in.th/91232/889842200836-1-square_medium.jpg",
+            "spec": {
+              "interface": "Magnetic",
+              "switch": "",
+              "layout": "",
+              "dimension": "29.5 x 21.7 x 0.5 cm.",
+              "support": ""
+            }
+          },
+          {
+            "name": "MICROSOFT TABLET ACC SIGNA TYPE COVER M1725 CHARCOAL (FFP-00156)",
+            "price": 7190,
+            "href": "https://www.bnn.in.th/th/p/tablet-and-accessories/tablet-accessories/surface-accesories-tablet-accessories/microsoft-tablet-acc-signa-type-cover-m1725-charcoal-ffp-00156-889842529272_rq8xg2",
+            "image": "https://media-cdn.bnn.in.th/91762/889842529272-01-square_medium.jpg",
+            "spec": {
+              "interface": "Magnetic",
+              "switch": "",
+              "layout": "",
+              "dimension": "29.5 x 21.7 x 0.5 cm.",
+              "support": ""
+            }
+          },
+          {
+            "name": "MICROSOFT TABLET ACC SIGNA TYPE COVER M1725 POPPY RED (FFP-00116)",
+            "price": 7190,
+            "href": "https://www.bnn.in.th/th/p/tablet-and-accessories/tablet-accessories/surface-accesories-tablet-accessories/microsoft-tablet-acc-signa-type-cover-m1725-poppy-red-ffp-00116-889842521177_z781e6",
+            "image": "https://media-cdn.bnn.in.th/91726/889842521177-01-square_medium.jpg",
+            "spec": {
+              "interface": "Magnetic",
+              "switch": "",
+              "layout": "",
+              "dimension": "29.5 x 21.7 x 0.5 cm.",
+              "support": ""
+            }
+          }
+        ]
+      }
+    ],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc40f94c69443563a90",
+    "key": "m1725",
+    "name": "MICROSOFT TABLET ACC SIGNA TYPE COVER M1725",
+    "category": "keyboard",
+    "advice": [],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc40f94c69443563a91",
+    "key": "wirelesskeyboardallin-onemedia",
+    "name": "MICROSOFT WIRELESS KEYBOARD ALL-IN-ONE MEDIA",
+    "category": "keyboard",
+    "advice": [],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc40f94c69443563a92",
+    "key": "waffle",
+    "name": "MOFII BLUETOOTH KEYBOARD WAFFLE",
+    "category": "keyboard",
+    "advice": [],
+    "banana": [
+      {
+        "_id": "61464cc30f94c694435639f4",
+        "model": "waffle",
+        "name": "MOFII BLUETOOTH KEYBOARD WAFFLE",
+        "store": "Banana",
+        "brand": "Mofii",
+        "category": "Keyboard",
+        "tag": "Working",
+        "data": [
+          {
+            "name": "MOFII BLUETOOTH KEYBOARD WAFFLE GREY (TH/EN)",
+            "price": 790,
+            "href": "https://www.bnn.in.th/th/p/it-accessories/mouse-and-keyboards/keyboard-and-numpad/mofii-bluetooth-keyboard-waffle-grey-then-6950125748315_dlp5pz",
+            "image": "https://media-cdn.bnn.in.th/102607/MOFii-Waffle-Bluetooth-Keyboard-Grey-6-square_medium.jpg",
+            "spec": {
+              "interface": "Bluetooth",
+              "switch": "",
+              "layout": "",
+              "dimension": "320 x 137 x 32 mm.",
+              "support": "Windows 2000, Windows xp. Windows ME. Windows VISTA, Windows 7/8/10"
+            }
+          }
+        ]
+      }
+    ],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc40f94c69443563a93",
+    "key": "biscuit",
+    "name": "MOFII NUMBERIC WIRELESS KEYBOARD BISCUIT",
+    "category": "keyboard",
+    "advice": [],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc40f94c69443563a94",
+    "key": "g613",
+    "name": "LOGITECH G613 WIRELESS",
+    "category": "keyboard",
+    "advice": [],
+    "banana": [],
+    "mercular": [
+      {
+        "_id": "61464cc30f94c69443563a05",
+        "model": "g613",
+        "name": "LOGITECH G613 WIRELESS",
+        "store": "Mercular",
+        "brand": "Logitech",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "ไร้สาย LOGITECH G613 WIRELESS MECHANICAL KEYBOARD",
+            "price": 1990,
+            "href": "https://www.mercular.com/logitech-g613-wireless-gaming-keyboard",
+            "image": "https://mercular.s3.ap-southeast-1.amazonaws.com/upload/products/2018/05/%E0%B8%84%E0%B8%B5%E0%B8%A2%E0%B9%8C%E0%B8%9A%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%94%E0%B9%84%E0%B8%A3%E0%B9%89%E0%B8%AA%E0%B8%B2%E0%B8%A2-Logitech-G613-Wireless-Mechanical-Keyboard-3.jpg",
+            "spec": {
+              "interface": "wireless",
+              "switch": "Romer-G",
+              "layout": "Full-Size",
+              "dimension": "",
+              "support": ""
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "61464cc40f94c69443563a95",
+    "key": "g813",
+    "name": "LOGITECH G813 CARBON",
+    "category": "keyboard",
+    "advice": [],
+    "banana": [],
+    "mercular": [
+      {
+        "_id": "61464cc30f94c69443563a06",
+        "model": "g813",
+        "name": "LOGITECH G813 CARBON",
+        "store": "Mercular",
+        "brand": "Logitech",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": " LOGITECH G813 CARBON GAMING KEYBOARD",
+            "price": 3435,
+            "href": "https://www.mercular.com/logitech-g813-carbon-gaming-keyboard",
+            "image": "https://mercular.s3.ap-southeast-1.amazonaws.com/images/products/2020/10/2/Logitech%20g813.PNG",
+            "spec": {
+              "interface": "usb",
+              "switch": "Logitech GL",
+              "layout": "Full-Size",
+              "dimension": "",
+              "support": ""
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "61464cc40f94c69443563a96",
+    "key": "k380",
+    "name": "LOGITECH K380 MULTI-DEVICE",
+    "category": "keyboard",
+    "advice": [],
+    "banana": [
+      {
+        "_id": "61464cc30f94c694435639ea",
+        "model": "k380",
+        "name": "LOGITECH K380 MULTI-DEVICE",
+        "store": "Banana",
+        "brand": "Logitech",
+        "category": "Keyboard",
+        "tag": "Working",
+        "data": [
+          {
+            "name": "LOGITECH BLUETOOTH KEYBOARD MULTI-DEVICE K380 BLACK (EN)",
+            "price": 1050,
+            "href": "https://www.bnn.in.th/th/p/it-accessories/mouse-and-keyboards/keyboard-and-numpad/logitech-bluetooth-keyboard-multi-device-k380-black-en-097855117717_vzj4vz",
+            "image": "https://media-cdn.bnn.in.th/4549/97855117717-555-square_medium.jpg",
+            "spec": {
+              "interface": "Bluetooth",
+              "switch": "",
+              "layout": "",
+              "dimension": "27.90 x 1.60 x 12.40 cm.",
+              "support": "Windows 7, Windows 8, Windows 10 or later , Mac: Mac OS 10.10 or later"
+            }
+          },
+          {
+            "name": "LOGITECH BLUETOOTH KEYBOARD MULTI-DEVICE K380 BLUE (EN)",
+            "price": 1050,
+            "href": "https://www.bnn.in.th/th/p/it-accessories/mouse-and-keyboards/keyboard-and-numpad/logitech-bluetooth-keyboard-multi-device-k380-blue-en-097855117724_xd5lxz",
+            "image": "https://media-cdn.bnn.in.th/4554/97855117724-0005-square_medium.jpg",
+            "spec": {
+              "interface": "Bluetooth Wireless",
+              "switch": "",
+              "layout": "",
+              "dimension": "27.90 x 1.60 x 12.40 cm.",
+              "support": "Windows 7, Windows 8, Windows 10 or higher / Mac OS 10.10 or higher / Chrome OS"
+            }
+          }
+        ]
+      }
+    ],
+    "mercular": [
+      {
+        "_id": "61464cc30f94c69443563a0d",
+        "model": "k380",
+        "name": "LOGITECH K380 MULTI-DEVICE",
+        "store": "Mercular",
+        "brand": "Logitech",
+        "category": "Keyboard",
+        "tag": "Working",
+        "data": [
+          {
+            "name": " LOGITECH K380 MULTI-DEVICE BLUETOOTH KEYBOARD",
+            "price": 990,
+            "href": "https://www.mercular.com/logitech-k380-multi-device-bluetooth-keyboard",
+            "image": "https://mercular.s3.ap-southeast-1.amazonaws.com/images/products/2020/04/k380-1.jpg",
+            "spec": {
+              "interface": "wireless",
+              "switch": "",
+              "layout": "Compact",
+              "dimension": "",
+              "support": ""
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "61464cc40f94c69443563a97",
+    "key": "k400plus",
+    "name": "LOGITECH K400PLUS LIVING ROOM WIRELESS",
+    "category": "keyboard",
+    "advice": [],
+    "banana": [],
+    "mercular": [
+      {
+        "_id": "61464cc30f94c69443563a0f",
+        "model": "k400plus",
+        "name": "LOGITECH K400PLUS LIVING ROOM WIRELESS",
+        "store": "Mercular",
+        "brand": "Logitech",
+        "category": "Keyboard",
+        "tag": "Working",
+        "data": [
+          {
+            "name": "ไร้สาย LOGITECH K400PLUS LIVING ROOM WIRELESS KEYBOARD",
+            "price": 1290,
+            "href": "https://www.mercular.com/logitech-k400plus-living-room-wireless-keyboard",
+            "image": "https://mercular.s3.ap-southeast-1.amazonaws.com/upload/products/2019/06/85270/85654/20190613_1560406125_Logitech-K400PLUS-Living-Room-Wireless-Keyboard-White-1.jpg",
+            "spec": {
+              "interface": "wireless",
+              "switch": "",
+              "layout": "Compact",
+              "dimension": "",
+              "support": ""
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "61464cc40f94c69443563a98",
+    "key": "g610",
+    "name": "LOGITECH G610 ORION",
+    "category": "keyboard",
+    "advice": [],
+    "banana": [],
+    "mercular": [
+      {
+        "_id": "61464cc30f94c69443563a0c",
+        "model": "g610",
+        "name": "LOGITECH G610 ORION",
+        "store": "Mercular",
+        "brand": "Logitech",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": " LOGITECH G610 ORION BLUE MECHANICAL KEYBOARD BLUE SWITCH (THAI)",
+            "price": 2590,
+            "href": "https://www.mercular.com/logitech-g610-orion-blue-gaming-keyboard",
+            "image": "https://mercular.s3.ap-southeast-1.amazonaws.com/upload/products/2018/05/%E0%B8%84%E0%B8%B5%E0%B8%A2%E0%B9%8C%E0%B8%9A%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%94-Logitech-G610-Orion-Blue-Backlit-Mechanical-Keyboard.jpg",
+            "spec": {
+              "interface": "usb",
+              "switch": "Cherry",
+              "layout": "Full-Size",
+              "dimension": "",
+              "support": ""
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "61464cc40f94c69443563a99",
+    "key": "cynosalite",
+    "name": "RAZER CYNOSA LITE GAMING KEYBOARD",
+    "category": "keyboard",
+    "advice": [],
+    "banana": [],
+    "mercular": [
+      {
+        "_id": "61464cc30f94c694435639f5",
+        "model": "cynosalite",
+        "name": "RAZER CYNOSA LITE GAMING KEYBOARD",
+        "store": "Mercular",
+        "brand": "Logitech",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": " RAZER CYNOSA LITE GAMING KEYBOARD TH",
+            "price": 795,
+            "href": "https://www.mercular.com/razer-cynosa-lite-gaming-keyboard",
+            "image": "https://mercular.s3.ap-southeast-1.amazonaws.com/images/products/2021/01/Razer-Cynosa-Lite-Gaming-Keyboard-1.jpg",
+            "spec": {
+              "interface": "usb",
+              "switch": "Rubber Dome",
+              "layout": "Full-Size",
+              "dimension": "",
+              "support": ""
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "61464cc40f94c69443563a9a",
+    "key": "cynosav2",
+    "name": "RAZER CYNOSA V2 MEMBRANE GAMING KEYBOARD",
+    "category": "keyboard",
+    "advice": [],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc40f94c69443563a9b",
+    "key": "ornata",
+    "name": "RAZER ORNATA  GAMING KEYBOARD",
+    "category": "keyboard",
+    "advice": [],
+    "banana": [],
+    "mercular": [
+      {
+        "_id": "61464cc30f94c694435639f6",
+        "model": "ornata",
+        "name": "RAZER ORNATA  GAMING KEYBOARD",
+        "store": "Mercular",
+        "brand": "Logitech",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": " RAZER ORNATA EXPERT POKEMON EDITION GAMING KEYBOARD",
+            "price": 2290,
+            "href": "https://www.mercular.com/razer-ornata-chroma-pokemon-edition-gaming-keyboard",
+            "image": "https://mercular.s3.ap-southeast-1.amazonaws.com/images/products/2020/10/Pokemon-1.jpg",
+            "spec": {
+              "interface": "usb",
+              "switch": "Razer",
+              "layout": "Full-Size",
+              "dimension": "",
+              "support": ""
+            }
+          },
+          {
+            "name": " RAZER ORNATA CHROMA GAMING KEYBOARD (THAI)",
+            "price": 2990,
+            "href": "https://www.mercular.com/razer-ornata-chroma-gaming-keyboard",
+            "image": "https://mercular.s3.ap-southeast-1.amazonaws.com/upload/products/2018/05/%E0%B8%84%E0%B8%B5%E0%B8%A2%E0%B9%8C%E0%B8%9A%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%94-Razer-Ornata-Chroma-Gaming-Keyboard-3.jpg",
+            "spec": {
+              "interface": "usb",
+              "switch": "Razer",
+              "layout": "Full-Size",
+              "dimension": "",
+              "support": ""
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "61464cc40f94c69443563a9c",
+    "key": "huntsmanv2",
+    "name": "RAZER HUNTSMAN V2 ANALOG GAMING KEYBOARD",
+    "category": "keyboard",
+    "advice": [],
+    "banana": [],
+    "mercular": [
+      {
+        "_id": "61464cc30f94c694435639fb",
+        "model": "huntsmanv2",
+        "name": "RAZER HUNTSMAN V2 ANALOG GAMING KEYBOARD",
+        "store": "Mercular",
+        "brand": "Logitech",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": " RAZER HUNTSMAN V2 ANALOG GAMING KEYBOARD",
+            "price": 8490,
+            "href": "https://www.mercular.com/razer-huntsman-v2-analog-gaming-keyboard",
+            "image": "https://mercular.s3.ap-southeast-1.amazonaws.com/images/products/2021/06/Razer/Razer_Huntsman_V2_Analog_2.jpg",
+            "spec": {
+              "interface": "usb",
+              "switch": "Analog",
+              "layout": "Full-Size",
+              "dimension": "",
+              "support": ""
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "61464cc40f94c69443563a9d",
+    "key": "tartaruspro",
+    "name": "RAZER TARTARUS PRO RGB GAMING KEYPAD",
+    "category": "keyboard",
+    "advice": [],
+    "banana": [],
+    "mercular": [
+      {
+        "_id": "61464cc30f94c694435639fc",
+        "model": "tartaruspro",
+        "name": "RAZER TARTARUS PRO RGB GAMING KEYPAD",
+        "store": "Mercular",
+        "brand": "Logitech",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": "RAZER TARTARUS PRO RGB GAMING KEYPAD",
+            "price": 4890,
+            "href": "https://www.mercular.com/razer-tartarus-pro-rgb-gaming-keypad",
+            "image": "https://mercular.s3.ap-southeast-1.amazonaws.com/images/products/2020/02/Razer-Tartarus-Pro-1.jpg",
+            "spec": {
+              "interface": "usb",
+              "switch": "",
+              "layout": "Keypad",
+              "dimension": "",
+              "support": ""
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "61464cc40f94c69443563a9e",
+    "key": "huntsmantkl",
+    "name": "RAZER HUNTSMAN TKL GAMING KEYBOARD",
+    "category": "keyboard",
+    "advice": [],
+    "banana": [],
+    "mercular": [
+      {
+        "_id": "61464cc30f94c694435639fd",
+        "model": "huntsmantkl",
+        "name": "RAZER HUNTSMAN TKL GAMING KEYBOARD",
+        "store": "Mercular",
+        "brand": "Logitech",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": " RAZER HUNTSMAN TKL TOURNAMENT EDITION GAMING KEYBOARD",
+            "price": 3990,
+            "href": "https://www.mercular.com/razer-huntsman-tkl-tournament-edition-gaming-keyboard",
+            "image": "https://mercular.s3.ap-southeast-1.amazonaws.com/images/products/2020/10/Razer-Huntsman-1.jpg",
+            "spec": {
+              "interface": "usb",
+              "switch": "Razer",
+              "layout": "Tenkeyless (TKL)",
+              "dimension": "",
+              "support": ""
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "61464cc40f94c69443563a9f",
+    "key": "huntsmanmini",
+    "name": "RAZER HUNTSMAN MINI MECHANICAL KEYBOARD",
+    "category": "keyboard",
+    "advice": [],
+    "banana": [],
+    "mercular": [
+      {
+        "_id": "61464cc30f94c694435639fe",
+        "model": "huntsmanmini",
+        "name": "RAZER HUNTSMAN MINI MECHANICAL KEYBOARD",
+        "store": "Mercular",
+        "brand": "Logitech",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": " RAZER HUNTSMAN MINI MECHANICAL KEYBOARD",
+            "price": 3990,
+            "href": "https://www.mercular.com/razer-huntsman-mini-mechanical-keyboard",
+            "image": "https://mercular.s3.ap-southeast-1.amazonaws.com/images/products/2020/08/Huntsman-Mini-1.jpg",
+            "spec": {
+              "interface": "usb",
+              "switch": "Razer",
+              "layout": "Tenkeyless (TKL)",
+              "dimension": "",
+              "support": ""
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "61464cc40f94c69443563aa0",
+    "key": "ornatav2",
+    "name": "RAZER ORNATA V2 GAMING KEYBOARD",
+    "category": "keyboard",
+    "advice": [],
+    "banana": [],
+    "mercular": [
+      {
+        "_id": "61464cc30f94c694435639ff",
+        "model": "ornatav2",
+        "name": "RAZER ORNATA V2 GAMING KEYBOARD",
+        "store": "Mercular",
+        "brand": "Logitech",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": " RAZER ORNATA V2 GAMING KEYBOARD",
+            "price": 2490,
+            "href": "https://www.mercular.com/razer-ornata-v2-gaming-keyboard",
+            "image": "https://mercular.s3.ap-southeast-1.amazonaws.com/images/products/2020/07/Ornata-V2-1.jpg",
+            "spec": {
+              "interface": "usb",
+              "switch": "Rubber Dome, Razer",
+              "layout": "Full-Size",
+              "dimension": "",
+              "support": ""
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "61464cc40f94c69443563aa1",
+    "key": "huntsmanelite",
+    "name": "RAZER HUNTSMAN ELITE MECHANICAL KEYBOARD",
+    "category": "keyboard",
+    "advice": [],
+    "banana": [],
+    "mercular": [
+      {
+        "_id": "61464cc30f94c69443563a02",
+        "model": "huntsmanelite",
+        "name": "RAZER HUNTSMAN ELITE MECHANICAL KEYBOARD",
+        "store": "Mercular",
+        "brand": "Logitech",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": " RAZER HUNTSMAN ELITE MECHANICAL KEYBOARD",
+            "price": 5990,
+            "href": "https://www.mercular.com/razer-huntsman-elite-gaming-keyboard?sku=1516077000004",
+            "image": "https://mercular.s3.ap-southeast-1.amazonaws.com/images/products/2018/09/hmel-1-1.jpg",
+            "spec": {
+              "interface": "usb",
+              "switch": "Razer",
+              "layout": "Full-Size",
+              "dimension": "",
+              "support": ""
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "61464cc40f94c69443563aa2",
+    "key": "huntsman",
+    "name": "RAZER HUNTSMAN KEYBOARD",
+    "category": "keyboard",
+    "advice": [],
+    "banana": [],
+    "mercular": [
+      {
+        "_id": "61464cc30f94c69443563a00",
+        "model": "huntsman",
+        "name": "RAZER HUNTSMAN KEYBOARD",
+        "store": "Mercular",
+        "brand": "Logitech",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": " RAZER HUNTSMAN QUARTZ PINK KEYBOARD",
+            "price": 5790,
+            "href": "https://www.mercular.com/razer-huntsman-quartz-pink-keyboard",
+            "image": "https://mercular.s3.ap-southeast-1.amazonaws.com/upload/products/2019/05/85099/85362/20190531_1559291007_Razer-Huntsman-Quartz-Pink-Keyboard-1.jpg",
+            "spec": {
+              "interface": "usb",
+              "switch": "Razer",
+              "layout": "Full-Size",
+              "dimension": "",
+              "support": ""
+            }
+          },
+          {
+            "name": " RAZER HUNTSMAN MECHANICAL KEYBOARD OPTO SW",
+            "price": 3990,
+            "href": "https://www.mercular.com/razer-huntsman-gaming-keyboard-opto-sw",
+            "image": "https://mercular.s3.ap-southeast-1.amazonaws.com/images/products/2018/09/Razer-Huntsman-1.jpg",
+            "spec": {
+              "interface": "usb",
+              "switch": "Razer",
+              "layout": "Full-Size",
+              "dimension": "",
+              "support": ""
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "61464cc40f94c69443563aa3",
+    "key": "blackwidow2019",
+    "name": "RAZER BLACKWIDOW 2019 MECHANICAL KEYBOARD",
+    "category": "keyboard",
+    "advice": [],
+    "banana": [],
+    "mercular": [
+      {
+        "_id": "61464cc30f94c69443563a01",
+        "model": "blackwidow2019",
+        "name": "RAZER BLACKWIDOW 2019 MECHANICAL KEYBOARD",
+        "store": "Mercular",
+        "brand": "Logitech",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": " RAZER BLACKWIDOW 2019 MECHANICAL KEYBOARD",
+            "price": 2990,
+            "href": "https://www.mercular.com/razer-blackwidow-2019-mechanical-keyboard",
+            "image": "https://mercular.s3.ap-southeast-1.amazonaws.com/images/products/2019/04/widow-1.jpg",
+            "spec": {
+              "interface": "usb",
+              "switch": "Razer",
+              "layout": "Full-Size",
+              "dimension": "",
+              "support": ""
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "61464cc40f94c69443563aa4",
+    "key": "cynosachroma",
+    "name": "RAZER CYNOSA CHROMA GAMING KEYBOARD",
+    "category": "keyboard",
+    "advice": [],
+    "banana": [],
+    "mercular": [
+      {
+        "_id": "61464cc30f94c69443563a03",
+        "model": "cynosachroma",
+        "name": "RAZER CYNOSA CHROMA GAMING KEYBOARD",
+        "store": "Mercular",
+        "brand": "Logitech",
+        "category": "Keyboard",
+        "tag": "Gaming",
+        "data": [
+          {
+            "name": " RAZER CYNOSA CHROMA GAMING KEYBOARD",
+            "price": 1990,
+            "href": "https://www.mercular.com/razer-cynosa-chroma-gaming-keyboard",
+            "image": "https://mercular.s3.ap-southeast-1.amazonaws.com/upload/products/2018/05/%E0%B8%84%E0%B8%B5%E0%B8%A2%E0%B9%8C%E0%B8%9A%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%94-Razer-Cynosa-Chroma-Gaming-Keyboard.jpg",
+            "spec": {
+              "interface": "usb",
+              "switch": "Razer",
+              "layout": "Full-Size",
+              "dimension": "",
+              "support": ""
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "61464cc40f94c69443563aa5",
+    "key": "kb730",
+    "name": "SIGNO KB-730 CENTAURUS",
+    "category": "keyboard",
+    "advice": [],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc40f94c69443563aa6",
+    "key": "gk200",
+    "name": "HP GAMING GK200",
+    "category": "keyboard",
+    "advice": [],
+    "banana": [],
+    "mercular": []
+  },
+  {
+    "_id": "61464cc40f94c69443563aa7",
+    "key": "k270",
+    "name": "LOGITECH K270 WIRELESS KEYBOARD",
+    "category": "keyboard",
+    "advice": [],
+    "banana": [],
+    "mercular": [
+      {
+        "_id": "61464cc30f94c69443563a11",
+        "model": "k270",
+        "name": "LOGITECH K270 WIRELESS KEYBOARD",
+        "store": "Mercular",
+        "brand": "Logitech",
+        "category": "Keyboard",
+        "tag": "Working",
+        "data": [
+          {
+            "name": "ไร้สาย LOGITECH K270 WIRELESS KEYBOARD",
+            "price": 690,
+            "href": "https://www.mercular.com/logitech-k270-wireless-keyboard",
+            "image": "https://mercular.s3.ap-southeast-1.amazonaws.com/upload/products/2019/06/85269/85653/20190612_1560318633_Logitech-K270-Wireless-Keyboard-1.jpg",
+            "spec": {
+              "interface": "wireless",
+              "switch": "",
+              "layout": "Full-Size",
+              "dimension": "",
+              "support": ""
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "61464cc40f94c69443563aa8",
+    "key": "k200",
+    "name": "LOGITECH K200",
+    "category": "keyboard",
+    "advice": [],
+    "banana": [],
+    "mercular": [
+      {
+        "_id": "61464cc30f94c69443563a13",
+        "model": "k200",
+        "name": "LOGITECH K200",
+        "store": "Mercular",
+        "brand": "Logitech",
+        "category": "Keyboard",
+        "tag": "Working",
+        "data": [
+          {
+            "name": " LOGITECH K200 KEYBOARD",
+            "price": 419,
+            "href": "https://www.mercular.com/logitech-k200-keyboard",
+            "image": "https://mercular.s3.ap-southeast-1.amazonaws.com/upload/products/2019/06/85224/85577/20190610_1560142269_Logitech-K200-Keyboard-1.jpg",
+            "spec": {
+              "interface": "usb",
+              "switch": "",
+              "layout": "Full-Size",
+              "dimension": "",
+              "support": ""
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "61464cc40f94c69443563aa9",
+    "key": "x33",
+    "name": "NUBWO-X ALISTAR X33",
+    "category": "keyboard",
+    "advice": [],
+    "banana": [],
+    "mercular": []
+  }
+]
