@@ -1,23 +1,32 @@
 import React from "react";
+import { Link,Switch,Route} from "react-router-dom";
 import "./AppCategory.css";
 
 function AppCategory() {
   return (
+    
     <div class="main-content">
+      
       <h1 class="header-category">CATEGORY</h1>
       <div class="grid-category">
+        
         <div class="item">
           <div class="content">
             <img class="category-img" src="https://mercular.s3.ap-southeast-1.amazonaws.com/images/products/2020/10/SteelSeries-Rival-3-Wireless.jpg" width="250" height="250"></img>
             <p class="category-name">MOUSE</p>
           </div>
         </div>
-        <div class="item">
+        
+        <Link to="/PageCategory" >
+        <div class="item" >
           <div class="content">
           <img class="category-img" src="https://mercular.s3.ap-southeast-1.amazonaws.com/images/products/2021/05/Ducky/Ducky_One_2SF_Black_1.jpg" width="250" height="250"></img>
-            <p class="category-name">KEYBOARD</p>
+            <p class="category-name" >KEYBOARD</p>
           </div>
         </div>
+        </Link>
+        
+        
         <div class="item">
           <div class="content">
           <img class="category-img" src="https://mercular.s3.ap-southeast-1.amazonaws.com/upload/products/2018/03/%E0%B8%AB%E0%B8%B9%E0%B8%9F%E0%B8%B1%E0%B8%87-beyerdynamic-MMX300-Headphone.jpg" width="250" height="250"></img>
@@ -38,6 +47,7 @@ function AppCategory() {
         </div>
         
       </div>
+      
     </div>
   );
 }

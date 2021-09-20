@@ -1,7 +1,7 @@
 import "./KeyboardCategory.css";
 import $ from "jquery";
 import axios from "axios";
-import React, { useState, useEffect, Component } from "react";
+import React, { useState, useEffect, Component, sort } from "react";
 
 function KeyboardCategory() {
   const [keyboard, setKeyboard] = useState([]);
@@ -15,9 +15,11 @@ function KeyboardCategory() {
     const res = await axios.get("http://localhost:3001/allKeyboard/1");
     const data = res.data;
     setKeyboard(data);
+    
   }
 
   return (
+    
     <div class="main-content-category">
       <header class="page-header">
         <div class="dropdown">
@@ -180,7 +182,9 @@ function KeyboardCategory() {
         </main>
       </div>
     </div>
+    
   );
 }
+
 
 export default KeyboardCategory;
