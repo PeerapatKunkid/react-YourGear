@@ -148,7 +148,7 @@ function KeyboardCategory() {
                       
                       <div class="item">
                         {console.log(index)}
-                        <Link to={`/mouse/${index}`}>
+                        <Link to={`/Category-mouse/${index}`}>
                         <div class="card-content">
                           <img
                             class="card-img"
@@ -235,6 +235,7 @@ function KeyboardCategory() {
                   {keyboard.map((item) => {
                     return (
                       <div class="item">
+                        
                         <div class="card-content">
                           <img
                             class="card-img"

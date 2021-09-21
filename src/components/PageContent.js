@@ -93,6 +93,92 @@ function PageContent() {
       ],
     },
   );
+  const [keyboard, setKeyboard] = useState(
+    {
+      _id: "",
+      key: "",
+      name: "",
+      category: "",
+      advice: [
+        {
+          _id: "",
+          model: "",
+          name: "",
+          store: "",
+          brand: "",
+          category: "",
+          tag: "",
+          data: [
+            {
+              name: "",
+              price: 0,
+              href: "",
+              image: "",
+              spec: {
+                interface: "",
+                sensor: "",
+                macro: "",
+                dpi: "",
+                switch_type: "",
+              },
+            },
+          ],
+        },
+      ],
+      banana: [
+        {
+          _id: "",
+          model: "",
+          name: "",
+          store: "",
+          brand: "",
+          category: "",
+          tag: "",
+          data: [
+            {
+              name: "",
+              price: 0,
+              href: "",
+              image: "",
+              spec: {
+                interface: "",
+                sensor: "",
+                macro: "",
+                dpi: "",
+                switch_type: "",
+              },
+            },
+          ],
+        },
+      ],
+      mercular: [
+        {
+          _id: "",
+          model: "",
+          name: "",
+          store: "",
+          brand: "",
+          category: "",
+          tag: "",
+          data: [
+            {
+              name: "",
+              price: 0,
+              href: "",
+              image: "",
+              spec: {
+                interface: "",
+                sensor: "",
+                macro: "",
+                dpi: "",
+                switch_type: "",
+              },
+            },
+          ],
+        },
+      ],
+    },
+  );
 
   async function getAllMouses(index) {
     const res = await axios.get(`http://localhost:3001/allMouse/1/${index}`);
@@ -100,9 +186,16 @@ function PageContent() {
 
     setMouse(data);
   }
+  async function getAllKeyboards(index) {
+    const res = await axios.get(`http://localhost:3001/allKeyboard/1/${index}`);
+    const data = await res.data;
+
+    setKeyboard(data);
+  }
 
   useEffect(async () => {
     await getAllMouses(index);
+    await getAllKeyboards(index)
   }, [index]);
 
   return (
