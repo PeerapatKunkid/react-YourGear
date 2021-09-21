@@ -9,7 +9,7 @@ function AppCategory() {
       
       <h1 class="header-category">CATEGORY</h1>
       <div class="grid-category">
-      <Link to="/PageCategory/mouse" >
+      <Link to="/Category/mouse" >
         <div class="item">
           <div class="content">
             <img class="category-img" src="https://mercular.s3.ap-southeast-1.amazonaws.com/images/products/2020/10/SteelSeries-Rival-3-Wireless.jpg" width="250" height="250"></img>
@@ -26,7 +26,7 @@ function AppCategory() {
         </div>
         </Link>
         
-        <Link to="/PageCategory/headset" >
+        <Link to="/Category/headset" >
         <div class="item">
           <div class="content">
           <img class="category-img" src="https://mercular.s3.ap-southeast-1.amazonaws.com/upload/products/2018/03/%E0%B8%AB%E0%B8%B9%E0%B8%9F%E0%B8%B1%E0%B8%87-beyerdynamic-MMX300-Headphone.jpg" width="250" height="250"></img>
@@ -35,7 +35,7 @@ function AppCategory() {
         </div>
         </Link>
         
-        <Link to="/PageCategory/mousepad" >
+        <Link to="/Category/mousepad" >
         <div class="item">
           <div class="content">
           <img class="category-img" src="https://mercular.s3.ap-southeast-1.amazonaws.com/images/products/2020/10/MM1000-1.jpg" width="250" height="250"></img>
@@ -44,7 +44,7 @@ function AppCategory() {
         </div>
         </Link>
 
-        <Link to="/PageCategory/microphone" >
+        <Link to="/Category/microphone" >
         <div class="item">
           <div class="content">
           <img class="category-img" src="https://mercular.s3.ap-southeast-1.amazonaws.com/images/products/2021/06/Product/presonus-pd-70-tube-microphone-black-01.jpg" width="250" height="250"></img>

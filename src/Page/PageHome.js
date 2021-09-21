@@ -12,7 +12,7 @@ function PageHome(){
             
             <AppCategory/>
             <ContentRecommend/>
-            <Footer/>
+           
         </div>
     )
 }

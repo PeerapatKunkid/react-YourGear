@@ -1,0 +1,23 @@
+.content-show{
+    max-width:1400px;
+    margin:auto;
+    
+  
+  }
+.content-show-in{
+      max-width: 500px;
+      margin: auto;
+      
+  }
+
+.content-show h1{
+    font-size: 38px;
+    margin-left: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.content-show img{
+    padding: 10px;
+    text-align: center ;
+    background-color: rgb(255, 96, 96);
+}

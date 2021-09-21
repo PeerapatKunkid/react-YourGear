@@ -8,11 +8,14 @@ import Footer from "./components/Footer";
 import Slider from "react-slick";
 import PageHome from "./Page/PageHome";
 import { Route, Switch } from "react-router";
+import PageContent from "./components/PageContent";
+
 
 function App() {
   return (
     <div className="App">
-      <AppBanner />
+
+       <AppBanner />
       <Switch>
         <Route path="/" exact>
           <PageHome />
@@ -20,7 +23,12 @@ function App() {
         <Route path="/Category">
           <KeyboardCategory/>
         </Route>
+        <Route path="/Content/:index">
+          <PageContent/>
+        </Route>
       </Switch>
+      <Footer/>
+      
     </div>
   );
 }

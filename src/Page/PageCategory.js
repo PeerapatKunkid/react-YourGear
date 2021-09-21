@@ -12,7 +12,7 @@ function PageCategory (){
         <div>
         <AppBanner/>
         <KeyboardCategory/>
-        <Footer/>
+        
         </div>
     )
 }
