@@ -1,22 +1,31 @@
 import "./KeyboardCategory.css";
 import $ from "jquery";
 import axios from "axios";
-import React, { useState, useEffect, Component, sort } from "react";
+import React, { useState, useEffect, Component, sort} from "react";
+import { Link,Switch,Route} from "react-router-dom";
 
 function KeyboardCategory() {
   const [keyboard, setKeyboard] = useState([]);
+  const [mouse, setMouse] = useState([]);
   useEffect(() => {
     getAllKeyboard();
-    
+    getAllMouse();
   }, []);
 
-  console.log(keyboard);
+  
   async function getAllKeyboard() {
     const res = await axios.get("http://localhost:3001/allKeyboard/1");
     const data = res.data;
     setKeyboard(data);
     
   }
+  async function getAllMouse() {
+    const res = await axios.get("http://localhost:3001/allMouse/1");
+    const data = res.data;
+    setMouse(data);
+    
+  }
+
 
   return (
     
@@ -90,15 +99,112 @@ function KeyboardCategory() {
             </tr>
             <p class="filter-header-category">CATEGORY</p>
             <div class="linkcategory">
+              <Link to="/Category/mouse">
               <p>- Mouse</p>
+              </Link>
+              <Link to="/Category/keyboard">
               <p>- Keyboard</p>
+              </Link>
+              <Link to="/Category/headset">
               <p>- Headset</p>
+              </Link>
+              <Link to="/Category/mousepad">
               <p>- Mousepad</p>
+              </Link>
+              <Link to="/Category/microphone">
               <p>- Microphone</p>
+              </Link>
             </div>
           </div>
         </aside>
         {/* ส่วนของ Maincontent */}
+        <Switch>
+          <Route path="/Category/mouse">
+        <main class="page-main">
+          <div class="content-data-category">
+            <div class="grid-category-filter">
+              {mouse.map((item) => {
+                return (
+                  <div class="item">
+                    <div class="card-content">
+                      <img
+                        class="card-img"
+                        src={
+                          item.advice[0]
+                            ? item.advice[0].data[0].image
+                            : item.banana[0]
+                            ? item.banana[0].data[0].image
+                            : item.mercular[0]
+                            ? item.mercular[0].data[0].image
+                            : ""
+                        }
+                        height="250"
+                        width="10"
+                      ></img>
+                      <p class="category-box">{item.name}</p>
+                      <div class="container">
+                        <table class="card-box">
+                          <tr>
+                            <td>
+                              <img
+                                class="img-recommend"
+                                src="https://notebookspec.com/laravel/public//images/component-shop-advice.jpg"
+                                width="110"
+                                height="40"
+                              />
+                            </td>
+                            <td>
+                              {item.advice[0]
+                                ? item.advice[0].data[0].price
+                                : "N/A"}
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <img
+                                class="img-recommend"
+                                src="https://notebookspec.com/laravel/public//images/component-shop-jib.jpg"
+                                width="110"
+                                height="40"
+                              />
+                            </td>
+                            <td>
+                              {item.mercular[0]
+                                ? item.mercular[0].data[0].price
+                                : "N/A"}
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td>
+                              <img
+                                class="img-recommend"
+                                src="https://notebookspec.com/laravel/public//images/component-shop-banana.png"
+                                width="110"
+                                height="40"
+                              />
+                            </td>
+                            
+                              <td>
+                                {item.banana[0]
+                                  ? item.banana[0].data[0].price
+                                  : "N/A"}
+                              
+                            </td>
+                          </tr>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        </main>
+        </Route>
+
+        {/* ส่วนของ Maincontent */}
+        <Route path="/Category/keyboard">
         <main class="page-main">
           <div class="content-data-category">
             <div class="grid-category-filter">
@@ -180,6 +286,260 @@ function KeyboardCategory() {
             </div>
           </div>
         </main>
+        </Route>
+        {/* ส่วนของ Maincontent */}
+        <Route path="/Category/headset">
+        <main class="page-main">
+          <div class="content-data-category">
+            <div class="grid-category-filter">
+              {keyboard.map((item) => {
+                return (
+                  <div class="item">
+                    <div class="card-content">
+                      <img
+                        class="card-img"
+                        src={
+                          item.advice[0]
+                            ? item.advice[0].data[0].image
+                            : item.banana[0]
+                            ? item.banana[0].data[0].image
+                            : item.mercular[0]
+                            ? item.mercular[0].data[0].image
+                            : ""
+                        }
+                        height="250"
+                        width="10"
+                      ></img>
+                      <p class="category-box">{item.name}</p>
+                      <div class="container">
+                        <table class="card-box">
+                          <tr>
+                            <td>
+                              <img
+                                class="img-recommend"
+                                src="https://notebookspec.com/laravel/public//images/component-shop-advice.jpg"
+                                width="110"
+                                height="40"
+                              />
+                            </td>
+                            <td>
+                              {item.advice[0]
+                                ? item.advice[0].data[0].price
+                                : "N/A"}
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <img
+                                class="img-recommend"
+                                src="https://notebookspec.com/laravel/public//images/component-shop-jib.jpg"
+                                width="110"
+                                height="40"
+                              />
+                            </td>
+                            <td>
+                              {item.mercular[0]
+                                ? item.mercular[0].data[0].price
+                                : "N/A"}
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td>
+                              <img
+                                class="img-recommend"
+                                src="https://notebookspec.com/laravel/public//images/component-shop-banana.png"
+                                width="110"
+                                height="40"
+                              />
+                            </td>
+                            
+                              <td>
+                                {item.banana[0]
+                                  ? item.banana[0].data[0].price
+                                  : "N/A"}
+                              
+                            </td>
+                          </tr>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        </main>
+        </Route>
+        {/* ส่วนของ Maincontent */}
+        <Route path="/Category/mousepad">
+        <main class="page-main">
+          <div class="content-data-category">
+            <div class="grid-category-filter">
+              {keyboard.map((item) => {
+                return (
+                  <div class="item">
+                    <div class="card-content">
+                      <img
+                        class="card-img"
+                        src={
+                          item.advice[0]
+                            ? item.advice[0].data[0].image
+                            : item.banana[0]
+                            ? item.banana[0].data[0].image
+                            : item.mercular[0]
+                            ? item.mercular[0].data[0].image
+                            : ""
+                        }
+                        height="250"
+                        width="10"
+                      ></img>
+                      <p class="category-box">{item.name}</p>
+                      <div class="container">
+                        <table class="card-box">
+                          <tr>
+                            <td>
+                              <img
+                                class="img-recommend"
+                                src="https://notebookspec.com/laravel/public//images/component-shop-advice.jpg"
+                                width="110"
+                                height="40"
+                              />
+                            </td>
+                            <td>
+                              {item.advice[0]
+                                ? item.advice[0].data[0].price
+                                : "N/A"}
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <img
+                                class="img-recommend"
+                                src="https://notebookspec.com/laravel/public//images/component-shop-jib.jpg"
+                                width="110"
+                                height="40"
+                              />
+                            </td>
+                            <td>
+                              {item.mercular[0]
+                                ? item.mercular[0].data[0].price
+                                : "N/A"}
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td>
+                              <img
+                                class="img-recommend"
+                                src="https://notebookspec.com/laravel/public//images/component-shop-banana.png"
+                                width="110"
+                                height="40"
+                              />
+                            </td>
+                            
+                              <td>
+                                {item.banana[0]
+                                  ? item.banana[0].data[0].price
+                                  : "N/A"}
+                              
+                            </td>
+                          </tr>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        </main>
+        </Route>
+        {/* ส่วนของ Maincontent */}
+        <Route path="/Category/microphone">
+        <main class="page-main">
+          <div class="content-data-category">
+            <div class="grid-category-filter">
+              {keyboard.map((item) => {
+                return (
+                  <div class="item">
+                    <div class="card-content">
+                      <img
+                        class="card-img"
+                        src={
+                          item.advice[0]
+                            ? item.advice[0].data[0].image
+                            : item.banana[0]
+                            ? item.banana[0].data[0].image
+                            : item.mercular[0]
+                            ? item.mercular[0].data[0].image
+                            : ""
+                        }
+                        height="250"
+                        width="10"
+                      ></img>
+                      <p class="category-box">{item.name}</p>
+                      <div class="container">
+                        <table class="card-box">
+                          <tr>
+                            <td>
+                              <img
+                                class="img-recommend"
+                                src="https://notebookspec.com/laravel/public//images/component-shop-advice.jpg"
+                                width="110"
+                                height="40"
+                              />
+                            </td>
+                            <td>
+                              {item.advice[0]
+                                ? item.advice[0].data[0].price
+                                : "N/A"}
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <img
+                                class="img-recommend"
+                                src="https://notebookspec.com/laravel/public//images/component-shop-jib.jpg"
+                                width="110"
+                                height="40"
+                              />
+                            </td>
+                            <td>
+                              {item.mercular[0]
+                                ? item.mercular[0].data[0].price
+                                : "N/A"}
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td>
+                              <img
+                                class="img-recommend"
+                                src="https://notebookspec.com/laravel/public//images/component-shop-banana.png"
+                                width="110"
+                                height="40"
+                              />
+                            </td>
+                            
+                              <td>
+                                {item.banana[0]
+                                  ? item.banana[0].data[0].price
+                                  : "N/A"}
+                              
+                            </td>
+                          </tr>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        </main>
+        </Route>
+        </Switch>
       </div>
     </div>
     
