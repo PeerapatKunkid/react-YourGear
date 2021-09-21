@@ -23,7 +23,7 @@ function App() {
         <Route path="/Category">
           <KeyboardCategory/>
         </Route>
-        <Route path="/Content/:index">
+        <Route path="/mouse/:index">
           <PageContent/>
         </Route>
       </Switch>

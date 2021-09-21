@@ -148,7 +148,7 @@ function KeyboardCategory() {
                       
                       <div class="item">
                         {console.log(index)}
-                        <Link to={`/Content/${index}`}>
+                        <Link to={`/mouse/${index}`}>
                         <div class="card-content">
                           <img
                             class="card-img"
