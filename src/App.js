@@ -7,28 +7,39 @@ import KeyboardCategory from "./components/KeyboardCategory";
 import Footer from "./components/Footer";
 import Slider from "react-slick";
 import PageHome from "./Page/PageHome";
-import { Route, Switch } from "react-router";
+import { Route, Switch,Link } from "react-router-dom";
 import PageContent from "./components/PageContent";
-
 
 function App() {
   return (
     <div className="App">
-
-       <AppBanner />
+      <AppBanner />
+      
+      
+      
       <Switch>
         <Route path="/" exact>
-          <PageHome />
+        <AppCategory/>
+        <ContentRecommend/>
         </Route>
-        <Route path="/Category">
-          <KeyboardCategory/>
+     
+        
+        
+        <Route path="/category/mouse/:postId">
+          <PageContent type="allMouse" />
         </Route>
-        <Route path="/Category-mouse/:index">
-          <PageContent/>
+        <Route path="/category/mouse" exact>
+          <KeyboardCategory cate="mouse" url="allMouse" />
         </Route>
+
+        {/* <Route path="/category/keyboard/:postId">
+          <PageContent type="allKeyboard" />
+        </Route>
+        <Route path="/category/keyboard" exact>
+          <KeyboardCategory cate="keyboard" url="allKeyboard" />
+        </Route> */}
       </Switch>
-      <Footer/>
-      
+      <Footer />
     </div>
   );
 }

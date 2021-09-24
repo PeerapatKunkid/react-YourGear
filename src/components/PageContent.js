@@ -3,220 +3,97 @@ import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
 import "./PageContent.css";
 import axios from "axios";
+import model from "./compareModel.json";
+import { v4 as uuidv4 } from "uuid";
 
-function PageContent() {
-  const { index } = useParams();
+function PageContent({type}) {
+  const { postId } = useParams();
+  const [post,setPost] = useState(model);
+  
+  
+  
 
-  const [mouse, setMouse] = useState(
-    {
-      _id: "",
-      key: "",
-      name: "",
-      category: "",
-      advice: [
-        {
-          _id: "",
-          model: "",
-          name: "",
-          store: "",
-          brand: "",
-          category: "",
-          tag: "",
-          data: [
-            {
-              name: "",
-              price: 0,
-              href: "",
-              image: "",
-              spec: {
-                interface: "",
-                sensor: "",
-                macro: "",
-                dpi: "",
-                switch_type: "",
-              },
-            },
-          ],
-        },
-      ],
-      banana: [
-        {
-          _id: "",
-          model: "",
-          name: "",
-          store: "",
-          brand: "",
-          category: "",
-          tag: "",
-          data: [
-            {
-              name: "",
-              price: 0,
-              href: "",
-              image: "",
-              spec: {
-                interface: "",
-                sensor: "",
-                macro: "",
-                dpi: "",
-                switch_type: "",
-              },
-            },
-          ],
-        },
-      ],
-      mercular: [
-        {
-          _id: "",
-          model: "",
-          name: "",
-          store: "",
-          brand: "",
-          category: "",
-          tag: "",
-          data: [
-            {
-              name: "",
-              price: 0,
-              href: "",
-              image: "",
-              spec: {
-                interface: "",
-                sensor: "",
-                macro: "",
-                dpi: "",
-                switch_type: "",
-              },
-            },
-          ],
-        },
-      ],
-    },
-  );
-  const [keyboard, setKeyboard] = useState(
-    {
-      _id: "",
-      key: "",
-      name: "",
-      category: "",
-      advice: [
-        {
-          _id: "",
-          model: "",
-          name: "",
-          store: "",
-          brand: "",
-          category: "",
-          tag: "",
-          data: [
-            {
-              name: "",
-              price: 0,
-              href: "",
-              image: "",
-              spec: {
-                interface: "",
-                sensor: "",
-                macro: "",
-                dpi: "",
-                switch_type: "",
-              },
-            },
-          ],
-        },
-      ],
-      banana: [
-        {
-          _id: "",
-          model: "",
-          name: "",
-          store: "",
-          brand: "",
-          category: "",
-          tag: "",
-          data: [
-            {
-              name: "",
-              price: 0,
-              href: "",
-              image: "",
-              spec: {
-                interface: "",
-                sensor: "",
-                macro: "",
-                dpi: "",
-                switch_type: "",
-              },
-            },
-          ],
-        },
-      ],
-      mercular: [
-        {
-          _id: "",
-          model: "",
-          name: "",
-          store: "",
-          brand: "",
-          category: "",
-          tag: "",
-          data: [
-            {
-              name: "",
-              price: 0,
-              href: "",
-              image: "",
-              spec: {
-                interface: "",
-                sensor: "",
-                macro: "",
-                dpi: "",
-                switch_type: "",
-              },
-            },
-          ],
-        },
-      ],
-    },
-  );
-
-  async function getAllMouses(index) {
-    const res = await axios.get(`http://localhost:3001/allMouse/1/${index}`);
-    const data = await res.data;
-
-    setMouse(data);
+  async function getPost(postId) {
+    axios.get(`http://localhost:3001/${type}/1/${postId}`).then((response) => {
+      setPost(response.data);
+    });
   }
-  async function getAllKeyboards(index) {
-    const res = await axios.get(`http://localhost:3001/allKeyboard/1/${index}`);
-    const data = await res.data;
+ 
 
-    setKeyboard(data);
-  }
-
-  useEffect(async () => {
-    await getAllMouses(index);
-    await getAllKeyboards(index)
-  }, [index]);
+  useEffect(() => {
+    getPost(postId);
+  }, [postId]);
 
   return (
     <div class="content-show">
-      <h1>{mouse.name}</h1>
+      <h1>{post.name}</h1>
 
-      {/* {console.log(mouse.category)} */}
+     
       <div class="content-show-in">
         <img src={
-                              mouse.advice[0]
-                                ? mouse.advice[0].data[0].image
-                                : mouse.banana[0]
-                                ? mouse.banana[0].data[0].image
-                                : mouse.mercular[0]
-                                ? mouse.mercular[0].data[0].image
+                              post.advice[0]
+                                ? post.advice[0].data[0].image
+                                : post.banana[0]
+                                ? post.banana[0].data[0].image
+                                : post.mercular[0]
+                                ? post.mercular[0].data[0].image
                                 : ""
                             } height="450" width="450" ></img>
       </div>
 
-      <h3>TEST TEST TEST </h3>
-      <h3>TTTTTTT</h3>
+      <div>
+      <div className="container">
+        
+      </div>
+      <div className="alert alert-warning text-primary">
+        
+
+        {post.advice[0] && <h3 className="container ">Advice</h3>}
+        {post.advice[0] &&
+          post.advice[0].data.map((item) => {
+            return (
+              <div key={uuidv4()}>
+                <p>
+                  {item.name} ฿
+                  <span>
+                    <a href={item.href}>{item.price}</a>
+                  </span>
+                </p>
+              </div>
+            );
+          })}
+
+        {post.banana[0] && <h3 className="container ">Banana</h3>}
+        {post.banana[0] &&
+          post.banana[0].data.map((item) => {
+            return (
+              <div key={uuidv4()}>
+                <p>
+                  {item.name} ฿
+                  <span>
+                    <a href={item.href}>{item.price}</a>
+                  </span>
+                </p>
+              </div>
+            );
+          })}
+
+        {post.mercular[0] && <h3 className="container ">Mercular</h3>}
+        {post.mercular[0] &&
+          post.mercular[0].data.map((item) => {
+            return (
+              <div key={uuidv4()}>
+                <p>
+                  {item.name} ฿
+                  <span>
+                    <a href={item.href}>{item.price}</a>
+                  </span>
+                </p>
+              </div>
+            );
+          })}
+      </div>
+    </div>
     </div>
   );
 }

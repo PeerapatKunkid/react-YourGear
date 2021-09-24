@@ -4,53 +4,32 @@ import axios from "axios";
 import React, { useState, useEffect, Component, sort } from "react";
 import { Link, Switch, Route } from "react-router-dom";
 import Footer from "./Footer";
-function KeyboardCategory() {
-  const [keyboard, setKeyboard] = useState([]);
-  const [mouse, setMouse] = useState([]);
-  // const [headset, setHeadset] = useState([]);
-  // const [mousepad, setMousepad] = useState([]);
-  // const [microphone, setMicophone] = useState([]);
+function KeyboardCategory({cate,url}) {
+  const [post,setPost] =useState ([
+    {
+      _id: "",
+      key: "",
+      name: "",
+      category: "",
+      advice: [],
+      banana: [],
+      mercular: [],
+    },
+  ])
+  
 
-  useEffect(async () => {
-    await getAllKeyboard();
-    await getAllMouse();
-    // await getAllHeadset();
-    // await getAllMousepad();
-    // await getAllMicrophone();
+  useEffect(() => {
+    axios
+      .get(`http://localhost:3001/${url}/1`)
+      .then((response) => setPost(response.data));
   }, []);
 
-  async function getAllKeyboard() {
-    const res = await axios.get("http://localhost:3001/allKeyboard/1");
-    const data = res.data;
-    setKeyboard(data);
-  }
-  async function getAllMouse() {
-    const res = await axios.get("http://localhost:3001/allMouse/1");
-    const data = res.data;
-    setMouse(data);
-  }
-  // async function getAllHeadset() {
-  //   const res = await axios.get("http://localhost:3001/allHeadset/1");
-  //   const data = res.data;
-  //   setHeadset(data);
-
-  // }
-  // async function getAllMousepad() {
-  //   const res = await axios.get("http://localhost:3001/allMousepad/1");
-  //   const data = res.data;
-  //   setMousepad(data);
-
-  // }
-  // async function getAllMicrophone() {
-  //   const res = await axios.get("http://localhost:3001/allMicrophone/1");
-  //   const data = res.data;
-  //   setMicrophone(data);
-
-  // }
-  // console.log(mouse[0])
+  
+  
   return (
     <div class="main-content-category">
       <header class="page-header">
+        
         <div class="dropdown">
           <button class="dropbtn">TYPE</button>
           <div class="dropdown-content">
@@ -119,52 +98,53 @@ function KeyboardCategory() {
             </tr>
             <p class="filter-header-category">CATEGORY</p>
             <div class="linkcategory">
-              <Link to="/Category/mouse">
+              <Link to="/category/mouse">
                 <p>- Mouse</p>
               </Link>
-              <Link to="/Category/keyboard">
+              <Link to="/category/keyboard">
                 <p>- Keyboard</p>
               </Link>
-              <Link to="/Category/headset">
+              <Link to="/category/headset">
                 <p>- Headset</p>
               </Link>
-              <Link to="/Category/mousepad">
+              <Link to="/category/mousepad">
                 <p>- Mousepad</p>
               </Link>
-              <Link to="/Category/microphone">
+              <Link to="/category/microphone">
                 <p>- Microphone</p>
               </Link>
             </div>
           </div>
         </aside>
         {/* ส่วนของ Maincontent Mouse */}
-        <Switch>
-          <Route path="/Category/mouse">
+        
+          <Route path="/category/mouse">
             <main class="page-main">
               <div class="content-data-category">
                 <div class="grid-category-filter">
-                  {mouse.map((item,index) => {
+                  {post.map((post,index) => {
+                   
                     return (
                       
                       <div class="item">
-                        {console.log(index)}
-                        <Link to={`/Category-mouse/${index}`}>
+                        {console.log(post)}
+                        <Link to={`/category/${cate}/${index}`}>
                         <div class="card-content">
                           <img
                             class="card-img"
                             src={
-                              item.advice[0]
-                                ? item.advice[0].data[0].image
-                                : item.banana[0]
-                                ? item.banana[0].data[0].image
-                                : item.mercular[0]
-                                ? item.mercular[0].data[0].image
+                              post.advice[0]
+                                ? post.advice[0].data[0].image
+                                : post.banana[0]
+                                ? post.banana[0].data[0].image
+                                : post.mercular[0]
+                                ? post.mercular[0].data[0].image
                                 : ""
                             }
                             height="250"
                             width="10"
                           ></img>
-                          <p class="category-box">{item.name}</p>
+                          <p class="category-box">{post.name}</p>
                           <div class="container">
                             <table class="card-box">
                               <tr>
@@ -177,8 +157,8 @@ function KeyboardCategory() {
                                   />
                                 </td>
                                 <td>
-                                  {item.advice[0]
-                                    ? item.advice[0].data[0].price
+                                  {post.advice[0]
+                                    ? post.advice[0].data[0].price
                                     : "N/A"}
                                 </td>
                               </tr>
@@ -192,8 +172,8 @@ function KeyboardCategory() {
                                   />
                                 </td>
                                 <td>
-                                  {item.mercular[0]
-                                    ? item.mercular[0].data[0].price
+                                  {post.mercular[0]
+                                    ? post.mercular[0].data[0].price
                                     : "N/A"}
                                 </td>
                               </tr>
@@ -209,8 +189,8 @@ function KeyboardCategory() {
                                 </td>
 
                                 <td>
-                                  {item.banana[0]
-                                    ? item.banana[0].data[0].price
+                                  {post.banana[0]
+                                    ? post.banana[0].data[0].price
                                     : "N/A"}
                                 </td>
                               </tr>
@@ -228,7 +208,7 @@ function KeyboardCategory() {
           </Route>
           {/* ปิดส่วนของ Maincontent Mouse */}
           {/* ส่วนของ Maincontent Keyboard */}
-          <Route path="/Category/keyboard">
+          {/* <Route path="/Category/keyboard">
             <main class="page-main">
               <div class="content-data-category">
                 <div class="grid-category-filter">
@@ -310,10 +290,10 @@ function KeyboardCategory() {
                 </div>
               </div>
             </main>
-          </Route>
+          </Route> */}
           {/* ปิดส่วนของ Maincontent Keyboard */}
           {/* ส่วนของ Maincontent Headset*/}
-          <Route path="/Category/headset">
+          {/* <Route path="/Category/headset">
             <main class="page-main">
               <div class="content-data-category">
                 <div class="grid-category-filter">
@@ -393,11 +373,11 @@ function KeyboardCategory() {
                   })}
                 </div>
               </div>
-            </main>
-          </Route>
+            </main> */}
+          {/* </Route> */}
           {/* ปิดส่วนของ Maincontent Headset*/}
           {/* ส่วนของ Maincontent Mousepad*/}
-          <Route path="/Category/mousepad">
+          {/* <Route path="/Category/mousepad">
             <main class="page-main">
               <div class="content-data-category">
                 <div class="grid-category-filter">
@@ -477,11 +457,11 @@ function KeyboardCategory() {
                   })}
                 </div>
               </div>
-            </main>
-          </Route>
+            </main> */}
+          {/* </Route> */}
           {/* ปิดส่วนส่วนของ Maincontent Mousepad*/}
           {/* ส่วนของ Maincontent Microphone*/}
-          <Route path="/Category/microphone">
+          {/* <Route path="/Category/microphone">
             <main class="page-main">
               <div class="content-data-category">
                 <div class="grid-category-filter">
@@ -562,8 +542,8 @@ function KeyboardCategory() {
                 </div>
               </div>
             </main>
-          </Route>
-        </Switch>
+          </Route> */}
+        
         {/* ปิดส่วนของ Maincontent Microphone*/}
       </div>
     </div>
