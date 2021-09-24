@@ -5,20 +5,15 @@ import "./PageContent.css";
 import axios from "axios";
 import model from "./compareModel.json";
 import { v4 as uuidv4 } from "uuid";
-
-function PageContent({type}) {
+function PageContent({ type }) {
   const { postId } = useParams();
-  const [post,setPost] = useState(model);
-  
-  
-  
+  const [post, setPost] = useState(model);
 
   async function getPost(postId) {
     axios.get(`http://localhost:3001/${type}/1/${postId}`).then((response) => {
       setPost(response.data);
     });
   }
- 
 
   useEffect(() => {
     getPost(postId);
@@ -28,72 +23,162 @@ function PageContent({type}) {
     <div class="content-show">
       <h1>{post.name}</h1>
 
-     
       <div class="content-show-in">
-        <img src={
-                              post.advice[0]
-                                ? post.advice[0].data[0].image
-                                : post.banana[0]
-                                ? post.banana[0].data[0].image
-                                : post.mercular[0]
-                                ? post.mercular[0].data[0].image
-                                : ""
-                            } height="450" width="450" ></img>
+        <img
+          src={
+            post.advice[0]
+              ? post.advice[0].data[0].image
+              : post.banana[0]
+              ? post.banana[0].data[0].image
+              : post.mercular[0]
+              ? post.mercular[0].data[0].image
+              : ""
+          }
+          height="450"
+          width="450"
+        ></img>
       </div>
 
       <div>
-      <div className="container">
-        
+        <div className="content-price-store">
+          <h1>WHERE TO GET</h1>
+          {post.advice[0] && <h3 className="container ">Advice</h3>}
+          {post.advice[0] &&
+            post.advice[0].data.map((item) => {
+              return (
+                <div key={uuidv4()}>
+                  <table className="table-storelist">
+                    <tr>
+                      <td>
+                        <h2>{item.name}</h2>
+                      </td>
+                      <td>
+                        <h2>
+                          <a href={item.href}>{item.price} </a> BATH
+                        </h2>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+              );
+            })}
+
+          {post.banana[0] && <h3 className="container ">Banana</h3>}
+          {post.banana[0] &&
+            post.banana[0].data.map((item) => {
+              return (
+                <div key={uuidv4()}>
+                  <table className="table-storelist">
+                    <tr>
+                      <td>
+                        <h2>{item.name}</h2>
+                      </td>
+                      <td>
+                        <h2>
+                          <a href={item.href}>{item.price} </a> BATH
+                        </h2>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+              );
+            })}
+
+          {post.mercular[0] && <h3 className="container ">Mercular</h3>}
+          {post.mercular[0] &&
+            post.mercular[0].data.map((item) => {
+              return (
+                <div key={uuidv4()}>
+                  <table className="table-storelist">
+                    <tr>
+                      <td>
+                        <h2>{item.name}</h2>
+                      </td>
+                      <td>
+                        <h2>
+                          <a href={item.href}>{item.price} </a> BATH
+                        </h2>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+              );
+            })}
+        </div>
       </div>
-      <div className="alert alert-warning text-primary">
-        
 
-        {post.advice[0] && <h3 className="container ">Advice</h3>}
-        {post.advice[0] &&
-          post.advice[0].data.map((item) => {
-            return (
-              <div key={uuidv4()}>
-                <p>
-                  {item.name} ฿
-                  <span>
-                    <a href={item.href}>{item.price}</a>
-                  </span>
-                </p>
-              </div>
-            );
-          })}
 
-        {post.banana[0] && <h3 className="container ">Banana</h3>}
-        {post.banana[0] &&
-          post.banana[0].data.map((item) => {
-            return (
-              <div key={uuidv4()}>
-                <p>
-                  {item.name} ฿
-                  <span>
-                    <a href={item.href}>{item.price}</a>
-                  </span>
-                </p>
-              </div>
-            );
-          })}
 
-        {post.mercular[0] && <h3 className="container ">Mercular</h3>}
-        {post.mercular[0] &&
-          post.mercular[0].data.map((item) => {
-            return (
-              <div key={uuidv4()}>
-                <p>
-                  {item.name} ฿
-                  <span>
-                    <a href={item.href}>{item.price}</a>
-                  </span>
-                </p>
-              </div>
-            );
-          })}
-      </div>
-    </div>
+      <div className="content-price-store">
+          <h1>DETAIL</h1>
+          <h4>Specification</h4>
+          
+          
+          {post.banana[0] &&
+            post.banana[0].data.map((item) => {
+              return (
+                <div key={uuidv4()}>
+                  <table className="table-detailspec" >
+                    <tr>
+                      <td>
+                        <h2>INTERFACE</h2>
+                      </td>
+                      <td>
+                        <h2>
+                        <h2>{item.spec.interface ? item.spec.interface:"N/A"}</h2>
+                        </h2>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <h2>SENSOR</h2>
+                      </td>
+                      <td>
+                        <h2>
+                        <h2>{item.spec.sensor ? item.spec.sensor:"N/A"}</h2>
+                        </h2>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <h2>MARCO</h2>
+                      </td>
+                      <td>
+                        <h2>
+                        <h2>{item.spec.macro ? item.spec.macro:"N/A"}</h2>
+                        </h2>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <h2>DPI</h2>
+                      </td>
+                      <td>
+                        <h2>
+                        <h2>{item.spec.dpi ? item.spec.dpi:"N/A"}</h2>
+                        </h2>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <h2>SWITCH TYPE</h2>
+                      </td>
+                      <td>
+                        <h2>
+                        <h2>{item.spec.switch_type ? item.spec.switch_type:"N/A"}</h2>
+                        </h2>
+                      </td>
+                    </tr>
+                    
+                  </table>
+                </div>
+              );
+            })}
+      
+          </div>
+    
+    
+    
     </div>
   );
 }

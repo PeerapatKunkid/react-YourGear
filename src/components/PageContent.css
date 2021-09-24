@@ -19,6 +19,54 @@
 .content-show img{
     padding: 10px;
     text-align: center ;
-    background-color: rgb(255, 96, 96);
+    background-color: rgba(0, 0, 0, 0.062);
+    
+}
+.content-price-store{
+  background-color: rgb(255, 255, 255);
+  margin-top: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.041);
+  padding-top:3px;
+  padding-left: 30px;
+  
+}
+.content-price-store h1{
+  font-size: 30px;
+  margin-left: 5px;
+  margin-bottom: 20px;
+}
+
+.content-price-store h2{
+  font-size: 20px;
+  margin-left: 30px;
+}
+.content-price-store h3{
+  font-size: 30px;
+  margin-left: 30px;
+}
+.content-price-store h4{
+  font-size: 30px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+
+.table-storelist{
+
+  margin-left: 50px;
+}
+.table-detailspec{
+  margin-left : 60px;
+  border:20px;
+}
+
+.Page-content-store{
+  max-width:1000px;
+    background-color: aqua;
+    
+    
+    
     
 }

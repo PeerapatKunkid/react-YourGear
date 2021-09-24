@@ -22,7 +22,8 @@ function App() {
         <AppCategory/>
         <ContentRecommend/>
         </Route>
-     
+
+        
         
         
         <Route path="/category/mouse/:postId">

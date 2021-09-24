@@ -8,7 +8,7 @@ function AppBanner() {
       <nav className="nav">
         <div className="container">
           <div className="logo">
-            <img class="logo-img" src="image/Logo.png" width="65" height="65"/>
+            <img className="logo-img" src="image/Logo.png" width="65" height="65"/>
           </div>
           <div id="mainListDiv" className="main_list">
             <ul className="navlinks">

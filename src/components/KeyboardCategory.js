@@ -1,9 +1,9 @@
 import "./KeyboardCategory.css";
-import $ from "jquery";
+
 import axios from "axios";
 import React, { useState, useEffect, Component, sort } from "react";
 import { Link, Switch, Route } from "react-router-dom";
-import Footer from "./Footer";
+
 function KeyboardCategory({cate,url}) {
   const [post,setPost] =useState ([
     {
@@ -27,77 +27,77 @@ function KeyboardCategory({cate,url}) {
   
   
   return (
-    <div class="main-content-category">
-      <header class="page-header">
+    <div className="main-content-category">
+      <header className="page-header">
         
-        <div class="dropdown">
-          <button class="dropbtn">TYPE</button>
-          <div class="dropdown-content">
+        <div className="dropdown">
+          <button className="dropbtn">TYPE</button>
+          <div className="dropdown-content">
             <option value="low-high">Low - High</option>
             <option value="high-low">High - LOW</option>
           </div>
         </div>
       </header>
-      <div class="grid">
+      <div className="grid">
         {/* ส่วนของ FILTER ด้านซ้าย */}
-        <aside class="page-leftbar">
-          <div class="content-filter-category">
-            <p class="filter-header">Filter</p>
-            <p class="brand-tag-filter">BRAND</p>
+        <aside className="page-leftbar">
+          <div className="content-filter-category">
+            <p className="filter-header">Filter</p>
+            <p className="brand-tag-filter">BRAND</p>
 
-            <label class="filter-checkbox">
+            <label className="filter-checkbox">
               Logitect
               {/* <input type="checkbox" checked="checked" /> */}
               <input type="checkbox" />
-              <span class="checkmark"></span>
+              <span className="checkmark"></span>
             </label>
-            <label class="filter-checkbox">
+            <label className="filter-checkbox">
               Zowie
               <input type="checkbox" />
-              <span class="checkmark"></span>
+              <span className="checkmark"></span>
             </label>
-            <label class="filter-checkbox">
+            <label className="filter-checkbox">
               Razer
               <input type="checkbox" />
-              <span class="checkmark"></span>
+              <span className="checkmark"></span>
             </label>
-            <label class="filter-checkbox">
+            <label className="filter-checkbox">
               Xtrfy
               <input type="checkbox" />
-              <span class="checkmark"></span>
+              <span className="checkmark"></span>
             </label>
-            <label class="filter-checkbox">
+            <label className="filter-checkbox">
               Steelseries
               <input type="checkbox" />
-              <span class="checkmark"></span>
+              <span className="checkmark"></span>
             </label>
-            <label class="filter-checkbox">
+            <label className="filter-checkbox">
               Hyperx
               <input type="checkbox" />
-              <span class="checkmark"></span>
+              <span className="checkmark"></span>
             </label>
-            <label class="filter-checkbox">
+            <label className="filter-checkbox">
               Oker
               <input type="checkbox" />
-              <span class="checkmark"></span>
+              <span className="checkmark"></span>
             </label>
-            <label class="filter-checkbox">
+            <label className="filter-checkbox">
               Nubwo
               <input type="checkbox" />
-              <span class="checkmark"></span>
+              <span className="checkmark"></span>
             </label>
-            <p class="price-tag-filter">PRICE</p>
-            <tr border="1" class="filter-price">
+            <p className="price-tag-filter">PRICE</p>
+            <tr border="1" className="filter-price">
               <td>
                 <input type="text" id="fname" name="fname" />
               </td>
-              <td class="to"> ~ </td>
+              <td className="to"> ~ </td>
               <td>
                 <input type="text" id="fname" name="fname" />
               </td>
             </tr>
-            <p class="filter-header-category">CATEGORY</p>
-            <div class="linkcategory">
+            <p className="filter-header-category">CATEGORY</p>
+            <div className="linkcategory">
               <Link to="/category/mouse">
                 <p>- Mouse</p>
               </Link>
@@ -119,19 +119,19 @@ function KeyboardCategory({cate,url}) {
         {/* ส่วนของ Maincontent Mouse */}
         
           <Route path="/category/mouse">
-            <main class="page-main">
-              <div class="content-data-category">
-                <div class="grid-category-filter">
+            <main className="page-main">
+              <div className="content-data-category">
+                <div className="grid-category-filter">
                   {post.map((post,index) => {
                    
                     return (
                       
-                      <div class="item">
+                      <div className="item" key={post._id}>
                         {console.log(post)}
                         <Link to={`/category/${cate}/${index}`}>
-                        <div class="card-content">
+                        <div className="card-content">
                           <img
-                            class="card-img"
+                            className="card-img"
                             src={
                               post.advice[0]
                                 ? post.advice[0].data[0].image
@@ -144,13 +144,13 @@ function KeyboardCategory({cate,url}) {
                             height="250"
                             width="10"
                           ></img>
-                          <p class="category-box">{post.name}</p>
-                          <div class="container">
-                            <table class="card-box">
+                          <p className="category-box">{post.name}</p>
+                          <div className="container">
+                            <table className="card-box">
                               <tr>
                                 <td>
                                   <img
-                                    class="img-recommend"
+                                    className="img-recommend"
                                     src="https://notebookspec.com/laravel/public//images/component-shop-advice.jpg"
                                     width="110"
                                     height="40"
@@ -165,7 +165,7 @@ function KeyboardCategory({cate,url}) {
                               <tr>
                                 <td>
                                   <img
-                                    class="img-recommend"
+                                    className="img-recommend"
                                     src="https://notebookspec.com/laravel/public//images/component-shop-jib.jpg"
                                     width="110"
                                     height="40"
@@ -181,7 +181,7 @@ function KeyboardCategory({cate,url}) {
                               <tr>
                                 <td>
                                   <img
-                                    class="img-recommend"
+                                    className="img-recommend"
                                     src="https://notebookspec.com/laravel/public//images/component-shop-banana.png"
                                     width="110"
                                     height="40"
@@ -209,16 +209,16 @@ function KeyboardCategory({cate,url}) {
           {/* ปิดส่วนของ Maincontent Mouse */}
           {/* ส่วนของ Maincontent Keyboard */}
           {/* <Route path="/Category/keyboard">
-            <main class="page-main">
-              <div class="content-data-category">
-                <div class="grid-category-filter">
+            <main className="page-main">
+              <div className="content-data-category">
+                <div className="grid-category-filter">
                   {keyboard.map((item) => {
                     return (
-                      <div class="item">
+                      <div className="item">
                         
-                        <div class="card-content">
+                        <div className="card-content">
                           <img
-                            class="card-img"
+                            className="card-img"
                             src={
                               item.advice[0]
                                 ? item.advice[0].data[0].image
@@ -231,13 +231,13 @@ function KeyboardCategory({cate,url}) {
                             height="250"
                             width="10"
                           ></img>
-                          <p class="category-box">{item.name}</p>
-                          <div class="container">
-                            <table class="card-box">
+                          <p className="category-box">{item.name}</p>
+                          <div className="container">
+                            <table className="card-box">
                               <tr>
                                 <td>
                                   <img
-                                    class="img-recommend"
+                                    className="img-recommend"
                                     src="https://notebookspec.com/laravel/public//images/component-shop-advice.jpg"
                                     width="110"
                                     height="40"
@@ -252,7 +252,7 @@ function KeyboardCategory({cate,url}) {
                               <tr>
                                 <td>
                                   <img
-                                    class="img-recommend"
+                                    className="img-recommend"
                                     src="https://notebookspec.com/laravel/public//images/component-shop-jib.jpg"
                                     width="110"
                                     height="40"
@@ -268,7 +268,7 @@ function KeyboardCategory({cate,url}) {
                               <tr>
                                 <td>
                                   <img
-                                    class="img-recommend"
+                                    className="img-recommend"
                                     src="https://notebookspec.com/laravel/public//images/component-shop-banana.png"
                                     width="110"
                                     height="40"
@@ -294,15 +294,15 @@ function KeyboardCategory({cate,url}) {
           {/* ปิดส่วนของ Maincontent Keyboard */}
           {/* ส่วนของ Maincontent Headset*/}
           {/* <Route path="/Category/headset">
-            <main class="page-main">
-              <div class="content-data-category">
-                <div class="grid-category-filter">
+            <main className="page-main">
+              <div className="content-data-category">
+                <div className="grid-category-filter">
                   {keyboard.map((item) => {
                     return (
-                      <div class="item">
-                        <div class="card-content">
+                      <div className="item">
+                        <div className="card-content">
                           <img
-                            class="card-img"
+                            className="card-img"
                             src={
                               item.advice[0]
                                 ? item.advice[0].data[0].image
@@ -315,13 +315,13 @@ function KeyboardCategory({cate,url}) {
                             height="250"
                             width="10"
                           ></img>
-                          <p class="category-box">{item.name}</p>
-                          <div class="container">
-                            <table class="card-box">
+                          <p className="category-box">{item.name}</p>
+                          <div className="container">
+                            <table className="card-box">
                               <tr>
                                 <td>
                                   <img
-                                    class="img-recommend"
+                                    className="img-recommend"
                                     src="https://notebookspec.com/laravel/public//images/component-shop-advice.jpg"
                                     width="110"
                                     height="40"
@@ -336,7 +336,7 @@ function KeyboardCategory({cate,url}) {
                               <tr>
                                 <td>
                                   <img
-                                    class="img-recommend"
+                                    className="img-recommend"
                                     src="https://notebookspec.com/laravel/public//images/component-shop-jib.jpg"
                                     width="110"
                                     height="40"
@@ -352,7 +352,7 @@ function KeyboardCategory({cate,url}) {
                               <tr>
                                 <td>
                                   <img
-                                    class="img-recommend"
+                                    className="img-recommend"
                                     src="https://notebookspec.com/laravel/public//images/component-shop-banana.png"
                                     width="110"
                                     height="40"
@@ -378,15 +378,15 @@ function KeyboardCategory({cate,url}) {
           {/* ปิดส่วนของ Maincontent Headset*/}
           {/* ส่วนของ Maincontent Mousepad*/}
           {/* <Route path="/Category/mousepad">
-            <main class="page-main">
-              <div class="content-data-category">
-                <div class="grid-category-filter">
+            <main className="page-main">
+              <div className="content-data-category">
+                <div className="grid-category-filter">
                   {keyboard.map((item) => {
                     return (
-                      <div class="item">
-                        <div class="card-content">
+                      <div className="item">
+                        <div className="card-content">
                           <img
-                            class="card-img"
+                            className="card-img"
                             src={
                               item.advice[0]
                                 ? item.advice[0].data[0].image
@@ -399,13 +399,13 @@ function KeyboardCategory({cate,url}) {
                             height="250"
                             width="10"
                           ></img>
-                          <p class="category-box">{item.name}</p>
-                          <div class="container">
-                            <table class="card-box">
+                          <p className="category-box">{item.name}</p>
+                          <div className="container">
+                            <table className="card-box">
                               <tr>
                                 <td>
                                   <img
-                                    class="img-recommend"
+                                    className="img-recommend"
                                     src="https://notebookspec.com/laravel/public//images/component-shop-advice.jpg"
                                     width="110"
                                     height="40"
@@ -420,7 +420,7 @@ function KeyboardCategory({cate,url}) {
                               <tr>
                                 <td>
                                   <img
-                                    class="img-recommend"
+                                    className="img-recommend"
                                     src="https://notebookspec.com/laravel/public//images/component-shop-jib.jpg"
                                     width="110"
                                     height="40"
@@ -436,7 +436,7 @@ function KeyboardCategory({cate,url}) {
                               <tr>
                                 <td>
                                   <img
-                                    class="img-recommend"
+                                    className="img-recommend"
                                     src="https://notebookspec.com/laravel/public//images/component-shop-banana.png"
                                     width="110"
                                     height="40"
@@ -462,15 +462,15 @@ function KeyboardCategory({cate,url}) {
           {/* ปิดส่วนส่วนของ Maincontent Mousepad*/}
           {/* ส่วนของ Maincontent Microphone*/}
           {/* <Route path="/Category/microphone">
-            <main class="page-main">
-              <div class="content-data-category">
-                <div class="grid-category-filter">
+            <main className="page-main">
+              <div className="content-data-category">
+                <div className="grid-category-filter">
                   {keyboard.map((item) => {
                     return (
-                      <div class="item">
-                        <div class="card-content">
+                      <div className="item">
+                        <div className="card-content">
                           <img
-                            class="card-img"
+                            className="card-img"
                             src={
                               item.advice[0]
                                 ? item.advice[0].data[0].image
@@ -483,13 +483,13 @@ function KeyboardCategory({cate,url}) {
                             height="250"
                             width="10"
                           ></img>
-                          <p class="category-box">{item.name}</p>
-                          <div class="container">
-                            <table class="card-box">
+                          <p className="category-box">{item.name}</p>
+                          <div className="container">
+                            <table className="card-box">
                               <tr>
                                 <td>
                                   <img
-                                    class="img-recommend"
+                                    className="img-recommend"
                                     src="https://notebookspec.com/laravel/public//images/component-shop-advice.jpg"
                                     width="110"
                                     height="40"
@@ -504,7 +504,7 @@ function KeyboardCategory({cate,url}) {
                               <tr>
                                 <td>
                                   <img
-                                    class="img-recommend"
+                                    className="img-recommend"
                                     src="https://notebookspec.com/laravel/public//images/component-shop-jib.jpg"
                                     width="110"
                                     height="40"
@@ -520,7 +520,7 @@ function KeyboardCategory({cate,url}) {
                               <tr>
                                 <td>
                                   <img
-                                    class="img-recommend"
+                                    className="img-recommend"
                                     src="https://notebookspec.com/laravel/public//images/component-shop-banana.png"
                                     width="110"
                                     height="40"
