@@ -1,0 +1,84 @@
+{
+  "_id": "",
+  "key": "",
+  "name": "",
+  "category": "",
+  "advice": [
+    {
+      "_id": "",
+      "model": "",
+      "name": "",
+      "store": "",
+      "brand": "",
+      "category": "",
+      "tag": "",
+      "data": [
+        {
+          "name": "",
+          "price": 0,
+          "href": "",
+          "image": "",
+          "spec": {
+            "interface": "",
+            "sensor": "",
+            "macro": "",
+            "dpi": "",
+            "switch_type": ""
+          }
+        }
+      ]
+    }
+  ],
+  "banana": [
+    {
+      "_id": "",
+      "model": "",
+      "name": "",
+      "store": "",
+      "brand": "",
+      "category": "",
+      "tag": "",
+      "data": [
+        {
+          "name": "",
+          "price": 0,
+          "href": "",
+          "image": "",
+          "spec": {
+            "interface": "",
+            "sensor": "",
+            "macro": "",
+            "dpi": "",
+            "switch_type": ""
+          }
+        }
+      ]
+    }
+  ],
+  "mercular": [
+    {
+      "_id": "",
+      "model": "",
+      "name": "",
+      "store": "",
+      "brand": "",
+      "category": "",
+      "tag": "",
+      "data": [
+        {
+          "name": "",
+          "price": 0,
+          "href": "",
+          "image": "",
+          "spec": {
+            "interface": "",
+            "sensor": "",
+            "macro": "",
+            "dpi": "",
+            "switch_type": ""
+          }
+        }
+      ]
+    }
+  ]
+}

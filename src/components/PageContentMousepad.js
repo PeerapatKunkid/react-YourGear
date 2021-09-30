@@ -3,9 +3,9 @@ import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
 import "./PageContent.css";
 import axios from "axios";
-import model from "./compareModel.json";
+import model from "./Model/Model_mousepad.json";
 import { v4 as uuidv4 } from "uuid";
-function PageContent({ type }) {
+function PageContentMousepad({ type }) {
   const { postId } = useParams();
   const [post, setPost] = useState(model);
 
@@ -121,54 +121,27 @@ function PageContent({ type }) {
                   <table className="table-detailspec" >
                     <tr>
                       <td>
-                        <h2>INTERFACE</h2>
+                        <h2>DIMENSION</h2>
                       </td>
                       <td>
                         <h2>
-                        <h2>{item.spec.interface ? item.spec.interface:"N/A"}</h2>
+                        <h2>{item.spec.dimension ? item.spec.dimension:"N/A"}</h2>
                         </h2>
                       </td>
                     </tr>
                     <tr>
                       <td>
-                        <h2>SENSOR</h2>
+                        <h2>MATERIAL</h2>
                       </td>
                       <td>
                         <h2>
-                        <h2>{item.spec.sensor ? item.spec.sensor:"N/A"}</h2>
+                        <h2>{item.spec.material ? item.spec.material:"N/A"}</h2>
                         </h2>
                       </td>
                     </tr>
-                    <tr>
-                      <td>
-                        <h2>MARCO</h2>
-                      </td>
-                      <td>
-                        <h2>
-                        <h2>{item.spec.macro ? item.spec.macro:"N/A"}</h2>
-                        </h2>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <h2>DPI</h2>
-                      </td>
-                      <td>
-                        <h2>
-                        <h2>{item.spec.dpi ? item.spec.dpi:"N/A"}</h2>
-                        </h2>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <h2>SWITCH TYPE</h2>
-                      </td>
-                      <td>
-                        <h2>
-                        <h2>{item.spec.switch_type ? item.spec.switch_type:"N/A"}</h2>
-                        </h2>
-                      </td>
-                    </tr>
+                    
+                    
+                    
                     
                   </table>
                 </div>
@@ -182,4 +155,4 @@ function PageContent({ type }) {
     </div>
   );
 }
-export default PageContent;
+export default PageContentMousepad;

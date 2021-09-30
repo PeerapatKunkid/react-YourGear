@@ -1,0 +1,75 @@
+{
+  "_id": "",
+  "key": "",
+  "name": "",
+  "category": "",
+  "advice": [
+    {
+      "_id": "",
+      "model": "",
+      "name": "",
+      "store": "",
+      "brand": "",
+      "category": "",
+      "tag": "",
+      "data": [
+        {
+          "name": "",
+          "price": 0,
+          "href": "",
+          "image": "",
+          "spec": {
+            "dimension": "",
+            "material": ""
+          }
+        }
+      ]
+    }
+  ],
+  "banana": [
+    {
+      "_id": "",
+      "model": "",
+      "name": "",
+      "store": "",
+      "brand": "",
+      "category": "",
+      "tag": "",
+      "data": [
+        {
+          "name": "",
+          "price": 0,
+          "href": "",
+          "image": "",
+          "spec": {
+            "dimension": "",
+            "material": ""
+          }
+        }
+      ]
+    }
+  ],
+  "mercular": [
+    {
+      "_id": "",
+      "model": "",
+      "name": "",
+      "store": "",
+      "brand": "",
+      "category": "",
+      "tag": "",
+      "data": [
+        {
+          "name": "",
+          "price": 0,
+          "href": "",
+          "image": "",
+          "spec": {
+            "dimension": "",
+            "material": ""
+          }
+        }
+      ]
+    }
+  ]
+}

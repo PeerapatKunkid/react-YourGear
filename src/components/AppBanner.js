@@ -1,41 +1,45 @@
 import React from "react";
 import "./AppBanner.css";
 import $ from "jquery";
+import { Link } from "react-router-dom";
 function AppBanner() {
-
   return (
     <div>
       <nav className="nav">
         <div className="container">
           <div className="logo">
-            <img className="logo-img" src="image/Logo.png" width="65" height="65"/>
+            <Link to="/">
+              <img
+                className="logo-img"
+                src="image/Logo.png"
+                width="65"
+                height="65"
+              />
+            </Link>
           </div>
+
           <div id="mainListDiv" className="main_list">
             <ul className="navlinks">
-              
               <li>
                 <a href="#">Build your gear</a>
               </li>
               <li>
-                <a href="#">Login
-                </a>
+                <a href="#">Login</a>
               </li>
             </ul>
           </div>
           <span className="navTrigger">
             <i></i>
-            
+
             <i></i>
             <i></i>
           </span>
         </div>
       </nav>
-      
+
       <section className="home"></section>
-      
-      <div>
-        
-        </div>
+
+      <div></div>
     </div>
   );
 }

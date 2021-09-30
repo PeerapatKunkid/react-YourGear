@@ -4,8 +4,8 @@ import axios from "axios";
 import React, { useState, useEffect, Component, sort } from "react";
 import { Link, Switch, Route } from "react-router-dom";
 
-function KeyboardCategory({cate,url}) {
-  const [post,setPost] =useState ([
+function KeyboardCategory({ cate, url }) {
+  const [post, setPost] = useState([
     {
       _id: "",
       key: "",
@@ -15,8 +15,7 @@ function KeyboardCategory({cate,url}) {
       banana: [],
       mercular: [],
     },
-  ])
-  
+  ]);
 
   useEffect(() => {
     axios
@@ -24,12 +23,9 @@ function KeyboardCategory({cate,url}) {
       .then((response) => setPost(response.data));
   }, []);
 
-  
-  
   return (
     <div className="main-content-category">
       <header className="page-header">
-        
         <div className="dropdown">
           <button className="dropbtn">TYPE</button>
           <div className="dropdown-content">
@@ -117,18 +113,16 @@ function KeyboardCategory({cate,url}) {
           </div>
         </aside>
         {/* ส่วนของ Maincontent Mouse */}
-        
-          <Route path="/category/mouse">
-            <main className="page-main">
-              <div className="content-data-category">
-                <div className="grid-category-filter">
-                  {post.map((post,index) => {
-                   
-                    return (
-                      
-                      <div className="item" key={post._id}>
-                        {console.log(post)}
-                        <Link to={`/category/${cate}/${index}`}>
+
+        <Route path="/category/mouse">
+          <main className="page-main">
+            <div className="content-data-category">
+              <div className="grid-category-filter">
+                {post.map((post, index) => {
+                  return (
+                    <div className="item" key={post._id}>
+                      {console.log(post)}
+                      <Link to={`/category/${cate}/${index}`}>
                         <div className="card-content">
                           <img
                             className="card-img"
@@ -197,41 +191,41 @@ function KeyboardCategory({cate,url}) {
                             </table>
                           </div>
                         </div>
-                        </Link>
-                      </div>
-                      
-                    );
-                  })}
-                </div>
+                      </Link>
+                    </div>
+                  );
+                })}
               </div>
-            </main>
-          </Route>
-          {/* ปิดส่วนของ Maincontent Mouse */}
-          {/* ส่วนของ Maincontent Keyboard */}
-          {/* <Route path="/Category/keyboard">
-            <main className="page-main">
-              <div className="content-data-category">
-                <div className="grid-category-filter">
-                  {keyboard.map((item) => {
-                    return (
-                      <div className="item">
-                        
+            </div>
+          </main>
+        </Route>
+        {/* ปิดส่วนของ Maincontent Mouse */}
+        {/* ส่วนของ Maincontent Keyboard */}
+        <Route path="/category/keyboard">
+          <main className="page-main">
+            <div className="content-data-category">
+              <div className="grid-category-filter">
+                {post.map((post, index) => {
+                  return (
+                    <div className="item" key={post._id}>
+                      {console.log(post)}
+                      <Link to={`/category/${cate}/${index}`}>
                         <div className="card-content">
                           <img
                             className="card-img"
                             src={
-                              item.advice[0]
-                                ? item.advice[0].data[0].image
-                                : item.banana[0]
-                                ? item.banana[0].data[0].image
-                                : item.mercular[0]
-                                ? item.mercular[0].data[0].image
+                              post.advice[0]
+                                ? post.advice[0].data[0].image
+                                : post.banana[0]
+                                ? post.banana[0].data[0].image
+                                : post.mercular[0]
+                                ? post.mercular[0].data[0].image
                                 : ""
                             }
                             height="250"
                             width="10"
                           ></img>
-                          <p className="category-box">{item.name}</p>
+                          <p className="category-box">{post.name}</p>
                           <div className="container">
                             <table className="card-box">
                               <tr>
@@ -244,8 +238,8 @@ function KeyboardCategory({cate,url}) {
                                   />
                                 </td>
                                 <td>
-                                  {item.advice[0]
-                                    ? item.advice[0].data[0].price
+                                  {post.advice[0]
+                                    ? post.advice[0].data[0].price
                                     : "N/A"}
                                 </td>
                               </tr>
@@ -259,8 +253,8 @@ function KeyboardCategory({cate,url}) {
                                   />
                                 </td>
                                 <td>
-                                  {item.mercular[0]
-                                    ? item.mercular[0].data[0].price
+                                  {post.mercular[0]
+                                    ? post.mercular[0].data[0].price
                                     : "N/A"}
                                 </td>
                               </tr>
@@ -276,46 +270,49 @@ function KeyboardCategory({cate,url}) {
                                 </td>
 
                                 <td>
-                                  {item.banana[0]
-                                    ? item.banana[0].data[0].price
+                                  {post.banana[0]
+                                    ? post.banana[0].data[0].price
                                     : "N/A"}
                                 </td>
                               </tr>
                             </table>
                           </div>
                         </div>
-                      </div>
-                    );
-                  })}
-                </div>
+                      </Link>
+                    </div>
+                  );
+                })}
               </div>
-            </main>
-          </Route> */}
-          {/* ปิดส่วนของ Maincontent Keyboard */}
-          {/* ส่วนของ Maincontent Headset*/}
-          {/* <Route path="/Category/headset">
-            <main className="page-main">
-              <div className="content-data-category">
-                <div className="grid-category-filter">
-                  {keyboard.map((item) => {
-                    return (
-                      <div className="item">
+            </div>
+          </main>
+        </Route>
+        {/* ปิดส่วนของ Maincontent Keyboard */}
+        {/* ส่วนของ Maincontent Headset*/}
+        <Route path="/category/headset">
+          <main className="page-main">
+            <div className="content-data-category">
+              <div className="grid-category-filter">
+                {post.map((post, index) => {
+                  return (
+                    <div className="item" key={post._id}>
+                      {console.log(post)}
+                      <Link to={`/category/${cate}/${index}`}>
                         <div className="card-content">
                           <img
                             className="card-img"
                             src={
-                              item.advice[0]
-                                ? item.advice[0].data[0].image
-                                : item.banana[0]
-                                ? item.banana[0].data[0].image
-                                : item.mercular[0]
-                                ? item.mercular[0].data[0].image
+                              post.advice[0]
+                                ? post.advice[0].data[0].image
+                                : post.banana[0]
+                                ? post.banana[0].data[0].image
+                                : post.mercular[0]
+                                ? post.mercular[0].data[0].image
                                 : ""
                             }
                             height="250"
                             width="10"
                           ></img>
-                          <p className="category-box">{item.name}</p>
+                          <p className="category-box">{post.name}</p>
                           <div className="container">
                             <table className="card-box">
                               <tr>
@@ -328,8 +325,8 @@ function KeyboardCategory({cate,url}) {
                                   />
                                 </td>
                                 <td>
-                                  {item.advice[0]
-                                    ? item.advice[0].data[0].price
+                                  {post.advice[0]
+                                    ? post.advice[0].data[0].price
                                     : "N/A"}
                                 </td>
                               </tr>
@@ -343,8 +340,8 @@ function KeyboardCategory({cate,url}) {
                                   />
                                 </td>
                                 <td>
-                                  {item.mercular[0]
-                                    ? item.mercular[0].data[0].price
+                                  {post.mercular[0]
+                                    ? post.mercular[0].data[0].price
                                     : "N/A"}
                                 </td>
                               </tr>
@@ -360,46 +357,49 @@ function KeyboardCategory({cate,url}) {
                                 </td>
 
                                 <td>
-                                  {item.banana[0]
-                                    ? item.banana[0].data[0].price
+                                  {post.banana[0]
+                                    ? post.banana[0].data[0].price
                                     : "N/A"}
                                 </td>
                               </tr>
                             </table>
                           </div>
                         </div>
-                      </div>
-                    );
-                  })}
-                </div>
+                      </Link>
+                    </div>
+                  );
+                })}
               </div>
-            </main> */}
-          {/* </Route> */}
-          {/* ปิดส่วนของ Maincontent Headset*/}
-          {/* ส่วนของ Maincontent Mousepad*/}
-          {/* <Route path="/Category/mousepad">
-            <main className="page-main">
-              <div className="content-data-category">
-                <div className="grid-category-filter">
-                  {keyboard.map((item) => {
-                    return (
-                      <div className="item">
+            </div>
+          </main>
+        </Route>
+        {/* ปิดส่วนของ Maincontent Headset*/}
+        {/* ส่วนของ Maincontent Mousepad*/}
+        <Route path="/category/mousepad">
+          <main className="page-main">
+            <div className="content-data-category">
+              <div className="grid-category-filter">
+                {post.map((post, index) => {
+                  return (
+                    <div className="item" key={post._id}>
+                      {console.log(post)}
+                      <Link to={`/category/${cate}/${index}`}>
                         <div className="card-content">
                           <img
                             className="card-img"
                             src={
-                              item.advice[0]
-                                ? item.advice[0].data[0].image
-                                : item.banana[0]
-                                ? item.banana[0].data[0].image
-                                : item.mercular[0]
-                                ? item.mercular[0].data[0].image
+                              post.advice[0]
+                                ? post.advice[0].data[0].image
+                                : post.banana[0]
+                                ? post.banana[0].data[0].image
+                                : post.mercular[0]
+                                ? post.mercular[0].data[0].image
                                 : ""
                             }
                             height="250"
                             width="10"
                           ></img>
-                          <p className="category-box">{item.name}</p>
+                          <p className="category-box">{post.name}</p>
                           <div className="container">
                             <table className="card-box">
                               <tr>
@@ -412,8 +412,8 @@ function KeyboardCategory({cate,url}) {
                                   />
                                 </td>
                                 <td>
-                                  {item.advice[0]
-                                    ? item.advice[0].data[0].price
+                                  {post.advice[0]
+                                    ? post.advice[0].data[0].price
                                     : "N/A"}
                                 </td>
                               </tr>
@@ -427,8 +427,8 @@ function KeyboardCategory({cate,url}) {
                                   />
                                 </td>
                                 <td>
-                                  {item.mercular[0]
-                                    ? item.mercular[0].data[0].price
+                                  {post.mercular[0]
+                                    ? post.mercular[0].data[0].price
                                     : "N/A"}
                                 </td>
                               </tr>
@@ -444,46 +444,49 @@ function KeyboardCategory({cate,url}) {
                                 </td>
 
                                 <td>
-                                  {item.banana[0]
-                                    ? item.banana[0].data[0].price
+                                  {post.banana[0]
+                                    ? post.banana[0].data[0].price
                                     : "N/A"}
                                 </td>
                               </tr>
                             </table>
                           </div>
                         </div>
-                      </div>
-                    );
-                  })}
-                </div>
+                      </Link>
+                    </div>
+                  );
+                })}
               </div>
-            </main> */}
-          {/* </Route> */}
-          {/* ปิดส่วนส่วนของ Maincontent Mousepad*/}
-          {/* ส่วนของ Maincontent Microphone*/}
-          {/* <Route path="/Category/microphone">
-            <main className="page-main">
-              <div className="content-data-category">
-                <div className="grid-category-filter">
-                  {keyboard.map((item) => {
-                    return (
-                      <div className="item">
+            </div>
+          </main>
+        </Route>
+        {/* ปิดส่วนส่วนของ Maincontent Mousepad*/}
+        {/* ส่วนของ Maincontent Microphone*/}
+        <Route path="/category/microphone">
+          <main className="page-main">
+            <div className="content-data-category">
+              <div className="grid-category-filter">
+                {post.map((post, index) => {
+                  return (
+                    <div className="item" key={post._id}>
+                      {console.log(post)}
+                      <Link to={`/category/${cate}/${index}`}>
                         <div className="card-content">
                           <img
                             className="card-img"
                             src={
-                              item.advice[0]
-                                ? item.advice[0].data[0].image
-                                : item.banana[0]
-                                ? item.banana[0].data[0].image
-                                : item.mercular[0]
-                                ? item.mercular[0].data[0].image
+                              post.advice[0]
+                                ? post.advice[0].data[0].image
+                                : post.banana[0]
+                                ? post.banana[0].data[0].image
+                                : post.mercular[0]
+                                ? post.mercular[0].data[0].image
                                 : ""
                             }
                             height="250"
                             width="10"
                           ></img>
-                          <p className="category-box">{item.name}</p>
+                          <p className="category-box">{post.name}</p>
                           <div className="container">
                             <table className="card-box">
                               <tr>
@@ -496,8 +499,8 @@ function KeyboardCategory({cate,url}) {
                                   />
                                 </td>
                                 <td>
-                                  {item.advice[0]
-                                    ? item.advice[0].data[0].price
+                                  {post.advice[0]
+                                    ? post.advice[0].data[0].price
                                     : "N/A"}
                                 </td>
                               </tr>
@@ -511,8 +514,8 @@ function KeyboardCategory({cate,url}) {
                                   />
                                 </td>
                                 <td>
-                                  {item.mercular[0]
-                                    ? item.mercular[0].data[0].price
+                                  {post.mercular[0]
+                                    ? post.mercular[0].data[0].price
                                     : "N/A"}
                                 </td>
                               </tr>
@@ -528,22 +531,23 @@ function KeyboardCategory({cate,url}) {
                                 </td>
 
                                 <td>
-                                  {item.banana[0]
-                                    ? item.banana[0].data[0].price
+                                  {post.banana[0]
+                                    ? post.banana[0].data[0].price
                                     : "N/A"}
                                 </td>
                               </tr>
                             </table>
                           </div>
                         </div>
-                      </div>
-                    );
-                  })}
-                </div>
+                      </Link>
+                    </div>
+                  );
+                })}
               </div>
-            </main>
-          </Route> */}
-        
+            </div>
+          </main>
+        </Route>
+
         {/* ปิดส่วนของ Maincontent Microphone*/}
       </div>
     </div>

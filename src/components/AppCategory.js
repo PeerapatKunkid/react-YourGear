@@ -2,7 +2,7 @@ import React from "react";
 import { Link, Switch, Route } from "react-router-dom";
 import "./AppCategory.css";
 import KeyboardCategory from "./KeyboardCategory";
-import PageContent from "./PageContent";
+import PageContent from "./PageContentMouse";
 function AppCategory() {
   return (
     <div className="main-content">
