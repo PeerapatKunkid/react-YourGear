@@ -24,21 +24,21 @@ function App() {
           <ContentRecommend />
         </Route>
 
-        <Route path="/category/mouse/:postId">
+        {/* <Route path="/category/mouse/:postId">
           <PageContentMouse type="allMouse" />
         </Route>
         <Route path="/category/mouse" exact>
           <KeyboardCategory cate="mouse" url="allMouse" />
-        </Route>
+        </Route> */}
         
-        <Route path="/category/keyboard/:postId">
-          <PageContentKeyboard type="allKeyboard" />
+        <Route path="/products/keyboard/:postId">
+          <PageContentKeyboard type="keyboard" />
         </Route>
-        <Route path="/category/keyboard" exact>
-          <KeyboardCategory cate="keyboard" url="allKeyboard" />
+        <Route path="/products/keyboard/" exact>
+          <KeyboardCategory cate="keyboard" url="keyboard" page="1"/>
         </Route>
       
-        <Route path="/category/headset/:postId">
+        {/* <Route path="/category/headset/:postId">
           <PageContentHeadset type="allHeadset" />
         </Route>
         <Route path="/category/headset" exact>
@@ -58,7 +58,7 @@ function App() {
         <Route path="/category/mousepad" exact>
           <KeyboardCategory cate="mousepad" url="allMousepad" />
         </Route>
-      
+       */}
       
       
       </Switch>

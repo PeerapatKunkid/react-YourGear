@@ -2,7 +2,9 @@ import React from "react";
 import "./AppBanner.css";
 import $ from "jquery";
 import { Link } from "react-router-dom";
+import { useState } from "react";
 function AppBanner() {
+  const [searchText, setSearchText] =useState("");
   return (
     <div>
       <nav className="nav">
@@ -37,8 +39,25 @@ function AppBanner() {
         </div>
       </nav>
 
-      <section className="home"></section>
+      <div className="home">
 
+      <div className="app-search-in-box">
+                    <div className="app-search">
+                        <p>What do you want to find ?</p>
+                            <input
+                                className="app-search-input"
+                                type="text"
+                                value={searchText}
+                            />
+                            <img src="image/search.png" width="25px" height="25px"/>
+
+                    </div>
+                </div>
+
+
+
+      </div>
+      
       <div></div>
     </div>
   );
