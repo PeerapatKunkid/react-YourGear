@@ -10,15 +10,17 @@ function PageContentKeyboard({ type }) {
   const [post, setPost] = useState(model);
 
   async function getPost(postId) {
-    axios.get(`http://localhost:3001/${type}/1/${postId}`).then((response) => {
-      setPost(response.data);
+    axios.get(`http://localhost:3001/products/${type}/?item=${postId}`).then((response) => {
+      setPost(response.data.data);
     });
   }
-
+  
   useEffect(() => {
     getPost(postId);
+    
   }, [postId]);
-
+  {console.log(postId)}
+  {console.log(post)}
   return (
     <div class="content-show">
       <h1>{post.name}</h1>

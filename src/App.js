@@ -31,11 +31,11 @@ function App() {
           <KeyboardCategory cate="mouse" url="allMouse" />
         </Route> */}
         
-        <Route path="/products/keyboard/:postId">
-          <PageContentKeyboard type="keyboard" />
+        <Route path="/products/Keyboard/:postId">
+          <PageContentKeyboard type="Keyboard" />
         </Route>
-        <Route path="/products/keyboard/" exact>
-          <KeyboardCategory cate="keyboard" url="keyboard" page="1"/>
+        <Route path="/products/Keyboard/" exact>
+          <KeyboardCategory cate="Keyboard" url="Keyboard" page="1"/>
         </Route>
       
         {/* <Route path="/category/headset/:postId">

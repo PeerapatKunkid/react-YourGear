@@ -7,8 +7,8 @@ import { Link, Switch, Route,onChange } from "react-router-dom";
 
 function KeyboardCategory({ cate, url }) {
 
-
-  
+  const [allBrand , SetAllbrand] = useState([]);
+  const [brand , setBrand] = useState('');
   const [sort , setSort ] = useState('');
   const [products, setProducts] = useState([
     {
@@ -31,19 +31,30 @@ function KeyboardCategory({ cate, url }) {
 
   useEffect(async () => {
     const res = await axios.get(
-      `http://localhost:3001/products/${url}/?page=1${sort}`
+      `http://localhost:3001/products/${url}/?page=1${sort}${brand}`
     );
+    const dataBrand = res.data.allBrand;
     const dataProduct = res.data.data;
     const dataPage = {
       totalPage: res.data.totalPage,
       currentPage: res.data.currentPage,
     };
+    
     setProducts(dataProduct);
     setPage(dataPage);
-  }, [sort]);
-  // console.log(products)
-  // console.log(page)
+  }, [sort,brand]);
 
+  useEffect(async () => {
+    const res = await axios.get(
+      `http://localhost:3001/products/${url}/`
+    );
+    const dataBrand = res.data.allBrand;
+    
+    SetAllbrand(dataBrand);
+   
+  }, []);
+  
+  console.log(brand)
   return (
 
     
@@ -75,73 +86,33 @@ function KeyboardCategory({ cate, url }) {
           <div className="content-filter-category">
             <p className="filter-header">Filter</p>
             <p className="brand-tag-filter">BRAND</p>
-
-            <label className="filter-checkbox">
-              Logitect
-              {/* <input type="checkbox" checked="checked" /> */}
-              <input type="checkbox" />
-              <span className="checkmark"></span>
-            </label>
-            <label className="filter-checkbox">
-              Zowie
-              <input type="checkbox" />
-              <span className="checkmark"></span>
-            </label>
-            <label className="filter-checkbox">
-              Razer
-              <input type="checkbox" />
-              <span className="checkmark"></span>
-            </label>
-            <label className="filter-checkbox">
-              Xtrfy
-              <input type="checkbox" />
-              <span className="checkmark"></span>
-            </label>
-            <label className="filter-checkbox">
-              Steelseries
-              <input type="checkbox" />
-              <span className="checkmark"></span>
-            </label>
-            <label className="filter-checkbox">
-              Hyperx
-              <input type="checkbox" />
-              <span className="checkmark"></span>
-            </label>
-            <label className="filter-checkbox">
-              Oker
-              <input type="checkbox" />
-              <span className="checkmark"></span>
-            </label>
-            <label className="filter-checkbox">
-              Nubwo
-              <input type="checkbox" />
-              <span className="checkmark"></span>
-            </label>
-            <p className="price-tag-filter">PRICE</p>
-            <tr border="1" className="filter-price">
-              <td>
-                <input type="text" id="fname" name="fname" />
-              </td>
-              <td className="to"> ~ </td>
-              <td>
-                <input type="text" id="fname" name="fname" />
-              </td>
-            </tr>
+            {allBrand.map((brand) => {
+                 
+                 return (
+                  <label className="filter-checkbox">
+                  {brand}
+                  {/* <input type="checkbox" checked="checked" /> */}
+                  <input type="checkbox" value={`&selectBrand=${brand}`} onChange={e=> setBrand(e.target.value)}/>
+                  <span className="checkmark"></span>
+                </label>
+              )})}
+           
+            
             <p className="filter-header-category">CATEGORY</p>
             <div className="linkcategory">
-              <Link to="/category/mouse">
+              <Link to="/products/mouse">
                 <p>- Mouse</p>
               </Link>
-              <Link to="/category/keyboard">
+              <Link to="/products/Keyboard">
                 <p>- Keyboard</p>
               </Link>
-              <Link to="/category/headset">
+              <Link to="/products/headset">
                 <p>- Headset</p>
               </Link>
-              <Link to="/category/mousepad">
+              <Link to="/products/mousepad">
                 <p>- Mousepad</p>
               </Link>
-              <Link to="/category/microphone">
+              <Link to="/products/microphone">
                 <p>- Microphone</p>
               </Link>
             </div>
@@ -249,7 +220,7 @@ function KeyboardCategory({ cate, url }) {
         {/* ปิดส่วนของ Maincontent Mouse */}
         {/* ส่วนของ Maincontent Keyboard */}
 
-        <Route path="/products/keyboard/"> 
+        <Route path="/products/Keyboard/"> 
         <main className="page-main">
             <div className="content-data-category">
               <div className="grid-category-filter">
@@ -259,18 +230,19 @@ function KeyboardCategory({ cate, url }) {
                   return (
                     <div className="item" key={item._id}>
                       
-                      <Link to={`/products/${cate}/`}>
+                      <Link to={`/products/${cate}/${item.key}`}>
+                        {console.log(item.key)}
                         <div className="card-content">
                           <img
                             className="card-img"
                             src={
                               item.advice[0]
-                                ? item.advice[0].data[0].image
-                                : item.banana[0]
-                                ? item.banana[0].data[0].image
-                                : item.mercular[0]
-                                ? item.mercular[0].data[0].image
-                                : ""
+                                && item.advice[0].data[0].image
+                             || item.banana[0]
+                                && item.banana[0].data[0].image
+                                || item.mercular[0]
+                                && item.mercular[0].data[0].image
+                                
                             }
                             height="250"
                             width="10"

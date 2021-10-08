@@ -21,7 +21,7 @@ function AppCategory() {
             </div>
           </div>
         </Link>
-        <Link to="/products/keyboard">
+        <Link to="/products/Keyboard">
           <div className="item">
             <div className="content">
               <img
