@@ -8,7 +8,7 @@ import ShowDetails from "./ShowDetails";
 import SignInFacebook from "./SignInFacebook"
 import { store } from "../redux/store";
 import { useSelector } from "react-redux";
-
+import Login from "./Login";
 function AppBanner() {
   const [searchText, setSearchText] =useState("");
   const user = useSelector((state) => state.user.name);
@@ -30,10 +30,14 @@ function AppBanner() {
           <div id="mainListDiv" className="main_list">
             <ul className="navlinks">
               <li>
+              
                 <a href="#">Build your gear</a>
+               
               </li>
               <li>
-              {user ? <ShowDetails /> : <SignInFacebook />}
+                <div className="lgfb">
+              {user ? <ShowDetails /> : <Login/>}
+              </div>
               </li>
             </ul>
           </div>

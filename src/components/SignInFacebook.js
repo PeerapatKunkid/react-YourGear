@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { update } from "../redux/userSlice";
 import FacebookLogin from "react-facebook-login";
 import axios from "axios";
-
+import "./SignInFacebook.css";
 function SignInFacebook() {
   const dispatch = useDispatch();
   const user = useSelector((state) => state.user.name);
@@ -28,7 +28,7 @@ function SignInFacebook() {
   });
 
   return (
-    <div>
+    <div className="test1">
       <FacebookLogin
         appId="865055797707610"
         fields="groups,name"

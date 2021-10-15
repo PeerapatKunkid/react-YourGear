@@ -13,7 +13,7 @@ import PageContentKeyboard from "./components/PageContentKeyboard";
 import PageContentHeadset from "./components/PageContentHeadset";
 import PageContentMousepad from "./components/PageContentMousepad";
 import PageContentMicrophone from "./components/PageContentMicrophone";
-import LoginPage from "./components/LoginPage";
+
 function App() {
   return (
     <div className="App">
@@ -41,10 +41,7 @@ function App() {
           <KeyboardCategory cate="Keyboard" url="Keyboard" page="1"/>
         </Route>
 
-        <Route path="/login">
-          <LoginPage/>
-        </Route>
-      
+        
         {/* <Route path="/category/headset/:postId">
           <PageContentHeadset type="allHeadset" />
         </Route>

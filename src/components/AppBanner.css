@@ -373,7 +373,17 @@ body {
     background-color: #111;
 }
 
+.lgfb{
+    
+    color:rgb(255, 255, 255);
+    font-size: 1.5rem;
+    margin-right: 30px;
+}
 
+.lgfb:hover{
+    color: #969696;
+    
+}
 
 
 

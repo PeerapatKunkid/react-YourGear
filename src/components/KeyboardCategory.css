@@ -267,3 +267,13 @@ padding: 0px
 
   border-radius: 15px;
 }
+
+.page-number{
+  text-align: center;
+  font-size: 30px;
+  margin-left: 770px;
+}
+
+.page-number td{
+  margin-left: 300px;
+}
