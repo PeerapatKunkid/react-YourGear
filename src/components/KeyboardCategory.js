@@ -63,7 +63,7 @@ function KeyboardCategory({ cate, url }) {
         
         <div className="dropdown">
           
-          <button className="dropbtn">TYPE</button>
+          <button className="dropbtn">order by</button>
           
           <div className="dropdown-content">
           <select id="list" onChange={e=> setSort(e.target.value)}>

@@ -13,6 +13,7 @@ import PageContentKeyboard from "./components/PageContentKeyboard";
 import PageContentHeadset from "./components/PageContentHeadset";
 import PageContentMousepad from "./components/PageContentMousepad";
 import PageContentMicrophone from "./components/PageContentMicrophone";
+import LoginPage from "./components/LoginPage";
 function App() {
   return (
     <div className="App">
@@ -21,7 +22,9 @@ function App() {
       <Switch>
         <Route path="/" exact>
           <AppCategory />
-          <ContentRecommend />
+          
+          {/* <ContentRecommend /> */}
+          
         </Route>
 
         {/* <Route path="/category/mouse/:postId">
@@ -36,6 +39,10 @@ function App() {
         </Route>
         <Route path="/products/Keyboard/" exact>
           <KeyboardCategory cate="Keyboard" url="Keyboard" page="1"/>
+        </Route>
+
+        <Route path="/login">
+          <LoginPage/>
         </Route>
       
         {/* <Route path="/category/headset/:postId">

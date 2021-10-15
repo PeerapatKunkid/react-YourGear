@@ -1,10 +1,17 @@
 import React from "react";
+
 import "./AppBanner.css";
 import $ from "jquery";
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import ShowDetails from "./ShowDetails";
+import SignInFacebook from "./SignInFacebook"
+import { store } from "../redux/store";
+import { useSelector } from "react-redux";
+
 function AppBanner() {
   const [searchText, setSearchText] =useState("");
+  const user = useSelector((state) => state.user.name);
   return (
     <div>
       <nav className="nav">
@@ -26,7 +33,7 @@ function AppBanner() {
                 <a href="#">Build your gear</a>
               </li>
               <li>
-                <a href="#">Login</a>
+              {user ? <ShowDetails /> : <SignInFacebook />}
               </li>
             </ul>
           </div>
