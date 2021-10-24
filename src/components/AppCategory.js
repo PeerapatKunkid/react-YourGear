@@ -8,7 +8,7 @@ function AppCategory() {
     <div className="main-content">
       <h1 className="header-category">CATEGORY</h1>
       <div className="grid-category">
-        <Link to="/category/mouse">
+        <Link to="/products/Mouse">
           <div className="item">
             <div className="content">
               <img

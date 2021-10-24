@@ -33,7 +33,7 @@
   font-weight: 600;
   text-align: center;
   box-sizing: border-box;
-  height: 100%;
+  height: auto;
   padding: 10px;
   border-radius: 15px;
   width: 250px;
@@ -270,10 +270,18 @@ padding: 0px
 
 .page-number{
   text-align: center;
-  font-size: 30px;
+  font-size: 19px;
   margin-left: 770px;
+  font-weight: bold;
 }
 
-.page-number td{
-  margin-left: 300px;
+
+.page-number button{
+  background-color: #00000004;
+  border: #ff9100;
+}
+
+.page-number button:hover{
+  background-color: #68686804;
+  border: #ff9100;
 }

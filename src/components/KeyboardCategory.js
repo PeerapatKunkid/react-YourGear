@@ -38,7 +38,7 @@ function KeyboardCategory({ cate, url }) {
 
     setProducts(dataProduct);
     setPage(dataPage);
-  }, [sort, brand,currentPage]);
+  }, [sort, brand,currentPage,url]);
 
   useEffect(async () => {
     const res = await axios.get(`http://localhost:3001/products/${url}/`);
@@ -47,7 +47,7 @@ function KeyboardCategory({ cate, url }) {
     SetAllbrand(dataBrand);
   }, []);
 
-  console.log(page);
+  
   return (
     <div className="main-content-category">
       <header className="page-header">
@@ -63,7 +63,7 @@ function KeyboardCategory({ cate, url }) {
               <option value="&sortByAZ=1">A - Z</option>
               <option value="&sortByAZ=-1">Z - A</option>
             </select>
-            {console.log(sort)}
+           
           </div>
         </div>
       </header>
@@ -91,7 +91,7 @@ function KeyboardCategory({ cate, url }) {
 
             <p className="filter-header-category">CATEGORY</p>
             <div className="linkcategory">
-              <Link to="/products/mouse">
+              <Link to="/products/Mouse">
                 <p>- Mouse</p>
               </Link>
               <Link to="/products/Keyboard">
@@ -123,31 +123,48 @@ function KeyboardCategory({ cate, url }) {
 
         {/* ส่วนของ Maincontent Mouse */}
 
-        {/* <Route path="/category/mouse">
+        <Route path="/products/Mouse/">
           <main className="page-main">
+            <div className="page-number">
+            <table>
+              <tr>
+           {allPage.map((page)=>{
+             return(
+               <td>
+              <div key={Math.random()}>
+              
+              <button type="button" onClick={(e) => setChangePage(page)} value={page}>
+                {page}
+              </button>
+            </div>
+            </td>
+             )
+           })}
+           </tr>
+            </table>
+            </div>
             <div className="content-data-category">
               <div className="grid-category-filter">
-                {post.map((post, index) => {
+                {products.map((item) => {
                   return (
-                    <div className="item" key={post._id}>
-                      {console.log(post)}
-                      <Link to={`/products/${cate}/?sortByPrice=high&page=${index}`}>
+                    <div className="item" key={item._id}>
+                      <Link to={`/products/${cate}/${item.key}`}>
+                       
                         <div className="card-content">
                           <img
                             className="card-img"
                             src={
-                              post.advice[0]
-                                ? post.advice[0].data[0].image
-                                : post.banana[0]
-                                ? post.banana[0].data[0].image
-                                : post.mercular[0]
-                                ? post.mercular[0].data[0].image
-                                : ""
+                              (item.advice[0] &&
+                                item.advice[0].data[0].image) ||
+                              (item.banana[0] &&
+                                item.banana[0].data[0].image) ||
+                              (item.mercular[0] &&
+                                item.mercular[0].data[0].image)
                             }
                             height="250"
                             width="10"
                           ></img>
-                          <p className="category-box">{post.name}</p>
+                          <p className="category-box">{item.name}</p>
                           <div className="container">
                             <table className="card-box">
                               <tr>
@@ -160,8 +177,8 @@ function KeyboardCategory({ cate, url }) {
                                   />
                                 </td>
                                 <td>
-                                  {post.advice[0]
-                                    ? post.advice[0].data[0].price
+                                  {item.advice[0]
+                                    ? item.advice[0].data[0].price
                                     : "N/A"}
                                 </td>
                               </tr>
@@ -175,8 +192,8 @@ function KeyboardCategory({ cate, url }) {
                                   />
                                 </td>
                                 <td>
-                                  {post.mercular[0]
-                                    ? post.mercular[0].data[0].price
+                                  {item.mercular[0]
+                                    ? item.mercular[0].data[0].price
                                     : "N/A"}
                                 </td>
                               </tr>
@@ -192,8 +209,8 @@ function KeyboardCategory({ cate, url }) {
                                 </td>
 
                                 <td>
-                                  {post.banana[0]
-                                    ? post.banana[0].data[0].price
+                                  {item.banana[0]
+                                    ? item.banana[0].data[0].price
                                     : "N/A"}
                                 </td>
                               </tr>
@@ -207,29 +224,37 @@ function KeyboardCategory({ cate, url }) {
               </div>
             </div>
           </main>
-        </Route> */}
+        </Route>
         {/* ปิดส่วนของ Maincontent Mouse */}
         {/* ส่วนของ Maincontent Keyboard */}
 
         <Route path="/products/Keyboard/">
           <main className="page-main">
+            <div className="page-number">
+            <table>
+              <tr>
            {allPage.map((page)=>{
              return(
+               <td>
               <div key={Math.random()}>
-              <div onClick={(e) => setChangePage(page)} value={page}>
+              
+              <button type="button" onClick={(e) => setChangePage(page)} value={page}>
                 {page}
-              </div>
+              </button>
             </div>
+            </td>
              )
            })}
-            
+           </tr>
+            </table>
+            </div>
             <div className="content-data-category">
               <div className="grid-category-filter">
                 {products.map((item) => {
                   return (
                     <div className="item" key={item._id}>
                       <Link to={`/products/${cate}/${item.key}`}>
-                        {console.log(item.key)}
+                       
                         <div className="card-content">
                           <img
                             className="card-img"

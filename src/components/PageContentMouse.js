@@ -10,15 +10,17 @@ function PageContentMouse({ type }) {
   const [post, setPost] = useState(model);
 
   async function getPost(postId) {
-    axios.get(`http://localhost:3001/${type}/1/${postId}`).then((response) => {
-      setPost(response.data);
+    axios.get(`http://localhost:3001/products/${type}/?item=${postId}`).then((response) => {
+      setPost(response.data.data);
     });
   }
 
   useEffect(() => {
     getPost(postId);
+    
   }, [postId]);
-
+  {console.log(postId)}
+  {console.log(post)}
   return (
     <div class="content-show">
       <h1>{post.name}</h1>
@@ -131,41 +133,41 @@ function PageContentMouse({ type }) {
                     </tr>
                     <tr>
                       <td>
-                        <h2>SENSOR</h2>
+                        <h2>SWITCH</h2>
                       </td>
                       <td>
                         <h2>
-                        <h2>{item.spec.sensor ? item.spec.sensor:"N/A"}</h2>
+                        <h2>{item.spec.switch ? item.spec.switch:"N/A"}</h2>
                         </h2>
                       </td>
                     </tr>
                     <tr>
                       <td>
-                        <h2>MARCO</h2>
+                        <h2>LAYOUT</h2>
                       </td>
                       <td>
                         <h2>
-                        <h2>{item.spec.macro ? item.spec.macro:"N/A"}</h2>
+                        <h2>{item.spec.layout ? item.spec.layout:"N/A"}</h2>
                         </h2>
                       </td>
                     </tr>
                     <tr>
                       <td>
-                        <h2>DPI</h2>
+                        <h2>DIMENSION</h2>
                       </td>
                       <td>
                         <h2>
-                        <h2>{item.spec.dpi ? item.spec.dpi:"N/A"}</h2>
+                        <h2>{item.spec.dimension ? item.spec.dimension:"N/A"}</h2>
                         </h2>
                       </td>
                     </tr>
                     <tr>
                       <td>
-                        <h2>SWITCH TYPE</h2>
+                        <h2>SUPPORT</h2>
                       </td>
                       <td>
                         <h2>
-                        <h2>{item.spec.switch_type ? item.spec.switch_type:"N/A"}</h2>
+                        <h2>{item.spec.support ? item.spec.support:"N/A"}</h2>
                         </h2>
                       </td>
                     </tr>

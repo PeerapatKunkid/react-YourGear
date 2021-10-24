@@ -27,12 +27,12 @@ function App() {
           
         </Route>
 
-        {/* <Route path="/category/mouse/:postId">
-          <PageContentMouse type="allMouse" />
+        <Route path="/products/Mouse/:postId">
+          <PageContentMouse type="Mouse" />
         </Route>
-        <Route path="/category/mouse" exact>
-          <KeyboardCategory cate="mouse" url="allMouse" />
-        </Route> */}
+        <Route path="/products/Mouse" exact>
+          <KeyboardCategory cate="Mouse" url="Mouse" page="1"/>
+        </Route>
         
         <Route path="/products/Keyboard/:postId">
           <PageContentKeyboard type="Keyboard" />

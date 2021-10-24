@@ -11,7 +11,7 @@ function SignInFacebook() {
   const [allInfo, setAllInfo] = useState();
 
   const responseFacebook = (response) => {
-    // console.log(response);
+    console.log(response);
     axios.post("http://localhost:3001/user/", { userId: response.userID });
     setAllInfo(response);
     setName(response.name);
@@ -28,16 +28,21 @@ function SignInFacebook() {
   });
 
   return (
-    <div className="test1">
+    <div >
+      
       <FacebookLogin
-        appId="865055797707610"
+        cssClass="btnFacebook"
+        appId="384187966594543"
         fields="groups,name"
         autoLoad={false}
         callback={responseFacebook}
-        // publish_to_groups={true}
+        publish_to_groups={true}
+        icon={<img className="fa-facebook">
+        </img>} textButton = "&nbsp;&nbsp;Sign In with Facebook"    
         // onClick={handleUpdate}
       />
       {/* <p>{JSON.stringify(allInfo)}</p> */}
+      
     </div>
   );
 }
