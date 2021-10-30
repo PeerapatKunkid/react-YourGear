@@ -9,7 +9,7 @@ import SignInFacebook from "./SignInFacebook"
 import { store } from "../redux/store";
 import { useSelector } from "react-redux";
 import Login from "./Login";
-function AppBanner() {
+function AppBanner(props) {
   const [searchText, setSearchText] =useState("");
   const user = useSelector((state) => state.user.name);
   return (
@@ -59,9 +59,12 @@ function AppBanner() {
                                 className="app-search-input"
                                 type="text"
                                 value={searchText}
+                                placeholder ={props.placeholder}
+                                onChange ={props.handleChange}
                             />
+                            <Link to="/products/search">
                             <img src="image/search.png" width="25px" height="25px"/>
-
+                            </Link>
                     </div>
                 </div>
 

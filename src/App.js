@@ -13,7 +13,7 @@ import PageContentKeyboard from "./components/PageContentKeyboard";
 import PageContentHeadset from "./components/PageContentHeadset";
 import PageContentMousepad from "./components/PageContentMousepad";
 import PageContentMicrophone from "./components/PageContentMicrophone";
-
+import PageSearch from "./components/PageSearch";
 
 function App() {
   return (
@@ -65,6 +65,9 @@ function App() {
         </Route>
       
       
+        <Route path="/products/search" exact>
+          <PageSearch />
+        </Route>
       
       </Switch>
       <Footer />
