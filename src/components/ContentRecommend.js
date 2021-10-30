@@ -9,7 +9,15 @@ import React, { useState, useEffect, Component, sort } from "react";
 import { Link, Switch, Route, onChange } from "react-router-dom";
 
 function ContentRecommend() {
-  const [trends, setTrends] = useState("");
+  const [trends, setTrends] = useState([{
+    _id: "",
+    key: "",
+    name: "",
+    category: "",
+    advice: [],
+    banana: [],
+    mercular: [],
+  },]);
   const [productsMouse, setProductsMouse] = useState([]);
   const [productsKeyboard, setProductsKeyboard] = useState([]);
   const [productsMousepad, setProductsMousepad] = useState([]);
@@ -120,11 +128,11 @@ function ContentRecommend() {
 
 <h1 className="header-category">TRENDS </h1>
         <div className="grid-category-rc">
-          {productsMouse.map((item, index) => {
+          {trends.map((item, index) => {
             if (index <= 4) {
               return (
                 <div className="item">
-                  <Link to={`/products/Mouse/${item.key}`}>
+                  <Link to={`/products/${item.category}/${item.key}`}>
                     <div className="content">
                       <img
                         className="category-img"
