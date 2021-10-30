@@ -56,7 +56,7 @@ function PageContentMouse({ type }) {
                       </td>
                       <td>
                         <h2>
-                          <a href={item.href}>{item.price} </a> BATH
+                        <a href={item.href} target="_blank">{item.price} </a> THB
                         </h2>
                       </td>
                     </tr>
@@ -77,7 +77,7 @@ function PageContentMouse({ type }) {
                       </td>
                       <td>
                         <h2>
-                          <a href={item.href}>{item.price} </a> BATH
+                          <a href={item.href}target="_blank">{item.price} </a> BATH
                         </h2>
                       </td>
                     </tr>
@@ -98,7 +98,7 @@ function PageContentMouse({ type }) {
                       </td>
                       <td>
                         <h2>
-                          <a href={item.href}>{item.price} </a> BATH
+                          <a href={item.href}target="_blank">{item.price} </a> BATH
                         </h2>
                       </td>
                     </tr>
@@ -112,7 +112,7 @@ function PageContentMouse({ type }) {
 
 
       <div className="content-price-store">
-          <h1>DETAIL</h1>
+      <h1>DETAIL<button className="bt-compare">Compare</button></h1>
           <h4>Specification</h4>
           
           
@@ -133,41 +133,41 @@ function PageContentMouse({ type }) {
                     </tr>
                     <tr>
                       <td>
+                        <h2>SENSOR</h2>
+                      </td>
+                      <td>
+                        <h2>
+                        <h2>{item.spec.sensor ? item.spec.sensor:"N/A"}</h2>
+                        </h2>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <h2>MACRO</h2>
+                      </td>
+                      <td>
+                        <h2>
+                        <h2>{item.spec.macro ? item.spec.macro:"N/A"}</h2>
+                        </h2>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <h2>DPI</h2>
+                      </td>
+                      <td>
+                        <h2>
+                        <h2>{item.spec.dpi ? item.spec.dpi:"N/A"}</h2>
+                        </h2>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
                         <h2>SWITCH</h2>
                       </td>
                       <td>
                         <h2>
-                        <h2>{item.spec.switch ? item.spec.switch:"N/A"}</h2>
-                        </h2>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <h2>LAYOUT</h2>
-                      </td>
-                      <td>
-                        <h2>
-                        <h2>{item.spec.layout ? item.spec.layout:"N/A"}</h2>
-                        </h2>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <h2>DIMENSION</h2>
-                      </td>
-                      <td>
-                        <h2>
-                        <h2>{item.spec.dimension ? item.spec.dimension:"N/A"}</h2>
-                        </h2>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <h2>SUPPORT</h2>
-                      </td>
-                      <td>
-                        <h2>
-                        <h2>{item.spec.support ? item.spec.support:"N/A"}</h2>
+                        <h2>{item.spec.switch_type ? item.spec.switch_type:"N/A"}</h2>
                         </h2>
                       </td>
                     </tr>

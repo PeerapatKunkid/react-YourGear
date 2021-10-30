@@ -5,20 +5,25 @@ import "./PageContent.css";
 import axios from "axios";
 import model from "./Model/Model_microphone.json";
 import { v4 as uuidv4 } from "uuid";
+
 function PageContentMicrophone({ type }) {
   const { postId } = useParams();
   const [post, setPost] = useState(model);
-
+  
   async function getPost(postId) {
-    axios.get(`http://localhost:3001/${type}/1/${postId}`).then((response) => {
-      setPost(response.data);
+    axios.get(`http://localhost:3001/products/${type}/?item=${postId}`).then((response) => {
+      setPost(response.data.data);
     });
   }
-
+  
   useEffect(() => {
     getPost(postId);
+    
   }, [postId]);
+  {console.log(postId)}
+  // {console.log(post)}
 
+  
   return (
     <div class="content-show">
       <h1>{post.name}</h1>
@@ -54,7 +59,7 @@ function PageContentMicrophone({ type }) {
                       </td>
                       <td>
                         <h2>
-                          <a href={item.href}>{item.price} </a> BATH
+                          <a href={item.href} target="_blank">{item.price} </a> THB
                         </h2>
                       </td>
                     </tr>
@@ -75,7 +80,7 @@ function PageContentMicrophone({ type }) {
                       </td>
                       <td>
                         <h2>
-                          <a href={item.href}>{item.price} </a> BATH
+                          <a href={item.href} target="_blank">{item.price}</a>THB
                         </h2>
                       </td>
                     </tr>
@@ -96,7 +101,7 @@ function PageContentMicrophone({ type }) {
                       </td>
                       <td>
                         <h2>
-                          <a href={item.href}>{item.price} </a> BATH
+                          <a href={item.href}target="_blank">{item.price} </a>THB
                         </h2>
                       </td>
                     </tr>
@@ -110,7 +115,8 @@ function PageContentMicrophone({ type }) {
 
 
       <div className="content-price-store">
-          <h1>DETAIL</h1>
+          <h1>DETAIL<button className="bt-compare">Compare</button></h1>
+          
           <h4>Specification</h4>
           
           
@@ -131,35 +137,44 @@ function PageContentMicrophone({ type }) {
                     </tr>
                     <tr>
                       <td>
-                        <h2>TYPE</h2>
+                        <h2>SWITCH</h2>
                       </td>
                       <td>
                         <h2>
-                        <h2>{item.spec.type_of ? item.spec.type_of:"N/A"}</h2>
+                        <h2>{item.spec.switch ? item.spec.switch:"N/A"}</h2>
                         </h2>
                       </td>
                     </tr>
                     <tr>
                       <td>
-                        <h2>FREQUENCY</h2>
+                        <h2>LAYOUT</h2>
                       </td>
                       <td>
                         <h2>
-                        <h2>{item.spec.frequency ? item.spec.frequency:"N/A"}</h2>
+                        <h2>{item.spec.layout ? item.spec.layout:"N/A"}</h2>
                         </h2>
                       </td>
                     </tr>
                     <tr>
                       <td>
-                        <h2>IMPEDANCE</h2>
+                        <h2>DIMENSION</h2>
                       </td>
                       <td>
                         <h2>
-                        <h2>{item.spec.impedance ? item.spec.impedance:"N/A"}</h2>
+                        <h2>{item.spec.dimension ? item.spec.dimension:"N/A"}</h2>
                         </h2>
                       </td>
                     </tr>
-                    
+                    <tr>
+                      <td>
+                        <h2>SUPPORT</h2>
+                      </td>
+                      <td>
+                        <h2>
+                        <h2>{item.spec.support ? item.spec.support:"N/A"}</h2>
+                        </h2>
+                      </td>
+                    </tr>
                     
                   </table>
                 </div>

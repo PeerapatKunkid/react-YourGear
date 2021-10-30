@@ -14,16 +14,17 @@ import PageContentHeadset from "./components/PageContentHeadset";
 import PageContentMousepad from "./components/PageContentMousepad";
 import PageContentMicrophone from "./components/PageContentMicrophone";
 
+
 function App() {
   return (
     <div className="App">
       <AppBanner />
-
+      
       <Switch>
         <Route path="/" exact>
           <AppCategory />
           
-          {/* <ContentRecommend /> */}
+          <ContentRecommend />
           
         </Route>
 
@@ -31,38 +32,38 @@ function App() {
           <PageContentMouse type="Mouse" />
         </Route>
         <Route path="/products/Mouse" exact>
-          <KeyboardCategory cate="Mouse" url="Mouse" page="1"/>
+          <KeyboardCategory cate="Mouse" url="Mouse" />
         </Route>
         
         <Route path="/products/Keyboard/:postId">
           <PageContentKeyboard type="Keyboard" />
         </Route>
         <Route path="/products/Keyboard/" exact>
-          <KeyboardCategory cate="Keyboard" url="Keyboard" page="1"/>
+          <KeyboardCategory cate="Keyboard" url="Keyboard" />
         </Route>
 
         
-        {/* <Route path="/category/headset/:postId">
-          <PageContentHeadset type="allHeadset" />
+        <Route path="/products/Headset/:postId">
+          <PageContentHeadset type="Headset" />
         </Route>
-        <Route path="/category/headset" exact>
-          <KeyboardCategory cate="headset" url="allHeadset" />
-        </Route>
-
-        <Route path="/category/microphone/:postId">
-          <PageContentMicrophone type="allMicrophone" />
-        </Route>
-        <Route path="/category/microphone" exact>
-          <KeyboardCategory cate="microphone" url="allMicrophone" />
+        <Route path="/products/Headset" exact>
+          <KeyboardCategory cate="Headset" url="Headset" />
         </Route>
 
-        <Route path="/category/mousepad/:postId">
-          <PageContentMousepad type="allMousepad" />
+        <Route path="/products/Microphone/:postId">
+          <PageContentMicrophone type="Microphone" />
         </Route>
-        <Route path="/category/mousepad" exact>
-          <KeyboardCategory cate="mousepad" url="allMousepad" />
+        <Route path="/products/Microphone" exact>
+          <KeyboardCategory cate="Microphone" url="Microphone" />
         </Route>
-       */}
+
+        <Route path="/products/Mousepad/:postId">
+          <PageContentMousepad type="Mousepad" />
+        </Route>
+        <Route path="/products/Mousepad" exact>
+          <KeyboardCategory cate="Mousepad" url="Mousepad" />
+        </Route>
+      
       
       
       </Switch>

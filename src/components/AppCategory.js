@@ -1,8 +1,8 @@
 import React from "react";
 import { Link, Switch, Route } from "react-router-dom";
 import "./AppCategory.css";
-import KeyboardCategory from "./KeyboardCategory";
-import PageContent from "./PageContentMouse";
+
+
 function AppCategory() {
   return (
     <div className="main-content">
@@ -35,7 +35,7 @@ function AppCategory() {
           </div>
         </Link>
 
-        <Link to="/Category/headset">
+        <Link to="/products/Headset">
           <div className="item">
             <div className="content">
               <img
@@ -49,7 +49,7 @@ function AppCategory() {
           </div>
         </Link>
 
-        <Link to="/category/mousepad">
+        <Link to="/products/Mousepad">
           <div className="item">
             <div className="content">
               <img
@@ -63,7 +63,7 @@ function AppCategory() {
           </div>
         </Link>
 
-        <Link to="/category/microphone">
+        <Link to="/products/Microphone">
           <div className="item">
             <div className="content">
               <img
@@ -80,6 +80,8 @@ function AppCategory() {
         
         
       </div>
+
+    
     </div>
   );
 }

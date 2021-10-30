@@ -82,7 +82,7 @@ function KeyboardCategory({ cate, url }) {
                   <input
                     type="checkbox"
                     value={`&selectBrand=${brand}`}
-                    onChange={(e) => setBrand(e.target.value)}
+                    onClick={(e) => setBrand(e.target.value)}
                   />
                   <span className="checkmark"></span>
                 </label>
@@ -97,13 +97,13 @@ function KeyboardCategory({ cate, url }) {
               <Link to="/products/Keyboard">
                 <p>- Keyboard</p>
               </Link>
-              <Link to="/products/headset">
+              <Link to="/products/Headset">
                 <p>- Headset</p>
               </Link>
-              <Link to="/products/mousepad">
+              <Link to="/products/Mousepad">
                 <p>- Mousepad</p>
               </Link>
-              <Link to="/products/microphone">
+              <Link to="/products/Microphone">
                 <p>- Microphone</p>
               </Link>
             </div>
@@ -127,7 +127,7 @@ function KeyboardCategory({ cate, url }) {
           <main className="page-main">
             <div className="page-number">
             <table>
-              <tr>
+              <tr><button type="button" onClick={(e) => setChangePage(currentPage-1)} >Previous</button>
            {allPage.map((page)=>{
              return(
                <td>
@@ -140,7 +140,9 @@ function KeyboardCategory({ cate, url }) {
             </td>
              )
            })}
+           <button type="button" onClick={(e) => setChangePage(currentPage+1)}>Next</button>
            </tr>
+           
             </table>
             </div>
             <div className="content-data-category">
@@ -230,9 +232,9 @@ function KeyboardCategory({ cate, url }) {
 
         <Route path="/products/Keyboard/">
           <main className="page-main">
-            <div className="page-number">
+          <div className="page-number">
             <table>
-              <tr>
+              <tr><button type="button" onClick={(e) => setChangePage(currentPage-1)} >Previous</button>
            {allPage.map((page)=>{
              return(
                <td>
@@ -245,7 +247,9 @@ function KeyboardCategory({ cate, url }) {
             </td>
              )
            })}
+           <button type="button" onClick={(e) => setChangePage(currentPage+1)}>Next</button>
            </tr>
+           
             </table>
             </div>
             <div className="content-data-category">
@@ -332,31 +336,50 @@ function KeyboardCategory({ cate, url }) {
         </Route>
         {/* ปิดส่วนของ Maincontent Keyboard */}
         {/* ส่วนของ Maincontent Headset*/}
-        {/* <Route path="/category/headset">
-          <main className="page-main">
+        <Route path="/products/Headset/">
+        <main className="page-main">
+          <div className="page-number">
+            <table>
+              <tr><button type="button" onClick={(e) => setChangePage(currentPage-1)} >Previous</button>
+           {allPage.map((page)=>{
+             return(
+               <td>
+              <div key={Math.random()}>
+              
+              <button type="button" onClick={(e) => setChangePage(page)} value={page}>
+                {page}
+              </button>
+            </div>
+            </td>
+             )
+           })}
+           <button type="button" onClick={(e) => setChangePage(currentPage+1)}>Next</button>
+           </tr>
+           
+            </table>
+            </div>
             <div className="content-data-category">
               <div className="grid-category-filter">
-                {post.map((post, index) => {
+                {products.map((item) => {
                   return (
-                    <div className="item" key={post._id}>
-                      {console.log(post)}
-                      <Link to={`/category/${cate}/${index}`}>
+                    <div className="item" key={item._id}>
+                      <Link to={`/products/${cate}/${item.key}`}>
+                       
                         <div className="card-content">
                           <img
                             className="card-img"
                             src={
-                              post.advice[0]
-                                ? post.advice[0].data[0].image
-                                : post.banana[0]
-                                ? post.banana[0].data[0].image
-                                : post.mercular[0]
-                                ? post.mercular[0].data[0].image
-                                : ""
+                              (item.advice[0] &&
+                                item.advice[0].data[0].image) ||
+                              (item.banana[0] &&
+                                item.banana[0].data[0].image) ||
+                              (item.mercular[0] &&
+                                item.mercular[0].data[0].image)
                             }
                             height="250"
                             width="10"
                           ></img>
-                          <p className="category-box">{post.name}</p>
+                          <p className="category-box">{item.name}</p>
                           <div className="container">
                             <table className="card-box">
                               <tr>
@@ -369,8 +392,8 @@ function KeyboardCategory({ cate, url }) {
                                   />
                                 </td>
                                 <td>
-                                  {post.advice[0]
-                                    ? post.advice[0].data[0].price
+                                  {item.advice[0]
+                                    ? item.advice[0].data[0].price
                                     : "N/A"}
                                 </td>
                               </tr>
@@ -384,8 +407,8 @@ function KeyboardCategory({ cate, url }) {
                                   />
                                 </td>
                                 <td>
-                                  {post.mercular[0]
-                                    ? post.mercular[0].data[0].price
+                                  {item.mercular[0]
+                                    ? item.mercular[0].data[0].price
                                     : "N/A"}
                                 </td>
                               </tr>
@@ -401,8 +424,8 @@ function KeyboardCategory({ cate, url }) {
                                 </td>
 
                                 <td>
-                                  {post.banana[0]
-                                    ? post.banana[0].data[0].price
+                                  {item.banana[0]
+                                    ? item.banana[0].data[0].price
                                     : "N/A"}
                                 </td>
                               </tr>
@@ -417,33 +440,52 @@ function KeyboardCategory({ cate, url }) {
             </div>
           </main>
         </Route>
-        {/* ปิดส่วนของ Maincontent Headset*/}
+        {/* ปิดส่วนของ Maincontent Headset}
         {/* ส่วนของ Maincontent Mousepad*/}
-        {/* <Route path="/category/mousepad">
-          <main className="page-main">
+       <Route path="/products/Mousepad/">
+        <main className="page-main">
+          <div className="page-number">
+            <table>
+              <tr><button type="button" onClick={(e) => setChangePage(currentPage-1)} >Previous</button>
+           {allPage.map((page)=>{
+             return(
+               <td>
+              <div key={Math.random()}>
+              
+              <button type="button" onClick={(e) => setChangePage(page)} value={page}>
+                {page}
+              </button>
+            </div>
+            </td>
+             )
+           })}
+           <button type="button" onClick={(e) => setChangePage(currentPage+1)}>Next</button>
+           </tr>
+           
+            </table>
+            </div>
             <div className="content-data-category">
               <div className="grid-category-filter">
-                {post.map((post, index) => {
+                {products.map((item) => {
                   return (
-                    <div className="item" key={post._id}>
-                      {console.log(post)}
-                      <Link to={`/category/${cate}/${index}`}>
+                    <div className="item" key={item._id}>
+                      <Link to={`/products/${cate}/${item.key}`}>
+                       
                         <div className="card-content">
                           <img
                             className="card-img"
                             src={
-                              post.advice[0]
-                                ? post.advice[0].data[0].image
-                                : post.banana[0]
-                                ? post.banana[0].data[0].image
-                                : post.mercular[0]
-                                ? post.mercular[0].data[0].image
-                                : ""
+                              (item.advice[0] &&
+                                item.advice[0].data[0].image) ||
+                              (item.banana[0] &&
+                                item.banana[0].data[0].image) ||
+                              (item.mercular[0] &&
+                                item.mercular[0].data[0].image)
                             }
                             height="250"
                             width="10"
                           ></img>
-                          <p className="category-box">{post.name}</p>
+                          <p className="category-box">{item.name}</p>
                           <div className="container">
                             <table className="card-box">
                               <tr>
@@ -456,8 +498,8 @@ function KeyboardCategory({ cate, url }) {
                                   />
                                 </td>
                                 <td>
-                                  {post.advice[0]
-                                    ? post.advice[0].data[0].price
+                                  {item.advice[0]
+                                    ? item.advice[0].data[0].price
                                     : "N/A"}
                                 </td>
                               </tr>
@@ -471,8 +513,8 @@ function KeyboardCategory({ cate, url }) {
                                   />
                                 </td>
                                 <td>
-                                  {post.mercular[0]
-                                    ? post.mercular[0].data[0].price
+                                  {item.mercular[0]
+                                    ? item.mercular[0].data[0].price
                                     : "N/A"}
                                 </td>
                               </tr>
@@ -488,8 +530,8 @@ function KeyboardCategory({ cate, url }) {
                                 </td>
 
                                 <td>
-                                  {post.banana[0]
-                                    ? post.banana[0].data[0].price
+                                  {item.banana[0]
+                                    ? item.banana[0].data[0].price
                                     : "N/A"}
                                 </td>
                               </tr>
@@ -503,34 +545,53 @@ function KeyboardCategory({ cate, url }) {
               </div>
             </div>
           </main>
-        </Route> */}
+        </Route>
         {/* ปิดส่วนส่วนของ Maincontent Mousepad*/}
         {/* ส่วนของ Maincontent Microphone*/}
-        {/* <Route path="/category/microphone">
-          <main className="page-main">
+        <Route path="/products/Microphone/">
+        <main className="page-main">
+          <div className="page-number">
+            <table>
+              <tr><button type="button" onClick={(e) => setChangePage(currentPage-1)} >Previous</button>
+           {allPage.map((page)=>{
+             return(
+               <td>
+              <div key={Math.random()}>
+              
+              <button type="button" onClick={(e) => setChangePage(page)} value={page}>
+                {page}
+              </button>
+            </div>
+            </td>
+             )
+           })}
+           <button type="button" onClick={(e) => setChangePage(currentPage+1)}>Next</button>
+           </tr>
+           
+            </table>
+            </div>
             <div className="content-data-category">
               <div className="grid-category-filter">
-                {post.map((post, index) => {
+                {products.map((item) => {
                   return (
-                    <div className="item" key={post._id}>
-                      {console.log(post)}
-                      <Link to={`/category/${cate}/${index}`}>
+                    <div className="item" key={item._id}>
+                      <Link to={`/products/${cate}/${item.key}`}>
+                       
                         <div className="card-content">
                           <img
                             className="card-img"
                             src={
-                              post.advice[0]
-                                ? post.advice[0].data[0].image
-                                : post.banana[0]
-                                ? post.banana[0].data[0].image
-                                : post.mercular[0]
-                                ? post.mercular[0].data[0].image
-                                : ""
+                              (item.advice[0] &&
+                                item.advice[0].data[0].image) ||
+                              (item.banana[0] &&
+                                item.banana[0].data[0].image) ||
+                              (item.mercular[0] &&
+                                item.mercular[0].data[0].image)
                             }
                             height="250"
                             width="10"
                           ></img>
-                          <p className="category-box">{post.name}</p>
+                          <p className="category-box">{item.name}</p>
                           <div className="container">
                             <table className="card-box">
                               <tr>
@@ -543,8 +604,8 @@ function KeyboardCategory({ cate, url }) {
                                   />
                                 </td>
                                 <td>
-                                  {post.advice[0]
-                                    ? post.advice[0].data[0].price
+                                  {item.advice[0]
+                                    ? item.advice[0].data[0].price
                                     : "N/A"}
                                 </td>
                               </tr>
@@ -558,8 +619,8 @@ function KeyboardCategory({ cate, url }) {
                                   />
                                 </td>
                                 <td>
-                                  {post.mercular[0]
-                                    ? post.mercular[0].data[0].price
+                                  {item.mercular[0]
+                                    ? item.mercular[0].data[0].price
                                     : "N/A"}
                                 </td>
                               </tr>
@@ -575,8 +636,8 @@ function KeyboardCategory({ cate, url }) {
                                 </td>
 
                                 <td>
-                                  {post.banana[0]
-                                    ? post.banana[0].data[0].price
+                                  {item.banana[0]
+                                    ? item.banana[0].data[0].price
                                     : "N/A"}
                                 </td>
                               </tr>
@@ -590,7 +651,7 @@ function KeyboardCategory({ cate, url }) {
               </div>
             </div>
           </main>
-        </Route> */}
+        </Route>
 
         {/* ปิดส่วนของ Maincontent Microphone*/}
       </div>

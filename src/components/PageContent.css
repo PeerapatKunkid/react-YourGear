@@ -70,3 +70,12 @@
     
     
 }
+
+.bt-compare{
+  color: rgb(255, 255, 255);
+  background-color: black;
+  margin-left: 700px;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}

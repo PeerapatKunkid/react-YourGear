@@ -271,14 +271,16 @@ padding: 0px
 .page-number{
   text-align: center;
   font-size: 19px;
-  margin-left: 770px;
+  margin-left: 700px;
   font-weight: bold;
+  
 }
 
 
 .page-number button{
   background-color: #00000004;
   border: #ff9100;
+  
 }
 
 .page-number button:hover{

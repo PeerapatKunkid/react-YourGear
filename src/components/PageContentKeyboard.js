@@ -5,10 +5,11 @@ import "./PageContent.css";
 import axios from "axios";
 import model from "./Model/Model_keyboard.json";
 import { v4 as uuidv4 } from "uuid";
+
 function PageContentKeyboard({ type }) {
   const { postId } = useParams();
   const [post, setPost] = useState(model);
-
+  
   async function getPost(postId) {
     axios.get(`http://localhost:3001/products/${type}/?item=${postId}`).then((response) => {
       setPost(response.data.data);
@@ -20,7 +21,9 @@ function PageContentKeyboard({ type }) {
     
   }, [postId]);
   {console.log(postId)}
-  {console.log(post)}
+  // {console.log(post)}
+
+  
   return (
     <div class="content-show">
       <h1>{post.name}</h1>
@@ -56,7 +59,7 @@ function PageContentKeyboard({ type }) {
                       </td>
                       <td>
                         <h2>
-                          <a href={item.href}>{item.price} </a> BATH
+                          <a href={item.href} target="_blank">{item.price} </a> THB
                         </h2>
                       </td>
                     </tr>
@@ -77,7 +80,7 @@ function PageContentKeyboard({ type }) {
                       </td>
                       <td>
                         <h2>
-                          <a href={item.href}>{item.price} </a> BATH
+                          <a href={item.href} target="_blank">{item.price}</a>THB
                         </h2>
                       </td>
                     </tr>
@@ -98,7 +101,7 @@ function PageContentKeyboard({ type }) {
                       </td>
                       <td>
                         <h2>
-                          <a href={item.href}>{item.price} </a> BATH
+                          <a href={item.href}target="_blank">{item.price} </a>THB
                         </h2>
                       </td>
                     </tr>
@@ -112,7 +115,8 @@ function PageContentKeyboard({ type }) {
 
 
       <div className="content-price-store">
-          <h1>DETAIL</h1>
+          <h1>DETAIL<button className="bt-compare">Compare</button></h1>
+          
           <h4>Specification</h4>
           
           

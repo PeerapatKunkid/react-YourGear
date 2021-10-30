@@ -1,11 +1,31 @@
 import "./ContentRecommend.css";
 import $ from "jquery";
-import React, { Component } from "react";
+
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import axios from "axios";
+import React, { useState, useEffect, Component, sort } from "react";
 
 function ContentRecommend() {
+  const [trends, setTrends] = useState("");
+  useEffect(async () => {
+    const res = await axios.get(
+      `http://localhost:3001/trends`
+    );
+    
+    const dataTrends = res.data;
+    
+
+    setTrends(dataTrends);
+   
+  }, []);
+  console.log(trends)
+ 
+  // http://localhost:3001/products/Mouse/?item=gpro
+  // const [trendsItem, setTrendsItem] = useState("");
+  
+  
   return (
     <div>
       <div class="recommend-content">
