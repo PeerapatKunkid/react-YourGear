@@ -39,7 +39,7 @@ const [allBrand, SetAllbrand] = useState([]);
       <header className="page-header">
       <input
         type="text"
-        placeholder="Seach here bro!"
+        placeholder="SEARCH "
         onChange={(e) => setKeyword(e.target.value)}
       ></input>
         <div className="dropdown">

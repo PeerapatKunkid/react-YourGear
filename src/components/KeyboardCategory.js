@@ -20,7 +20,7 @@ function KeyboardCategory({ cate, url }) {
     },
   ]);
   const [page, setPage] = useState([]);
-  const allPage = [1, 2, 3, 4, 5, 6, 7];
+  const allPage = [1, 2, 3, 4, 5, 6, 7,8,9,10];
   const [chagePage, setChangePage] = useState();
 
   let currentPage = chagePage || 1;

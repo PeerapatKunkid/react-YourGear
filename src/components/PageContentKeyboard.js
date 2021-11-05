@@ -1,14 +1,31 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import { useParams,Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 import "./PageContent.css";
 import axios from "axios";
 import model from "./Model/Model_keyboard.json";
 import { v4 as uuidv4 } from "uuid";
-
+import { add } from "../redux/compareDetailSlice";
+import { useDispatch } from "react-redux";
 function PageContentKeyboard({ type }) {
+  const dispatch = useDispatch();
   const { postId } = useParams();
   const [post, setPost] = useState(model);
+  const [keyboard, setKeyboard] = useState({
+    title: "Keyboard",
+    
+    name: "",
+    url: "",
+    advice: "",
+    banana: "",
+    mercular: "",
+    model: "",
+    interface:"",
+    type_of:"",
+    frequency:"",
+    impedance:"",
+    microphone:"",
+  });
   
   async function getPost(postId) {
     axios.get(`http://localhost:3001/products/${type}/?item=${postId}`).then((response) => {
@@ -115,7 +132,45 @@ function PageContentKeyboard({ type }) {
 
 
       <div className="content-price-store">
-          <h1>DETAIL<button className="bt-compare">Compare</button></h1>
+      <h1>
+          DETAIL
+          <button
+            onClick={(e) => {
+              setKeyboard({
+                title: post.name,
+                pic: post.advice[0]
+                  ? post.advice[0].data[0].image
+                  : post.banana[0]
+                  ? post.banana[0].data[0].image
+                  : post.mercular[0]
+                  ? post.mercular[0].data[0].image
+                  : "",
+                name: post.name,
+                url: post.advice[0]
+                  ? post.advice[0].data[0].image
+                  : post.banana[0]
+                  ? post.banana[0].data[0].image
+                  : post.mercular[0]
+                  ? post.mercular[0].data[0].image
+                  : "",
+                advice: post.advice[0] ? post.advice[0].data[0].price : "N/A",
+                mercular: post.mercular[0]
+                  ? post.mercular[0].data[0].price
+                  : "N/A",
+                banana: post.banana[0] ? post.banana[0].data[0].price : "N/A",
+                
+                
+              });
+              dispatch(add({ keyboard: keyboard }));
+            }}
+            className="bt-compare"
+          >
+            Compare
+          </button>
+        </h1>
+
+        {console.log(keyboard)}
+        <Link to={"/compare/detail"}>test</Link>
           
           <h4>Specification</h4>
           

@@ -5,8 +5,6 @@ import AppCategory from "./components/AppCategory";
 import ContentRecommend from "./components/ContentRecommend";
 import KeyboardCategory from "./components/KeyboardCategory";
 import Footer from "./components/Footer";
-import Slider from "react-slick";
-import PageHome from "./Page/PageHome";
 import { Route, Switch, Link } from "react-router-dom";
 import PageContentMouse from "./components/PageContentMouse";
 import PageContentKeyboard from "./components/PageContentKeyboard";
@@ -14,6 +12,7 @@ import PageContentHeadset from "./components/PageContentHeadset";
 import PageContentMousepad from "./components/PageContentMousepad";
 import PageContentMicrophone from "./components/PageContentMicrophone";
 import PageSearch from "./components/PageSearch";
+import CompareDetail from "./components/CompareDetail";
 
 function App() {
   return (
@@ -28,6 +27,13 @@ function App() {
           
         </Route>
 
+         
+        
+        <Route path="/compare/detail">
+          <CompareDetail/>
+        </Route>
+
+        
         <Route path="/products/Mouse/:postId">
           <PageContentMouse type="Mouse" />
         </Route>

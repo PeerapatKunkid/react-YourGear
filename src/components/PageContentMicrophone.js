@@ -137,44 +137,35 @@ function PageContentMicrophone({ type }) {
                     </tr>
                     <tr>
                       <td>
-                        <h2>SWITCH</h2>
+                        <h2>TYPE OF</h2>
                       </td>
                       <td>
                         <h2>
-                        <h2>{item.spec.switch ? item.spec.switch:"N/A"}</h2>
+                        <h2>{item.spec.type_of ? item.spec.type_of:"N/A"}</h2>
                         </h2>
                       </td>
                     </tr>
                     <tr>
                       <td>
-                        <h2>LAYOUT</h2>
+                        <h2>FREQUENCY</h2>
                       </td>
                       <td>
                         <h2>
-                        <h2>{item.spec.layout ? item.spec.layout:"N/A"}</h2>
+                        <h2>{item.spec.frequency ? item.spec.frequency:"N/A"}</h2>
                         </h2>
                       </td>
                     </tr>
                     <tr>
                       <td>
-                        <h2>DIMENSION</h2>
+                        <h2>IMPEDANCE</h2>
                       </td>
                       <td>
                         <h2>
-                        <h2>{item.spec.dimension ? item.spec.dimension:"N/A"}</h2>
+                        <h2>{item.spec.impedance ? item.spec.impedance:"N/A"}</h2>
                         </h2>
                       </td>
                     </tr>
-                    <tr>
-                      <td>
-                        <h2>SUPPORT</h2>
-                      </td>
-                      <td>
-                        <h2>
-                        <h2>{item.spec.support ? item.spec.support:"N/A"}</h2>
-                        </h2>
-                      </td>
-                    </tr>
+                    
                     
                   </table>
                 </div>

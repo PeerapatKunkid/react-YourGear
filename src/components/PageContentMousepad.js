@@ -127,36 +127,6 @@ function PageContentMousepad({ type }) {
                   <table className="table-detailspec" >
                     <tr>
                       <td>
-                        <h2>INTERFACE</h2>
-                      </td>
-                      <td>
-                        <h2>
-                        <h2>{item.spec.interface ? item.spec.interface:"N/A"}</h2>
-                        </h2>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <h2>SWITCH</h2>
-                      </td>
-                      <td>
-                        <h2>
-                        <h2>{item.spec.switch ? item.spec.switch:"N/A"}</h2>
-                        </h2>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <h2>LAYOUT</h2>
-                      </td>
-                      <td>
-                        <h2>
-                        <h2>{item.spec.layout ? item.spec.layout:"N/A"}</h2>
-                        </h2>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
                         <h2>DIMENSION</h2>
                       </td>
                       <td>
@@ -167,14 +137,15 @@ function PageContentMousepad({ type }) {
                     </tr>
                     <tr>
                       <td>
-                        <h2>SUPPORT</h2>
+                        <h2>MATERIAL</h2>
                       </td>
                       <td>
                         <h2>
-                        <h2>{item.spec.support ? item.spec.support:"N/A"}</h2>
+                        <h2>{item.spec.material ? item.spec.material:"N/A"}</h2>
                         </h2>
                       </td>
                     </tr>
+                    
                     
                   </table>
                 </div>
