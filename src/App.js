@@ -13,34 +13,33 @@ import PageContentMousepad from "./components/PageContentMousepad";
 import PageContentMicrophone from "./components/PageContentMicrophone";
 import PageSearch from "./components/PageSearch";
 import CompareDetail from "./components/CompareDetail";
+import MyBuild from './components/MyBuild';
+import Fav from './components/Fav'; 
+import BuildSomething from './components/BuildSomething';
 
 function App() {
   return (
     <div className="App">
       <AppBanner />
-      
+
       <Switch>
         <Route path="/" exact>
           <AppCategory />
-          
+
           <ContentRecommend />
-          
         </Route>
 
-         
-        
         <Route path="/compare/detail">
-          <CompareDetail/>
+          <CompareDetail />
         </Route>
 
-        
         <Route path="/products/Mouse/:postId">
           <PageContentMouse type="Mouse" />
         </Route>
         <Route path="/products/Mouse" exact>
           <KeyboardCategory cate="Mouse" url="Mouse" />
         </Route>
-        
+
         <Route path="/products/Keyboard/:postId">
           <PageContentKeyboard type="Keyboard" />
         </Route>
@@ -48,7 +47,6 @@ function App() {
           <KeyboardCategory cate="Keyboard" url="Keyboard" />
         </Route>
 
-        
         <Route path="/products/Headset/:postId">
           <PageContentHeadset type="Headset" />
         </Route>
@@ -69,12 +67,43 @@ function App() {
         <Route path="/products/Mousepad" exact>
           <KeyboardCategory cate="Mousepad" url="Mousepad" />
         </Route>
-      
-      
-        <Route path="/products/search" exact>
-          <PageSearch />
+
+        <Route path="/products/search">
+          <PageSearch/>
         </Route>
       
+
+        {/* Function Build */}
+
+        <Route path="/BuildSomething">
+          <BuildSomething/>
+        </Route>
+
+        <Route path="/Build/Mouse">
+          <BuildSomething cate="Mouse" url="Mouse"/>
+        </Route>
+        <Route path="/Build/Keyboard">
+          <BuildSomething cate="Keyboard" url="Keyboard"/>
+        </Route>
+        <Route path="/Build/Headset">
+          <BuildSomething cate="Headset" url="Headset"/>
+        </Route>
+        <Route path="/Build/Mousepad">
+          <BuildSomething cate="Mousepad" url="Mousepad"/>
+        </Route>
+        <Route path="/Build/Microphone">
+          <BuildSomething cate="Microphone" url="Microphone"/>
+        </Route>
+        
+        <Route path="/MyBuild">
+          <MyBuild/>
+        </Route>
+
+        <Route path="/Favorite">
+          <Fav/>
+        </Route>
+
+
       </Switch>
       <Footer />
     </div>

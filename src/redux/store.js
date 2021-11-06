@@ -5,6 +5,7 @@ import { persistReducer } from "redux-persist";
 import thunk from "redux-thunk";
 import userReducer from "./userSlice";
 import compareReducer from "./compareDetailSlice";
+import buildDetailReducer from "./buildDetailSlice";
 
 const persistConfig = {
   key: "root",
@@ -14,6 +15,7 @@ const persistConfig = {
 const reducers = combineReducers({
   user: userReducer,
   compare : compareReducer,
+  buildDetail: buildDetailReducer,
 });
 
 const persistedReducer = persistReducer(persistConfig, reducers);

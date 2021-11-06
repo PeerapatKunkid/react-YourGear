@@ -20,7 +20,7 @@ function AppBanner(props) {
             <Link to="/">
               <img
                 className="logo-img"
-                src="image/Logo.png"
+                src="/image/Logo.png"
                 width="65"
                 height="65"
               />
@@ -30,9 +30,14 @@ function AppBanner(props) {
           <div id="mainListDiv" className="main_list">
             <ul className="navlinks">
               <li>
-              
-                <a href="#">Build your gear</a>
-               
+                <Link to="/BuildSomething">
+                  Build your gear
+                </Link>
+              </li>
+              <li>
+                <Link to="/MyBuild">
+                                    MyBuild
+                                </Link>
               </li>
               <li>
                 <div className="lgfb">
@@ -63,7 +68,7 @@ function AppBanner(props) {
                                 onChange ={props.handleChange}
                             />
                             <Link to="/products/search">
-                            <img src="image/search.png" width="25px" height="25px"/>
+                            <img src="/image/search.png" width="25px" height="25px"/>
                             </Link>
                     </div>
                 </div>

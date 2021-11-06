@@ -5,28 +5,31 @@ import "./PageContent.css";
 import axios from "axios";
 import model from "./Model/Model_headset.json";
 import { v4 as uuidv4 } from "uuid";
-import { add } from "../redux/compareDetailSlice";
+import { add,remove} from "../redux/compareDetailSlice";
 import { useDispatch } from "react-redux";
 function PageContentHeadset({ type }) {
   const dispatch = useDispatch();
   const { postId } = useParams();
   const [post, setPost] = useState(model);
   const [headset, setHeadset] = useState({
-    title: "Mouse",
-    pic: "/image/iconmouse.png",
-    name: "",
-    url: "",
-    advice: "",
-    banana: "",
-    mercular: "",
-    model: "",
-    interface:"",
-    type_of:"",
-    frequency:"",
-    impedance:"",
-    microphone:"",
+    // title: "Headset",
+    // pic: "/image/iconheadset.png",
+    // name: "",
+    // url: "",
+    // advice: "",
+    // banana: "",
+    // mercular: "",
+    // model: "",
+    // interface:"",
+    // type_of:"",
+    // frequency:"",
+    // impedance:"",
+    // microphone:"",
   });
 
+  function handleUpdate() {
+    dispatch(add({ headset}));
+  }
   async function getPost(postId) {
     axios
       .get(`http://localhost:3001/products/${type}/?item=${postId}`)
@@ -38,7 +41,7 @@ function PageContentHeadset({ type }) {
   useEffect(() => {
     getPost(postId);
   }, [postId]);
-  console.log(post)
+ 
   return (
     <div class="content-show">
       <h1>{post.name}</h1>
@@ -166,7 +169,7 @@ function PageContentHeadset({ type }) {
                 
                 
               });
-              dispatch(add({ headset: headset }));
+              dispatch(add({ "headset": headset }));
             }}
             className="bt-compare"
           >
@@ -175,7 +178,8 @@ function PageContentHeadset({ type }) {
         </h1>
 
         {console.log(headset)}
-        <Link to={"/compare/detail"}>test</Link>
+        <Link to={"/compare/detail"}>DETAIL</Link>
+        
         <h4>Specification</h4>
 
         {post.banana[0] &&

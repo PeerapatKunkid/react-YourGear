@@ -11,8 +11,9 @@ export default function CompareDetail() {
   return (
     <div>
       <p>detail</p>
-        {console.log("test"+compareDetail)}
+        {console.log("test"+compareDetail.headset)}
       <p>HEADSET : {compareDetail.headset.name}</p>
+      <p>HEADSET : {compareDetail.headset.advice}</p>
       <p onClick={clear}>remove</p>
 
       

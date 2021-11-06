@@ -46,7 +46,7 @@ function KeyboardCategory({ cate, url }) {
 
     SetAllbrand(dataBrand);
   }, []);
-
+  console.log(products)
   
   return (
     <div className="main-content-category">

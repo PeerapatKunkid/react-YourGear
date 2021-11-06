@@ -24,7 +24,7 @@ const [allBrand, SetAllbrand] = useState([]);
       `http://localhost:3001/products/?search=${keyword}`
     );
     
-    const dataProduct = res.data;
+    const dataProduct = res.data.data;
 
     setProducts(dataProduct);
   }, [keyword]);
@@ -111,7 +111,12 @@ const [allBrand, SetAllbrand] = useState([]);
             
             
          
-
+          {console.log(products)}
+          {/* {products.map((item,index)=>{
+            return (
+              <div>{item.name}</div>
+            )
+          })} */}
       <div className="content-data-category">
         <div className="grid-category-filter">
           {products.map((item, index) => {
