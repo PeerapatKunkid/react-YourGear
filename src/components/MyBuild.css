@@ -90,7 +90,12 @@
 
 .fav-mm:hover {
   cursor: pointer;
+  
 }
 
+.fav-mm{
+  margin-bottom: 15px;
+  margin-right: 15px;
+}
 .item-dtf-mm {
 }

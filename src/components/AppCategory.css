@@ -8,9 +8,21 @@
 }
 .header-category{
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
   padding-left: 60px;
   padding: 10;
+  font-size: 40px;
+  /* background-color: #c9c9c9; */
+  display: block;
+  
+  width: 20%;
+}
+.header-category-mp{
+  margin-top: 230px;
+  margin-bottom: 20px;
+  padding-left: 60px;
+  padding: 10;
+  padding-top: 50px;
   font-size: 40px;
   /* background-color: #c9c9c9; */
   display: block;

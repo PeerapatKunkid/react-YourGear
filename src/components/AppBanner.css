@@ -15,7 +15,7 @@ body {
 
 .app-search-in-box{
     position: absolute;
-    left: 250px;
+    left: 160px;
     bottom: 20px;
     width: 300px;
     height: 100px;
@@ -55,6 +55,8 @@ body {
     float: left;
     width: auto;
     height: auto;
+    position: absolute;
+    left: 15%;
     padding-left: 3rem;
 }
 
@@ -71,6 +73,8 @@ body {
 .nav div.main_list {
     height: 65px;
     float: right;
+    position: absolute;
+    right: 12%;
 }
 
 .nav div.main_list ul {

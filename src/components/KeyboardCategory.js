@@ -152,7 +152,7 @@ function KeyboardCategory({ cate, url }) {
                     <div className="item" key={item._id}>
                       <Link to={`/products/${cate}/${item.key}`}>
                        
-                        <div className="card-content">
+                        <div className="card-content-mp">
                           <img
                             className="card-img"
                             src={
@@ -259,7 +259,7 @@ function KeyboardCategory({ cate, url }) {
                     <div className="item" key={item._id}>
                       <Link to={`/products/${cate}/${item.key}`}>
                        
-                        <div className="card-content">
+                        <div className="card-content-mp">
                           <img
                             className="card-img"
                             src={
@@ -365,7 +365,7 @@ function KeyboardCategory({ cate, url }) {
                     <div className="item" key={item._id}>
                       <Link to={`/products/${cate}/${item.key}`}>
                        
-                        <div className="card-content">
+                        <div className="card-content-mp">
                           <img
                             className="card-img"
                             src={
@@ -471,7 +471,7 @@ function KeyboardCategory({ cate, url }) {
                     <div className="item" key={item._id}>
                       <Link to={`/products/${cate}/${item.key}`}>
                        
-                        <div className="card-content">
+                        <div className="card-content-mp">
                           <img
                             className="card-img"
                             src={
@@ -577,7 +577,7 @@ function KeyboardCategory({ cate, url }) {
                     <div className="item" key={item._id}>
                       <Link to={`/products/${cate}/${item.key}`}>
                        
-                        <div className="card-content">
+                        <div className="card-content-mp">
                           <img
                             className="card-img"
                             src={

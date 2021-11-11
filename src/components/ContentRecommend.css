@@ -14,7 +14,10 @@
     text-align: center;
     width: 50%;
   }
-
+  .blank{
+    padding-bottom: 150px;
+    color: rgb(255, 255, 255);
+  }
   .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;

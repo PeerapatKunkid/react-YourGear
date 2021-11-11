@@ -125,7 +125,7 @@ const [allBrand, SetAllbrand] = useState([]);
               return (
                 <div className="item" key={item._id}>
                   <Link to={`/products/${item.category}/${item.key}`}>
-                  <div className="card-content">
+                  <div className="card-content-mp">
                     <img
                       className="card-img"
                       src={

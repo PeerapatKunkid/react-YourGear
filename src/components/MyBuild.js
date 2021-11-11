@@ -244,7 +244,7 @@ function MyBuild() {
             </div>
             <div className="item-dtf-mm">
               <div className="content-dtf-mm">
-                <img className="fav-mm" src="/image/fav.png" onClick={fav} />
+                <img className="fav-mm" src="/image/fav.png" width="30px" hight="30px" onClick={fav} />
               </div>
             </div>
           </div>

@@ -126,7 +126,7 @@ function ContentRecommend() {
           </div>
         </Slider> */}
 
-<h1 className="header-category">TRENDS </h1>
+<h1 className="header-category-mp">TRENDS </h1>
         <div className="grid-category-rc">
           {trends.map((item, index) => {
             if (index <= 4) {
@@ -204,7 +204,7 @@ function ContentRecommend() {
           })}
         </div>
 
-        <h1 className="header-category">MOUSE</h1>
+        <h1 className="header-category-mp">MOUSE</h1>
         <div className="grid-category-rc">
           {productsMouse.map((item, index) => {
             if (index <= 4) {
@@ -282,7 +282,7 @@ function ContentRecommend() {
           })}
         </div>
 
-        <h1 className="header-category">KEYBOARD</h1>
+        <h1 className="header-category-mp">KEYBOARD</h1>
         <div className="grid-category-rc">
           {productsKeyboard.map((item, index) => {
             if (index <= 4) {
@@ -360,7 +360,7 @@ function ContentRecommend() {
           })}
         </div>
 
-        <h1 className="header-category">MOUSEPAD</h1>
+        <h1 className="header-category-mp">MOUSEPAD</h1>
         <div className="grid-category-rc">
           {productsMousepad.map((item, index) => {
             if (index <= 4) {
@@ -438,7 +438,7 @@ function ContentRecommend() {
           })}
         </div>
 
-        <h1 className="header-category">HEADSET</h1>
+        <h1 className="header-category-mp">HEADSET</h1>
         <div className="grid-category-rc">
           {productsHeadset.map((item, index) => {
             if (index <= 4) {
@@ -516,7 +516,7 @@ function ContentRecommend() {
           })}
         </div>
 
-        <h1 className="header-category">MICROPHONE</h1>
+        <h1 className="header-category-mp">MICROPHONE</h1>
         <div className="grid-category-rc">
           {productsMicrophone.map((item, index) => {
             if (index <= 4) {
@@ -594,7 +594,7 @@ function ContentRecommend() {
           })}
         </div>
 
-
+      <div className="blank">s</div>
 
       </div>
     </div>

@@ -26,8 +26,8 @@ function AppBanner() {
               <img
                 className="logo-img"
                 src="/image/Logo.png"
-                width="65"
-                height="65"
+                width="45"
+                height="45"
               />
             </Link>
           </div>
@@ -40,9 +40,7 @@ function AppBanner() {
               <li>
                 <Link to="/BuildSomething">Build your gear</Link>
               </li>
-              <li>
-                <Link to="/MyBuild">MyBuild</Link>
-              </li>
+              
               <li>
                 <Link to="/Favorite">Favorite</Link>
               </li>
