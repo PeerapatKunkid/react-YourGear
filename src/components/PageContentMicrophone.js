@@ -1,15 +1,17 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import { useParams , Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 import "./PageContent.css";
 import axios from "axios";
 import model from "./Model/Model_microphone.json";
 import { v4 as uuidv4 } from "uuid";
-
+import { add } from "../redux/compareDetailSlice";
+import { useDispatch } from "react-redux";
 function PageContentMicrophone({ type }) {
   const { postId } = useParams();
   const [post, setPost] = useState(model);
-  
+  const dispatch = useDispatch();
+  const [microphone, setMicrophone] = useState("");
   async function getPost(postId) {
     axios.get(`http://localhost:3001/products/${type}/?item=${postId}`).then((response) => {
       setPost(response.data.data);
@@ -115,7 +117,51 @@ function PageContentMicrophone({ type }) {
 
 
       <div className="content-price-store">
-          <h1>DETAIL<button className="bt-compare">Compare</button></h1>
+          <h1>DETAIL<button
+            onClick={(e) => {
+              setMicrophone({
+                title: post.name,
+                pic: post.advice[0]
+                  ? post.advice[0].data[0].image
+                  : post.banana[0]
+                  ? post.banana[0].data[0].image
+                  : post.mercular[0]
+                  ? post.mercular[0].data[0].image
+                  : "",
+                name: post.name,
+                url: post.advice[0]
+                  ? post.advice[0].data[0].image
+                  : post.banana[0]
+                  ? post.banana[0].data[0].image
+                  : post.mercular[0]
+                  ? post.mercular[0].data[0].image
+                  : "",
+                spec: {
+                  interface: post.banana[0].data[0].spec.interface
+                    ? post.banana[0].data[0].spec.interface
+                    : "N/A",
+                  type_of: post.banana[0].data[0].spec.type_of
+                    ? post.banana[0].data[0].spec.type_of
+                    : "N/A",
+                  frequency: post.banana[0].data[0].spec.frequency
+                    ? post.banana[0].data[0].spec.frequency
+                    : "N/A",
+                  impedance: post.banana[0].data[0].spec.impedance
+                    ? post.banana[0].data[0].spec.impedance
+                    : "N/A",
+                  
+                },
+              });
+              dispatch(add({ items: microphone }));
+            }}
+            className="bt-compare"
+          >
+            Compare
+          </button>
+        </h1>
+
+        
+        <Link to={"/compare/detail"}>test</Link>
           
           <h4>Specification</h4>
           

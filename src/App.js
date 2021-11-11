@@ -20,8 +20,9 @@ import BuildSomething from './components/BuildSomething';
 function App() {
   return (
     <div className="App">
+      
       <AppBanner />
-      <Route path="/products/search">
+      <Route path="/products/search" exact>
           <PageSearch/>
         </Route>
       

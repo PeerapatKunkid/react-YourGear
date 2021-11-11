@@ -5,18 +5,14 @@ import { createSlice } from '@reduxjs/toolkit'
 export const userSlice = createSlice({
     name: "user",
     initialState: {
-        items: []
+      name: ""
     },
     reducers: {
-        add: (state, action) => {
-            if (!state.items) {
-              state.items = [action.payload.items];
-            } else {
-              state.items.push(action.payload.items);
-            }
-          },
-          remove: (state) => (state = {})
-        }
+      update: (state, action) => {
+          state.name = action.payload.name
+      },
+      remove: (state) => state = {}
+  }
 })
 
 export const { update, remove } = userSlice.actions

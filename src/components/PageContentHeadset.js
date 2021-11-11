@@ -5,7 +5,7 @@ import "./PageContent.css";
 import axios from "axios";
 import model from "./Model/Model_headset.json";
 import { v4 as uuidv4 } from "uuid";
-import { add,remove} from "../redux/compareDetailSlice";
+import { add, remove } from "../redux/compareDetailSlice";
 import { useDispatch } from "react-redux";
 function PageContentHeadset({ type }) {
   const dispatch = useDispatch();
@@ -13,7 +13,9 @@ function PageContentHeadset({ type }) {
   const [post, setPost] = useState(model);
   const [headset, setHeadset] = useState("");
 
-  {console.log(post)}
+  {
+    console.log(post);
+  }
   async function getPost(postId) {
     axios
       .get(`http://localhost:3001/products/${type}/?item=${postId}`)
@@ -25,7 +27,6 @@ function PageContentHeadset({ type }) {
   useEffect(() => {
     getPost(postId);
   }, [postId]);
-  
 
   return (
     <div class="content-show">
@@ -130,7 +131,6 @@ function PageContentHeadset({ type }) {
           <button
             onClick={(e) => {
               setHeadset({
-                
                 title: post.name,
                 pic: post.advice[0]
                   ? post.advice[0].data[0].image
@@ -147,24 +147,35 @@ function PageContentHeadset({ type }) {
                   : post.mercular[0]
                   ? post.mercular[0].data[0].image
                   : "",
-                interface: post.banana[0].data[0].spec.interface ? post.banana[0].data[0].spec.interface : "N/A",
-                type_of : post.banana[0].data[0].spec.type_of ? post.banana[0].data[0].spec.type_of : "N/A",
-                frequency : post.banana[0].data[0].spec.frequency ? post.banana[0].data[0].spec.frequency : "N/A",
-                impedance : post.banana[0].data[0].spec.impedance ? post.banana[0].data[0].spec.impedance : "N/A",
-                microphone : post.banana[0].data[0].spec.microphone ? post.banana[0].data[0].spec.microphone : "N/A",
+                spec: {
+                  interface: post.banana[0].data[0].spec.interface
+                    ? post.banana[0].data[0].spec.interface
+                    : "N/A",
+                  type_of: post.banana[0].data[0].spec.type_of
+                    ? post.banana[0].data[0].spec.type_of
+                    : "N/A",
+                  frequency: post.banana[0].data[0].spec.frequency
+                    ? post.banana[0].data[0].spec.frequency
+                    : "N/A",
+                  impedance: post.banana[0].data[0].spec.impedance
+                    ? post.banana[0].data[0].spec.impedance
+                    : "N/A",
+                  microphone: post.banana[0].data[0].spec.microphone
+                    ? post.banana[0].data[0].spec.microphone
+                    : "N/A",
+                },
               });
-              dispatch(add({ items:headset }));
+              dispatch(add({ items: headset }));
             }}
             className="bt-compare"
           >
             Compare
           </button>
-          
         </h1>
-        {console.log(post.banana[0].data[0].spec.interface)}
+        {console.log(post)}
         {console.log(headset)}
         <Link to={"/compare/detail"}>DETAIL</Link>
-        
+
         <h4>Specification</h4>
 
         {post.banana[0] &&

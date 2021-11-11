@@ -1,14 +1,17 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import { useParams,Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 import "./PageContent.css";
 import axios from "axios";
 import model from "./Model/Model_mouse.json";
 import { v4 as uuidv4 } from "uuid";
+import { add } from "../redux/compareDetailSlice";
+import { useDispatch } from "react-redux";
 function PageContentMouse({ type }) {
   const { postId } = useParams();
+  const dispatch = useDispatch();
   const [post, setPost] = useState(model);
-
+  const [mouse,setMouse] = useState("");
   async function getPost(postId) {
     axios.get(`http://localhost:3001/products/${type}/?item=${postId}`).then((response) => {
       setPost(response.data.data);
@@ -112,7 +115,50 @@ function PageContentMouse({ type }) {
 
 
       <div className="content-price-store">
-      <h1>DETAIL<button className="bt-compare">Compare</button></h1>
+      <h1>DETAIL<button
+            onClick={(e) => {
+              setMouse({
+                title: post.name,
+                pic: post.advice[0]
+                  ? post.advice[0].data[0].image
+                  : post.banana[0]
+                  ? post.banana[0].data[0].image
+                  : post.mercular[0]
+                  ? post.mercular[0].data[0].image
+                  : "",
+                name: post.name,
+                url: post.advice[0]
+                  ? post.advice[0].data[0].image
+                  : post.banana[0]
+                  ? post.banana[0].data[0].image
+                  : post.mercular[0]
+                  ? post.mercular[0].data[0].image
+                  : "",
+                spec: {
+                  interface: post.banana[0].data[0].spec.interface
+                    ? post.banana[0].data[0].spec.interface
+                    : "N/A",
+                  sensor: post.banana[0].data[0].spec.sensor
+                    ? post.banana[0].data[0].spec.sensor
+                    : "N/A",
+                  macro: post.banana[0].data[0].spec.macro
+                    ? post.banana[0].data[0].spec.macro
+                    : "N/A",
+                    dpi: post.banana[0].data[0].spec.dpi
+                    ? post.banana[0].data[0].spec.dpi
+                    : "N/A",
+                    switch: post.banana[0].data[0].spec.switch
+                    ? post.banana[0].data[0].spec.switch
+                    : "N/A",
+                  
+                },
+              });
+              dispatch(add({ items: mouse }));
+            }}
+            className="bt-compare"
+          >
+            Compare
+          </button></h1>
           <h4>Specification</h4>
           
           

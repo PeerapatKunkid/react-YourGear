@@ -5,11 +5,13 @@ import "./PageContent.css";
 import axios from "axios";
 import model from "./Model/Model_mousepad.json";
 import { v4 as uuidv4 } from "uuid";
-
+import { add } from "../redux/compareDetailSlice";
+import { useDispatch } from "react-redux";
 function PageContentMousepad({ type }) {
   const { postId } = useParams();
   const [post, setPost] = useState(model);
-  
+  const dispatch = useDispatch();
+  const [mousepad,setMousepad] = useState("");
   async function getPost(postId) {
     axios.get(`http://localhost:3001/products/${type}/?item=${postId}`).then((response) => {
       setPost(response.data.data);
@@ -115,8 +117,42 @@ function PageContentMousepad({ type }) {
 
 
       <div className="content-price-store">
-          <h1>DETAIL<button className="bt-compare">Compare</button></h1>
-          
+          <h1>DETAIL<button
+            onClick={(e) => {
+              setMousepad({
+                title: post.name,
+                pic: post.advice[0]
+                  ? post.advice[0].data[0].image
+                  : post.banana[0]
+                  ? post.banana[0].data[0].image
+                  : post.mercular[0]
+                  ? post.mercular[0].data[0].image
+                  : "",
+                name: post.name,
+                url: post.advice[0]
+                  ? post.advice[0].data[0].image
+                  : post.banana[0]
+                  ? post.banana[0].data[0].image
+                  : post.mercular[0]
+                  ? post.mercular[0].data[0].image
+                  : "",
+                spec: {
+                  dimension: post.banana[0].data[0].spec.dimension
+                    ? post.banana[0].data[0].spec.dimension
+                    : "N/A",
+                  material: post.banana[0].data[0].spec.material
+                    ? post.banana[0].data[0].spec.material
+                    : "N/A",
+                  
+                  
+                },
+              });
+              dispatch(add({ items: mousepad }));
+            }}
+            className="bt-compare"
+          >
+            Compare
+          </button></h1>
           <h4>Specification</h4>
           
           

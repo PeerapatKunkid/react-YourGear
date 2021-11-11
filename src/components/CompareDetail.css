@@ -12,6 +12,7 @@
     text-align: center;
     font-size: 18px;
     padding: 4px;
+    text-transform: uppercase;
 }
 .name-compare{
     padding-top: 30px;
@@ -25,3 +26,12 @@
     background-color: rgb(255, 255, 255);
   
   }
+
+.compare-clear{
+    text-align: right;
+    margin-right: 10px;
+}
+.empty{
+    margin-bottom: 150px;
+    color: rgb(255, 255, 255);
+}

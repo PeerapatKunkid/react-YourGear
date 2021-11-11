@@ -11,21 +11,7 @@ function PageContentKeyboard({ type }) {
   const dispatch = useDispatch();
   const { postId } = useParams();
   const [post, setPost] = useState(model);
-  const [keyboard, setKeyboard] = useState({
-    title: "Keyboard",
-    
-    name: "",
-    url: "",
-    advice: "",
-    banana: "",
-    mercular: "",
-    model: "",
-    interface:"",
-    type_of:"",
-    frequency:"",
-    impedance:"",
-    microphone:"",
-  });
+  const [keyboard, setKeyboard] = useState("");
   
   async function getPost(postId) {
     axios.get(`http://localhost:3001/products/${type}/?item=${postId}`).then((response) => {
@@ -153,15 +139,25 @@ function PageContentKeyboard({ type }) {
                   : post.mercular[0]
                   ? post.mercular[0].data[0].image
                   : "",
-                advice: post.advice[0] ? post.advice[0].data[0].price : "N/A",
-                mercular: post.mercular[0]
-                  ? post.mercular[0].data[0].price
-                  : "N/A",
-                banana: post.banana[0] ? post.banana[0].data[0].price : "N/A",
-                
-                
+                spec: {
+                  interface: post.banana[0].data[0].spec.interface
+                    ? post.banana[0].data[0].spec.interface
+                    : "N/A",
+                  switch: post.banana[0].data[0].spec.switch
+                    ? post.banana[0].data[0].spec.switch
+                    : "N/A",
+                    layout: post.banana[0].data[0].spec.layout
+                    ? post.banana[0].data[0].spec.layout
+                    : "N/A",
+                  dimension: post.banana[0].data[0].spec.dimension
+                    ? post.banana[0].data[0].spec.dimension
+                    : "N/A",
+                  support: post.banana[0].data[0].spec.support
+                    ? post.banana[0].data[0].spec.support
+                    : "N/A",
+                },
               });
-              dispatch(add({ keyboard: keyboard }));
+              dispatch(add({ items: keyboard }));
             }}
             className="bt-compare"
           >
@@ -169,7 +165,7 @@ function PageContentKeyboard({ type }) {
           </button>
         </h1>
 
-        {console.log(keyboard)}
+        
         <Link to={"/compare/detail"}>test</Link>
           
           <h4>Specification</h4>
