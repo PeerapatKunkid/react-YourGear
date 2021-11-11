@@ -13,9 +13,11 @@ import PageContentMousepad from "./components/PageContentMousepad";
 import PageContentMicrophone from "./components/PageContentMicrophone";
 import PageSearch from "./components/PageSearch";
 import CompareDetail from "./components/CompareDetail";
+import BuildSomething from './components/BuildSomething';
 import MyBuild from './components/MyBuild';
 import Fav from './components/Fav'; 
-import BuildSomething from './components/BuildSomething';
+import MyBuildUser from './components/MyBuildUser';
+
 
 function App() {
   return (
@@ -27,7 +29,7 @@ function App() {
         </Route>
       
       <Switch>
-        <Route path="/" exact>
+        <Route path="/home" exact>
           <AppCategory />
 
           <ContentRecommend />
@@ -104,6 +106,9 @@ function App() {
           <Fav/>
         </Route>
 
+        <Route path="/MyBuildUser">
+          <MyBuildUser/>
+        </Route>
 
       </Switch>
       <Footer />

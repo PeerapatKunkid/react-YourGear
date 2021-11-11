@@ -22,7 +22,7 @@ function AppBanner() {
       <nav className="nav">
         <div className="container">
           <div className="logo">
-            <Link to="/">
+            <Link to="/home">
               <img
                 className="logo-img"
                 src="/image/Logo.png"
@@ -42,6 +42,9 @@ function AppBanner() {
               </li>
               <li>
                 <Link to="/MyBuild">MyBuild</Link>
+              </li>
+              <li>
+                <Link to="/Favorite">Favorite</Link>
               </li>
               <li>
                 <div className="lgfb">{user ? <ShowDetails /> : <Login />}</div>
