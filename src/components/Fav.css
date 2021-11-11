@@ -19,12 +19,12 @@
   align-items: stretch;
   column-gap: 20px;
   row-gap: 20px;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
 }
 
 .content-fav {
-  color: rgb(218, 218, 218);
-  background-color: rgb(31, 31, 31);
+  background-color: rgb(255, 255, 255);
+  color: rgb(31, 31, 31);
   font-weight: 600;
   text-align: center;
   box-sizing: border-box;

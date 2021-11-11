@@ -124,12 +124,12 @@ function BuildSomething({ cate, url }) {
   }, []);
 
   return (
-    <div className="App">
-      <div className="content-all">
-        <div className="grid">
+    <div className="App-bst">
+      <div className="content-all-bst">
+        <div className="grid-bst">
           <Route path="/Build/Mouse/">
-            <header className="page-header">
-              <div className="page-number">
+            <header className="page-header-bst">
+              <div className="page-number-bst">
                 <table>
                   <tr>
                     {allPage.map((page) => {
@@ -151,10 +151,10 @@ function BuildSomething({ cate, url }) {
                 </table>
               </div>
 
-              <div className="dropdown">
-                <button className="dropbtn">order by</button>
+              <div className="dropdown-bst">
+                <button className="dropbtn-bst">order by</button>
 
-                <div className="dropdown-content">
+                <div className="dropdown-content-bst">
                   <select id="list" onChange={(e) => setSort(e.target.value)}>
                     <option value="">--- Select ---</option>
                     <option value="&sortByPrice=low">Low - High</option>
@@ -167,8 +167,8 @@ function BuildSomething({ cate, url }) {
             </header>
           </Route>
           <Route path="/Build/Keyboard/">
-            <header className="page-header">
-              <div className="page-number">
+            <header className="page-header-bst">
+              <div className="page-number-bst">
                 <table>
                   <tr>
                     {allPage.map((page) => {
@@ -190,10 +190,10 @@ function BuildSomething({ cate, url }) {
                 </table>
               </div>
 
-              <div className="dropdown">
-                <button className="dropbtn">order by</button>
+              <div className="dropdown-bst">
+                <button className="dropbtn-bst">order by</button>
 
-                <div className="dropdown-content">
+                <div className="dropdown-content-bst">
                   <select id="list" onChange={(e) => setSort(e.target.value)}>
                     <option value="">--- Select ---</option>
                     <option value="&sortByPrice=low">Low - High</option>
@@ -206,8 +206,8 @@ function BuildSomething({ cate, url }) {
             </header>
           </Route>
           <Route path="/Build/Headset/">
-            <header className="page-header">
-              <div className="page-number">
+            <header className="page-header-bst">
+              <div className="page-number-bst">
                 <table>
                   <tr>
                     {allPage.map((page) => {
@@ -229,10 +229,10 @@ function BuildSomething({ cate, url }) {
                 </table>
               </div>
 
-              <div className="dropdown">
-                <button className="dropbtn">order by</button>
+              <div className="dropdown-bst">
+                <button className="dropbtn-bst">order by</button>
 
-                <div className="dropdown-content">
+                <div className="dropdown-content-bst">
                   <select id="list" onChange={(e) => setSort(e.target.value)}>
                     <option value="">--- Select ---</option>
                     <option value="&sortByPrice=low">Low - High</option>
@@ -245,8 +245,8 @@ function BuildSomething({ cate, url }) {
             </header>
           </Route>
           <Route path="/Build/Mousepad/">
-            <header className="page-header">
-              <div className="page-number">
+            <header className="page-header-bst">
+              <div className="page-number-bst">
                 <table>
                   <tr>
                     {allPage.map((page) => {
@@ -268,10 +268,10 @@ function BuildSomething({ cate, url }) {
                 </table>
               </div>
 
-              <div className="dropdown">
-                <button className="dropbtn">order by</button>
+              <div className="dropdown-bst">
+                <button className="dropbtn-bst">order by</button>
 
-                <div className="dropdown-content">
+                <div className="dropdown-content-bst">
                   <select id="list" onChange={(e) => setSort(e.target.value)}>
                     <option value="">--- Select ---</option>
                     <option value="&sortByPrice=low">Low - High</option>
@@ -284,8 +284,8 @@ function BuildSomething({ cate, url }) {
             </header>
           </Route>
           <Route path="/Build/Microphone/">
-            <header className="page-header">
-              <div className="page-number">
+            <header className="page-header-bst">
+              <div className="page-number-bst">
                 <table>
                   <tr>
                     {allPage.map((page) => {
@@ -307,10 +307,10 @@ function BuildSomething({ cate, url }) {
                 </table>
               </div>
 
-              <div className="dropdown">
-                <button className="dropbtn">order by</button>
+              <div className="dropdown-bst">
+                <button className="dropbtn-bst">order by</button>
 
-                <div className="dropdown-content">
+                <div className="dropdown-content-bst">
                   <select id="list" onChange={(e) => setSort(e.target.value)}>
                     <option value="">--- Select ---</option>
                     <option value="&sortByPrice=low">Low - High</option>
@@ -323,90 +323,90 @@ function BuildSomething({ cate, url }) {
             </header>
           </Route>
 
-          <aside className="page-leftbar">
-            <div className="content">
-              <div className="flexbox">
-                <div className="item30">
-                  <div className="content-leftbar1">
-                    <Link to="/Build/Mouse" className="content-cate">
+          <aside className="page-leftbar-bst">
+            <div className="content-bst-left">
+              <div className="flexbox-bst-left">
+                <div className="item30-bst">
+                  <div className="content-leftbar1-bst">
+                    <Link to="/Build/Mouse" className="content-cate-bst">
                       <img src={mouse.pic} className="pic-cate" />
                     </Link>
                   </div>
                 </div>
-                <div className="item70">
-                  <div className="content-leftbar1">
-                    <Link to="/Build/Mouse" className="content-cate">
+                <div className="item70-bst">
+                  <div className="content-leftbar1-bst">
+                    <Link to="/Build/Mouse" className="content-cate-bst">
                       <h4>{mouse.title}</h4>
                     </Link>
                   </div>
                 </div>
               </div>
-              <div className="flexbox">
-                <div className="item30">
-                  <div className="content-leftbar1">
-                    <Link to="/Build/Keyboard" className="content-cate">
+              <div className="flexbox-bst-left">
+                <div className="item30-bst">
+                  <div className="content-leftbar1-bst">
+                    <Link to="/Build/Keyboard" className="content-cate-bst">
                       <img src={keyboard.pic} className="pic-cate" />
                     </Link>
                   </div>
                 </div>
-                <div className="item70">
-                  <div className="content-leftbar1">
-                    <Link to="/Build/Keyboard" className="content-cate">
+                <div className="item70-bst">
+                  <div className="content-leftbar1-bst">
+                    <Link to="/Build/Keyboard" className="content-cate-bst">
                       <h4>{keyboard.title}</h4>
                     </Link>
                   </div>
                 </div>
               </div>
-              <div className="flexbox">
-                <div className="item30">
-                  <div className="content-leftbar1">
-                    <Link to="/Build/Headset" className="content-cate">
+              <div className="flexbox-bst-left">
+                <div className="item30-bst">
+                  <div className="content-leftbar1-bst">
+                    <Link to="/Build/Headset" className="content-cate-bst">
                       <img src={headset.pic} className="pic-cate" />
                     </Link>
                   </div>
                 </div>
-                <div className="item70">
-                  <div className="content-leftbar1">
-                    <Link to="/Build/Headset" className="content-cate">
+                <div className="item70-bst">
+                  <div className="content-leftbar1-bst">
+                    <Link to="/Build/Headset" className="content-cate-bst">
                       <h4>{headset.title}</h4>
                     </Link>
                   </div>
                 </div>
               </div>
-              <div className="flexbox">
-                <div className="item30">
-                  <div className="content-leftbar1">
-                    <Link to="/Build/Mousepad" className="content-cate">
+              <div className="flexbox-bst-left">
+                <div className="item30-bst">
+                  <div className="content-leftbar1-bst">
+                    <Link to="/Build/Mousepad" className="content-cate-bst">
                       <img src={mousepad.pic} className="pic-cate" />
                     </Link>
                   </div>
                 </div>
-                <div className="item70">
-                  <div className="content-leftbar1">
-                    <Link to="/Build/Mousepad" className="content-cate">
+                <div className="item70-bst">
+                  <div className="content-leftbar1-bst">
+                    <Link to="/Build/Mousepad" className="content-cate-bst">
                       <h4>{mousepad.title}</h4>
                     </Link>
                   </div>
                 </div>
               </div>
-              <div className="flexbox">
-                <div className="item30">
-                  <div className="content-leftbar1">
-                    <Link to="/Build/Microphone" className="content-cate">
+              <div className="flexbox-bst-left">
+                <div className="item30-bst">
+                  <div className="content-leftbar1-bst">
+                    <Link to="/Build/Microphone" className="content-cate-bst">
                       <img src={microphone.pic} className="pic-cate" />
                     </Link>
                   </div>
                 </div>
-                <div className="item70">
-                  <div className="content-leftbar1">
-                    <Link to="/Build/Microphone" className="content-cate">
+                <div className="item70-bst">
+                  <div className="content-leftbar1-bst">
+                    <Link to="/Build/Microphone" className="content-cate-bst">
                       <h4>{microphone.title}</h4>
                     </Link>
                   </div>
                 </div>
               </div>
 
-              <Link to="/MyBuild" className="content-cate">
+              <Link to="/MyBuild" className="content-cate-bst">
                 <button
                   className="btn-buildnow"
                   type="button"
@@ -421,8 +421,8 @@ function BuildSomething({ cate, url }) {
           <Route path="/BuildSomething">
             <main className="page-main-bst">
               <div className="content-bst">
-                <div className="grid-main1">
-                  <div className="text-mid">
+                <div className="grid-main1-bst">
+                  <div className="text-mid-bst">
                     <h1>Build Something ?</h1>
                   </div>
                 </div>
@@ -431,7 +431,7 @@ function BuildSomething({ cate, url }) {
           </Route>
 
           <Route path="/Build/Mouse/">
-            <main className="page-main">
+            <main className="page-main1-bst">
               <div className="content-buildall">
                 <div className="grid-buildall">
                   {products.map((item) => {
@@ -557,7 +557,7 @@ function BuildSomething({ cate, url }) {
           </Route>
 
           <Route path="/Build/Keyboard/">
-            <main className="page-main">
+            <main className="page-main1-bst">
               <div className="content-buildall">
                 <div className="grid-buildall">
                   {products.map((item) => {
@@ -675,7 +675,7 @@ function BuildSomething({ cate, url }) {
           </Route>
 
           <Route path="/Build/Headset/">
-            <main className="page-main">
+            <main className="page-main1-bst">
               <div className="content-buildall">
                 <div className="grid-buildall">
                   {products.map((item) => {
@@ -793,7 +793,7 @@ function BuildSomething({ cate, url }) {
           </Route>
 
           <Route path="/Build/Mousepad/">
-            <main className="page-main">
+            <main className="page-main1-bst">
               <div className="content-buildall">
                 <div className="grid-buildall">
                   {products.map((item) => {
@@ -911,7 +911,7 @@ function BuildSomething({ cate, url }) {
           </Route>
 
           <Route path="/Build/Microphone/">
-            <main className="page-main">
+            <main className="page-main1-bst">
               <div className="content-buildall">
                 <div className="grid-buildall">
                   {products.map((item) => {
