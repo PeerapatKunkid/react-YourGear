@@ -11,25 +11,9 @@ function PageContentHeadset({ type }) {
   const dispatch = useDispatch();
   const { postId } = useParams();
   const [post, setPost] = useState(model);
-  const [headset, setHeadset] = useState({
-    // title: "Headset",
-    // pic: "/image/iconheadset.png",
-    // name: "",
-    // url: "",
-    // advice: "",
-    // banana: "",
-    // mercular: "",
-    // model: "",
-    // interface:"",
-    // type_of:"",
-    // frequency:"",
-    // impedance:"",
-    // microphone:"",
-  });
+  const [headset, setHeadset] = useState("");
 
-  function handleUpdate() {
-    dispatch(add({ headset}));
-  }
+  {console.log(post)}
   async function getPost(postId) {
     axios
       .get(`http://localhost:3001/products/${type}/?item=${postId}`)
@@ -41,7 +25,8 @@ function PageContentHeadset({ type }) {
   useEffect(() => {
     getPost(postId);
   }, [postId]);
- 
+  
+
   return (
     <div class="content-show">
       <h1>{post.name}</h1>
@@ -144,7 +129,8 @@ function PageContentHeadset({ type }) {
           DETAIL
           <button
             onClick={(e) => {
-              setHeadset({...headset,
+              setHeadset({
+                
                 title: post.name,
                 pic: post.advice[0]
                   ? post.advice[0].data[0].image
@@ -161,22 +147,21 @@ function PageContentHeadset({ type }) {
                   : post.mercular[0]
                   ? post.mercular[0].data[0].image
                   : "",
-                advice: post.advice[0] ? post.advice[0].data[0].price : "N/A",
-                mercular: post.mercular[0]
-                  ? post.mercular[0].data[0].price
-                  : "N/A",
-                banana: post.banana[0] ? post.banana[0].data[0].price : "N/A",
-                
-                
+                interface: post.banana[0].data[0].spec.interface ? post.banana[0].data[0].spec.interface : "N/A",
+                type_of : post.banana[0].data[0].spec.type_of ? post.banana[0].data[0].spec.type_of : "N/A",
+                frequency : post.banana[0].data[0].spec.frequency ? post.banana[0].data[0].spec.frequency : "N/A",
+                impedance : post.banana[0].data[0].spec.impedance ? post.banana[0].data[0].spec.impedance : "N/A",
+                microphone : post.banana[0].data[0].spec.microphone ? post.banana[0].data[0].spec.microphone : "N/A",
               });
-              dispatch(add({ "headset": headset }));
+              dispatch(add({ items:headset }));
             }}
             className="bt-compare"
           >
             Compare
           </button>
+          
         </h1>
-
+        {console.log(post.banana[0].data[0].spec.interface)}
         {console.log(headset)}
         <Link to={"/compare/detail"}>DETAIL</Link>
         

@@ -10,7 +10,7 @@ function ShowDetails() {
   function logout() {
     dispatch(remove());
   }
-
+  
   return (
     <div>
       <span><table>

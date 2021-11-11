@@ -36,12 +36,13 @@ const [allBrand, SetAllbrand] = useState([]);
   }, []);
   return (
     <div className="main-content-category">
-      <header className="page-header">
-      <input
+      <input className="input-search"
         type="text"
         placeholder="SEARCH "
         onChange={(e) => setKeyword(e.target.value)}
       ></input>
+      <header className="page-header">
+      
         <div className="dropdown">
           <button className="dropbtn">order by</button>
 

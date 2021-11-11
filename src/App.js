@@ -21,7 +21,10 @@ function App() {
   return (
     <div className="App">
       <AppBanner />
-
+      <Route path="/products/search">
+          <PageSearch/>
+        </Route>
+      
       <Switch>
         <Route path="/" exact>
           <AppCategory />
@@ -68,10 +71,7 @@ function App() {
           <KeyboardCategory cate="Mousepad" url="Mousepad" />
         </Route>
 
-        <Route path="/products/search">
-          <PageSearch/>
-        </Route>
-      
+       
 
         {/* Function Build */}
 

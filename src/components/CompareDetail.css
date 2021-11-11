@@ -1,0 +1,27 @@
+.title-compare{
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    margin-left: 100px;
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 50px;
+}
+
+.type-compare{
+    text-align: center;
+    font-size: 18px;
+    padding: 4px;
+}
+.name-compare{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+}
+.content-compare{
+    max-width:1400px;
+    margin:auto;
+    background-color: rgb(255, 255, 255);
+  
+  }
