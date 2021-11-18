@@ -6,7 +6,7 @@ import thunk from "redux-thunk";
 import userReducer from "./userSlice";
 import compareReducer from "./compareDetailSlice";
 import buildDetailReducer from "./buildDetailSlice";
-
+import searchSliceReducer from "./searchSlice";
 const persistConfig = {
   key: "root",
   storage,
@@ -16,6 +16,7 @@ const reducers = combineReducers({
   user: userReducer,
   compare : compareReducer,
   buildDetail: buildDetailReducer,
+  textSearch : searchSliceReducer,
 });
 
 const persistedReducer = persistReducer(persistConfig, reducers);

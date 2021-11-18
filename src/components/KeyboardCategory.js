@@ -219,11 +219,13 @@ function KeyboardCategory({ cate, url }) {
                             </table>
                           </div>
                         </div>
+                        
                       </Link>
                     </div>
                   );
                 })}
               </div>
+              
             </div>
           </main>
         </Route>
@@ -331,6 +333,7 @@ function KeyboardCategory({ cate, url }) {
                   );
                 })}
               </div>
+              <div className="blankcate">s</div>
             </div>
           </main>
         </Route>
@@ -437,6 +440,7 @@ function KeyboardCategory({ cate, url }) {
                   );
                 })}
               </div>
+              <div className="blankcate">s</div>
             </div>
           </main>
         </Route>
@@ -543,6 +547,7 @@ function KeyboardCategory({ cate, url }) {
                   );
                 })}
               </div>
+              <div className="blankcate">s</div>
             </div>
           </main>
         </Route>
@@ -645,12 +650,17 @@ function KeyboardCategory({ cate, url }) {
                           </div>
                         </div>
                       </Link>
+                      
                     </div>
+                    
                   );
                 })}
+                
               </div>
+              <div className="blankcate">s</div>
             </div>
           </main>
+          
         </Route>
 
         {/* ปิดส่วนของ Maincontent Microphone*/}

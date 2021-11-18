@@ -24,7 +24,7 @@ function App() {
     <div className="App">
       
       <AppBanner />
-      <Route path="/products/search" exact>
+      <Route path="/products/search" >
           <PageSearch/>
         </Route>
       

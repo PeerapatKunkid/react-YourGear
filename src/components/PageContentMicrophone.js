@@ -161,7 +161,7 @@ function PageContentMicrophone({ type }) {
         </h1>
 
         
-        <Link to={"/compare/detail"}>test</Link>
+        
           
           <h4>Specification</h4>
           

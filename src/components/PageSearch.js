@@ -1,12 +1,17 @@
 import axios from "axios";
 import React, { useState, useEffect, Component, sort } from "react";
 import { Link, Switch, Route, onChange } from "react-router-dom";
+import { useSelector } from "react-redux";
 import "./KeyboardCategory.css";
+import { useDispatch } from "react-redux";
 function PageSearch() {
-const [allBrand, SetAllbrand] = useState([]);
+  const text1 = useSelector((state) => state.textSearch);
+  const dispatch = useDispatch();
+  const [allBrand, SetAllbrand] = useState([]);
   const [brand, setBrand] = useState("");
   const [sort, setSort] = useState("");
   const [keyword, setKeyword] = useState("RAZER");
+  
   const [products, setProducts] = useState([
     {
       _id: "",
@@ -18,29 +23,30 @@ const [allBrand, SetAllbrand] = useState([]);
       mercular: [],
     },
   ]);
-  
+  console.log(text1)
   useEffect(async () => {
     const res = await axios.get(
-      `http://localhost:3001/products/?search=${keyword}`
+      `http://localhost:3001/products/?search=${text1.text}`
     );
     
     const dataProduct = res.data.data;
 
     setProducts(dataProduct);
-  }, [keyword]);
+  }, [text1]);
   useEffect(async () => {
     const res = await axios.get(`http://localhost:3001/products/Keyboard/`);
     const dataBrand = res.data.allBrand;
 
     SetAllbrand(dataBrand);
   }, []);
+  
   return (
     <div className="main-content-category">
-      <input className="input-search"
+      {/* <input className="input-search"
         type="text"
         placeholder="SEARCH "
         onChange={(e) => setKeyword(e.target.value)}
-      ></input>
+      ></input> */}
       <header className="page-header">
       
         <div className="dropdown">
@@ -195,6 +201,7 @@ const [allBrand, SetAllbrand] = useState([]);
             }
           })}
         </div>
+        <div className="blankcate">s</div>
       </div>
           </main>
         

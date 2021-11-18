@@ -5,14 +5,17 @@ import "./PageContent.css";
 import axios from "axios";
 import model from "./Model/Model_keyboard.json";
 import { v4 as uuidv4 } from "uuid";
-import { add } from "../redux/compareDetailSlice";
+import { add,remove } from "../redux/compareDetailSlice";
 import { useDispatch } from "react-redux";
 function PageContentKeyboard({ type }) {
   const dispatch = useDispatch();
   const { postId } = useParams();
   const [post, setPost] = useState(model);
   const [keyboard, setKeyboard] = useState("");
-  
+  function clear() {
+    dispatch(remove());
+    
+  }
   async function getPost(postId) {
     axios.get(`http://localhost:3001/products/${type}/?item=${postId}`).then((response) => {
       setPost(response.data.data);
@@ -165,8 +168,8 @@ function PageContentKeyboard({ type }) {
           </button>
         </h1>
 
+        {/* <button>{clear}</button> */}
         
-        <Link to={"/compare/detail"}>test</Link>
           
           <h4>Specification</h4>
           

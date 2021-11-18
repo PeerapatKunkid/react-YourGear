@@ -9,10 +9,14 @@ import SignInFacebook from "./SignInFacebook";
 import { store } from "../redux/store";
 import { useSelector } from "react-redux";
 import Login from "./Login";
-function AppBanner() {
+import { useDispatch } from "react-redux";
+import { add, remove } from "../redux/searchSlice";
+
+function AppBanner(props) {
+  
   const [searchText, setSearchText] = useState("");
   const user = useSelector((state) => state.user.name);
- 
+  const dispatch = useDispatch();
   function handleChange(event) {
     this.setState({value: event.target.value});
   }
@@ -66,9 +70,10 @@ function AppBanner() {
               className="app-search-input"
               type="text"
               placeholder="SEARCH "
-              // value={this.state.value} onChange={handleChange}
+              onChange = {(e) => {dispatch(add({text :e.target.value}))}}
+              
             ></input>
-
+            {/* dispatch(add({ items: headset })); */}
             <Link to="/products/search">
               <img src="/image/search.png" width="25px" height="25px" />
             </Link>
