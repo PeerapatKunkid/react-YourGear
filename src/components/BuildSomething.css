@@ -398,25 +398,27 @@ body {
   border-radius: 15px;
 }
 
-.card-buildall span {
+/* .btn-addtolist button {
   position: center;
-  /* display: none; */
-  /* margin-top: -250px; */
-  /* margin-left: 60px; */
+  
+} */
+
+.btn-addtolist:hover {
+  background: rgb(85, 85, 85);
 }
 
-.card-buildall:hover span {
-  display: block;
-}
-
-.card-buildall span input[type="button"] {
+.btn-addtolist{
   width: 150px;
   height: 50px;
-  background: rgb(241, 158, 62);
+  color:rgb(255, 255, 255);
+  background: rgb(53, 53, 53);
   border-radius: 15px;
-  box-shadow: 0 0 10px 2px #000;
+  box-shadow: 3px 5px  rgb(218, 218, 218);
   cursor: pointer;
   margin-top: 15px;
+  border-radius: 15px;
+  position: center;
+  border: none;
 }
 
 .price-inbuildall1 {

@@ -1,8 +1,9 @@
 import React from "react";
 import "./Fav.css";
 import { Link, Switch, Route, onChange, useParams } from "react-router-dom";
-import { useState, useEffect } from "react";
+import { useState, useEffect,} from "react";
 import axios from "axios";
+import { useDispatch, useSelector } from "react-redux";
 import MyBuildUser from "./MyBuildUser";
 
 function Fav() {
@@ -64,9 +65,10 @@ function Fav() {
       },
     ],
   });
+  const userID = useSelector((state) => state.user.userID);
 
   useEffect(async () => {
-    const res = await axios.get(`http://localhost:3001/user/build/123`);
+    const res = await axios.get(`http://localhost:3001/user/build/${userID}`);
     setDataFav(res.data);
   }, [dataFav]);
 

@@ -3,18 +3,19 @@ import "./BuildSomething.css";
 import { Link, Switch, Route, onChange, useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
 import axios from "axios";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { add } from "../redux/buildDetailSlice";
 import { v4 as uuidv4 } from "uuid";
 
 function BuildSomething({ cate, url }) {
   const dispatch = useDispatch();
+  const userID = useSelector((state) => state.user.userID);
 
   function handleUpdate() {
     dispatch(
       add({
         id: uuidv4(),
-        userId: "123",
+        userId: userID,
         mouse,
         keyboard,
         headset,
@@ -504,10 +505,9 @@ function BuildSomething({ cate, url }) {
                               </tr>
                             </table>
                           </div>
-                          <span>
-                            <input
+                            <button
+                              className="btn-addtolist"
                               type="button"
-                              value="ADD TO LIST"
                               // onClick={(e) => setMouse({name:item.name,
                               //     pic:item.advice[0]
                               //     ? item.advice[0].data[0].image
@@ -545,8 +545,10 @@ function BuildSomething({ cate, url }) {
                                     : "N/A",
                                 })
                               }
-                            />
-                          </span>
+                            
+                            >
+                              ADD TO LIST
+                            </button>
                         </div>
                       </div>
                     );

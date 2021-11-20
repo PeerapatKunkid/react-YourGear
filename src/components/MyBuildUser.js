@@ -148,13 +148,15 @@ function MyBuildUser(props) {
                 <img
                   className="fav-mm"
                   src="/image/del.png"
+                  onMouseOver={e => (e.currentTarget.src = "/image/delred.png")} 
+                  onMouseOut={e => (e.currentTarget.src = "/image/del.png")} 
                   onClick={(e) => del(id, user_id)}
                 />
               </div>
             </div>
           </div>
 
-          <table className="table">
+          <table className="table" background-color="rgb(31, 31, 31)">
             <tr className="table-title">
               <th>
                 <p>PART</p>
@@ -163,13 +165,13 @@ function MyBuildUser(props) {
                 <p>NAME</p>
               </th>
               <th>
-                <p>ADVICE</p>
+                <p>ADVICE (BAHT)</p>
               </th>
               <th>
-                <p>BANANA</p>
+                <p>BANANA (BAHT)</p>
               </th>
               <th>
-                <p>MERCULAR</p>
+                <p>MERCULAR (BAHT)</p>
               </th>
             </tr>
             <tr>

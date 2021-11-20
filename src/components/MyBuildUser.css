@@ -1,6 +1,6 @@
 .grid-mb-mm {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   justify-items: stretch;
   align-items: stretch;
   column-gap: 20px;
@@ -19,7 +19,7 @@
 }
 
 .all-content-mb-mm {
-  max-width: 1500px;
+  max-width: 2000px;
   margin: 20px;
   margin: auto;
 }
@@ -51,6 +51,7 @@
 }
 
 .table {
+  background-color: rgb(31, 31, 31);
   color: rgb(218, 218, 218);
   border-collapse: collapse;
   width: 100%;
@@ -60,10 +61,12 @@
 .table td {
   border: 1px solid #ddd;
   padding: 8px;
+  background-color: rgb(31, 31, 31);
 }
 .table th {
   border: 1px solid #ddd;
   padding: 8px;
+  background-color: rgb(31, 31, 31);
 }
 
 .font-title-mm {
@@ -75,9 +78,8 @@
 .grid-dtf-mm {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  justify-items: end;
-  align-items: start;
-  column-gap: 800px;
+  justify-items: stretch;
+  align-items: stretch;
 }
 
 .content-dtf-mm {

@@ -1,6 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 export const buildDeatilSlice = createSlice({
+
   name: "buildDetail",
   initialState: {
     id:"",
@@ -21,9 +22,12 @@ export const buildDeatilSlice = createSlice({
       state.mousepad = action.payload.mousepad;
       state.microphone = action.payload.microphone;
     },
-    remove: (state) => (state = {})
+    remove: (state) => (state = {}),
+    updateUserID: (state, action) => {
+      state.userId = action.payload.userId;
+    }
   }
 });
 
-export const { add, remove } = buildDeatilSlice.actions;
+export const { add, remove ,updateUserID} = buildDeatilSlice.actions;
 export default buildDeatilSlice.reducer;

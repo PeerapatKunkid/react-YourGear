@@ -3,7 +3,9 @@ import { useDispatch, useSelector } from "react-redux";
 import { update,add } from "../redux/userSlice";
 import FacebookLogin from "react-facebook-login";
 import axios from "axios";
+import { remove,updateUserID} from "../redux/buildDetailSlice";
 import "./SignInFacebook.css";
+
 function SignInFacebook() {
   const dispatch = useDispatch();
   const user = useSelector((state) => state.user);
@@ -24,7 +26,9 @@ function SignInFacebook() {
   // console.log(allInfo);
   useEffect(() => {
     dispatch(update({ name,group}));
-    
+    dispatch(updateUserID({
+      userId: user.userID
+    }))
     
   }, [user]);
   

@@ -5,13 +5,22 @@ import AppBanner from "./AppBanner";
 import { Link, Switch, Route, onChange, useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
 import axios from "axios";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { v4 as uuidv4 } from "uuid";
+import { remove,updateUserID} from "../redux/buildDetailSlice";
+
 
 function MyBuild() {
+
+  const userID = useSelector((state) => state.user.userID);
+
+  const dispatch = useDispatch(); 
+
   const buildDetail = useSelector((state) => state.buildDetail);
   console.log(buildDetail);
+
   function fav() {
+    
     axios.post("http://localhost:3001/user/build", { build: buildDetail });
   }
 
@@ -21,6 +30,7 @@ function MyBuild() {
     name: buildDetail.mouse.name || "Mouse",
     pic: buildDetail.mouse.url || "/image/iconmouse.png",
   });
+  console.log(mouse)
   const [keyboard, setKeyboard] = useState({
     name: buildDetail.keyboard.name || "Keyboard",
     pic: buildDetail.keyboard.url || "/image/iconkeyboard.png",
@@ -197,6 +207,10 @@ function MyBuild() {
       microphoneMercular || 0;
   let sumMercularShow = sumMercular || "";
 
+  // function favpink(e) {
+  //   e.target.setAttribute( 'src', '/image/favpink.png');
+  // }
+
   return (
     <div className="App-mm">
       <div className="all-content-mb-mm">
@@ -244,7 +258,16 @@ function MyBuild() {
             </div>
             <div className="item-dtf-mm">
               <div className="content-dtf-mm">
-                <img className="fav-mm" src="/image/fav.png" width="30px" hight="30px" onClick={fav} />
+                {userID&&<img className="fav-mm" src="/image/fav.png" 
+                onMouseEnter={e => (e.currentTarget.src = "/image/favpink.png")} 
+                onMouseOver={e => (e.currentTarget.src = "/image/favpink.png")} 
+                onMouseOut={e => (e.currentTarget.src = "/image/fav.png")} 
+                width="30px" hight="30px" onClick={fav} />}
+
+                {!userID&&<img className="fav-mm" src="/image/fav.png" 
+                onMouseOver={e => (e.currentTarget.src = "/image/favpink.png")} 
+                onMouseOut={e => (e.currentTarget.src = "/image/fav.png")} 
+                width="30px" hight="30px" onClick={()=>alert("Please Login")} />}
               </div>
             </div>
           </div>
@@ -258,13 +281,13 @@ function MyBuild() {
                 <p>NAME</p>
               </th>
               <th>
-                <p>ADVICE</p>
+                <p>ADVICE (BAHT)</p>
               </th>
               <th>
-                <p>BANANA</p>
+                <p>BANANA (BAHT)</p>
               </th>
-              <th>
-                <p>MERCULAR</p>
+              <th>  
+                <p>MERCULAR (BAHT)</p>
               </th>
             </tr>
             <tr>
