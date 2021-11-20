@@ -1,31 +1,37 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { update } from "../redux/userSlice";
+import { update,add } from "../redux/userSlice";
 import FacebookLogin from "react-facebook-login";
 import axios from "axios";
 import "./SignInFacebook.css";
 function SignInFacebook() {
   const dispatch = useDispatch();
-  const user = useSelector((state) => state.user.name);
+  const user = useSelector((state) => state.user);
+  let testuserid = "";
   const [name, setName] = useState();
-  const [allInfo, setAllInfo] = useState();
+  const [group, setGroup] = useState();
+  const [abc,setAbc] = useState();
 
-  const responseFacebook = (response) => {
-    console.log(response);
-    axios.post("http://localhost:3001/user/", { userId: response.userID });
-    setAllInfo(response);
+  const responseFacebook = async (response) => {
+
+    axios.post("http://localhost:3001/user/", { userId:response.userID });
+    setGroup(response.groups);
     setName(response.name);
+    setAbc(response.userID);
+    dispatch(add({ userID:response.userID }));
   };
-
-  console.log(allInfo);
+ console.log(abc)
+  // console.log(allInfo);
   useEffect(() => {
-    dispatch(update({ name }));
-  }, [name]);
-
-  useEffect(() => {
-    console.log(`now data => ${name}`);
-    console.log(`from store => ${user}`);
-  });
+    dispatch(update({ name,group}));
+    
+    
+  }, [user]);
+  
+  // useEffect(() => {
+  //   console.log(`now data => ${name}`);
+  //   console.log(`from store => ${user}`);
+  // });
 
   return (
     <div >

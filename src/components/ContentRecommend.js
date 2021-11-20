@@ -7,8 +7,13 @@ import "slick-carousel/slick/slick-theme.css";
 import axios from "axios";
 import React, { useState, useEffect, Component, sort } from "react";
 import { Link, Switch, Route, onChange } from "react-router-dom";
-
+import { useDispatch } from "react-redux";
+import { useSelector } from "react-redux";
 function ContentRecommend() {
+  const dispatch = useDispatch();
+  
+  const userReducer = useSelector((state) => state.user);
+  
   const [trends, setTrends] = useState([{
     _id: "",
     key: "",
@@ -23,6 +28,13 @@ function ContentRecommend() {
   const [productsMousepad, setProductsMousepad] = useState([]);
   const [productsHeadset, setProductsHeadset] = useState([]);
   const [productsMicrophone, setProductsMicrophone] = useState([]);
+  const [gamelist, setGamelist] = useState([]);
+  const [count, setCount] = useState(0);
+  useEffect(async () => {
+    const res = await axios.get(`http://localhost:3001/games`);
+    const gamelist = res.data;
+    setGamelist(gamelist);
+  }, []);
 
   useEffect(async () => {
     const res = await axios.get(`http://localhost:3001/trends`);
@@ -60,10 +72,13 @@ function ContentRecommend() {
     setProductsMicrophone(dataProduct);
   }, []);
 
+
   
-  console.log(trends)
+  console.log(userReducer.userID)
+
   return (
     <div>
+      <div></div>
       <div class="recommend-content">
         {/* <h1 class="recommend-category">RECOMMEND FOR YOUR </h1> */}
         {/* <Slider {...settings}>
