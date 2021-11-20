@@ -11,8 +11,8 @@
     font-size: 40px;
     background-color: #c9c9c900;
     display: block;
-    text-align: center;
-    width: 50%;
+    text-align: left;
+    width: 100%;
   }
   .blank{
     padding-bottom: 150px;

@@ -11,8 +11,52 @@ import { useDispatch } from "react-redux";
 import { useSelector } from "react-redux";
 function ContentRecommend() {
   const dispatch = useDispatch();
+  const userGroup1 = useSelector((state) => state.user.group);
+  async function infoGroup(){
+    
+    const userGroup = userGroup1.data;
+     
+    function cleanText(text) {
+      return text
+      .toLowerCase()
+      .replace(/\s+/g, "")
+      .replace(/-/g, "")
+      .replace(/\./g, "")
+      .replace(/:\s*/g, "");
+    }
+   
+    const cleanGroup = userGroup.map((group) => {
+      return cleanText(group.name);
+      
+    });
+    
+    const cleanGames = gamelist.map((game) => {
+      return cleanText(game);
+    });
+   
   
-  const userReducer = useSelector((state) => state.user);
+    function findType() {
+      let typeCount = [];
+      for (let i = 0; i < cleanGroup.length; i++) {
+        for (let j = 0; j < cleanGames.length; j++) {
+          let check = cleanGroup[i].search(cleanGames[j]);
+          if (check >= 0) { 
+            // console.log(cleanGames[j] + " > " + cleanGroup[i]);
+            typeCount.push(cleanGames[j]);
+          }
+        }
+      }
+      let dup = [...new Set(typeCount)];
+      
+  
+      return dup.length >= 2 ? "Gaming" : "Working";
+    }
+    const res = await axios.get(`http://localhost:3001/userType/?type=${findType()}`);  
+    const usertype = res.data;
+    setUsertype(usertype);
+    
+  }
+  
   
   const [trends, setTrends] = useState([{
     _id: "",
@@ -23,12 +67,23 @@ function ContentRecommend() {
     banana: [],
     mercular: [],
   },]);
+  
   const [productsMouse, setProductsMouse] = useState([]);
   const [productsKeyboard, setProductsKeyboard] = useState([]);
   const [productsMousepad, setProductsMousepad] = useState([]);
   const [productsHeadset, setProductsHeadset] = useState([]);
   const [productsMicrophone, setProductsMicrophone] = useState([]);
   const [gamelist, setGamelist] = useState([]);
+  const [usertype,setUsertype] = useState([{
+    _id: "",
+    key: "",
+    name: "",
+    category: "",
+    advice: [],
+    banana: [],
+    mercular: [],
+    
+  }]);
   const [count, setCount] = useState(0);
   useEffect(async () => {
     const res = await axios.get(`http://localhost:3001/games`);
@@ -72,76 +127,108 @@ function ContentRecommend() {
     setProductsMicrophone(dataProduct);
   }, []);
 
+  
 
   
-  console.log(userReducer.userID)
+  
+  useEffect(async () => {
+    userGroup1 && infoGroup()
+  }, []);
+  
+  const reccomend = 
 
-  return (
-    <div>
-      <div></div>
-      <div class="recommend-content">
-        {/* <h1 class="recommend-category">RECOMMEND FOR YOUR </h1> */}
-        {/* <Slider {...settings}>
-          <div>
+  
+  usertype.map((item, index) => {
             
-            
-            <div class="item">
-              <div class="content-recommend">
-                <img
-                  class="category-img-rec"
-                  src="https://mercular.s3.ap-southeast-1.amazonaws.com/images/products/2021/04/Glorious%20Model%20O%20Wireless%20Gaming%20Mouse.jpg"
-                  width="250"
-                  height="250"
-                ></img>
-                <p class="category-name">
-                  Glorious Model O Wireless Gaming Mouse
-                </p>
-                <div class="container">
-                  <table class="box">
-                    <tr>
-                      <td>
-                        <img
-                          class="img-recommend"
-                          src="https://notebookspec.com/laravel/public//images/component-shop-advice.jpg"
-                          width="110"
-                          height="40"
-                        />
-                      </td>
-                      <td class="td-price">3000</td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <img
-                          class="img-recommend"
-                          src="https://images-ext-1.discordapp.net/external/-JmTFDFD3ch5vTU4ckx074_IfWr6P09-q_EfGGj7fLM/https/www.mercular.com/img/careers/logo.jpg"
-                          width="110"
-                          height="40"
-                        />
-                      </td>
-                      <td class="td-price">3000</td>
-                    </tr>
+    return (
+      
+      
+      <div className="item">
+        <Link to={`/products/${item.category}/${item.key}`}>
+          <div className="content">
+            <img
+              className="category-img"
+              src={
+                (item.advice[0] && item.advice[0].data[0].image) ||
+                (item.banana[0] && item.banana[0].data[0].image) ||
+                (item.mercular[0] && item.mercular[0].data[0].image)
+              }
+              width="250"
+              height="250"
+            ></img>
+            <p className="category-name">{item.name}</p>
+            <div className="container">
+              <table className="card-box">
+                <tr>
+                  <td>
+                    <img
+                      className="img-recommend"
+                      src="https://notebookspec.com/laravel/public//images/component-shop-advice.jpg"
+                      width="110"
+                      height="40"
+                    />
+                  </td>
+                  <td>
+                    {item.advice[0]
+                      ? item.advice[0].data[0].price
+                      : "N/A"}
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <img
+                      className="img-recommend"
+                      src="https://images-ext-1.discordapp.net/external/-JmTFDFD3ch5vTU4ckx074_IfWr6P09-q_EfGGj7fLM/https/www.mercular.com/img/careers/logo.jpg"
+                      width="110"
+                      height="40"
+                    />
+                  </td>
+                  <td>
+                    {item.mercular[0]
+                      ? item.mercular[0].data[0].price
+                      : "N/A"}
+                  </td>
+                </tr>
 
-                    <tr>
-                      <td>
-                        <img
-                          class="img-recommend"
-                          src="https://notebookspec.com/laravel/public//images/component-shop-banana.png"
-                          width="110"
-                          height="40"
-                        />
-                      </td>
-                      <td>
-                        <td class="td-price">3000</td>
-                      </td>
-                    </tr>
-                  </table>
-                </div>
-              </div>
+                <tr>
+                  <td>
+                    <img
+                      className="img-recommend"
+                      src="https://notebookspec.com/laravel/public//images/component-shop-banana.png"
+                      width="110"
+                      height="40"
+                    />
+                  </td>
+
+                  <td>
+                    {item.banana[0]
+                      ? item.banana[0].data[0].price
+                      : "N/A"}
+                  </td>
+                </tr>
+              </table>
             </div>
           </div>
-        </Slider> */}
+        </Link>
+      </div>
+    );
+  
+})
+  
+  
+  return (
+    <div>
+      
+      <div class="recommend-content">
+      {userGroup1 && <h1 className="header-category-mp">RECCOMEND FOR YOU </h1>}
+       {userGroup1 && <div className="grid-category-rc">{reccomend}</div>}
+      
+      
+      
+      
+      
 
-<h1 className="header-category-mp">TRENDS </h1>
+  <h1 className="header-category-mp">TRENDS </h1>
         <div className="grid-category-rc">
           {trends.map((item, index) => {
             if (index <= 4) {

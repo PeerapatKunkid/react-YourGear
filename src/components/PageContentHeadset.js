@@ -177,7 +177,7 @@ function PageContentHeadset({ type }) {
         <Link to={"/compare/detail"}>DETAIL</Link>
 
         <h4>Specification</h4>
-
+        {console.log(post)}
         {post.banana[0] &&
           post.banana[0].data.map((item) => {
             return (
