@@ -122,7 +122,7 @@ function BuildSomething({ cate, url }) {
     const dataBrand = res.data.allBrand;
 
     SetAllbrand(dataBrand);
-  }, []);
+  }, [url]);
 
   return (
     <div className="App-bst">
@@ -130,195 +130,465 @@ function BuildSomething({ cate, url }) {
         <div className="grid-bst">
           <Route path="/Build/Mouse/">
             <header className="page-header-bst">
-              <div className="page-number-bst">
-                <table>
-                  <tr>
-                    {allPage.map((page) => {
-                      return (
+              <div class="grid-header-bst-3">
+                <div class="item-header-bst-3">
+                  <div class="content-header-bst-3">
+                    <div className="page-number-bst">
+                      <table>
+                        <tr>
+                          <button
+                            type="button"
+                            onClick={(e) => setChangePage(currentPage - 1)}
+                          >
+                            Previous
+                          </button>
+                          {allPage.map((page) => {
+                            return (
+                              <td>
+                                <div key={Math.random()}>
+                                  <button
+                                    type="button"
+                                    onClick={(e) => setChangePage(page)}
+                                    value={page}
+                                  >
+                                    {page}
+                                  </button>
+                                </div>
+                              </td>
+                            );
+                          })}
+                          <button
+                            type="button"
+                            onClick={(e) => setChangePage(currentPage + 1)}
+                          >
+                            Next
+                          </button>
+                        </tr>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-header-bst-3">
+                  <div class="content-header-bst-3">
+                    <table>
+                      <tr>
                         <td>
-                          <div key={Math.random()}>
-                            <button
-                              type="button"
-                              onClick={(e) => setChangePage(page)}
-                              value={page}
-                            >
-                              {page}
-                            </button>
+                          <div className="dropdown-brand-bst">
+                            <button className="dropbtn-brand-bst">Brand</button>
+                            <div className="dropdown-content-bst">
+                              <select
+                                id="listbrand"
+                                onChange={(e) => setBrand(e.target.value)}
+                              >
+                                <option value="">--- Select ---</option>
+                                {allBrand.map((brand) => {
+                                  return (
+                                    <option value={`&selectBrand=${brand}`}>
+                                      {brand}
+                                    </option>
+                                  );
+                                })}
+                              </select>
+                            </div>
                           </div>
                         </td>
-                      );
-                    })}
-                  </tr>
-                </table>
-              </div>
+                        <td>
+                          <div className="dropdown-bst">
+                            <button className="dropbtn-bst">order by</button>
 
-              <div className="dropdown-bst">
-                <button className="dropbtn-bst">order by</button>
-
-                <div className="dropdown-content-bst">
-                  <select id="list" onChange={(e) => setSort(e.target.value)}>
-                    <option value="">--- Select ---</option>
-                    <option value="&sortByPrice=low">Low - High</option>
-                    <option value="&sortByPrice=high">High - LOW</option>
-                    <option value="&sortByAZ=1">A - Z</option>
-                    <option value="&sortByAZ=-1">Z - A</option>
-                  </select>
+                            <div className="dropdown-content-bst">
+                              <select
+                                id="listorder"
+                                onChange={(e) => setSort(e.target.value)}
+                              >
+                                <option value="">--- Select ---</option>
+                                <option value="&sortByPrice=low">
+                                  Low - High
+                                </option>
+                                <option value="&sortByPrice=high">
+                                  High - LOW
+                                </option>
+                                <option value="&sortByAZ=1">A - Z</option>
+                                <option value="&sortByAZ=-1">Z - A</option>
+                              </select>
+                            </div>
+                          </div>
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
                 </div>
               </div>
             </header>
           </Route>
           <Route path="/Build/Keyboard/">
-            <header className="page-header-bst">
-              <div className="page-number-bst">
-                <table>
-                  <tr>
-                    {allPage.map((page) => {
-                      return (
+          <header className="page-header-bst">
+              <div class="grid-header-bst-3">
+                <div class="item-header-bst-3">
+                  <div class="content-header-bst-3">
+                    <div className="page-number-bst">
+                      <table>
+                        <tr>
+                          <button
+                            type="button"
+                            onClick={(e) => setChangePage(currentPage - 1)}
+                          >
+                            Previous
+                          </button>
+                          {allPage.map((page) => {
+                            return (
+                              <td>
+                                <div key={Math.random()}>
+                                  <button
+                                    type="button"
+                                    onClick={(e) => setChangePage(page)}
+                                    value={page}
+                                  >
+                                    {page}
+                                  </button>
+                                </div>
+                              </td>
+                            );
+                          })}
+                          <button
+                            type="button"
+                            onClick={(e) => setChangePage(currentPage + 1)}
+                          >
+                            Next
+                          </button>
+                        </tr>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-header-bst-3">
+                  <div class="content-header-bst-3">
+                    <table>
+                      <tr>
                         <td>
-                          <div key={Math.random()}>
-                            <button
-                              type="button"
-                              onClick={(e) => setChangePage(page)}
-                              value={page}
-                            >
-                              {page}
-                            </button>
+                          <div className="dropdown-brand-bst">
+                            <button className="dropbtn-brand-bst">Brand</button>
+                            <div className="dropdown-content-bst">
+                              <select
+                                id="listbrand"
+                                onChange={(e) => setBrand(e.target.value)}
+                              >
+                                <option value="">--- Select ---</option>
+                                {allBrand.map((brand) => {
+                                  return (
+                                    <option value={`&selectBrand=${brand}`}>
+                                      {brand}
+                                    </option>
+                                  );
+                                })}
+                              </select>
+                            </div>
                           </div>
                         </td>
-                      );
-                    })}
-                  </tr>
-                </table>
-              </div>
+                        <td>
+                          <div className="dropdown-bst">
+                            <button className="dropbtn-bst">order by</button>
 
-              <div className="dropdown-bst">
-                <button className="dropbtn-bst">order by</button>
-
-                <div className="dropdown-content-bst">
-                  <select id="list" onChange={(e) => setSort(e.target.value)}>
-                    <option value="">--- Select ---</option>
-                    <option value="&sortByPrice=low">Low - High</option>
-                    <option value="&sortByPrice=high">High - LOW</option>
-                    <option value="&sortByAZ=1">A - Z</option>
-                    <option value="&sortByAZ=-1">Z - A</option>
-                  </select>
+                            <div className="dropdown-content-bst">
+                              <select
+                                id="listorder"
+                                onChange={(e) => setSort(e.target.value)}
+                              >
+                                <option value="">--- Select ---</option>
+                                <option value="&sortByPrice=low">
+                                  Low - High
+                                </option>
+                                <option value="&sortByPrice=high">
+                                  High - LOW
+                                </option>
+                                <option value="&sortByAZ=1">A - Z</option>
+                                <option value="&sortByAZ=-1">Z - A</option>
+                              </select>
+                            </div>
+                          </div>
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
                 </div>
               </div>
             </header>
           </Route>
           <Route path="/Build/Headset/">
-            <header className="page-header-bst">
-              <div className="page-number-bst">
-                <table>
-                  <tr>
-                    {allPage.map((page) => {
-                      return (
+          <header className="page-header-bst">
+              <div class="grid-header-bst-3">
+                <div class="item-header-bst-3">
+                  <div class="content-header-bst-3">
+                    <div className="page-number-bst">
+                      <table>
+                        <tr>
+                          <button
+                            type="button"
+                            onClick={(e) => setChangePage(currentPage - 1)}
+                          >
+                            Previous
+                          </button>
+                          {allPage.map((page) => {
+                            return (
+                              <td>
+                                <div key={Math.random()}>
+                                  <button
+                                    type="button"
+                                    onClick={(e) => setChangePage(page)}
+                                    value={page}
+                                  >
+                                    {page}
+                                  </button>
+                                </div>
+                              </td>
+                            );
+                          })}
+                          <button
+                            type="button"
+                            onClick={(e) => setChangePage(currentPage + 1)}
+                          >
+                            Next
+                          </button>
+                        </tr>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-header-bst-3">
+                  <div class="content-header-bst-3">
+                    <table>
+                      <tr>
                         <td>
-                          <div key={Math.random()}>
-                            <button
-                              type="button"
-                              onClick={(e) => setChangePage(page)}
-                              value={page}
-                            >
-                              {page}
-                            </button>
+                          <div className="dropdown-brand-bst">
+                            <button className="dropbtn-brand-bst">Brand</button>
+                            <div className="dropdown-content-bst">
+                              <select
+                                id="listbrand"
+                                onChange={(e) => setBrand(e.target.value)}
+                              >
+                                <option value="">--- Select ---</option>
+                                {allBrand.map((brand) => {
+                                  return (
+                                    <option value={`&selectBrand=${brand}`}>
+                                      {brand}
+                                    </option>
+                                  );
+                                })}
+                              </select>
+                            </div>
                           </div>
                         </td>
-                      );
-                    })}
-                  </tr>
-                </table>
-              </div>
+                        <td>
+                          <div className="dropdown-bst">
+                            <button className="dropbtn-bst">order by</button>
 
-              <div className="dropdown-bst">
-                <button className="dropbtn-bst">order by</button>
-
-                <div className="dropdown-content-bst">
-                  <select id="list" onChange={(e) => setSort(e.target.value)}>
-                    <option value="">--- Select ---</option>
-                    <option value="&sortByPrice=low">Low - High</option>
-                    <option value="&sortByPrice=high">High - LOW</option>
-                    <option value="&sortByAZ=1">A - Z</option>
-                    <option value="&sortByAZ=-1">Z - A</option>
-                  </select>
+                            <div className="dropdown-content-bst">
+                              <select
+                                id="listorder"
+                                onChange={(e) => setSort(e.target.value)}
+                              >
+                                <option value="">--- Select ---</option>
+                                <option value="&sortByPrice=low">
+                                  Low - High
+                                </option>
+                                <option value="&sortByPrice=high">
+                                  High - LOW
+                                </option>
+                                <option value="&sortByAZ=1">A - Z</option>
+                                <option value="&sortByAZ=-1">Z - A</option>
+                              </select>
+                            </div>
+                          </div>
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
                 </div>
               </div>
             </header>
           </Route>
           <Route path="/Build/Mousepad/">
-            <header className="page-header-bst">
-              <div className="page-number-bst">
-                <table>
-                  <tr>
-                    {allPage.map((page) => {
-                      return (
+          <header className="page-header-bst">
+              <div class="grid-header-bst-3">
+                <div class="item-header-bst-3">
+                  <div class="content-header-bst-3">
+                    <div className="page-number-bst">
+                      <table>
+                        <tr>
+                          <button
+                            type="button"
+                            onClick={(e) => setChangePage(currentPage - 1)}
+                          >
+                            Previous
+                          </button>
+                          {allPage.map((page) => {
+                            return (
+                              <td>
+                                <div key={Math.random()}>
+                                  <button
+                                    type="button"
+                                    onClick={(e) => setChangePage(page)}
+                                    value={page}
+                                  >
+                                    {page}
+                                  </button>
+                                </div>
+                              </td>
+                            );
+                          })}
+                          <button
+                            type="button"
+                            onClick={(e) => setChangePage(currentPage + 1)}
+                          >
+                            Next
+                          </button>
+                        </tr>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-header-bst-3">
+                  <div class="content-header-bst-3">
+                    <table>
+                      <tr>
                         <td>
-                          <div key={Math.random()}>
-                            <button
-                              type="button"
-                              onClick={(e) => setChangePage(page)}
-                              value={page}
-                            >
-                              {page}
-                            </button>
+                          <div className="dropdown-brand-bst">
+                            <button className="dropbtn-brand-bst">Brand</button>
+                            <div className="dropdown-content-bst">
+                              <select
+                                id="listbrand"
+                                onChange={(e) => setBrand(e.target.value)}
+                              >
+                                <option value="">--- Select ---</option>
+                                {allBrand.map((brand) => {
+                                  return (
+                                    <option value={`&selectBrand=${brand}`}>
+                                      {brand}
+                                    </option>
+                                  );
+                                })}
+                              </select>
+                            </div>
                           </div>
                         </td>
-                      );
-                    })}
-                  </tr>
-                </table>
-              </div>
+                        <td>
+                          <div className="dropdown-bst">
+                            <button className="dropbtn-bst">order by</button>
 
-              <div className="dropdown-bst">
-                <button className="dropbtn-bst">order by</button>
-
-                <div className="dropdown-content-bst">
-                  <select id="list" onChange={(e) => setSort(e.target.value)}>
-                    <option value="">--- Select ---</option>
-                    <option value="&sortByPrice=low">Low - High</option>
-                    <option value="&sortByPrice=high">High - LOW</option>
-                    <option value="&sortByAZ=1">A - Z</option>
-                    <option value="&sortByAZ=-1">Z - A</option>
-                  </select>
+                            <div className="dropdown-content-bst">
+                              <select
+                                id="listorder"
+                                onChange={(e) => setSort(e.target.value)}
+                              >
+                                <option value="">--- Select ---</option>
+                                <option value="&sortByPrice=low">
+                                  Low - High
+                                </option>
+                                <option value="&sortByPrice=high">
+                                  High - LOW
+                                </option>
+                                <option value="&sortByAZ=1">A - Z</option>
+                                <option value="&sortByAZ=-1">Z - A</option>
+                              </select>
+                            </div>
+                          </div>
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
                 </div>
               </div>
             </header>
           </Route>
           <Route path="/Build/Microphone/">
-            <header className="page-header-bst">
-              <div className="page-number-bst">
-                <table>
-                  <tr>
-                    {allPage.map((page) => {
-                      return (
+          <header className="page-header-bst">
+              <div class="grid-header-bst-3">
+                <div class="item-header-bst-3">
+                  <div class="content-header-bst-3">
+                    <div className="page-number-bst">
+                      <table>
+                        <tr>
+                          <button
+                            type="button"
+                            onClick={(e) => setChangePage(currentPage - 1)}
+                          >
+                            Previous
+                          </button>
+                          {allPage.map((page) => {
+                            return (
+                              <td>
+                                <div key={Math.random()}>
+                                  <button
+                                    type="button"
+                                    onClick={(e) => setChangePage(page)}
+                                    value={page}
+                                  >
+                                    {page}
+                                  </button>
+                                </div>
+                              </td>
+                            );
+                          })}
+                          <button
+                            type="button"
+                            onClick={(e) => setChangePage(currentPage + 1)}
+                          >
+                            Next
+                          </button>
+                        </tr>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-header-bst-3">
+                  <div class="content-header-bst-3">
+                    <table>
+                      <tr>
                         <td>
-                          <div key={Math.random()}>
-                            <button
-                              type="button"
-                              onClick={(e) => setChangePage(page)}
-                              value={page}
-                            >
-                              {page}
-                            </button>
+                          <div className="dropdown-brand-bst">
+                            <button className="dropbtn-brand-bst">Brand</button>
+                            <div className="dropdown-content-bst">
+                              <select
+                                id="listbrand"
+                                onChange={(e) => setBrand(e.target.value)}
+                              >
+                                <option value="">--- Select ---</option>
+                                {allBrand.map((brand) => {
+                                  return (
+                                    <option value={`&selectBrand=${brand}`}>
+                                      {brand}
+                                    </option>
+                                  );
+                                })}
+                              </select>
+                            </div>
                           </div>
                         </td>
-                      );
-                    })}
-                  </tr>
-                </table>
-              </div>
+                        <td>
+                          <div className="dropdown-bst">
+                            <button className="dropbtn-bst">order by</button>
 
-              <div className="dropdown-bst">
-                <button className="dropbtn-bst">order by</button>
-
-                <div className="dropdown-content-bst">
-                  <select id="list" onChange={(e) => setSort(e.target.value)}>
-                    <option value="">--- Select ---</option>
-                    <option value="&sortByPrice=low">Low - High</option>
-                    <option value="&sortByPrice=high">High - LOW</option>
-                    <option value="&sortByAZ=1">A - Z</option>
-                    <option value="&sortByAZ=-1">Z - A</option>
-                  </select>
+                            <div className="dropdown-content-bst">
+                              <select
+                                id="listorder"
+                                onChange={(e) => setSort(e.target.value)}
+                              >
+                                <option value="">--- Select ---</option>
+                                <option value="&sortByPrice=low">
+                                  Low - High
+                                </option>
+                                <option value="&sortByPrice=high">
+                                  High - LOW
+                                </option>
+                                <option value="&sortByAZ=1">A - Z</option>
+                                <option value="&sortByAZ=-1">Z - A</option>
+                              </select>
+                            </div>
+                          </div>
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
                 </div>
               </div>
             </header>
@@ -505,50 +775,41 @@ function BuildSomething({ cate, url }) {
                               </tr>
                             </table>
                           </div>
-                            <button
-                              className="btn-addtolist"
-                              type="button"
-                              // onClick={(e) => setMouse({name:item.name,
-                              //     pic:item.advice[0]
-                              //     ? item.advice[0].data[0].image
-                              //     : item.banana[0]
-                              //     ? item.banana[0].data[0].image
-                              //     : item.mercular[0]
-                              //     ? item.mercular[0].data[0].image
-                              //     : ""})}
-                              onClick={(e) =>
-                                setMouse({
-                                  title: item.name,
-                                  pic: item.advice[0]
-                                    ? item.advice[0].data[0].image
-                                    : item.banana[0]
-                                    ? item.banana[0].data[0].image
-                                    : item.mercular[0]
-                                    ? item.mercular[0].data[0].image
-                                    : "",
-                                  name: item.name,
-                                  url: item.advice[0]
-                                    ? item.advice[0].data[0].image
-                                    : item.banana[0]
-                                    ? item.banana[0].data[0].image
-                                    : item.mercular[0]
-                                    ? item.mercular[0].data[0].image
-                                    : "",
-                                  advice: item.advice[0]
-                                    ? item.advice[0].data[0].price
-                                    : "N/A",
-                                  mercular: item.mercular[0]
-                                    ? item.mercular[0].data[0].price
-                                    : "N/A",
-                                  banana: item.banana[0]
-                                    ? item.banana[0].data[0].price
-                                    : "N/A",
-                                })
-                              }
-                            
-                            >
-                              ADD TO LIST
-                            </button>
+                          <button
+                            className="btn-addtolist"
+                            type="button"
+                            onClick={(e) =>
+                              setMouse({
+                                title: item.name,
+                                pic: item.advice[0]
+                                  ? item.advice[0].data[0].image
+                                  : item.banana[0]
+                                  ? item.banana[0].data[0].image
+                                  : item.mercular[0]
+                                  ? item.mercular[0].data[0].image
+                                  : "",
+                                name: item.name,
+                                url: item.advice[0]
+                                  ? item.advice[0].data[0].image
+                                  : item.banana[0]
+                                  ? item.banana[0].data[0].image
+                                  : item.mercular[0]
+                                  ? item.mercular[0].data[0].image
+                                  : "",
+                                advice: item.advice[0]
+                                  ? item.advice[0].data[0].price
+                                  : "N/A",
+                                mercular: item.mercular[0]
+                                  ? item.mercular[0].data[0].price
+                                  : "N/A",
+                                banana: item.banana[0]
+                                  ? item.banana[0].data[0].price
+                                  : "N/A",
+                              })
+                            }
+                          >
+                            ADD TO LIST
+                          </button>
                         </div>
                       </div>
                     );
@@ -632,41 +893,41 @@ function BuildSomething({ cate, url }) {
                               </tr>
                             </table>
                           </div>
-                          <span>
-                            <input
-                              type="button"
-                              value="ADD TO LIST"
-                              onClick={(e) =>
-                                setKeyboard({
-                                  title: item.name,
-                                  pic: item.advice[0]
-                                    ? item.advice[0].data[0].image
-                                    : item.banana[0]
-                                    ? item.banana[0].data[0].image
-                                    : item.mercular[0]
-                                    ? item.mercular[0].data[0].image
-                                    : "",
-                                  name: item.name,
-                                  url: item.advice[0]
-                                    ? item.advice[0].data[0].image
-                                    : item.banana[0]
-                                    ? item.banana[0].data[0].image
-                                    : item.mercular[0]
-                                    ? item.mercular[0].data[0].image
-                                    : "",
-                                  advice: item.advice[0]
-                                    ? item.advice[0].data[0].price
-                                    : "N/A",
-                                  mercular: item.mercular[0]
-                                    ? item.mercular[0].data[0].price
-                                    : "N/A",
-                                  banana: item.banana[0]
-                                    ? item.banana[0].data[0].price
-                                    : "N/A",
-                                })
-                              }
-                            />
-                          </span>
+                          <button
+                            className="btn-addtolist"
+                            type="button"
+                            onClick={(e) =>
+                              setMouse({
+                                title: item.name,
+                                pic: item.advice[0]
+                                  ? item.advice[0].data[0].image
+                                  : item.banana[0]
+                                  ? item.banana[0].data[0].image
+                                  : item.mercular[0]
+                                  ? item.mercular[0].data[0].image
+                                  : "",
+                                name: item.name,
+                                url: item.advice[0]
+                                  ? item.advice[0].data[0].image
+                                  : item.banana[0]
+                                  ? item.banana[0].data[0].image
+                                  : item.mercular[0]
+                                  ? item.mercular[0].data[0].image
+                                  : "",
+                                advice: item.advice[0]
+                                  ? item.advice[0].data[0].price
+                                  : "N/A",
+                                mercular: item.mercular[0]
+                                  ? item.mercular[0].data[0].price
+                                  : "N/A",
+                                banana: item.banana[0]
+                                  ? item.banana[0].data[0].price
+                                  : "N/A",
+                              })
+                            }
+                          >
+                            ADD TO LIST
+                          </button>
                         </div>
                       </div>
                     );
@@ -750,41 +1011,41 @@ function BuildSomething({ cate, url }) {
                               </tr>
                             </table>
                           </div>
-                          <span>
-                            <input
-                              type="button"
-                              value="ADD TO LIST"
-                              onClick={(e) =>
-                                setHeadset({
-                                  title: item.name,
-                                  pic: item.advice[0]
-                                    ? item.advice[0].data[0].image
-                                    : item.banana[0]
-                                    ? item.banana[0].data[0].image
-                                    : item.mercular[0]
-                                    ? item.mercular[0].data[0].image
-                                    : "",
-                                  name: item.name,
-                                  url: item.advice[0]
-                                    ? item.advice[0].data[0].image
-                                    : item.banana[0]
-                                    ? item.banana[0].data[0].image
-                                    : item.mercular[0]
-                                    ? item.mercular[0].data[0].image
-                                    : "",
-                                  advice: item.advice[0]
-                                    ? item.advice[0].data[0].price
-                                    : "N/A",
-                                  mercular: item.mercular[0]
-                                    ? item.mercular[0].data[0].price
-                                    : "N/A",
-                                  banana: item.banana[0]
-                                    ? item.banana[0].data[0].price
-                                    : "N/A",
-                                })
-                              }
-                            />
-                          </span>
+                          <button
+                            className="btn-addtolist"
+                            type="button"
+                            onClick={(e) =>
+                              setMouse({
+                                title: item.name,
+                                pic: item.advice[0]
+                                  ? item.advice[0].data[0].image
+                                  : item.banana[0]
+                                  ? item.banana[0].data[0].image
+                                  : item.mercular[0]
+                                  ? item.mercular[0].data[0].image
+                                  : "",
+                                name: item.name,
+                                url: item.advice[0]
+                                  ? item.advice[0].data[0].image
+                                  : item.banana[0]
+                                  ? item.banana[0].data[0].image
+                                  : item.mercular[0]
+                                  ? item.mercular[0].data[0].image
+                                  : "",
+                                advice: item.advice[0]
+                                  ? item.advice[0].data[0].price
+                                  : "N/A",
+                                mercular: item.mercular[0]
+                                  ? item.mercular[0].data[0].price
+                                  : "N/A",
+                                banana: item.banana[0]
+                                  ? item.banana[0].data[0].price
+                                  : "N/A",
+                              })
+                            }
+                          >
+                            ADD TO LIST
+                          </button>
                         </div>
                       </div>
                     );
@@ -868,41 +1129,41 @@ function BuildSomething({ cate, url }) {
                               </tr>
                             </table>
                           </div>
-                          <span>
-                            <input
-                              type="button"
-                              value="ADD TO LIST"
-                              onClick={(e) =>
-                                setMousepad({
-                                  title: item.name,
-                                  pic: item.advice[0]
-                                    ? item.advice[0].data[0].image
-                                    : item.banana[0]
-                                    ? item.banana[0].data[0].image
-                                    : item.mercular[0]
-                                    ? item.mercular[0].data[0].image
-                                    : "",
-                                  name: item.name,
-                                  url: item.advice[0]
-                                    ? item.advice[0].data[0].image
-                                    : item.banana[0]
-                                    ? item.banana[0].data[0].image
-                                    : item.mercular[0]
-                                    ? item.mercular[0].data[0].image
-                                    : "",
-                                  advice: item.advice[0]
-                                    ? item.advice[0].data[0].price
-                                    : "N/A",
-                                  mercular: item.mercular[0]
-                                    ? item.mercular[0].data[0].price
-                                    : "N/A",
-                                  banana: item.banana[0]
-                                    ? item.banana[0].data[0].price
-                                    : "N/A",
-                                })
-                              }
-                            />
-                          </span>
+                          <button
+                            className="btn-addtolist"
+                            type="button"
+                            onClick={(e) =>
+                              setMouse({
+                                title: item.name,
+                                pic: item.advice[0]
+                                  ? item.advice[0].data[0].image
+                                  : item.banana[0]
+                                  ? item.banana[0].data[0].image
+                                  : item.mercular[0]
+                                  ? item.mercular[0].data[0].image
+                                  : "",
+                                name: item.name,
+                                url: item.advice[0]
+                                  ? item.advice[0].data[0].image
+                                  : item.banana[0]
+                                  ? item.banana[0].data[0].image
+                                  : item.mercular[0]
+                                  ? item.mercular[0].data[0].image
+                                  : "",
+                                advice: item.advice[0]
+                                  ? item.advice[0].data[0].price
+                                  : "N/A",
+                                mercular: item.mercular[0]
+                                  ? item.mercular[0].data[0].price
+                                  : "N/A",
+                                banana: item.banana[0]
+                                  ? item.banana[0].data[0].price
+                                  : "N/A",
+                              })
+                            }
+                          >
+                            ADD TO LIST
+                          </button>
                         </div>
                       </div>
                     );
@@ -986,41 +1247,41 @@ function BuildSomething({ cate, url }) {
                               </tr>
                             </table>
                           </div>
-                          <span>
-                            <input
-                              type="button"
-                              value="ADD TO LIST"
-                              onClick={(e) =>
-                                setMicrophone({
-                                  title: item.name,
-                                  pic: item.advice[0]
-                                    ? item.advice[0].data[0].image
-                                    : item.banana[0]
-                                    ? item.banana[0].data[0].image
-                                    : item.mercular[0]
-                                    ? item.mercular[0].data[0].image
-                                    : "",
-                                  name: item.name,
-                                  url: item.advice[0]
-                                    ? item.advice[0].data[0].image
-                                    : item.banana[0]
-                                    ? item.banana[0].data[0].image
-                                    : item.mercular[0]
-                                    ? item.mercular[0].data[0].image
-                                    : "",
-                                  advice: item.advice[0]
-                                    ? item.advice[0].data[0].price
-                                    : "N/A",
-                                  mercular: item.mercular[0]
-                                    ? item.mercular[0].data[0].price
-                                    : "N/A",
-                                  banana: item.banana[0]
-                                    ? item.banana[0].data[0].price
-                                    : "N/A",
-                                })
-                              }
-                            />
-                          </span>
+                          <button
+                            className="btn-addtolist"
+                            type="button"
+                            onClick={(e) =>
+                              setMouse({
+                                title: item.name,
+                                pic: item.advice[0]
+                                  ? item.advice[0].data[0].image
+                                  : item.banana[0]
+                                  ? item.banana[0].data[0].image
+                                  : item.mercular[0]
+                                  ? item.mercular[0].data[0].image
+                                  : "",
+                                name: item.name,
+                                url: item.advice[0]
+                                  ? item.advice[0].data[0].image
+                                  : item.banana[0]
+                                  ? item.banana[0].data[0].image
+                                  : item.mercular[0]
+                                  ? item.mercular[0].data[0].image
+                                  : "",
+                                advice: item.advice[0]
+                                  ? item.advice[0].data[0].price
+                                  : "N/A",
+                                mercular: item.mercular[0]
+                                  ? item.mercular[0].data[0].price
+                                  : "N/A",
+                                banana: item.banana[0]
+                                  ? item.banana[0].data[0].price
+                                  : "N/A",
+                              })
+                            }
+                          >
+                            ADD TO LIST
+                          </button>
                         </div>
                       </div>
                     );

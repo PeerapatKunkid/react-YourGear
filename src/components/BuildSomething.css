@@ -87,9 +87,8 @@ body {
 .page-header-bst {
   font-size: 20px;
   text-align: right;
-  margin-top: 20px;
   grid-area: header;
-  margin-right: 50px;
+  padding-left: 40%;
 }
 
 .page-leftbar-bst {
@@ -306,6 +305,7 @@ body {
 
 .dropdown-content-bst a {
   color: black;
+  position: absolute;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -320,10 +320,11 @@ body {
 }
 
 .dropbtn-bst {
-  background-color: rgb(31, 31, 31);
-  color: white;
+  background-color: rgb(196, 196, 196);
+  color: rgb(0, 0, 0);
   height: 40px;
   font-size: 17px;
+  font-weight: 500;
   width: 150px;
   border-radius: 5px;
   border: none;
@@ -331,10 +332,9 @@ body {
 }
 
 .page-number-bst {
-  position: absolute;
+  position: relative;
   text-align: center;
   font-size: 19px;
-  margin-left: 400px;
   font-weight: bold;
 }
 
@@ -436,4 +436,43 @@ body {
   text-align: center;
   vertical-align: center;
   padding-left: 50px;
+}
+
+.dropdown-brand-bst {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-brand-bst:hover .dropdown-content-bst {
+  display: block;
+}
+
+.dropbtn-brand-bst {
+  background-color: rgb(196, 196, 196);
+  color: rgb(0, 0, 0);
+  height: 40px;
+  font-size: 17px;
+  font-weight: 500;
+  width: 150px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.grid-header-bst-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  column-gap: 0px;
+  row-gap: 0px;
+}
+
+.content-header-bst-3 {
+  color: #242424;
+  font-weight: 600;
+  text-align: center;
+  box-sizing: border-box;
+  height: 100%;
+  padding: 10px;
 }
