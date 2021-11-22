@@ -14,12 +14,20 @@ import { addtype } from "../redux/userSlice";
 
 function ContentRecommend() {
   const dispatch = useDispatch();
+  const [gamelist, setGamelist] = useState([]);
   const userGroup1 = useSelector((state) => state.user.group);
   const userType = useSelector((state) => state.user.type);
+  
+  useEffect(async () => {
+   
+  }, []);
+  
   async function infoGroup(){
     
     const userGroup = userGroup1.data;
-     
+    const res1 = await axios.get(`http://localhost:3001/games`);
+    const gamelist = await res1.data;
+    setGamelist(gamelist);
     function cleanText(text) {
       return text
       .toLowerCase()
@@ -29,32 +37,33 @@ function ContentRecommend() {
       .replace(/:\s*/g, "");
     }
    
+    const cleanGames = gamelist.map((game) => {
+      return cleanText(game);
+    });
+    // console.log(cleanGames)
+
     const cleanGroup = userGroup.map((group) => {
       return cleanText(group.name);
       
     });
+    // console.log(cleanGroup)
     
-    const cleanGames = gamelist.map((game) => {
-      return cleanText(game);
-    });
-   
   
     function findType() {
       let typeCount = [];
       for (let i = 0; i < cleanGroup.length; i++) {
         for (let j = 0; j < cleanGames.length; j++) {
           let check = cleanGroup[i].search(cleanGames[j]);
-          if (check >= 0) { 
-            console.log(cleanGames[j] + " > " + cleanGroup[i]);
+          if (check >= 0) {           
             typeCount.push(cleanGames[j]);
           }
         }
       }
       
       let dup = [...new Set(typeCount)];
-      console.log(dup)
-  
-      return dup.length >= 1 ? "Gaming" : "Gaming";
+      
+      console.log(typeCount)
+      return dup.length >= 2 ? "Gaming" : "Working";
       
     }
    ! userType && dispatch(addtype({type:findType()}))
@@ -80,7 +89,7 @@ function ContentRecommend() {
   const [productsMousepad, setProductsMousepad] = useState([]);
   const [productsHeadset, setProductsHeadset] = useState([]);
   const [productsMicrophone, setProductsMicrophone] = useState([]);
-  const [gamelist, setGamelist] = useState([]);
+  
   const [usertype,setUsertype] = useState([{
     _id: "",
     key: "",
@@ -92,11 +101,7 @@ function ContentRecommend() {
     
   }]);
   const [count, setCount] = useState(0);
-  useEffect(async () => {
-    const res = await axios.get(`http://localhost:3001/games`);
-    const gamelist = res.data;
-    setGamelist(gamelist);
-  }, []);
+  
 
   useEffect(async () => {
     const res = await axios.get(`http://localhost:3001/trends`);
