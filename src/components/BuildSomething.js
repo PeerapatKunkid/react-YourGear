@@ -897,7 +897,7 @@ function BuildSomething({ cate, url }) {
                             className="btn-addtolist"
                             type="button"
                             onClick={(e) =>
-                              setMouse({
+                              setKeyboard({
                                 title: item.name,
                                 pic: item.advice[0]
                                   ? item.advice[0].data[0].image
@@ -1015,7 +1015,7 @@ function BuildSomething({ cate, url }) {
                             className="btn-addtolist"
                             type="button"
                             onClick={(e) =>
-                              setMouse({
+                              setHeadset({
                                 title: item.name,
                                 pic: item.advice[0]
                                   ? item.advice[0].data[0].image
@@ -1133,7 +1133,7 @@ function BuildSomething({ cate, url }) {
                             className="btn-addtolist"
                             type="button"
                             onClick={(e) =>
-                              setMouse({
+                              setMousepad({
                                 title: item.name,
                                 pic: item.advice[0]
                                   ? item.advice[0].data[0].image
@@ -1251,7 +1251,7 @@ function BuildSomething({ cate, url }) {
                             className="btn-addtolist"
                             type="button"
                             onClick={(e) =>
-                              setMouse({
+                              setMicrophone({
                                 title: item.name,
                                 pic: item.advice[0]
                                   ? item.advice[0].data[0].image
