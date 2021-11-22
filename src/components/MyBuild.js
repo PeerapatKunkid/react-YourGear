@@ -259,7 +259,7 @@ function MyBuild() {
             <div className="item-dtf-mm">
               <div className="content-dtf-mm">
                 {userID&&<img className="fav-mm" src="/image/fav.png" 
-                onMouseEnter={e => (e.currentTarget.src = "/image/favpink.png")} 
+                // onMouseEnter={e => (e.currentTarget.src = "/image/favpink.png")} 
                 onMouseOver={e => (e.currentTarget.src = "/image/favpink.png")} 
                 onMouseOut={e => (e.currentTarget.src = "/image/fav.png")} 
                 width="30px" hight="30px" onClick={fav} />}
