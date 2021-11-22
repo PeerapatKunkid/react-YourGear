@@ -12,9 +12,11 @@ function PageContentMicrophone({ type }) {
   const [post, setPost] = useState(model);
   const dispatch = useDispatch();
   const [microphone, setMicrophone] = useState("");
+  const [spec,setSpec] = useState("");
   async function getPost(postId) {
     axios.get(`http://localhost:3001/products/${type}/?item=${postId}`).then((response) => {
       setPost(response.data.data);
+      setSpec(response.data.spec);
     });
   }
   
@@ -22,7 +24,7 @@ function PageContentMicrophone({ type }) {
     getPost(postId);
     
   }, [postId]);
-  {console.log(postId)}
+  {console.log(spec)}
   // {console.log(post)}
 
   
@@ -115,7 +117,7 @@ function PageContentMicrophone({ type }) {
       </div>
 
 
-
+        
       <div className="content-price-store">
           <h1>DETAIL<button
             onClick={(e) => {
@@ -137,17 +139,17 @@ function PageContentMicrophone({ type }) {
                   ? post.mercular[0].data[0].image
                   : "",
                 spec: {
-                  interface: post.banana[0].data[0].spec.interface
-                    ? post.banana[0].data[0].spec.interface
+                  interface: spec.interface
+                    ? spec.interface
                     : "N/A",
-                  type_of: post.banana[0].data[0].spec.type_of
-                    ? post.banana[0].data[0].spec.type_of
+                  type_of: spec.type_of
+                    ? spec.type_of
                     : "N/A",
-                  frequency: post.banana[0].data[0].spec.frequency
-                    ? post.banana[0].data[0].spec.frequency
+                  frequency: spec.frequency
+                    ? spec.frequency
                     : "N/A",
-                  impedance: post.banana[0].data[0].spec.impedance
-                    ? post.banana[0].data[0].spec.impedance
+                  impedance: spec.impedance
+                    ?spec.impedance
                     : "N/A",
                   
                 },
@@ -166,9 +168,8 @@ function PageContentMicrophone({ type }) {
           <h4>Specification</h4>
           
           
-          {post.banana[0] &&
-            post.banana[0].data.map((item) => {
-              return (
+         
+              
                 <div key={uuidv4()}>
                   <table className="table-detailspec" >
                     <tr>
@@ -177,7 +178,7 @@ function PageContentMicrophone({ type }) {
                       </td>
                       <td>
                         <h2>
-                        <h2>{item.spec.interface ? item.spec.interface:"N/A"}</h2>
+                        <h2>{spec.interface ? spec.interface:"N/A"}</h2>
                         </h2>
                       </td>
                     </tr>
@@ -187,7 +188,7 @@ function PageContentMicrophone({ type }) {
                       </td>
                       <td>
                         <h2>
-                        <h2>{item.spec.type_of ? item.spec.type_of:"N/A"}</h2>
+                        <h2>{spec.type_of ? spec.type_of:"N/A"}</h2>
                         </h2>
                       </td>
                     </tr>
@@ -197,7 +198,7 @@ function PageContentMicrophone({ type }) {
                       </td>
                       <td>
                         <h2>
-                        <h2>{item.spec.frequency ? item.spec.frequency:"N/A"}</h2>
+                        <h2>{spec.frequency ? spec.frequency:"N/A"}</h2>
                         </h2>
                       </td>
                     </tr>
@@ -207,7 +208,7 @@ function PageContentMicrophone({ type }) {
                       </td>
                       <td>
                         <h2>
-                        <h2>{item.spec.impedance ? item.spec.impedance:"N/A"}</h2>
+                        <h2>{spec.impedance ? spec.impedance:"N/A"}</h2>
                         </h2>
                       </td>
                     </tr>
@@ -215,8 +216,7 @@ function PageContentMicrophone({ type }) {
                     
                   </table>
                 </div>
-              );
-            })}
+           
       
           </div>
     

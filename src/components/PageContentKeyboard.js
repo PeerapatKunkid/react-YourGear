@@ -12,6 +12,7 @@ function PageContentKeyboard({ type }) {
   const { postId } = useParams();
   const [post, setPost] = useState(model);
   const [keyboard, setKeyboard] = useState("");
+  const [spec,setSpec] = useState("");
   function clear() {
     dispatch(remove());
     
@@ -19,6 +20,7 @@ function PageContentKeyboard({ type }) {
   async function getPost(postId) {
     axios.get(`http://localhost:3001/products/${type}/?item=${postId}`).then((response) => {
       setPost(response.data.data);
+      setSpec(response.data.spec);
     });
   }
   
@@ -26,7 +28,7 @@ function PageContentKeyboard({ type }) {
     getPost(postId);
     
   }, [postId]);
-  {console.log(postId)}
+  {console.log(spec)}
   // {console.log(post)}
 
   
@@ -143,20 +145,20 @@ function PageContentKeyboard({ type }) {
                   ? post.mercular[0].data[0].image
                   : "",
                 spec: {
-                  interface: post.banana[0].data[0].spec.interface
-                    ? post.banana[0].data[0].spec.interface
+                  interface: spec.interface
+                    ? spec.interface
                     : "N/A",
-                  switch: post.banana[0].data[0].spec.switch
-                    ? post.banana[0].data[0].spec.switch
+                  switch: spec.switch
+                    ? spec.switch
                     : "N/A",
-                    layout: post.banana[0].data[0].spec.layout
-                    ? post.banana[0].data[0].spec.layout
+                    layout: spec.layout
+                    ? spec.layout
                     : "N/A",
-                  dimension: post.banana[0].data[0].spec.dimension
-                    ? post.banana[0].data[0].spec.dimension
+                  dimension: spec.dimension
+                    ? spec.dimension
                     : "N/A",
-                  support: post.banana[0].data[0].spec.support
-                    ? post.banana[0].data[0].spec.support
+                  support: spec.support
+                    ? spec.support
                     : "N/A",
                 },
               });
@@ -174,9 +176,7 @@ function PageContentKeyboard({ type }) {
           <h4>Specification</h4>
           
           
-          {post.banana[0] &&
-            post.banana[0].data.map((item) => {
-              return (
+         
                 <div key={uuidv4()}>
                   <table className="table-detailspec" >
                     <tr>
@@ -185,7 +185,7 @@ function PageContentKeyboard({ type }) {
                       </td>
                       <td>
                         <h2>
-                        <h2>{item.spec.interface ? item.spec.interface:"N/A"}</h2>
+                        <h2>{spec.interface ? spec.interface:"N/A"}</h2>
                         </h2>
                       </td>
                     </tr>
@@ -195,7 +195,7 @@ function PageContentKeyboard({ type }) {
                       </td>
                       <td>
                         <h2>
-                        <h2>{item.spec.switch ? item.spec.switch:"N/A"}</h2>
+                        <h2>{spec.switch ? spec.switch:"N/A"}</h2>
                         </h2>
                       </td>
                     </tr>
@@ -205,7 +205,7 @@ function PageContentKeyboard({ type }) {
                       </td>
                       <td>
                         <h2>
-                        <h2>{item.spec.layout ? item.spec.layout:"N/A"}</h2>
+                        <h2>{spec.layout ? spec.layout:"N/A"}</h2>
                         </h2>
                       </td>
                     </tr>
@@ -215,7 +215,7 @@ function PageContentKeyboard({ type }) {
                       </td>
                       <td>
                         <h2>
-                        <h2>{item.spec.dimension ? item.spec.dimension:"N/A"}</h2>
+                        <h2>{spec.dimension ? spec.dimension:"N/A"}</h2>
                         </h2>
                       </td>
                     </tr>
@@ -225,15 +225,14 @@ function PageContentKeyboard({ type }) {
                       </td>
                       <td>
                         <h2>
-                        <h2>{item.spec.support ? item.spec.support:"N/A"}</h2>
+                        <h2>{spec.support ? spec.support:"N/A"}</h2>
                         </h2>
                       </td>
                     </tr>
                     
                   </table>
                 </div>
-              );
-            })}
+             
       
           </div>
     

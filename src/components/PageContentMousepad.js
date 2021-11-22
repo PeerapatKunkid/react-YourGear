@@ -12,9 +12,11 @@ function PageContentMousepad({ type }) {
   const [post, setPost] = useState(model);
   const dispatch = useDispatch();
   const [mousepad,setMousepad] = useState("");
+  const [spec,setSpec] = useState("");
   async function getPost(postId) {
     axios.get(`http://localhost:3001/products/${type}/?item=${postId}`).then((response) => {
       setPost(response.data.data);
+      setSpec(response.data.spec);
     });
   }
   
@@ -137,11 +139,11 @@ function PageContentMousepad({ type }) {
                   ? post.mercular[0].data[0].image
                   : "",
                 spec: {
-                  dimension: post.banana[0].data[0].spec.dimension
-                    ? post.banana[0].data[0].spec.dimension
+                  dimension: spec.dimension
+                    ? spec.dimension
                     : "N/A",
-                  material: post.banana[0].data[0].spec.material
-                    ? post.banana[0].data[0].spec.material
+                  material: spec.material
+                    ? spec.material
                     : "N/A",
                   
                   
@@ -156,9 +158,7 @@ function PageContentMousepad({ type }) {
           <h4>Specification</h4>
           
           
-          {post.banana[0] &&
-            post.banana[0].data.map((item) => {
-              return (
+          
                 <div key={uuidv4()}>
                   <table className="table-detailspec" >
                     <tr>
@@ -167,7 +167,7 @@ function PageContentMousepad({ type }) {
                       </td>
                       <td>
                         <h2>
-                        <h2>{item.spec.dimension ? item.spec.dimension:"N/A"}</h2>
+                        <h2>{spec.dimension ? spec.dimension:"N/A"}</h2>
                         </h2>
                       </td>
                     </tr>
@@ -177,7 +177,7 @@ function PageContentMousepad({ type }) {
                       </td>
                       <td>
                         <h2>
-                        <h2>{item.spec.material ? item.spec.material:"N/A"}</h2>
+                        <h2>{spec.material ? spec.material:"N/A"}</h2>
                         </h2>
                       </td>
                     </tr>
@@ -185,8 +185,7 @@ function PageContentMousepad({ type }) {
                     
                   </table>
                 </div>
-              );
-            })}
+            
       
           </div>
     

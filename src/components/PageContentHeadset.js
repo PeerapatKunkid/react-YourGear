@@ -12,7 +12,7 @@ function PageContentHeadset({ type }) {
   const { postId } = useParams();
   const [post, setPost] = useState(model);
   const [headset, setHeadset] = useState("");
-
+  const [spec,setSpec] = useState("");
   {
     console.log(post);
   }
@@ -21,6 +21,7 @@ function PageContentHeadset({ type }) {
       .get(`http://localhost:3001/products/${type}/?item=${postId}`)
       .then((response) => {
         setPost(response.data.data);
+        setSpec(response.data.spec);
       });
   }
 
@@ -148,20 +149,20 @@ function PageContentHeadset({ type }) {
                   ? post.mercular[0].data[0].image
                   : "",
                 spec: {
-                  interface: post.banana[0].data[0].spec.interface
-                    ? post.banana[0].data[0].spec.interface
+                  interface: spec.interface
+                    ? spec.interface
                     : "N/A",
-                  type_of: post.banana[0].data[0].spec.type_of
-                    ? post.banana[0].data[0].spec.type_of
+                  type_of: spec.type_of
+                    ? spec.type_of
                     : "N/A",
-                  frequency: post.banana[0].data[0].spec.frequency
-                    ? post.banana[0].data[0].spec.frequency
+                  frequency: spec.frequency
+                    ? spec.frequency
                     : "N/A",
-                  impedance: post.banana[0].data[0].spec.impedance
-                    ? post.banana[0].data[0].spec.impedance
+                  impedance: spec.impedance
+                    ? spec.impedance
                     : "N/A",
-                  microphone: post.banana[0].data[0].spec.microphone
-                    ? post.banana[0].data[0].spec.microphone
+                  microphone: spec.microphone
+                    ? spec.microphone
                     : "N/A",
                 },
               });
@@ -174,8 +175,8 @@ function PageContentHeadset({ type }) {
         </h1>
         {console.log(post)}
         {console.log(headset)}
-        <Link to={"/compare/detail"}>DETAIL</Link>
-
+        
+        
         <h4>Specification</h4>
         {console.log(post)}
         {post.banana[0] &&
@@ -190,7 +191,7 @@ function PageContentHeadset({ type }) {
                     <td>
                       <h2>
                         <h2>
-                          {item.spec.interface ? item.spec.interface : "N/A"}
+                          {spec.interface ? spec.interface : "N/A"}
                         </h2>
                       </h2>
                     </td>
@@ -201,7 +202,7 @@ function PageContentHeadset({ type }) {
                     </td>
                     <td>
                       <h2>
-                        <h2>{item.spec.type_of ? item.spec.type_of : "N/A"}</h2>
+                        <h2>{spec.type_of ? spec.type_of : "N/A"}</h2>
                       </h2>
                     </td>
                   </tr>
@@ -212,7 +213,7 @@ function PageContentHeadset({ type }) {
                     <td>
                       <h2>
                         <h2>
-                          {item.spec.frequency ? item.spec.frequency : "N/A"}
+                          {spec.frequency ? spec.frequency : "N/A"}
                         </h2>
                       </h2>
                     </td>
@@ -224,7 +225,7 @@ function PageContentHeadset({ type }) {
                     <td>
                       <h2>
                         <h2>
-                          {item.spec.impedance ? item.spec.impedance : "N/A"}
+                          {spec.impedance ? spec.impedance : "N/A"}
                         </h2>
                       </h2>
                     </td>
@@ -236,7 +237,7 @@ function PageContentHeadset({ type }) {
                     <td>
                       <h2>
                         <h2>
-                          {item.spec.microphone ? item.spec.microphone : "N/A"}
+                          {spec.microphone ? spec.microphone : "N/A"}
                         </h2>
                       </h2>
                     </td>

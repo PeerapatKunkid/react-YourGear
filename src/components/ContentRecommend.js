@@ -1,7 +1,7 @@
 import "./ContentRecommend.css";
-import $ from "jquery";
 
-import Slider from "react-slick";
+
+
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import axios from "axios";
@@ -9,9 +9,13 @@ import React, { useState, useEffect, Component, sort } from "react";
 import { Link, Switch, Route, onChange } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { useSelector } from "react-redux";
+import { addtype } from "../redux/userSlice";
+
+
 function ContentRecommend() {
   const dispatch = useDispatch();
   const userGroup1 = useSelector((state) => state.user.group);
+  const userType = useSelector((state) => state.user.type);
   async function infoGroup(){
     
     const userGroup = userGroup1.data;
@@ -41,17 +45,20 @@ function ContentRecommend() {
         for (let j = 0; j < cleanGames.length; j++) {
           let check = cleanGroup[i].search(cleanGames[j]);
           if (check >= 0) { 
-            // console.log(cleanGames[j] + " > " + cleanGroup[i]);
+            console.log(cleanGames[j] + " > " + cleanGroup[i]);
             typeCount.push(cleanGames[j]);
           }
         }
       }
-      let dup = [...new Set(typeCount)];
       
+      let dup = [...new Set(typeCount)];
+      console.log(dup)
   
-      return dup.length >= 2 ? "Gaming" : "Working";
+      return dup.length >= 1 ? "Gaming" : "Gaming";
+      
     }
-    const res = await axios.get(`http://localhost:3001/userType/?type=${findType()}`);  
+   ! userType && dispatch(addtype({type:findType()}))
+    const res = await axios.get(`http://localhost:3001/userType/?type=${userType}`);  
     const usertype = res.data;
     setUsertype(usertype);
     
@@ -134,7 +141,7 @@ function ContentRecommend() {
   useEffect(async () => {
     userGroup1 && infoGroup()
   }, []);
-  
+{}
   const reccomend = 
 
   
